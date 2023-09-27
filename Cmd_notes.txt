@@ -1,0 +1,8 @@
+git add .
+git commit -m "comment"
+git push -f origin master
+
+
+
+
+git pull origin master --allow-unrelated-histories
