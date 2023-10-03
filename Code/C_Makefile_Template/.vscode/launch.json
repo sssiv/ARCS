@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/SamSS/OneDrive/Desktop/Code/C++_Makefile",
-      "program": "c:/Users/SamSS/OneDrive/Desktop/Code/C++_Makefile/build/Debug/outDebug",
+      "cwd": "c:/Users/SamSS/OneDrive/Desktop/College/CSUN/ARCS/Code/C_Makefile_Template",
+      "program": "c:/Users/SamSS/OneDrive/Desktop/College/CSUN/ARCS/Code/C_Makefile_Template/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
