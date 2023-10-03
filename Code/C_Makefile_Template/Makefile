@@ -1,4 +1,4 @@
-# Compiler Type
+# Compiler type
 C = g++
 
 # Bash command that searched for CPP files
