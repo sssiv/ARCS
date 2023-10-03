@@ -9,6 +9,7 @@ git push -u origin master
 git pull origin master --allow-unrelated-histories
 
 
+Cant get these to work yet for some reason...
 Alias':
 	gac = "git status && git add . && git commit -m" + message
 	gpush = "git push -f origin" + branch
