@@ -1,7 +1,11 @@
+# Compiler Type
 C = g++
 
+# Bash command that searched for CPP files
 SOURCES = $(shell find -type f -name "*.cpp")
 
+# Variables that take the set of CPP files 
+# and replaces .cpp with .o and .h
 OBJECTS := $(SOURCES:.cpp=.o)
 HEADERS := $(SOURCES:.cpp=.h)
 
