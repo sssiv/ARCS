@@ -7,3 +7,11 @@ git push -u origin master
 
 
 git pull origin master --allow-unrelated-histories
+
+
+Alias':
+	gac = "git status && git add . && git commit -m" + message
+	gpush = "git push -f origin" + branch
+	gpull = "git pull origin" + branch
+
+To delete an Alias: "git config --global --unset alias.AliasName
