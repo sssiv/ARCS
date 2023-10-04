@@ -1,10 +1,8 @@
-#include "func.h"
+#include "token.h"
 
 int main()
 {
-    Vars V;
-    Print();
-    V.init();
-    std::cout << V.tokens[0];
+    Token T;
+    T.Print();
     return 0;
 }

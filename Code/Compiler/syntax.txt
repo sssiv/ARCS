@@ -1,0 +1,6 @@
+Var num1 = 10
+Var num2 = 11
+
+Var num3 = add(num1, num2)
+
+OUT(num3)
