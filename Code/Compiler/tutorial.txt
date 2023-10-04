@@ -27,3 +27,6 @@ Comparison Orithmitics:
 
 Output:
     OUT(Variable)
+
+Sources:
+	https://stackoverflow.com/questions/2880903/simple-string-parsing-with-c
