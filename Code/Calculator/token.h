@@ -4,7 +4,7 @@
 #include <cmath>
 
 // Token list
-enum class Tokens {NUMBER, PLUS, MINUS, LPARTH, RPARTH, STOP};
+enum class Tokens {NUMBER, PLUS, MINUS, LPARTH, RPARTH, DOT, STOP};
 
 // Token Holder
 struct Token
