@@ -7,7 +7,7 @@ double Parser::expression()
 {
     double left = term();
 
-    if (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS)
+    while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS)
     {
         Tokens prevToken = _currentToken.token;
         nextToken();
@@ -33,7 +33,7 @@ double Parser::term()
 {
     double left = factor();
 
-    if (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS)
+    while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS)
     {
         Tokens prevToken = _currentToken.token;
         nextToken();
@@ -57,13 +57,13 @@ double Parser::term()
 // factor ::= Number | "(" expression "")"
 double Parser::factor()
 {
-    if (_currentToken.token == Tokens::NUMBER)
+    while (_currentToken.token == Tokens::NUMBER)
     {
         double value = _currentToken.value;
         nextToken();
         return value;
     }
-    else if (_currentToken.token == Tokens::LPARTH)
+    if (_currentToken.token == Tokens::LPARTH)
     {
         nextToken();
         double result = expression();
@@ -90,7 +90,7 @@ double Parser::parse()
     nextToken();
     double result = expression();
 
-    if(_currentToken.token != Tokens::STOP)
+    if (_currentToken.token != Tokens::STOP)
     {
         std::cerr << "All tokens accounted for\n";
     }

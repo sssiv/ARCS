@@ -28,18 +28,19 @@ Token Tokenizer::getNextToken()
     // Takes in digit, 
     // stores its value 
     // returns it via Token struct
-    if (std::isdigit(_expression[_currentPos]) || _expression[_currentPos] == '.')
+    while (std::isdigit(_expression[_currentPos]) || _expression[_currentPos] == '.')
     {
         std::string digit;
-        if (_currentPos < _expression.size() && (std::isdigit(_expression[_currentPos]) || _expression[_currentPos] == '.') )
+        while (_currentPos < _expression.size() && (std::isdigit(_expression[_currentPos]) || _expression[_currentPos] == '.') )
         {
-            if(_currentPos - 1 == '-')
-            {
-                digit += _expression[_currentPos] * -1;
-            }
-            else{
+            // Attempting to make negative numbers as valid inputs
+            // if(_currentPos - 1 == '-')
+            // {
+            //     digit += _expression[_currentPos] * -1;
+            // }
+
             digit += _expression[_currentPos];
-            ++_currentPos;}
+            ++_currentPos;
         }
         
         double value = std::stod(digit);
