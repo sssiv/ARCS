@@ -2,6 +2,12 @@
 
 #include "token.h"
 
+/*
+expression  ::= term   | {"+" | "-"} term
+term        ::= factor | {"+" | "-"} factor
+factor      ::= Number | "(" expression "")"
+*/
+
 class Parser
 {
 private:
