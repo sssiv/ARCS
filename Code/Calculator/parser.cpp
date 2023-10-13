@@ -57,8 +57,6 @@ double Parser::term()
 // factor ::= Number | "(" expression "")"
 double Parser::factor()
 {
-    //double left = expression();
-
     if (_currentToken.token == Tokens::NUMBER)
     {
         double value = _currentToken.value;

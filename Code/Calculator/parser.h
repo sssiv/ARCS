@@ -2,7 +2,6 @@
 
 #include "token.h"
 
-
 class Parser
 {
 private:

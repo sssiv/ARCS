@@ -1,8 +1,6 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include <stack>
-#include <cctype>
 #include <cmath>
 
 // Token list
@@ -11,11 +9,11 @@ enum class Tokens {NUMBER, PLUS, MINUS, LPARTH, RPARTH, STOP};
 // Token Holder
 struct Token
 {
-    Tokens token;
-    double value;
+    Tokens token;   // Current Token
+    double value;   // Tokens Value
 
     Token();
-    Token(Tokens, double);
+    Token(Tokens, double);  // Takes in Tokens/enum and its value
 };
 
 // Holds the input expression
