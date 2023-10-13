@@ -5,8 +5,10 @@
 #include <cctype>
 #include <cmath>
 
+// Token list
 enum class Tokens {NUMBER, PLUS, MINUS, LPARTH, RPARTH, STOP};
 
+// Token Holder
 struct Token
 {
     Tokens token;
@@ -16,6 +18,8 @@ struct Token
     Token(Tokens, double);
 };
 
+// Holds the input expression
+// Gives each token when needed
 class Tokenizer
 {
 private:

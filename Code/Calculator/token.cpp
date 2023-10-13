@@ -13,18 +13,31 @@ Tokenizer::Tokenizer(const std::string& input) : _expression(input), _currentPos
 Token Tokenizer::getNextToken()
 {
     // Skip whitespaces
-    while (isspace(_expression[_currentPos]) && _currentPos < _expression.size())
+    while (std::isspace(_expression[_currentPos]) && _currentPos < _expression.size())
     {
         ++_currentPos;
     }
 
     // No Expression entered
-    if (_currentPos >= _expression.size())
+    if (_currentPos > _expression.size())
     {
         std::cout << "No expression entered.\n";
         return Token(Tokens::STOP, -1);
     }
     
+    if (std::isdigit(_expression[_currentPos]) || _expression[_currentPos] == '.')
+    {
+        std::string digit;
+        while (_currentPos < _expression.size() && (std::isdigit(_expression[_currentPos]) || _expression[_currentPos] == '.') )
+        {
+            digit += _expression[_currentPos];
+            ++_currentPos;
+        }
+        
+        double value = std::stod(digit);
+        return Token(Tokens::NUMBER, value);
+    }
+
     /* Checking for Math operators */
     // Plus
     if (_expression[_currentPos] == '+')
@@ -56,6 +69,9 @@ Token Tokenizer::getNextToken()
     }
     
     // No valid tokens found tokens found
-    std::cerr << "No Valid Tokens Found.\n";
-    return Token(Tokens::STOP, -1);
+    else if (_currentPos > _expression.size())
+    {
+        std::cerr << "No Valid Tokens Found.\n";
+        return Token(Tokens::STOP, -1);
+    }
 }

@@ -2,25 +2,20 @@
 
 #include "token.h"
 
-/*
-expression  ::= term   | {"+" | "-"} term
-term        ::= factor | {"+" | "-"} factor
-factor      ::= Number | "(" expression "")"
-*/
 
 class Parser
 {
 private:
-    Token _currentToken;
-    Tokenizer _tokenizer;
+    Token _currentToken;    // Holds current token
+    Tokenizer _tokenizer;   // Used to get next token and send input
 
-    double expression();
-    double term();
-    double factor();
+    double expression();    // expression  ::= term   | {"+" | "-"} term
+    double term();          // term        ::= factor | {"+" | "-"} factor
+    double factor();        // factor      ::= Number | "(" expression "")"
 
-    void nextToken();
+    void nextToken();       // Initializes current token to the next
     
 public:
     Parser(Tokenizer&);
-    double parse();
+    double parse();         // Runs program
 };
