@@ -9,7 +9,7 @@ private:
 public:
     NumberNode();
     NumberNode(double);
-    double evaluate();
+    double evaluate() override;
     ~NumberNode();
 };
 
