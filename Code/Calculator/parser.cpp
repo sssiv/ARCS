@@ -1,7 +1,8 @@
 #include "parser.h"
 
-Parser::Parser(Tokenizer& T) : _tokenizer(T) {}
+Parser::Parser(Tokenizer& tokenizer) : _tokenizer(tokenizer) {}
 
+/*
 // expression ::= term | {"+" | "-"} term
 double Parser::expression()
 {
@@ -80,10 +81,72 @@ double Parser::factor()
         std::cerr << "Invalid Token Detected\n";
 
 }
+*/
+
+ASTNode* Parser::expression()
+{
+    ASTNode* left = term();
+
+    while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS)
+    {
+        char op = (_currentToken.token == Tokens::PLUS) ? '+' : '-';
+        nextToken();
+        ASTNode* right = term();
+        left = new OperatorNode(op, left, right);
+    }
+
+    return left;
+}
+
+ASTNode* Parser::term()
+{
+    ASTNode* left = factor();
+
+    while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS)
+    {
+        char op = (_currentToken.token == Tokens::PLUS) ? '+' : '-';
+        nextToken();
+        ASTNode* right = factor();
+        left = new OperatorNode(op, left, right);
+    }
+
+    return left;
+}
+
+ASTNode* Parser::factor()
+{
+    ASTNode* result = nullptr;
+
+    if (_currentToken.token == Tokens::NUMBER)
+    {
+        result = new NumberNode(_currentToken.value);
+        nextToken();
+    }
+    else if (_currentToken.token == Tokens::LPARTH)
+    {
+        nextToken();
+        result = expression();
+        if (_currentToken.token == Tokens::RPARTH)
+        {
+            nextToken();
+        }
+        else
+        {
+            std::cerr << "Missing a right parenthesis\n";
+        }
+    }
+    else
+    {
+        std::cerr << "Invalid Token Detected\n";
+    }
+
+    return result;
+}
 
 // advance to the next token
 void Parser::nextToken() {_currentToken = _tokenizer.getNextToken();}
 
+/*
 // Where the parsing processes
 double Parser::parse()
 {
@@ -96,6 +159,20 @@ double Parser::parse()
     }
     else
         std::cerr << "Parser did not reach the end of the expression. Some tokens not found.\n Git Good, Skill Issue\n";
+
+    return result;
+}
+*/
+
+ASTNode* Parser::parse()
+{
+    nextToken();
+    ASTNode* result = expression();
+
+    if (_currentToken.token != Tokens::STOP)
+    {
+        std::cerr << "Parser did not reach the end of the expression. Some tokens not found.\n";
+    }
 
     return result;
 }

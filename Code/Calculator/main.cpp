@@ -9,10 +9,15 @@ int main()
     Tokenizer tokenizer(expression);
     Parser parser(tokenizer);
 
-    double result = parser.parse();
+    ASTNode* result = parser.parse();
 
-    if(!std::isnan(result))
-        std::cerr << result << std::endl;
+    if (result != nullptr)
+    {
+        std::cout << "Result: " << result->evaluate() << std::endl;
+        delete result;
+    }
     else
-        std::cerr << "Error with result. Skill issue, git gud, try not sucking.\n";
+    {
+        std::cerr << "Error with result.\n";
+    }
 }

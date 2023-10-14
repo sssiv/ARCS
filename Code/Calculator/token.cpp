@@ -33,12 +33,6 @@ Token Tokenizer::getNextToken()
         std::string digit;
         while (_currentPos < _expression.size() && (std::isdigit(_expression[_currentPos]) || _expression[_currentPos] == '.') )
         {
-            // Attempting to make negative numbers as valid inputs
-            // if(_currentPos - 1 == '-')
-            // {
-            //     digit += _expression[_currentPos] * -1;
-            // }
-
             digit += _expression[_currentPos];
             ++_currentPos;
         }

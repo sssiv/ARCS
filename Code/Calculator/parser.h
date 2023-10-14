@@ -8,13 +8,18 @@ private:
     Token _currentToken;    // Holds current token
     Tokenizer _tokenizer;   // Used to get next token and send input
 
-    double expression();    // expression  ::= term   | {"+" | "-"} term
-    double term();          // term        ::= factor | {"+" | "-"} factor
-    double factor();        // factor      ::= Number | "(" expression "")"
+    //double expression();    // expression  ::= term   | {"+" | "-"} term
+    //double term();          // term        ::= factor | {"+" | "-"} factor
+    //double factor();        // factor      ::= Number | "(" expression "")"
+
+    ASTNode* expression();    // expression  ::= term   | {"+" | "-"} term
+    ASTNode* term();          // term        ::= factor | {"+" | "-"} factor
+    ASTNode* factor();        // factor      ::= Number | "(" expression "")"
 
     void nextToken();       // Initializes current token to the next
     
 public:
     Parser(Tokenizer&);
-    double parse();         // Runs program
+    //double parse();         // Runs program
+    ASTNode* parse();   // Runs program
 };

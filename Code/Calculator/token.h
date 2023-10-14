@@ -1,10 +1,9 @@
 #pragma once
-#include <iostream>
-#include <string>
-#include <cmath>
+
+#include "op.h"
 
 // Token list
-enum class Tokens {NUMBER, PLUS, MINUS, LPARTH, RPARTH, DOT, STOP};
+enum class Tokens {NUMBER, PLUS, MINUS, LPARTH, RPARTH, STOP};
 
 // Token Holder
 struct Token
