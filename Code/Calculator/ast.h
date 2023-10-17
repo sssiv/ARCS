@@ -8,6 +8,5 @@ public:
     ASTNode();
     Interface* number(double);
     Interface* intOperator(char, Interface*, Interface*);
-    //double evaluate() override;
     ~ASTNode();
 };
