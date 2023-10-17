@@ -2,14 +2,14 @@
 
 #include "op.h"
 
-// Token list
+// List of all tokens
 enum class Tokens 
 {
     NUMBER, PLUS, MINUS, MULTIPLY, DIVIDE, 
     LPARTH, RPARTH, STOP
 };
 
-// Token Holder
+// Current Token Holder
 struct Token
 {
     Tokens token;   // Current Token

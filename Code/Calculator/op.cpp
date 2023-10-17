@@ -13,7 +13,10 @@ double OperatorNode::evaluate()
     else if (op == '/')
     {
         if (right->evaluate() == 0)
+        {
             std::cerr <<  "Error: Cannot divide by 0\n";
+            return std::nan("");
+        }
         else
             return left->evaluate() / right->evaluate();
     }   

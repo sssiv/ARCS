@@ -1,0 +1,217 @@
+#include <iostream>
+#include <string>
+#include <stack>
+#include <cctype>
+#include <cmath>
+
+using namespace std;
+
+// Tokens
+enum class TokenType 
+{
+    NUMBER,
+    PLUS,
+    MINUS,
+    LPAREN,
+    RPAREN,
+    END
+};
+
+// Token Values
+struct Token 
+{
+    TokenType type;
+    double value;
+
+    Token(TokenType t, double v = 0) : type(t), value(v) {}
+};
+
+class Tokenizer 
+{
+public:
+    Tokenizer(const string& input) : input_(input), current_(0) {}
+
+    Token getNextToken() 
+    {
+        // Skips white spaces
+        while (current_ < input_.size() && isspace(input_[current_])) 
+        {
+            current_++;
+        }
+
+        // Means theres no input, just white spaces
+        if (current_ >= input_.size()) 
+        {
+            return Token(TokenType::END);
+        }
+
+        // Looking at each individual character in expression input
+        char c = input_[current_];
+
+        // See's if the input is a number or decimal place
+        if (isdigit(c) || c == '.') 
+        {
+            // Stores each individual number into a string
+            string number;
+            while (current_ < input_.size() && (isdigit(input_[current_]) || input_[current_] == '.')) 
+            {
+                number += input_[current_];
+                current_++;
+            }
+            
+            // If a number is found, the state and number is returned
+            return Token(TokenType::NUMBER, stod(number));
+        } 
+        
+        // If an operator is found, it's state is sent
+        else if (c == '+') 
+        {
+            current_++;
+            return Token(TokenType::PLUS, 1);
+        } 
+        else if (c == '-') 
+        {
+            current_++;
+            return Token(TokenType::MINUS, 2);
+        } 
+        else if (c == '(') 
+        {
+            current_++;
+            return Token(TokenType::LPAREN, 3);
+        } 
+        else if (c == ')') 
+        {
+            current_++;
+            return Token(TokenType::RPAREN, 4);
+        }
+
+        // No recorded token is found,, end state terminates the program
+        cerr << "Invalid character: " << c << endl;
+        return Token(TokenType::END, -1);
+    }
+
+private:
+    const string& input_;   // Inputted Expression
+    size_t current_;        // Char index in the expression string
+};
+
+class Parser 
+{
+public:
+    Parser(Tokenizer& tokenizer) : tokenizer_(tokenizer), currentToken_(TokenType::END) {}
+
+    double parse() 
+    {
+        // Current Token is now the next token
+        advanceToken();
+        
+        double result = expression();
+        if (currentToken_.type != TokenType::END) 
+        {
+            cerr << "Unexpected token." << endl;
+            return 0;
+        }
+        return result;
+    }
+
+private:
+    double expression() 
+    {
+        double left = term();
+        while (currentToken_.type == TokenType::PLUS || currentToken_.type == TokenType::MINUS) 
+        {
+            TokenType op = currentToken_.type;
+            advanceToken();
+            double right = term();
+            if (op == TokenType::PLUS) 
+            {
+                left += right;
+            } 
+            else 
+            {
+                left -= right;
+            }
+        }
+        return left;
+    }
+
+    // Gives the result from a math operator
+    double term() 
+    {
+        double left = factor();
+        while (currentToken_.type == TokenType::PLUS || currentToken_.type == TokenType::MINUS) 
+        {
+            TokenType op = currentToken_.type;
+            advanceToken();
+            double right = factor();
+            if (op == TokenType::PLUS) 
+            {
+                left += right;
+            } 
+            else 
+            {
+                left -= right;
+            }
+        }
+        return left;
+    }
+
+    // Gives the numbers value
+    double factor() 
+    {
+        // If the current token is a NUMBER:
+        //  1. Get its value
+        //  2. Make the current token the next token
+        //  3. Return the numbers value
+        if (currentToken_.type == TokenType::NUMBER) 
+        {
+            double value = currentToken_.value;
+            advanceToken();
+            return value;
+        } 
+        else if (currentToken_.type == TokenType::LPAREN) 
+        {
+            advanceToken();
+            double result = expression();
+            if (currentToken_.type != TokenType::RPAREN) 
+            {
+                cerr << "Missing closing parenthesis." << endl;
+                return 0;
+            }
+            advanceToken();
+            return result;
+        } 
+        else 
+        {
+            cerr << "Unexpected token." << endl;
+            return 0;
+        }
+    }
+
+    void advanceToken() 
+    {
+        currentToken_ = tokenizer_.getNextToken();
+    }
+
+    Token currentToken_;
+    Tokenizer& tokenizer_;
+};
+
+int main() 
+{
+    cout << "Enter an expression: ";
+    string input;
+    getline(cin, input);
+
+    Tokenizer tokenizer(input);
+    Parser parser(tokenizer);
+
+    double result = parser.parse();
+
+    if (!isnan(result)) 
+    {
+        cout << "Result: " << result << endl;
+    }
+
+    return 0;
+}

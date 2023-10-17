@@ -8,10 +8,6 @@ private:
     Token _currentToken;    // Holds current token
     Tokenizer _tokenizer;   // Used to get next token and send input
 
-    //double expression();    // expression  ::= term   | {"+" | "-"} term
-    //double term();          // term        ::= factor | {"+" | "-"} factor
-    //double factor();        // factor      ::= Number | "(" expression "")"
-
     ASTNode* expression();    // expression  ::= term   | {"+" | "-"} term
     ASTNode* term();          // term        ::= factor | {"+" | "-"} factor
     ASTNode* factor();        // factor      ::= Number | "(" expression "")"
