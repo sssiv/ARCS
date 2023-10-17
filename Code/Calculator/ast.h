@@ -1,14 +1,13 @@
 #pragma once
-
-#include <iostream>
-#include <string>
-#include <cmath>
+#include "op.h"
 
 // expression, factor, term Node
 class ASTNode
 {
 public:
     ASTNode();
-    virtual double evaluate() = 0;
+    Interface* number(double);
+    Interface* intOperator(char, Interface*, Interface*);
+    //double evaluate() override;
     ~ASTNode();
 };

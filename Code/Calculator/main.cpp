@@ -9,7 +9,7 @@ int main()
     Tokenizer tokenizer(expression);
     Parser parser(tokenizer);
 
-    ASTNode* result = parser.parse();
+    Interface* result = parser.parse();
 
     if (result != nullptr)
     {

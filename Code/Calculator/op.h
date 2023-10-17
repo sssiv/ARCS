@@ -2,14 +2,14 @@
 
 #include "number.h"
 
-class OperatorNode : public ASTNode
+class OperatorNode : public Interface
 {
 private:
     char op;
-    ASTNode* left;
-    ASTNode* right;
+    Interface* left;
+    Interface* right;
 
 public:
-    OperatorNode(char, ASTNode*, ASTNode* );
+    OperatorNode(char, Interface*, Interface* );
     double evaluate() override;
 };

@@ -1,6 +1,6 @@
 #include "op.h"
 
-OperatorNode::OperatorNode(char op, ASTNode* left, ASTNode* right) : op(op), left(left), right(right) {}
+OperatorNode::OperatorNode(char op, Interface* left, Interface* right) : op(op), left(left), right(right) {}
 
 double OperatorNode::evaluate()
 {

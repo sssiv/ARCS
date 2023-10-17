@@ -1,7 +1,9 @@
 #include "token.h"
 
 // Default Constructors for Struct 
-Token::Token(){}
+Token::Token()
+{
+}
 //  * Token ENUM value
 //  * Value of the token (So far I've only used this to hold a numbers value)
 Token::Token(Tokens t, double v) : token(t), value(v) {}
@@ -88,7 +90,7 @@ Token Tokenizer::getNextToken()
     // End of expression reached
     else if (_currentPos >= _expression.size())
     {
-        std::cerr << "All tokens accounted for.\n";
+        std::cerr << "All tokens accounted for\n";
         return Token(Tokens::STOP, -1);
     }
 }

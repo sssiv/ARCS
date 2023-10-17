@@ -2,9 +2,9 @@
 
 Parser::Parser(Tokenizer& tokenizer) : _tokenizer(tokenizer) {}
 
-ASTNode* Parser::expression()
+Interface* Parser::expression()
 {
-    ASTNode* left = term();
+    Interface* left = term();
 
     while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS || _currentToken.token == Tokens::MULTIPLY || _currentToken.token == Tokens::DIVIDE)
     {
@@ -26,16 +26,16 @@ ASTNode* Parser::expression()
             op = '/';
         }
         nextToken();
-        ASTNode* right = term();
-        left = new OperatorNode(op, left, right);
+        Interface* right = term();
+        left = AST->intOperator(op, left, right);
     }
     
     return left;
 }
 
-ASTNode* Parser::term()
+Interface* Parser::term()
 {
-    ASTNode* left = factor();
+    Interface* left = factor();
 
     while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS || _currentToken.token == Tokens::MULTIPLY)
     {
@@ -53,20 +53,20 @@ ASTNode* Parser::term()
             op = '*';
         }
         nextToken();
-        ASTNode* right = factor();
-        left = new OperatorNode(op, left, right);
+        Interface* right = factor();
+        left = AST->intOperator(op, left, right);
     }
 
     return left;
 }
 
-ASTNode* Parser::factor()
+Interface* Parser::factor()
 {
-    ASTNode* result = nullptr;
+    Interface* result = nullptr;
 
     if (_currentToken.token == Tokens::NUMBER)
     {
-        result = new NumberNode(_currentToken.value);
+        result = AST->number(_currentToken.value);
         nextToken();
     }
     else if (_currentToken.token == Tokens::LPARTH)
@@ -92,10 +92,10 @@ ASTNode* Parser::factor()
 // advance to the next token
 void Parser::nextToken() {_currentToken = _tokenizer.getNextToken();}
 
-ASTNode* Parser::parse()
+Interface* Parser::parse()
 {
     nextToken();
-    ASTNode* result = expression();
+    Interface* result = expression();
     if (_currentToken.token != Tokens::STOP)
     {
         std::cerr << "Error: Parser did not reach the end of the expression. Some tokens not found.\n";

@@ -1,8 +1,8 @@
 #pragma once
 
-#include "ast.h"
+#include "interface.h"
 
-class NumberNode : public ASTNode
+class NumberNode : public Interface
 {
 private:
     double value;
