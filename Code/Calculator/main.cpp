@@ -13,11 +13,14 @@ int main()
 
     if (result != nullptr)
     {
-        std::cout << "Result: " << result->evaluate() << std::endl;
+        if (!std::isnan(result->evaluate()))
+            std::cout << "Result: " << result->evaluate() << std::endl;
+        else
+            std::cout << "Result: Invalid" <<  std::endl;
         delete result;
     }
     else
     {
-        std::cerr << "Error with result.\n";
+        std::cerr << "Error: No result returned.\n";
     }
 }

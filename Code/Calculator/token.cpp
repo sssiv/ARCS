@@ -24,7 +24,7 @@ Token Tokenizer::getNextToken()
         std::cout << "No expression entered.\n";
         return Token(Tokens::STOP, -1);
     }
-    
+
     // Takes in digit, 
     // stores its value 
     // returns it via Token struct
@@ -56,25 +56,39 @@ Token Tokenizer::getNextToken()
         return Token(Tokens::MINUS, 2);
     }
 
+    // Multiply
+    else if (_expression[_currentPos] == '*')
+    {
+        ++_currentPos;
+        return Token(Tokens::MULTIPLY, 3);
+    }
+
+    // Divide 
+    else if (_expression[_currentPos] == '/')
+    {
+        ++_currentPos;
+        return Token(Tokens::DIVIDE, 20);
+    }
+
     /* Checking for Symbols */
     // (
     if (_expression[_currentPos] == '(')
     {
         ++_currentPos;
-        return Token(Tokens::LPARTH, 3);
+        return Token(Tokens::LPARTH, 4);
     }
 
     // )
     else if (_expression[_currentPos] == ')')
     {
         ++_currentPos;
-        return Token(Tokens::RPARTH, 4);
+        return Token(Tokens::RPARTH, 5);
     }
     
-    // No valid tokens found tokens found
-    else if (_currentPos > _expression.size())
+    // End of expression reached
+    else if (_currentPos >= _expression.size())
     {
-        std::cerr << "No Valid Tokens Found.\n";
+        std::cerr << "All tokens accounted for.\n";
         return Token(Tokens::STOP, -1);
     }
 }

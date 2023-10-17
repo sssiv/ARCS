@@ -3,7 +3,11 @@
 #include "op.h"
 
 // Token list
-enum class Tokens {NUMBER, PLUS, MINUS, LPARTH, RPARTH, STOP};
+enum class Tokens 
+{
+    NUMBER, PLUS, MINUS, MULTIPLY, DIVIDE, 
+    LPARTH, RPARTH, STOP
+};
 
 // Token Holder
 struct Token
@@ -20,10 +24,10 @@ struct Token
 class Tokenizer
 {
 private:
-    const std::string& _expression;
-    size_t _currentPos;
+    const std::string& _expression;     // The overall input expression
+    size_t _currentPos;                 // Counter as we itr through the expression
 
 public:
-    Tokenizer(const std::string&);
-    Token getNextToken();
+    Tokenizer(const std::string&);      // A Parser object will take in the token class with the expression
+    Token getNextToken();               // This itr's through each token as we evaluate the expression
 };
