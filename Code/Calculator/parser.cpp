@@ -2,6 +2,8 @@
 
 Parser::Parser(Tokenizer& tokenizer) : _tokenizer(tokenizer) {}
 
+// This is for using math ops with 
+// allowing you to put in as many expressions if you want
 Interface* Parser::expression()
 {
     Interface* left = term();
@@ -33,6 +35,9 @@ Interface* Parser::expression()
     return left;
 }
 
+// This handles with making an expression
+// or passes an expression to be nested 
+// or have the expression do a math op with a number
 Interface* Parser::term()
 {
     Interface* left = factor();
@@ -52,6 +57,10 @@ Interface* Parser::term()
         {
             op = '*';
         }
+        else if (_currentToken.token == Tokens::DIVIDE)
+        {
+            op = '/';
+        }
         nextToken();
         Interface* right = factor();
         left = AST->intOperator(op, left, right);
@@ -60,6 +69,9 @@ Interface* Parser::term()
     return left;
 }
 
+// This is where the first part of the expression will fall into
+// Here number tokens are made and return their values
+// or an expression is returned
 Interface* Parser::factor()
 {
     Interface* result = nullptr;
@@ -85,6 +97,7 @@ Interface* Parser::factor()
     else
     {
         std::cerr << "Error: Invalid Token Detected\n";
+        return result;
     }
     return result;
 }
