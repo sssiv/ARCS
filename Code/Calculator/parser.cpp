@@ -80,7 +80,6 @@ Interface* Parser::factor()
     {
         std::cerr << "Error: Invalid Token Detected\n";
         return result;
-        
     }
     return result;
 }
@@ -88,6 +87,7 @@ Interface* Parser::factor()
 // advance to the next token
 void Parser::nextToken() {_currentToken = _tokenizer.getNextToken();}
 
+// Starts the parsing
 Interface* Parser::parse()
 {
     nextToken();
@@ -95,6 +95,8 @@ Interface* Parser::parse()
     if (_currentToken.token != Tokens::STOP)
     {
         std::cerr << "Error: Parser did not reach the end of the expression. Some tokens not found.\n";
+        delete result;
+        return nullptr;
     }
 
     return result;

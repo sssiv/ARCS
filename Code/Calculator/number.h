@@ -12,4 +12,3 @@ public:
     double evaluate() override;
     ~NumberNode();
 };
-
