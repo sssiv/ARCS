@@ -1,16 +1,13 @@
 #include "op.h"
 
-OperatorNode::OperatorNode(char op, Interface* left, Interface* right) : op(op), left(left), right(right) {}
+OperatorNode::OperatorNode(int op, Interface* left, Interface* right) : op(op), left(left), right(right) {}
 
 double OperatorNode::evaluate()
 {
-    if (op == '+')
-        return left->evaluate() + right->evaluate();
-    else if (op == '-')
-        return left->evaluate() - right->evaluate();
-    else if (op == '*')
-        return left->evaluate() * right->evaluate();
-    else if (op == '/')
+    if (op == 1) return left->evaluate() + right->evaluate();
+    else if (op == 2) return left->evaluate() - right->evaluate();
+    else if (op == 3) return left->evaluate() * right->evaluate();
+    else if (op == 4)
     {
         if (right->evaluate() == 0)
         {

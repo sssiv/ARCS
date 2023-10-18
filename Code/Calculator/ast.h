@@ -1,12 +1,12 @@
 #pragma once
 #include "op.h"
 
-// expression, factor, term Node
+// holds nodes
 class ASTNode
 {
 public:
     ASTNode();
     Interface* number(double);
-    Interface* intOperator(char, Interface*, Interface*);
+    Interface* intOperator(int, Interface*, Interface*);
     ~ASTNode();
 };

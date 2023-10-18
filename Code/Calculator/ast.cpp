@@ -9,7 +9,7 @@ Interface *ASTNode::number(double value)
     return new NumberNode(value);
 }
 
-Interface *ASTNode::intOperator(char op, Interface* left, Interface* right)
+Interface *ASTNode::intOperator(int op, Interface* left, Interface* right)
 {
     return new OperatorNode(op, left, right);
 }

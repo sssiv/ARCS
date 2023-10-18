@@ -69,7 +69,7 @@ Token Tokenizer::getNextToken()
     else if (_expression[_currentPos] == '/')
     {
         ++_currentPos;
-        return Token(Tokens::DIVIDE, 20);
+        return Token(Tokens::DIVIDE, 4);
     }
 
     /* Checking for Symbols */
@@ -77,14 +77,14 @@ Token Tokenizer::getNextToken()
     if (_expression[_currentPos] == '(')
     {
         ++_currentPos;
-        return Token(Tokens::LPARTH, 4);
+        return Token(Tokens::LPARTH, 5);
     }
 
     // )
     else if (_expression[_currentPos] == ')')
     {
         ++_currentPos;
-        return Token(Tokens::RPARTH, 5);
+        return Token(Tokens::RPARTH, 6);
     }
     
     // End of expression reached

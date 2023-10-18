@@ -13,19 +13,8 @@ Interface* Parser::expression()
     // Either a number or expression is returned
     Interface* left = term();
 
-    while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS || _currentToken.token == Tokens::MULTIPLY || _currentToken.token == Tokens::DIVIDE)
-    {
-        char op = ' ';
-        if (_currentToken.token == Tokens::PLUS) op = '+';
-        else if (_currentToken.token == Tokens::MINUS) op = '-';
-        else if (_currentToken.token == Tokens::MULTIPLY) op = '*';
-        else if (_currentToken.token == Tokens::DIVIDE) op = '/';
-
-        nextToken();
-        Interface* right = term();
-        left = AST->intOperator(op, left, right);
-    }
-    
+    // Math operators, 0 is the id for term()
+    left = ops(left, 0);
     return left;
 }
 
@@ -37,18 +26,8 @@ Interface* Parser::term()
     // Number or expression is returned
     Interface* left = factor();
 
-    while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS || _currentToken.token == Tokens::MULTIPLY)
-    {
-        char op = ' ';
-        if (_currentToken.token == Tokens::PLUS) op = '+';
-        else if (_currentToken.token == Tokens::MINUS) op = '-';
-        else if (_currentToken.token == Tokens::MULTIPLY) op = '*';
-        else if (_currentToken.token == Tokens::DIVIDE) op = '/';
-        nextToken();
-        Interface* right = factor();
-        left = AST->intOperator(op, left, right);
-    }
-
+    // Math operators, 1 is id for factor()
+    left = ops(left, 1);
     return left;
 }
 
@@ -71,10 +50,8 @@ Interface* Parser::factor()
     {
         nextToken();
         result = expression();
-        if (_currentToken.token == Tokens::RPARTH)
-            nextToken();
-        else
-            std::cerr << "Error: Missing a right parenthesis\n";
+        if (_currentToken.token == Tokens::RPARTH) nextToken();
+        else std::cerr << "Error: Missing a right parenthesis\n";
     }
     else
     {
@@ -82,6 +59,26 @@ Interface* Parser::factor()
         return result;
     }
     return result;
+}
+
+Interface *Parser::ops(Interface* left, int id)
+{
+    if (id == 1 || id == 0)
+    {
+        while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS || _currentToken.token == Tokens::MULTIPLY)
+        {
+            int op = 0;
+            if (_currentToken.token == Tokens::PLUS) op = 1;
+            else if (_currentToken.token == Tokens::MINUS) op = 2;
+            else if (_currentToken.token == Tokens::MULTIPLY) op = 3;
+            else if (_currentToken.token == Tokens::DIVIDE) op = 4;
+            nextToken();
+            Interface* right;
+            id ? right = factor() : right = term();
+            left = AST->intOperator(op, left, right);
+        }
+    }
+    return left;
 }
 
 // advance to the next token

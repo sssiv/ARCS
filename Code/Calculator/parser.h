@@ -10,9 +10,10 @@ private:
 
     ASTNode* AST;
     
-    Interface* expression();    // expression  ::= term   | {"+" | "-" | "*" | "/"} term
-    Interface* term();          // term        ::= factor | {"+" | "-" | "*" | "/"} factor
-    Interface* factor();        // factor      ::= Number | "(" expression "")"
+    Interface* expression();             // expression  ::= term   | Operators term
+    Interface* term();                   // term        ::= factor | Operators factor
+    Interface* factor();                 // factor      ::= Number | "(" expression "")"
+    Interface* ops(Interface*, int);     // Operators   ::= {"+" | "-" | "*" | "/"}
 
     void nextToken();       // Initializes current token to the next
     

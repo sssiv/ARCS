@@ -10,6 +10,6 @@ private:
     Interface* right;
 
 public:
-    OperatorNode(char, Interface*, Interface*);
+    OperatorNode(int, Interface*, Interface*);
     double evaluate() override;
 };
