@@ -2,7 +2,20 @@
 #define FUNC_H_
 
 #include <iostream>
+#include <random>
+#include <chrono>
 
-void Print();
+class Func
+{
+private:
+    double isTrue(double);
+    bool boolValue(double);
+    int random(int, int, int);
+public:
+    Func();
+    ~Func();
+    void Print();
+};
+
 
 #endif // FUNC_H_

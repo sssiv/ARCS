@@ -2,6 +2,7 @@
 
 int main()
 {
-    Print();
+    Func func;
+    func.Print();
     return 0;
 }
