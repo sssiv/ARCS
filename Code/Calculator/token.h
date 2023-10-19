@@ -27,6 +27,8 @@ public:
     Tokens getToken();
 };
 
+/*******************************************************************************************/
+
 // Holds the input expression
 // Gives each token when needed
 class Tokenizer
