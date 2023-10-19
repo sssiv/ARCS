@@ -5,18 +5,25 @@
 // List of all tokens
 enum class Tokens 
 {
-    NUMBER, PLUS, MINUS, MULTIPLY, DIVIDE, 
-    LPARTH, RPARTH, STOP
+    NUMBER, 
+    PLUS, MINUS, MULTIPLY, DIVIDE, 
+    LPARTH, RPARTH, 
+    STOP
 };
 
 // Current Token Holder
-struct Token
+class Token
 {
+private:
     Tokens token;   // Current Token
     double value;   // Tokens Value
 
+public:
     Token();
-    Token(Tokens, double);  // Takes in Tokens/enum and its value
+    Token(const Tokens&, const double&);  // Takes in Tokens/enum and its value
+
+    double getValue();
+    Tokens getToken();
 };
 
 // Holds the input expression
@@ -29,5 +36,5 @@ private:
 
 public:
     Tokenizer(const std::string&);      // A Parser object will take in the token class with the expression
-    Token getNextToken();               // This itr's through each token as we evaluate the expression
+    Token* getNextToken();              // This itr's through each token as we evaluate the expression
 };

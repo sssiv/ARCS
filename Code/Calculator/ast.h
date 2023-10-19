@@ -6,7 +6,7 @@ class ASTNode
 {
 public:
     ASTNode();
-    Interface* number(double);
-    Interface* intOperator(int, Interface*, Interface*);
+    Interface* newNumber(const double&);
+    Interface* intOperator(const int&, Interface*, Interface*);
     ~ASTNode();
 };

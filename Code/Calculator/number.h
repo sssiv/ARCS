@@ -8,7 +8,7 @@ private:
     double value;
 public:
     NumberNode();
-    NumberNode(double);
+    NumberNode(const double&);
     double evaluate() override;
     ~NumberNode();
 };

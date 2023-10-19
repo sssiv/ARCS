@@ -1,18 +1,22 @@
 #include "token.h"
 
-// Default Constructors for Struct 
-Token::Token()
-{
-}
-//  * Token ENUM value
-//  * Value of the token (So far I've only used this to hold a numbers value)
-Token::Token(Tokens t, double v) : token(t), value(v) {}
+Token::Token() {}
+
+//  Token ENUM value
+//  Value of the token (So far I've only used this to hold a numbers value)
+Token::Token(const Tokens& t, const double& v) : token(t), value(v) {}
+
+double Token::getValue() {return value;}
+
+Tokens Token::getToken() {return token;}
+
+/********************************************************************************************************************/
 
 // Default Constructor - Takes in the expression
 Tokenizer::Tokenizer(const std::string& input) : _expression(input), _currentPos(0) {}
 
 // Goes through expression input until it finds a number of character
-Token Tokenizer::getNextToken()
+Token* Tokenizer::getNextToken()
 {
     // Skip whitespaces
     while (std::isspace(_expression[_currentPos]) && _currentPos < _expression.size())
@@ -24,7 +28,7 @@ Token Tokenizer::getNextToken()
     if (_currentPos > _expression.size())
     {
         std::cout << "No expression entered.\n";
-        return Token(Tokens::STOP, -1);
+        return new Token(Tokens::STOP, -1);
     }
 
     // Takes in digit, 
@@ -40,7 +44,7 @@ Token Tokenizer::getNextToken()
         }
         
         double value = std::stod(digit);
-        return Token(Tokens::NUMBER, value);
+        return new Token(Tokens::NUMBER, value);
     }
 
     /* Checking for Math operators */
@@ -48,28 +52,28 @@ Token Tokenizer::getNextToken()
     if (_expression[_currentPos] == '+')
     {
         ++_currentPos;
-        return Token(Tokens::PLUS, 1);
+        return new Token(Tokens::PLUS, 1);
     }
 
     //Minus
     else if (_expression[_currentPos] == '-')
     {
         ++_currentPos;
-        return Token(Tokens::MINUS, 2);
+        return new Token(Tokens::MINUS, 2);
     }
 
     // Multiply
     else if (_expression[_currentPos] == '*')
     {
         ++_currentPos;
-        return Token(Tokens::MULTIPLY, 3);
+        return new Token(Tokens::MULTIPLY, 3);
     }
 
     // Divide 
     else if (_expression[_currentPos] == '/')
     {
         ++_currentPos;
-        return Token(Tokens::DIVIDE, 4);
+        return new Token(Tokens::DIVIDE, 4);
     }
 
     /* Checking for Symbols */
@@ -77,20 +81,20 @@ Token Tokenizer::getNextToken()
     if (_expression[_currentPos] == '(')
     {
         ++_currentPos;
-        return Token(Tokens::LPARTH, 5);
+        return new Token(Tokens::LPARTH, 5);
     }
 
     // )
     else if (_expression[_currentPos] == ')')
     {
         ++_currentPos;
-        return Token(Tokens::RPARTH, 6);
+        return new Token(Tokens::RPARTH, 6);
     }
     
     // End of expression reached
     else if (_currentPos >= _expression.size())
     {
         std::cerr << "All tokens accounted for\n";
-        return Token(Tokens::STOP, -1);
+        return new Token(Tokens::STOP, -1);
     }
 }

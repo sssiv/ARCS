@@ -7,7 +7,7 @@ int main()
 
     std::getline(std::cin, expression);
     Tokenizer tokenizer(expression);
-    Parser parser(tokenizer);
+    Parser parser(&tokenizer);
 
     Interface* result = parser.parse();
 
@@ -16,7 +16,7 @@ int main()
         if (!std::isnan(result->evaluate()))
             std::cout << "Result: " << result->evaluate() << std::endl;
         else
-            std::cout << "Result: Invalid" <<  std::endl;
+            std::cerr << "Result: Invalid" <<  std::endl;
         delete result;
     }
     else

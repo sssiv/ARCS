@@ -1,9 +1,4 @@
 #include "interface.h"
 
-Interface::Interface(/* args */)
-{
-}
-
-Interface::~Interface()
-{
-}
+Interface::Interface(){}
+Interface::~Interface(){}

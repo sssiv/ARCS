@@ -4,7 +4,7 @@
 // we have the input expression in a string
 // and we control the index variable where 
 // we are currently looking in the expression
-Parser::Parser(Tokenizer& tokenizer) : _tokenizer(tokenizer) {}
+Parser::Parser(Tokenizer* tokenizer) : _tokenizer(tokenizer) {}
 
 // This is for using math ops with 
 // allowing you to put in as many expressions if you want
@@ -39,18 +39,18 @@ Interface* Parser::factor()
     Interface* result = nullptr;
 
     // A number is made
-    if (_currentToken.token == Tokens::NUMBER)
+    if (_currentToken->getToken() == Tokens::NUMBER)
     {
-        result = AST->number(_currentToken.value);
+        result = AST->newNumber(_currentToken->getValue());
         nextToken();
     }
 
     // An expression is made
-    else if (_currentToken.token == Tokens::LPARTH)
+    else if (_currentToken->getToken() == Tokens::LPARTH)
     {
         nextToken();
         result = expression();
-        if (_currentToken.token == Tokens::RPARTH) nextToken();
+        if (_currentToken->getToken() == Tokens::RPARTH) nextToken();
         else std::cerr << "Error: Missing a right parenthesis\n";
     }
     else
@@ -61,17 +61,20 @@ Interface* Parser::factor()
     return result;
 }
 
-Interface *Parser::ops(Interface* left, int id)
+Interface *Parser::ops(Interface* left, const int& id)
 {
+    // 1 - RHS is a factor
+    // 0 = RHS is a term
     if (id == 1 || id == 0)
     {
-        while (_currentToken.token == Tokens::PLUS || _currentToken.token == Tokens::MINUS || _currentToken.token == Tokens::MULTIPLY)
+        while (_currentToken->getToken() == Tokens::PLUS || _currentToken->getToken() == Tokens::MINUS 
+        || _currentToken->getToken() == Tokens::MULTIPLY || _currentToken->getToken() == Tokens::DIVIDE)
         {
             int op = 0;
-            if (_currentToken.token == Tokens::PLUS) op = 1;
-            else if (_currentToken.token == Tokens::MINUS) op = 2;
-            else if (_currentToken.token == Tokens::MULTIPLY) op = 3;
-            else if (_currentToken.token == Tokens::DIVIDE) op = 4;
+            if (_currentToken->getToken() == Tokens::PLUS) op = 1;
+            else if (_currentToken->getToken() == Tokens::MINUS) op = 2;
+            else if (_currentToken->getToken() == Tokens::MULTIPLY) op = 3;
+            else if (_currentToken->getToken() == Tokens::DIVIDE) op = 4;
             nextToken();
             Interface* right;
             id ? right = factor() : right = term();
@@ -82,14 +85,18 @@ Interface *Parser::ops(Interface* left, int id)
 }
 
 // advance to the next token
-void Parser::nextToken() {_currentToken = _tokenizer.getNextToken();}
+void Parser::nextToken() 
+{
+    delete _currentToken;
+    _currentToken = _tokenizer->getNextToken();
+}
 
 // Starts the parsing
 Interface* Parser::parse()
 {
     nextToken();
     Interface* result = expression();
-    if (_currentToken.token != Tokens::STOP)
+    if (_currentToken->getToken() != Tokens::STOP)
     {
         std::cerr << "Error: Parser did not reach the end of the expression. Some tokens not found.\n";
         delete result;
