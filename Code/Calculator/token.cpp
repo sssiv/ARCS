@@ -97,4 +97,5 @@ Token* Tokenizer::getNextToken()
         std::cerr << "All tokens accounted for\n";
         return new Token(Tokens::STOP, -1);
     }
+    return new Token(Tokens::STOP, -1);
 }

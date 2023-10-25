@@ -17,7 +17,7 @@ Interface* Parser::parse()
     Interface* result = AST->expression();
     if (!AST->stopCheck())
     {
-        std::cerr << "Error: Parser did not reach the end of the expression.\n Some tokens not found.\n";
+        std::cerr << "Error: Parser did not reach the end of the expression.\n";
         delete result;
         return nullptr;
     }

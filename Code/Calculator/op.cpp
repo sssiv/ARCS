@@ -20,7 +20,8 @@ double OperatorNode::evaluate()
         }
         else
             return left->evaluate() / right->evaluate();
-    }   
+    } 
+    return 0.0;  
 }
 
 OperatorNode::~OperatorNode()
