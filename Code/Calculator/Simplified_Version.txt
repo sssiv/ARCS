@@ -1,4 +1,4 @@
-interface->number->op->token->ast->parser->main
+interface->number->op->ast->token->parser->main
 
 #include <iostream>
 #include <string>

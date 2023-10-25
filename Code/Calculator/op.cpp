@@ -1,5 +1,9 @@
 #include "op.h"
 
+OperatorNode::OperatorNode()
+{
+}
+
 OperatorNode::OperatorNode(const int& op, Interface* left, Interface* right) : op(op), left(left), right(right) {}
 
 double OperatorNode::evaluate()
@@ -17,4 +21,8 @@ double OperatorNode::evaluate()
         else
             return left->evaluate() / right->evaluate();
     }   
+}
+
+OperatorNode::~OperatorNode()
+{
 }

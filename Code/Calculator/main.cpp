@@ -23,7 +23,6 @@ int main()
     {
         std::cerr << "Error: No result returned.\n";
     }
-
     //Not sure why this loop isnt working
     // char c = 'y';
     // while (c == 'y')

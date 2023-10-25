@@ -19,7 +19,7 @@ Interface* ASTNode::expression()
     // Either a number or expression is returned
     Interface* left = term();
 
-    // Math operators, 0 is the id for term()
+    // term()
     left = ops(left, 0);
     return left;
 }
@@ -32,7 +32,7 @@ Interface* ASTNode::term()
     // Number or expression is returned
     Interface* left = factor();
 
-    // Math operators, 1 is id for factor()
+    // factor()
     left = ops(left, 1);
     return left;
 }
@@ -95,10 +95,10 @@ void ASTNode::getTokens(Tokenizer* tokenizer) {_tokenizer = tokenizer;}
 // advance to the next token
 void ASTNode::nextToken() 
 {
-    delete _currentToken;
+    //delete _currentToken;
     _currentToken = _tokenizer->getNextToken();
 }
 
-bool ASTNode::stopCheck() {return _currentToken == nullptr;}
+bool ASTNode::stopCheck() {return _currentToken == nullptr || _currentToken->getToken() == Tokens::STOP;}
 
 ASTNode::~ASTNode() {}

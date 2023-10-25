@@ -97,6 +97,12 @@
     "sstream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "bit": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "optional": "cpp",
+    "string_view": "cpp",
+    "numbers": "cpp"
   }
 }
