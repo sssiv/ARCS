@@ -1,0 +1,214 @@
+src->main
+     main->[iostream]
+     main->util/terminal
+           util/terminal->util/string
+		          util/string->[string] 
+     main->sources_pos
+           sources_pos->util/string
+                        util/string->[string]
+           sources_pos->util/misc
+		        util/misc->[memory]
+           sources_pos->[stdexcept]
+
+     main->options
+           options->util/string
+ 	            util/string->[string]
+           options->util/result
+	            util/result->util/variant
+	                         util/variant->[variant]   
+	            util/result->[optional, memory, stdexcept]
+           options->[stdexcept]
+
+     main->config
+           config->util/string
+	           util/string>[string]
+           config->output
+	           output->util/string
+	                   util/string>[string]
+                   output->util/result
+	                   util/result->[optional, memory, stdexcept]
+	                   util/result->util/variant
+		                        util/variant->[variant]   
+                   output->util/optional
+	                   util/optional->[optional]
+                   output->[isofwd, stdexcept]
+           config->[stdexcept, iostream, fstream, sstream]
+
+     main->output
+           output->util/string
+	           util/string>[string]
+           output->util/result
+	           util/result->util/variant
+		                util/variant->[variant]   
+	           util/result->[optional, memory, stdexcept]
+      	   output->util/optional
+	      	   util/optional->[optional]
+           output->[isofwd, stdexcept]
+
+     main->input
+      	   input->util/string
+	          util/string->[string]
+           input->util/result
+	          util/result->util/variant
+			       util/variant->[variant]  
+	          util/result->[optional, memory, stdexcept] 
+          input->[iosfwd, filesystem, stdexcept]
+
+     main->compiler
+           compiler->util/result
+	 	     util/result->util/variant
+			          util/variant->[variant]  
+	 	     util/result->[optional, memory, stdexcept]
+           compiler->util/string
+		     util/string->[string]
+           compiler->error
+		     error->sources_pos
+		            sources_pos->util/string
+				         util/string->[string]
+		            sources_pos->util/misc
+				         util/misc->[memory]
+		            sources_pos->[stdexcept]
+		     error->util/result
+	                    util/result->util/variant
+		                         util/variant->[variant]   
+	                    util/result->[optional, memory, stdexcept]
+		     error->util/optional
+		            util/optional->[optional]
+		     error->util/string
+		            util/string->[string]
+		     error->[stdexcept]
+/*******************************************************************************************************/
+src->ast
+     ast->[memory]
+     ast->util/variant
+	  util/variant->[variant]
+     ast->util/refs
+          util/refs->[stdexcept, functional]
+          utils/refs->util/string
+                      util/string->[string]
+     ast->util/vector
+          util/vector->[vector, algorithm, type_traits]
+     ast->util/string
+          util/string->[string]
+     ast->type
+          type->error
+		error->sources_pos
+		       sources_pos->util/string
+				    util/string->[string]
+		       sources_pos->util/misc
+				    util/misc->[memory]
+		       sources_pos->[stdexcept]
+		error->util/result
+	               util/result->util/variant
+		                    util/variant->[variant]   
+	               util/result->[optional, memory, stdexcept]
+		error->util/optional
+		       util/optional->[optional]
+		error->util/string
+		       util/string->[string]
+		error->[stdexcept]
+	  type->util/string
+                util/string->[string]
+	  type->util/result
+	        util/retult->util/result->util/variant
+	                     util/variant->[variant]   
+	        util/result->[optional, memory, stdexcept]
+	  type->util/vector
+		util/vector->[vector, algorithm, type_traits]
+	  type->util/optional
+                util/optional->[optional]
+	  type->util/names
+                util/names->utilstring
+                            util/string->[string]
+	  type->prim_type
+                prim_type->[string]
+                prim_type->names
+                prim_type->util/hash
+                lexer->
+                parse->
+		names->
+		optional->
+                typechecker->
+                codegen->
+     ast->ops
+          ops->[string]
+     ast->sources_pos
+          sources_pos->util/string
+		       util/string->[string]
+	  sources_pos->util/misc
+		       util/misc->[memory]
+	  sources_pos->[stdexcept]
+/*******************************************************************************************************/
+src->build_events
+     build_events->prim_type
+/*******************************************************************************************************/
+src->builtin_funcs
+     builtin_funcs->names
+     builtin_funcs->type
+     builtin_funcs->ast
+     builtin_funcs->util/map
+     builtin_funcs->[functional]
+/*******************************************************************************************************/
+src->codegen
+     codegen->gen_env
+/*******************************************************************************************************/
+src->codegen_builtin_events
+     codegen_buildin_events->gen_env
+     codegen_buildin_events->codegen_dsl
+     codegen_buildin_events->builtin_events
+/*******************************************************************************************************/
+src->codegen_dsl
+/*******************************************************************************************************/
+src->codegen_trace
+/*******************************************************************************************************/
+src->errors
+/*******************************************************************************************************/
+src->gen_env
+/*******************************************************************************************************/
+src->lexer
+/*******************************************************************************************************/
+src->lexer_input
+/*******************************************************************************************************/
+src->names
+/*******************************************************************************************************/
+src->parse
+/*******************************************************************************************************/
+src->parse_input
+/*******************************************************************************************************/
+src->parse_result
+/*******************************************************************************************************/
+src->prim_type
+/*******************************************************************************************************/
+src->scope
+/*******************************************************************************************************/
+src->sources_pos_private
+/*******************************************************************************************************/
+src->token
+/*******************************************************************************************************/
+src->type_env
+/*******************************************************************************************************/
+src->typechecker
+/*******************************************************************************************************/
+
+---------------------------------------------------------------------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+---------------------------------------------------------------------------------------------------------
+
+util->
+util->bimap
+/*******************************************************************************************************/
+util->hash
+/*******************************************************************************************************/
+util->list
+/*******************************************************************************************************/
+util->map
+/*******************************************************************************************************/
+util->mapkey
+/*******************************************************************************************************/
+util->name
+/*******************************************************************************************************/
+util->ref
+/*******************************************************************************************************/
