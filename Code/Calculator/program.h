@@ -1,9 +1,10 @@
-#include "parser.h"
+#include "test.h"
 
 class Program : public Interface
 {
 private:
     Interface* _Result;
+    Interface* _Test;
     Tokenizer* _Tokenizer;
     Parser* _Parser;
     std::string _expression;

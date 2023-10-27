@@ -1,6 +1,6 @@
 #pragma once
 
-#include "program.h"
+#include "parser.h"
 #include <random>
 #include <chrono>
 
@@ -17,6 +17,7 @@ private:
     void testTokenizer();
     void testParser();
     void testAST();
+    
 public:
     Test();
     double evaluate() override;

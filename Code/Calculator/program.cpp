@@ -7,6 +7,7 @@ Program::Program()
     std::cout << "Enter an expression: ";
     std::getline(std::cin, _expression);
 
+    _Test = new Test;
     _Tokenizer = new Tokenizer(_expression);
     _Parser = new Parser(_Tokenizer);
     _Result = _Parser->parse();
@@ -25,7 +26,9 @@ double Program::evaluate()
     {
         std::cerr << "Error: No result returned.\n";
     }
-    delete _Result, _Tokenizer, _Parser;
+
+    _Test->evaluate();
+    delete _Result, _Tokenizer, _Parser, _Test;
     return 0.0;
 }
 

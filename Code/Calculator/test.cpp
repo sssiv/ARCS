@@ -90,6 +90,7 @@ void Test::testOps()
         }
         delete LHS, RHS, Op;
     }
+
     std::cout << "\n********************************************************\n";
     std::cout << "Running "<< _numOfTests << " Operator Tests . . .\n";
     if (pass + fail == _numOfTests)
@@ -100,12 +101,16 @@ void Test::testOps()
     }
     else std::cerr << "Error with Operator testing, not all tests ran\n";
     std::cout << "********************************************************\n";
-
-    
 }
 
 void Test::testTokenizer()
-{}
+{
+    // generate a random number
+    // have it randomly be an expression
+    // do nextToken() a random number of times
+    // check what is at the index of that string
+    // see if the token matches the string index
+}
 
 void Test::testParser()
 {}
@@ -113,7 +118,7 @@ void Test::testParser()
 void Test::testAST()
 {}
 
-Test::Test() : _numOfTests(rand_between(10, 20))
+Test::Test() : _numOfTests(rand_between(50, 100))
 {
 }
 

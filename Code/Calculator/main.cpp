@@ -1,12 +1,8 @@
-#include "test.h"
+#include "program.h"
 
 int main()
 {
     Interface* program = new Program;
-    Interface* test = new Test;
-
     program->evaluate();
-    test->evaluate();
-    
-    delete program, test;
+    delete program;
 }
