@@ -35,5 +35,5 @@ double Program::evaluate()
 // I deleted memory twice cause I dont trust myself
 Program::~Program()
 {
-    delete _Result, _Tokenizer, _Parser;
+    delete _Result, _Tokenizer, _Parser, _Test;
 }
