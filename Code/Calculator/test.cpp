@@ -13,30 +13,38 @@ int Test::rand_between(int r1, int r2)
 // Expression testing needs to be implimented 
 void Test::testOps()
 {
+    // pass/fail count
     int pass = 0;
     int fail = 0;
-    int lhs_numOfDigits = rand_between(1, 5);
-    int rhs_numOfDigits = rand_between(1, 5);
-    int op = rand_between(1, 4);
 
-    std::string lhs = "";
-    std::string rhs = "";
-
-    for (int i = 0; i < lhs_numOfDigits; ++i)
-    {
-        lhs += std::to_string(rand_between(0, 9));
-    }
-    for (int i = 0; i < rhs_numOfDigits; i++)
-    {
-        rhs += std::to_string(rand_between(0, 9));
-    }
-
-    Interface* LHS = new NumberNode(std::stod(lhs));
-    Interface* RHS = new NumberNode(std::stod(rhs));
-    Interface* Op = new OperatorNode(op, LHS, RHS);
-
+    // Run tests
     for (int i = 0; i < _numOfTests; i++)
     {
+        // length of number
+        int lhs_numOfDigits = rand_between(1, 5);
+        int rhs_numOfDigits = rand_between(1, 5);
+        int op = rand_between(1, 4);
+
+        // left-hand and Right-hand side nums
+        std::string lhs = "";
+        std::string rhs = "";
+
+        // Random digits chosen for each num
+        for (int i = 0; i < lhs_numOfDigits; ++i)
+        {
+            lhs += std::to_string(rand_between(0, 9));
+        }
+        for (int i = 0; i < rhs_numOfDigits; i++)
+        {
+            rhs += std::to_string(rand_between(0, 9));
+        }
+
+        // Make number and op nodes
+        Interface* LHS = new NumberNode(std::stod(lhs));
+        Interface* RHS = new NumberNode(std::stod(rhs));
+        Interface* Op = new OperatorNode(op, LHS, RHS);
+
+        // tess addition
         if (op == 1)
         {   if (LHS->evaluate() + RHS->evaluate() == Op->evaluate() && RHS->evaluate() + LHS->evaluate() == Op->evaluate())
                 ++pass;
@@ -46,6 +54,7 @@ void Test::testOps()
                 ++fail;
             }
         }
+        // test subtraction
         if (op == 2)
         {
             if (LHS->evaluate() - RHS->evaluate() == Op->evaluate() && (RHS->evaluate() - LHS->evaluate()) * -1 == Op->evaluate()
@@ -57,6 +66,7 @@ void Test::testOps()
                 ++fail;
             }
         }
+        // test multiplication
         if (op == 3)
         {
             if (LHS->evaluate() * RHS->evaluate() == Op->evaluate() && RHS->evaluate() * LHS->evaluate() == Op->evaluate())
@@ -67,6 +77,7 @@ void Test::testOps()
                 ++fail;
             }
         }
+        // test division
         if (op == 4 && RHS->evaluate() != 0)
         {
             if (LHS->evaluate() / RHS->evaluate() == Op->evaluate())
@@ -77,6 +88,7 @@ void Test::testOps()
                 ++fail;   
             }
         }
+        delete LHS, RHS, Op;
     }
     std::cout << "\n********************************************************\n";
     std::cout << "Running "<< _numOfTests << " Operator Tests . . .\n";
@@ -89,7 +101,7 @@ void Test::testOps()
     else std::cerr << "Error with Operator testing, not all tests ran\n";
     std::cout << "********************************************************\n";
 
-    delete LHS, RHS, Op;
+    
 }
 
 void Test::testTokenizer()
