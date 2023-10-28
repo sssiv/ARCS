@@ -15,7 +15,7 @@ double OperatorNode::evaluate()
     {
         if (right->evaluate() == 0)
         {
-            std::cerr <<  "Error: Cannot divide by 0\n";
+            //std::cerr <<  "Error: Cannot divide by 0\n";
             return std::nan("");
         }
         else

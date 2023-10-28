@@ -17,10 +17,10 @@ private:
     int rand_between(const int&, const int&);
 
     void testOps();
+    void testAST();
     void testTokenizer();
     void testParser();
-    void testAST();
-
+    
 public:
     Test();
     double evaluate() override;

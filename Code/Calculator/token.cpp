@@ -94,7 +94,7 @@ Token* Tokenizer::getNextToken()
     // End of expression reached
     else if (_currentPos == _expression.size())
     {
-        std::cerr << "All tokens accounted for\n";
+        //std::cerr << "All tokens accounted for\n";
         return new Token(Tokens::STOP, -1);
     }
     return new Token(Tokens::STOP, -1);

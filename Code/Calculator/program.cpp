@@ -2,7 +2,9 @@
 
 // Program object is made, and program 
 // doesnt continue until it gets uers input
-Program::Program()
+Program::Program() {}
+
+double Program::evaluate()
 {
     std::cout << "Enter an expression: ";
     std::getline(std::cin, _expression);
@@ -11,10 +13,7 @@ Program::Program()
     _Tokenizer = new Tokenizer(_expression);
     _Parser = new Parser(_Tokenizer);
     _Result = _Parser->parse();
-}
 
-double Program::evaluate()
-{
     if (_Result != nullptr)
     {
         if (!std::isnan(_Result->evaluate()))
