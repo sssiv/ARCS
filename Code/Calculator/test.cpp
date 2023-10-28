@@ -270,7 +270,8 @@ void Test::testTokenizer()
 
 void Test::testParser()
 {
-     for (int i = 0; i < _numOfTests; ++i)
+    int counter = 0;
+    for (int i = 0; i < _numOfTests; ++i)
     {         
         // length of number
         int lhs_numOfDigits = rand_between(1, 5);
@@ -282,37 +283,57 @@ void Test::testParser()
         std::string rhs = "";
         std::string result = "";
     
-            // Random digits chosen for each num
-            for (int i = 0; i < lhs_numOfDigits; ++i)
-            {
-                lhs += std::to_string(rand_between(0, 9));
-            }
-            for (int i = 0; i < rhs_numOfDigits; i++)
-            {
-                rhs += std::to_string(rand_between(0, 9));
-            }
+        // Random digits chosen for each num
+        for (int i = 0; i < lhs_numOfDigits; ++i)
+        {
+            lhs += std::to_string(rand_between(0, 9));
+        }
+        for (int i = 0; i < rhs_numOfDigits; i++)
+        {
+            rhs += std::to_string(rand_between(0, 9));
+        }
 
-            if (op == 1)
-            {  
-                result = lhs + '+' + rhs;
-            }
-            if (op == 2)
-            {
-                result = lhs + '-' + rhs;
-            }
-            if (op == 3)
-            {
-                result = lhs + '*' + rhs;
-            }
-            if (op == 4)
-            {
-                result = lhs + '/' + rhs;
-            }
+        if (op == 1)
+        {  
+            result = lhs + '+' + rhs;
+        }
+        if (op == 2)
+        {
+            result = lhs + '-' + rhs;
+        }
+        if (op == 3)
+        {
+            result = lhs + '*' + rhs;
+        }
+        if (op == 4)
+        {
+            result = lhs + '/' + rhs;
+        }
 
-            _Tokenizer = new Tokenizer(result);
-            _Parser = new Parser(_Tokenizer);
-
+        _Tokenizer = new Tokenizer(result);
+        _Parser = new Parser(_Tokenizer);
+        if (_Parser->parse() != nullptr) 
+        {
+            ++_pass;
+            ++counter;
+        }
+        else 
+        {
+            ++_fail;
+            ++counter;
+        }
+        delete _Tokenizer, _Parser;
     }
+    std::cout << "\n********************************************************\n";
+    std::cout << "Running "<< _numOfTests << " Parser Tests . . .\n";
+    if (_pass + _fail == _numOfTests)
+    {
+        std::cout << "All tests ran\n";
+        std::cout << "Successes: " << _pass << "\n";
+        std::cout << "Failures: " << _fail << "\n";
+    }
+    else std::cerr << "Error with Parser testing\n" << counter << " tests ran\n";
+    std::cout << "********************************************************\n";
 }
 
 // Still need to test expression, term, factor
@@ -429,6 +450,7 @@ double Test::evaluate()
     //testOps();
     //testAST();
     testTokenizer();
+    //testParser();
     return 0.0;
 }
 
