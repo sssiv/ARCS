@@ -13,13 +13,13 @@ Token::Token(const Tokens& t, const double& v) : token(t), value(v) {}
 /********************************************************************************************************************/
 
 // replaces std::isdigit so that I can use my tokens instead
-bool Tokenizer::isNumber(char c)
+bool Tokenizer::isNumber(const char& c)
 {
-    if (c == TokenChar::zero || c == TokenChar::one 
-        || c == TokenChar::two || c == TokenChar::three 
-        || c == TokenChar::four || c == TokenChar::five
-        || c == TokenChar::six || c == TokenChar::seven 
-        || c == TokenChar::eight || c == TokenChar::nine)
+    if (c == Token::TokenChar::zero || c == Token::TokenChar::one 
+        || c == Token::TokenChar::two || c == Token::TokenChar::three 
+        || c == Token::TokenChar::four || c == Token::TokenChar::five
+        || c == Token::TokenChar::six || c == Token::TokenChar::seven 
+        || c == Token::TokenChar::eight || c == Token::TokenChar::nine)
         return true;
     return false;
 }
@@ -75,28 +75,28 @@ Token* Tokenizer::getNextToken()
 
     /* Checking for Math operators */
     // Plus
-    if (_expression[_currentPos] == TokenChar::plus)
+    if (_expression[_currentPos] == Token::TokenChar::plus)
     {
         ++_currentPos;
         return new Token(Tokens::PLUS, 1);
     }
 
     //Minus
-    else if (_expression[_currentPos] == TokenChar::minus)
+    else if (_expression[_currentPos] == Token::TokenChar::minus)
     {
         ++_currentPos;
         return new Token(Tokens::MINUS, 2);
     }
 
     // Multiply
-    else if (_expression[_currentPos] == TokenChar::multiply)
+    else if (_expression[_currentPos] == Token::TokenChar::multiply)
     {
         ++_currentPos;
         return new Token(Tokens::MULTIPLY, 3);
     }
 
     // Divide 
-    else if (_expression[_currentPos] == TokenChar::divide)
+    else if (_expression[_currentPos] == Token::TokenChar::divide)
     {
         ++_currentPos;
         return new Token(Tokens::DIVIDE, 4);
@@ -104,14 +104,14 @@ Token* Tokenizer::getNextToken()
 
     /* Checking for Symbols */
     // (
-    if (_expression[_currentPos] == TokenChar::leftParth)
+    if (_expression[_currentPos] == Token::TokenChar::leftParth)
     {
         ++_currentPos;
         return new Token(Tokens::LPARTH, 5);
     }
 
     // )
-    else if (_expression[_currentPos] == TokenChar::rightParth)
+    else if (_expression[_currentPos] == Token::TokenChar::rightParth)
     {
         ++_currentPos;
         return new Token(Tokens::RPARTH, 6);
