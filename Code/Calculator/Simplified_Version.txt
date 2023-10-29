@@ -1,9 +1,7 @@
-interface->number->op->ast->token->parser->main
+// interface->number->op->ast->token->parser->test->program
 
 #include <iostream>
 #include <string>
-#include <stack>
-#include <cctype>
 #include <cmath>
 
 using namespace std;
@@ -12,10 +10,8 @@ using namespace std;
 enum class TokenType 
 {
     NUMBER,
-    PLUS,
-    MINUS,
-    LPAREN,
-    RPAREN,
+    PLUS, MINUS,
+    LPAREN, RPAREN,
     END
 };
 
@@ -25,7 +21,7 @@ struct Token
     TokenType type;
     double value;
 
-    Token(TokenType t, double v = 0) : type(t), value(v) {}
+    Token(TokenType t, double v) : type(t), value(v) {}
 };
 
 class Tokenizer 
@@ -44,7 +40,7 @@ public:
         // Means theres no input, just white spaces
         if (current_ >= input_.size()) 
         {
-            return Token(TokenType::END);
+            return Token(TokenType::END, -1);
         }
 
         // Looking at each individual character in expression input
@@ -100,14 +96,14 @@ private:
 class Parser 
 {
 public:
-    Parser(Tokenizer& tokenizer) : tokenizer_(tokenizer), currentToken_(TokenType::END) {}
+    Parser(Tokenizer& tokenizer) : tokenizer_(tokenizer), currentToken_(TokenType::END, -1) {}
 
     double parse() 
     {
         // Current Token is now the next token
         advanceToken();
         
-        double result = expression();
+        double result = expression();  // <- left off here 1
         if (currentToken_.type != TokenType::END) 
         {
             cerr << "Unexpected token." << endl;
@@ -119,7 +115,7 @@ public:
 private:
     double expression() 
     {
-        double left = term();
+        double left = term(); 
         while (currentToken_.type == TokenType::PLUS || currentToken_.type == TokenType::MINUS) 
         {
             TokenType op = currentToken_.type;

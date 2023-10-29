@@ -84,6 +84,12 @@ Interface *ASTNode::ops(Interface* left, const int& id)
             nextToken();
             Interface* right;
             id ? right = factor() : right = term();
+            if (right->evaluate() == 0 && op == 4)
+            {
+                std::cerr << "Error: Cannot divide by zero\n";
+                return nullptr;
+            }
+            
             left = intOperator(op, left, right);
         }
     }
@@ -93,11 +99,7 @@ Interface *ASTNode::ops(Interface* left, const int& id)
 void ASTNode::getTokens(Tokenizer* tokenizer) {_tokenizer = tokenizer;}
 
 // advance to the next token
-void ASTNode::nextToken() 
-{
-    //delete _currentToken;
-    _currentToken = _tokenizer->getNextToken();
-}
+//void ASTNode::nextToken() { _currentToken = _tokenizer->getNextToken();}
 
 bool ASTNode::stopCheck() {return _currentToken == nullptr || _currentToken->getToken() == Tokens::STOP;}
 

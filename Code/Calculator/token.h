@@ -1,7 +1,7 @@
 #pragma once
 
-//#include "ast.h"
-#include "op.h"
+#include <string>
+#include <iostream>
 
 // List of all tokens
 enum class Tokens 
@@ -10,6 +10,28 @@ enum class Tokens
     PLUS, MINUS, MULTIPLY, DIVIDE, 
     LPARTH, RPARTH, 
     STOP
+};
+
+// All the characters for each token except stop
+struct TokenChar
+{
+    static inline const char zero = '0';
+    static inline const char one = '1';
+    static inline const char two = '2';
+    static inline const char three = '3';
+    static inline const char four = '4';
+    static inline const char five = '5';
+    static inline const char six = '6';
+    static inline const char seven = '7';
+    static inline const char eight = '8';
+    static inline const char nine = '9';
+
+    static inline const char plus = '+';
+    static inline const char minus = '-';
+    static inline const char multiply = '*';
+    static inline const char divide = '/';
+    static inline const char leftParth = '(';
+    static inline const char rightParth = ')';
 };
 
 // Current Token Holder
@@ -21,10 +43,11 @@ private:
 
 public:
     Token();
+    // Does this constructor need to be 'explicit' ?
     Token(const Tokens&, const double&);  // Takes in Tokens/enum and its value
 
-    double getValue();
-    Tokens getToken();
+    inline double getValue() {return value;};
+    inline Tokens getToken() {return token;};
 };
 
 // Holds the input expression
@@ -34,6 +57,8 @@ class Tokenizer
 private:
     const std::string& _expression;     // The overall input expression
     size_t _currentPos;                 // Counter as we itr through the expression
+
+    bool isNumber(char);
 
 public:
     Tokenizer(const std::string&);      // A Parser object will take in the token class with the expression

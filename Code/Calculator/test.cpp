@@ -237,6 +237,7 @@ void Test::testTokenizer()
         else
         {
             std::cerr << '\n';
+            std::cerr << "Failed Test: #" << counter << '\n';
             std::cerr << "Expression: "<< result << "       Index: " << index << "          Expected Token: " << result[index] <<'\n';
             if (token->getToken() == Tokens::PLUS) std::cerr << "Current Token:  +\n";
             else if (token->getToken() == Tokens::MINUS) std::cerr << "Current Token:  -\n";
@@ -251,7 +252,6 @@ void Test::testTokenizer()
             ++_fail;
             ++counter;
         }
-
         delete token;
     }
     
@@ -449,7 +449,7 @@ double Test::evaluate()
 {
     //testOps();
     //testAST();
-    testTokenizer();
+    //testTokenizer();
     //testParser();
     return 0.0;
 }

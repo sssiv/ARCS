@@ -1,7 +1,11 @@
 #pragma once
 
-//#include "op.h"
+
 #include "token.h"
+#include "op.h"
+#include "number.h"
+//#include "interface"
+//#include <iostream>
 
 // holds nodes
 class ASTNode
@@ -21,7 +25,7 @@ public:
     Interface* ops(Interface*, const int&);     // Operator    ::= {"+" | "-" | "*" | "/"}
 
     void getTokens(Tokenizer*);
-    void nextToken();       // Initializes current token to the next
+    inline void nextToken() { _currentToken = _tokenizer->getNextToken();};       // Initializes current token to the next. Should I keep inline?
     bool stopCheck();
     ~ASTNode();
 };

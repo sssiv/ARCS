@@ -1,6 +1,7 @@
 #pragma once
 
-#include "number.h"
+#include "interface.h"
+#include <cmath>
 
 class OperatorNode : public Interface
 {

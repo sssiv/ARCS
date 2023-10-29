@@ -1,9 +1,5 @@
 #pragma once
 
-#include <iostream>
-#include <string>
-#include <cmath>
-
 class Interface
 {
 public:

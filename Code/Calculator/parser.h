@@ -10,6 +10,7 @@ private:
     ASTNode* AST;
     
 public:
+    // Does this constructor need to be 'explicit' ?
     Parser(Tokenizer*);
     Interface* parse();   // Runs parser
     ~Parser();
