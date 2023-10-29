@@ -12,9 +12,6 @@ enum class Tokens
     STOP
 };
 
-// All the characters for each token except stop
-
-
 // Current Token Holder
 class Token
 {
@@ -30,7 +27,7 @@ public:
     inline double getValue() {return value;};
     inline Tokens getToken() {return token;};
 
-    // each tokens character
+    // All the characters for each token except stop
     // If theres issues, just make this struct seperate from any class
     struct TokenChar
     {

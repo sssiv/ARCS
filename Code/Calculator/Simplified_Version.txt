@@ -1,5 +1,21 @@
-// interface->number->op->ast->token->parser->test->program
+// Used to be --- interface->number->op->ast->token->parser->test->program
 
+///////////////////////////////////////////////////////////////////
+//interface
+//op-> interface, cmath
+//num-> interface
+
+//Token-> string, iostream
+
+//AST-> token, op, num (interface circular dependancy)
+
+//Parser-> ast
+
+//Test-> parser, random, chrono
+//Program-> test
+
+//main-> program
+///////////////////////////////////////////////////////////////////
 #include <iostream>
 #include <string>
 #include <cmath>
