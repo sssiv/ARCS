@@ -14,9 +14,11 @@ int Test::rand_between(const int& from, const int& to)
 // Expression generator
 std::string Test::randomExpression()
 {
-    // length of number
+    // length of each number
     int lhs_numOfDigits = rand_between(1, 5);
     int rhs_numOfDigits = rand_between(1, 5);
+
+    // choses random operator 
     int op = rand_between(1, 4);
 
     // left-hand side, Right-hand side, overall result nums
@@ -31,7 +33,7 @@ std::string Test::randomExpression()
         rhs += std::to_string(rand_between(0, 9));
     bool exp = rand_between(0, 1);
 
-    // picks op and puts in expression
+    // makes expression in parths
     if (exp)
     {  
         // randomly chosen an op
@@ -45,14 +47,16 @@ std::string Test::randomExpression()
             result = Token::TokenChar::leftParth + lhs + Token::TokenChar::divide + rhs + Token::TokenChar::rightParth;
         exp = rand_between(0, 1);
     }
-    // randomly chosen an op
+    // makes expression w/o parths
     else if (!exp)
     { 
         if (op == 1) result = lhs + Token::TokenChar::plus + rhs;
         if (op == 2) result = lhs + Token::TokenChar::minus + rhs;
         if (op == 3) result = lhs + Token::TokenChar::multiply + rhs;
         if (op == 4) result = lhs + Token::TokenChar::divide + rhs;
-    }    
+    }
+
+    if (result == "") return "An expression was not generated.";   
     return result;
 }
 
@@ -96,6 +100,8 @@ void Test::testOps()
                 ++_pass;
             else 
             {
+                std::cerr << "Operator Test Failure\n";
+                std::cerr << "Test #" << counter << "\n";   
                 std::cerr << "Addition test Failure\n";
                 ++_fail;
             }
@@ -114,6 +120,8 @@ void Test::testOps()
                 ++_pass;
             else
             {
+                std::cerr << "Operator Test Failure\n";
+                std::cerr << "Test #" << counter << "\n";
                 std::cerr << "Subtraction test Failure\n";
                 ++_fail;
             }
@@ -127,7 +135,9 @@ void Test::testOps()
             if (LHS->evaluate() * RHS->evaluate() == Op->evaluate() && RHS->evaluate() * LHS->evaluate() == Op->evaluate())
                 ++_pass;
             else
-            {   
+            { 
+                std::cerr << "Operator Test Failure\n";
+                std::cerr << "Test #" << counter << "\n";  
                 std::cerr << "Multiplication test Failure\n";
                 ++_fail;
             }
@@ -146,7 +156,9 @@ void Test::testOps()
             else if (LHS->evaluate() / RHS->evaluate() == Op->evaluate())
                 ++_pass;
             else
-            {
+            {                
+                std::cerr << "Operator Test Failure\n";
+                std::cerr << "Test #" << counter << "\n";
                 std::cerr << "Division test Failure\n";
                 ++_fail;   
             }
@@ -159,7 +171,7 @@ void Test::testOps()
     std::cout << "Running "<< _numOfTests << " Operator Tests . . .\n";
     if (_pass + _fail == _numOfTests)
     {
-        std::cout << "All tests ran\n";
+        std::cout << "All tests completed\n";
         std::cout << "Successes: " << _pass << "\n";
         std::cout << "Failures: " << _fail << "\n";
     }
@@ -173,56 +185,68 @@ void Test::testTokenizer()
 {
     int counter = 0;
     for (int i = 0; i < _numOfTests; ++i)
-    {         
-        // length of number
-        int lhs_numOfDigits = rand_between(1, 5);
-        int rhs_numOfDigits = rand_between(1, 5);
-        int op = rand_between(1, 4);
-        std::string result = randomExpression();
+    {        
+        // random expression generated
+        std::string expression = randomExpression();
 
-        _Tokenizer = new Tokenizer(result);
+        // expression is passed in tokenizer
+        _Tokenizer = new Tokenizer(expression);
         Token* token = new Token;
 
-        int index = rand_between(0, lhs_numOfDigits + rhs_numOfDigits);
-        for (int i = 0; i < index; ++i) 
-            token = _Tokenizer->getNextToken();
+        // randomly chose an index and see if the token matches
+        int index = rand_between(0, expression.size());
 
-        if (token->getToken() == Tokens::PLUS && result[index] == Token::TokenChar::plus)
+        // itr through expression until token is reached
+        for (int i = 0; i < index; ++i) 
+        {
+            // Needs to account for long digits?
+            token = _Tokenizer->getNextToken();
+        }
+
+        // plus token check
+        if (token->getToken() == Tokens::PLUS && expression[index] == Token::TokenChar::plus)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::MINUS && result[index] == Token::TokenChar::minus)
+        // minus token check
+        else if (token->getToken() == Tokens::MINUS && expression[index] == Token::TokenChar::minus)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::MULTIPLY && result[index] == Token::TokenChar::multiply)
+        // multiply token check
+        else if (token->getToken() == Tokens::MULTIPLY && expression[index] == Token::TokenChar::multiply)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::DIVIDE && result[index] == Token::TokenChar::divide)
+        // divide token check
+        else if (token->getToken() == Tokens::DIVIDE && expression[index] == Token::TokenChar::divide)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::LPARTH && result[index] == Token::TokenChar::leftParth)
+        // left parth token check
+        else if (token->getToken() == Tokens::LPARTH && expression[index] == Token::TokenChar::leftParth)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::RPARTH && result[index] == Token::TokenChar::rightParth)
+        // right parth token check
+        else if (token->getToken() == Tokens::RPARTH && expression[index] == Token::TokenChar::rightParth)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::STOP && index == result.size())
+        // end of expression token check
+        else if (token->getToken() == Tokens::STOP && index == expression.size())
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::NUMBER && std::isdigit(result[index]))
+        // integer token check
+        else if (token->getToken() == Tokens::NUMBER && std::isdigit(expression[index]))
         {
             ++_pass;
             ++counter;
@@ -230,13 +254,14 @@ void Test::testTokenizer()
         else
         {
             std::cerr << '\n';
-            std::cerr << "Failed Test: #" << counter << '\n';
-            std::cerr << "Expression: "<< result << "       Index: " << index << "          Expected Token: " << result[index] <<'\n';
+            std::cerr << "Token Test Failure\n";
+            std::cerr << "Test #" << counter << '\n';
+            std::cerr << "Expression: "<< expression << "       Index: " << index << "          Expected Token: " << expression[index] <<'\n';
             if (token->getToken() == Tokens::PLUS) std::cerr << "Current Token:  " << Token::TokenChar::plus << "\n";
             else if (token->getToken() == Tokens::MINUS) std::cerr << "Current Token:  " << Token::TokenChar::minus << "\n";
             else if (token->getToken() == Tokens::MULTIPLY) std::cerr << "Current Token:  " << Token::TokenChar::multiply << "\n";
             else if (token->getToken() == Tokens::DIVIDE) std::cerr << "Current Token:  " << Token::TokenChar::divide << "\n";
-            else if (token->getToken() == Tokens::NUMBER) std::cerr << "Current Token:  " << Token::TokenChar::zero << "-" << Token::TokenChar::nine << "\n";
+            else if (token->getToken() == Tokens::NUMBER) std::cerr << "Current Token:  " << token->getValue() << "\n";
             else if (token->getToken() == Tokens::LPARTH) std::cerr << "Current Token:  " << Token::TokenChar::leftParth << "\n";
             else if (token->getToken() == Tokens::RPARTH) std::cerr << "Current Token:  " << Token::TokenChar::rightParth << "\n";
             else if (token->getToken() == Tokens::STOP) std::cerr << "Current Token:  STOP\n";
@@ -253,7 +278,7 @@ void Test::testTokenizer()
     std::cout << "Running "<< _numOfTests << " Token Tests . . .\n";
     if (_pass + _fail == _numOfTests)
     {
-        std::cout << "All tests ran\n";
+        std::cout << "All tests completed\n";
         std::cout << "Successes: " << _pass << "\n";
         std::cout << "Failures: " << _fail << "\n";
     }
@@ -266,9 +291,9 @@ void Test::testParser()
     int counter = 0;
     for (int i = 0; i < _numOfTests; ++i)
     {    
-        std::string result = randomExpression();     
+        std::string expression = randomExpression();     
 
-        _Tokenizer = new Tokenizer(result);
+        _Tokenizer = new Tokenizer(expression);
         _Parser = new Parser(_Tokenizer);
         if (_Parser->parse() != nullptr) 
         {
@@ -277,6 +302,8 @@ void Test::testParser()
         }
         else 
         {
+            std::cerr << "Test #" << counter << '\n';
+            std::cerr << "Expression: " << expression << " failed\n";
             ++_fail;
             ++counter;
         }
@@ -286,7 +313,7 @@ void Test::testParser()
     std::cout << "Running "<< _numOfTests << " Parser Tests . . .\n";
     if (_pass + _fail == _numOfTests)
     {
-        std::cout << "All tests ran\n";
+        std::cout << "All tests completed\n";
         std::cout << "Successes: " << _pass << "\n";
         std::cout << "Failures: " << _fail << "\n";
     }
@@ -331,6 +358,8 @@ void Test::testAST()
                 ++_pass;
             else 
             {
+                std::cerr << "AST Test Failure\n";
+                std::cerr << "Test #" << counter << "\n";   
                 std::cerr << "Addition test Failure\n";
                 ++_fail;
             }
@@ -344,6 +373,8 @@ void Test::testAST()
                 ++_pass;
             else
             {
+                std::cerr << "AST Test Failure\n";
+                std::cerr << "Test #" << counter << "\n";
                 std::cerr << "Subtraction test Failure\n";
                 ++_fail;
             }
@@ -355,7 +386,9 @@ void Test::testAST()
             if (LHS->evaluate() * RHS->evaluate() == Op->evaluate() && RHS->evaluate() * LHS->evaluate() == Op->evaluate())
                 ++_pass;
             else
-            {   
+            {
+                std::cerr << "AST Test Failure\n";
+                std::cerr << "Test #" << counter << "\n";   
                 std::cerr << "Multiplication test Failure\n";
                 ++_fail;
             }
@@ -375,6 +408,8 @@ void Test::testAST()
                 ++_pass;
             else
             {
+                std::cerr << "AST Test Failure\n";
+                std::cerr << "Test #" << counter << "\n";   
                 std::cerr << "Division test Failure\n";
                 ++_fail;   
             }

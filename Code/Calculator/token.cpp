@@ -33,6 +33,17 @@ bool Tokenizer::isNumber(const char& c)
     }
 }
 
+bool Tokenizer::isOperator(const char& c)
+{
+    return c == Token::TokenChar::plus || c == Token::TokenChar::minus
+        || c == Token::TokenChar::multiply || c == Token::TokenChar::divide;
+}
+
+bool Tokenizer::isParth(const char& c)
+{
+    return c == Token::TokenChar::leftParth || c == Token::TokenChar::rightParth;
+}
+
 // Default Constructor - Takes in the expression
 Tokenizer::Tokenizer(const std::string& input) : _expression(input), _currentPos(0) {}
 
@@ -54,7 +65,6 @@ Token* Tokenizer::getNextToken()
     // Takes in digit, 
     // stores its value 
     // returns it via Token struct
-
     // Something is wrong in this loop
     // Tests made me look at it
     // isNumber(_expression[_currentPos]), std::isdigit(_expression[_currentPos])
@@ -62,16 +72,17 @@ Token* Tokenizer::getNextToken()
     while (isNumber(_expression[_currentPos]) || _expression[_currentPos] == '.')
     {
         std::string digit;
-        while (_currentPos < _expression.size() && (isNumber(_expression[_currentPos]) || (_expression[_currentPos] == '.' && !decimal)) )
+        // doesnt seem to work
+        // if (decimal)
+        // {
+        //     std::cerr << "Multiple decimals found. Can only have one\n";
+        //     return new Token(Tokens::STOP, -1);
+        // }
+        while (_currentPos < _expression.size() && (isNumber(_expression[_currentPos]) 
+            || (_expression[_currentPos] == '.' && !decimal)) )
         {
             if (_expression[_currentPos] == '.')
             {
-                // doesnt seem to work
-                // if (decimal)
-                // {
-                //     std::cerr << "Multiple decimals found. Can only have one\n";
-                //     return new Token(Tokens::STOP, -1);
-                // }
                 decimal = true;
             }
             digit += _expression[_currentPos];
@@ -80,48 +91,54 @@ Token* Tokenizer::getNextToken()
         return new Token(Tokens::NUMBER, std::stod(digit));
     }
 
-    /* Checking for Math operators */
-    // Plus
-    if (_expression[_currentPos] == Token::TokenChar::plus)
+    // Checking for Math operators 
+    if (isOperator(_expression[_currentPos]))
     {
-        ++_currentPos;
-        return new Token(Tokens::PLUS, 1);
+        // Plus
+        if (_expression[_currentPos] == Token::TokenChar::plus)
+        {
+            ++_currentPos;
+            return new Token(Tokens::PLUS, 1);
+        }
+
+        //Minus
+        else if (_expression[_currentPos] == Token::TokenChar::minus)
+        {
+            ++_currentPos;
+            return new Token(Tokens::MINUS, 2);
+        }
+
+        // Multiply
+        else if (_expression[_currentPos] == Token::TokenChar::multiply)
+        {
+            ++_currentPos;
+            return new Token(Tokens::MULTIPLY, 3);
+        }
+
+        // Divide 
+        else if (_expression[_currentPos] == Token::TokenChar::divide)
+        {
+            ++_currentPos;
+            return new Token(Tokens::DIVIDE, 4);
+        }
     }
 
-    //Minus
-    else if (_expression[_currentPos] == Token::TokenChar::minus)
+    //Checking for parentheses
+    if (isParth(_expression[_currentPos]))
     {
-        ++_currentPos;
-        return new Token(Tokens::MINUS, 2);
-    }
+        // (
+        if (_expression[_currentPos] == Token::TokenChar::leftParth)
+        {
+            ++_currentPos;
+            return new Token(Tokens::LPARTH, 5);
+        }
 
-    // Multiply
-    else if (_expression[_currentPos] == Token::TokenChar::multiply)
-    {
-        ++_currentPos;
-        return new Token(Tokens::MULTIPLY, 3);
-    }
-
-    // Divide 
-    else if (_expression[_currentPos] == Token::TokenChar::divide)
-    {
-        ++_currentPos;
-        return new Token(Tokens::DIVIDE, 4);
-    }
-
-    /* Checking for Symbols */
-    // (
-    if (_expression[_currentPos] == Token::TokenChar::leftParth)
-    {
-        ++_currentPos;
-        return new Token(Tokens::LPARTH, 5);
-    }
-
-    // )
-    else if (_expression[_currentPos] == Token::TokenChar::rightParth)
-    {
-        ++_currentPos;
-        return new Token(Tokens::RPARTH, 6);
+        // )
+        else if (_expression[_currentPos] == Token::TokenChar::rightParth)
+        {
+            ++_currentPos;
+            return new Token(Tokens::RPARTH, 6);
+        }
     }
     
     // End of expression reached

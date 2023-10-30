@@ -35,23 +35,23 @@ public:
     // All the characters for each token except stop
     struct TokenChar
     {
-        static inline const char zero = '0';
-        static inline const char one = '1';
-        static inline const char two = '2';
-        static inline const char three = '3';
-        static inline const char four = '4';
-        static inline const char five = '5';
-        static inline const char six = '6';
-        static inline const char seven = '7';
-        static inline const char eight = '8';
-        static inline const char nine = '9';
+        static constexpr char const zero = '0';
+        static constexpr char const one = '1';
+        static constexpr char const two = '2';
+        static constexpr char const three = '3';
+        static constexpr char const four = '4';
+        static constexpr char const five = '5';
+        static constexpr char const six = '6';
+        static constexpr char const seven = '7';
+        static constexpr char const eight = '8';
+        static constexpr char const nine = '9';
 
-        static inline const char plus = '+';
-        static inline const char minus = '-';
-        static inline const char multiply = '*';
-        static inline const char divide = '/';
-        static inline const char leftParth = '(';
-        static inline const char rightParth = ')';
+        static constexpr char const plus = '+';
+        static constexpr char const minus = '-';
+        static constexpr char const multiply = '*';
+        static constexpr char const divide = '/';
+        static constexpr char const leftParth = '(';
+        static constexpr char const rightParth = ')';
     } TokenList;
 };
 
@@ -66,6 +66,12 @@ private:
     // used to check if the current index in 
     // the expression string in a number
     bool isNumber(const char&);
+
+    //Checking if we are currently looking at an operator
+    bool isOperator(const char&);
+
+    // Checking if we are looking at any parentheses
+    bool isParth(const char&);
 
 public:
     // A Parser object will take in the token class with the expression
