@@ -15,13 +15,22 @@ Token::Token(const Tokens& t, const double& v) : token(t), value(v) {}
 // replaces std::isdigit so that I can use my tokens instead
 bool Tokenizer::isNumber(const char& c)
 {
-    if (c == Token::TokenChar::zero || c == Token::TokenChar::one 
-        || c == Token::TokenChar::two || c == Token::TokenChar::three 
-        || c == Token::TokenChar::four || c == Token::TokenChar::five
-        || c == Token::TokenChar::six || c == Token::TokenChar::seven 
-        || c == Token::TokenChar::eight || c == Token::TokenChar::nine)
-        return true;
-    return false;
+    switch (c) 
+    {
+        case Token::TokenChar::zero:
+        case Token::TokenChar::one:
+        case Token::TokenChar::two:
+        case Token::TokenChar::three:
+        case Token::TokenChar::four:
+        case Token::TokenChar::five:
+        case Token::TokenChar::six:
+        case Token::TokenChar::seven:
+        case Token::TokenChar::eight:
+        case Token::TokenChar::nine:
+            return true;
+        default:
+            return false;
+    }
 }
 
 // Default Constructor - Takes in the expression
@@ -68,9 +77,7 @@ Token* Tokenizer::getNextToken()
             digit += _expression[_currentPos];
             ++_currentPos;
         }
-        
-        double value = std::stod(digit);
-        return new Token(Tokens::NUMBER, value);
+        return new Token(Tokens::NUMBER, std::stod(digit));
     }
 
     /* Checking for Math operators */
@@ -120,7 +127,7 @@ Token* Tokenizer::getNextToken()
     // End of expression reached
     else if (_currentPos == _expression.size())
     {
-        //std::cerr << "All tokens accounted for\n";
+        //std::cout << "All tokens accounted for\n";
         return new Token(Tokens::STOP, -1);
     }
     return new Token(Tokens::STOP, -1);

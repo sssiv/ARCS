@@ -4,6 +4,7 @@
 #include <random>
 #include <chrono>
 
+// Test runner class, inherits Interface
 class Test : public Interface
 {
 private:
@@ -16,9 +17,19 @@ private:
     int _fail;
     int rand_between(const int&, const int&);
 
+    // Expression generator
+    std::string randomExpression();
+
+    // Test node classes
     void testOps();
+
+    // uses AST to test input
     void testAST();
+
+    // Tests tokenizing results
     void testTokenizer();
+
+    // Tests the running result of the parser
     void testParser();
     
 public:

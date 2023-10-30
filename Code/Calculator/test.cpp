@@ -11,7 +11,52 @@ int Test::rand_between(const int& from, const int& to)
     return dist(gen);
 }
 
-// Expression testing needs to be implimented 
+// Expression generator
+std::string Test::randomExpression()
+{
+    // length of number
+    int lhs_numOfDigits = rand_between(1, 5);
+    int rhs_numOfDigits = rand_between(1, 5);
+    int op = rand_between(1, 4);
+
+    // left-hand side, Right-hand side, overall result nums
+    std::string lhs = "";
+    std::string rhs = "";
+    std::string result = "";
+    
+    // Random digits chosen for each num
+    for (int i = 0; i < lhs_numOfDigits; ++i)
+        lhs += std::to_string(rand_between(0, 9));
+    for (int i = 0; i < rhs_numOfDigits; i++)
+        rhs += std::to_string(rand_between(0, 9));
+    bool exp = rand_between(0, 1);
+
+    // picks op and puts in expression
+    if (exp)
+    {  
+        // randomly chosen an op
+        if (op == 1)
+            result = Token::TokenChar::leftParth + lhs + Token::TokenChar::plus + rhs + Token::TokenChar::rightParth;
+        if (op == 2) 
+            result = Token::TokenChar::leftParth + lhs + Token::TokenChar::minus + rhs + Token::TokenChar::rightParth;
+        if (op == 3) 
+            result = Token::TokenChar::leftParth + lhs + Token::TokenChar::multiply + rhs + Token::TokenChar::rightParth;
+        if (op == 4) 
+            result = Token::TokenChar::leftParth + lhs + Token::TokenChar::divide + rhs + Token::TokenChar::rightParth;
+        exp = rand_between(0, 1);
+    }
+    // randomly chosen an op
+    else if (!exp)
+    { 
+        if (op == 1) result = lhs + Token::TokenChar::plus + rhs;
+        if (op == 2) result = lhs + Token::TokenChar::minus + rhs;
+        if (op == 3) result = lhs + Token::TokenChar::multiply + rhs;
+        if (op == 4) result = lhs + Token::TokenChar::divide + rhs;
+    }    
+    return result;
+}
+
+// Expression testing needs to be implimented
 void Test::testOps()
 {
     // pass/fail count
@@ -33,13 +78,9 @@ void Test::testOps()
 
         // Random digits chosen for each num
         for (int i = 0; i < lhs_numOfDigits; ++i)
-        {
             lhs += std::to_string(rand_between(0, 9));
-        }
         for (int i = 0; i < rhs_numOfDigits; i++)
-        {
             rhs += std::to_string(rand_between(0, 9));
-        }
 
         // Make number and op nodes
         Interface* LHS = new NumberNode(std::stod(lhs));
@@ -47,8 +88,11 @@ void Test::testOps()
         Interface* Op = new OperatorNode(op, LHS, RHS);
 
         // tess addition
+        // A + B == properally operated
+        // A + B == B + A
         if (op == 1)
-        {   if (LHS->evaluate() + RHS->evaluate() == Op->evaluate() && RHS->evaluate() + LHS->evaluate() == Op->evaluate())
+        {   
+            if (LHS->evaluate() + RHS->evaluate() == Op->evaluate() && RHS->evaluate() + LHS->evaluate() == Op->evaluate())
                 ++_pass;
             else 
             {
@@ -58,10 +102,15 @@ void Test::testOps()
             ++counter;
         }
         // test subtraction
+        // A - B == properally operated
+        // B - A == (A - B) * -1
+        // if (A and B are not 0 &&  A != B) then A - B != B - A
         if (op == 2)
         {
-            if (LHS->evaluate() - RHS->evaluate() == Op->evaluate() && (RHS->evaluate() - LHS->evaluate()) * -1 == Op->evaluate()
-                && (RHS->evaluate() - LHS->evaluate()) == Op->evaluate() * -1)
+            if (LHS->evaluate() - RHS->evaluate() == Op->evaluate() 
+               && (RHS->evaluate() - LHS->evaluate()) * -1 == Op->evaluate()
+               && (RHS->evaluate() - LHS->evaluate()) == Op->evaluate() * -1
+               && ((RHS->evaluate() && LHS->evaluate() != 0 && RHS->evaluate() != LHS->evaluate()) && RHS->evaluate() - LHS->evaluate() != LHS->evaluate() - RHS->evaluate()))
                 ++_pass;
             else
             {
@@ -71,6 +120,8 @@ void Test::testOps()
             ++counter;
         }
         // test multiplication
+        // A * B == properally operated
+        // A * B == B * A
         if (op == 3)
         {
             if (LHS->evaluate() * RHS->evaluate() == Op->evaluate() && RHS->evaluate() * LHS->evaluate() == Op->evaluate())
@@ -83,6 +134,8 @@ void Test::testOps()
             ++counter;
         }
         // test division
+        // A / B == properally operated
+        // A or B / 0 == an error
         if (op == 4)
         {
             if (RHS->evaluate() == 0)
@@ -125,101 +178,41 @@ void Test::testTokenizer()
         int lhs_numOfDigits = rand_between(1, 5);
         int rhs_numOfDigits = rand_between(1, 5);
         int op = rand_between(1, 4);
-
-        // left-hand and Right-hand side nums
-        std::string lhs = "";
-        std::string rhs = "";
-        std::string result = "";
-    
-            // Random digits chosen for each num
-            for (int i = 0; i < lhs_numOfDigits; ++i)
-            {
-                lhs += std::to_string(rand_between(0, 9));
-            }
-            for (int i = 0; i < rhs_numOfDigits; i++)
-            {
-                rhs += std::to_string(rand_between(0, 9));
-            }
-
-            bool exp = rand_between(0, 1);
-
-            // picks op and puts in expression
-            if (exp)
-            {
-                // randomly pick an op
-                if (op == 1)
-                {  
-                    result =  "(" + lhs + '+' + rhs + ")";
-                }
-                if (op == 2)
-                {
-                    result = "(" + lhs + '-' + rhs + ")";
-                }
-                if (op == 3)
-                {
-                    result = "(" + lhs + '*' + rhs + ")";
-                }
-                if (op == 4)
-                {
-                    result = "(" + lhs + '/' + rhs + ")";
-                }
-            }
-            // randomly pick an op
-            else
-            { 
-                if (op == 1)
-                {  
-                    result = lhs + '+' + rhs;
-                }
-                if (op == 2)
-                {
-                    result = lhs + '-' + rhs;
-                }
-                if (op == 3)
-                {
-                    result = lhs + '*' + rhs;
-                }
-                if (op == 4)
-                {
-                    result = lhs + '/' + rhs;
-                }
-            }
+        std::string result = randomExpression();
 
         _Tokenizer = new Tokenizer(result);
+        Token* token = new Token;
 
         int index = rand_between(0, lhs_numOfDigits + rhs_numOfDigits);
-        Token* token = new Token;
-        for (int i = 0; i < index; ++i)
-        {
+        for (int i = 0; i < index; ++i) 
             token = _Tokenizer->getNextToken();
-        }
 
-        if (token->getToken() == Tokens::PLUS && result[index] == '+')
+        if (token->getToken() == Tokens::PLUS && result[index] == Token::TokenChar::plus)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::MINUS && result[index] == '-')
+        else if (token->getToken() == Tokens::MINUS && result[index] == Token::TokenChar::minus)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::MULTIPLY && result[index] == '*')
+        else if (token->getToken() == Tokens::MULTIPLY && result[index] == Token::TokenChar::multiply)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::DIVIDE && result[index] == '/')
+        else if (token->getToken() == Tokens::DIVIDE && result[index] == Token::TokenChar::divide)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::LPARTH && result[index] == '(')
+        else if (token->getToken() == Tokens::LPARTH && result[index] == Token::TokenChar::leftParth)
         {
             ++_pass;
             ++counter;
         }
-        else if (token->getToken() == Tokens::RPARTH && result[index] == ')')
+        else if (token->getToken() == Tokens::RPARTH && result[index] == Token::TokenChar::rightParth)
         {
             ++_pass;
             ++counter;
@@ -239,13 +232,13 @@ void Test::testTokenizer()
             std::cerr << '\n';
             std::cerr << "Failed Test: #" << counter << '\n';
             std::cerr << "Expression: "<< result << "       Index: " << index << "          Expected Token: " << result[index] <<'\n';
-            if (token->getToken() == Tokens::PLUS) std::cerr << "Current Token:  +\n";
-            else if (token->getToken() == Tokens::MINUS) std::cerr << "Current Token:  -\n";
-            else if (token->getToken() == Tokens::MULTIPLY) std::cerr << "Current Token:  *\n";
-            else if (token->getToken() == Tokens::DIVIDE) std::cerr << "Current Token:  /\n";
-            else if (token->getToken() == Tokens::NUMBER) std::cerr << "Current Token:  A number\n";
-            else if (token->getToken() == Tokens::LPARTH) std::cerr << "Current Token:  (\n";
-            else if (token->getToken() == Tokens::RPARTH) std::cerr << "Current Token:  )\n";
+            if (token->getToken() == Tokens::PLUS) std::cerr << "Current Token:  " << Token::TokenChar::plus << "\n";
+            else if (token->getToken() == Tokens::MINUS) std::cerr << "Current Token:  " << Token::TokenChar::minus << "\n";
+            else if (token->getToken() == Tokens::MULTIPLY) std::cerr << "Current Token:  " << Token::TokenChar::multiply << "\n";
+            else if (token->getToken() == Tokens::DIVIDE) std::cerr << "Current Token:  " << Token::TokenChar::divide << "\n";
+            else if (token->getToken() == Tokens::NUMBER) std::cerr << "Current Token:  " << Token::TokenChar::zero << "-" << Token::TokenChar::nine << "\n";
+            else if (token->getToken() == Tokens::LPARTH) std::cerr << "Current Token:  " << Token::TokenChar::leftParth << "\n";
+            else if (token->getToken() == Tokens::RPARTH) std::cerr << "Current Token:  " << Token::TokenChar::rightParth << "\n";
             else if (token->getToken() == Tokens::STOP) std::cerr << "Current Token:  STOP\n";
             else std::cerr << "Current Token:  Unidentified\n";
             std::cerr << '\n';
@@ -272,43 +265,8 @@ void Test::testParser()
 {
     int counter = 0;
     for (int i = 0; i < _numOfTests; ++i)
-    {         
-        // length of number
-        int lhs_numOfDigits = rand_between(1, 5);
-        int rhs_numOfDigits = rand_between(1, 5);
-        int op = rand_between(1, 4);
-
-        // left-hand and Right-hand side nums
-        std::string lhs = "";
-        std::string rhs = "";
-        std::string result = "";
-    
-        // Random digits chosen for each num
-        for (int i = 0; i < lhs_numOfDigits; ++i)
-        {
-            lhs += std::to_string(rand_between(0, 9));
-        }
-        for (int i = 0; i < rhs_numOfDigits; i++)
-        {
-            rhs += std::to_string(rand_between(0, 9));
-        }
-
-        if (op == 1)
-        {  
-            result = lhs + '+' + rhs;
-        }
-        if (op == 2)
-        {
-            result = lhs + '-' + rhs;
-        }
-        if (op == 3)
-        {
-            result = lhs + '*' + rhs;
-        }
-        if (op == 4)
-        {
-            result = lhs + '/' + rhs;
-        }
+    {    
+        std::string result = randomExpression();     
 
         _Tokenizer = new Tokenizer(result);
         _Parser = new Parser(_Tokenizer);
@@ -358,13 +316,9 @@ void Test::testAST()
 
         // Random digits chosen for each num
         for (int i = 0; i < lhs_numOfDigits; ++i)
-        {
             lhs += std::to_string(rand_between(0, 9));
-        }
         for (int i = 0; i < rhs_numOfDigits; i++)
-        {
             rhs += std::to_string(rand_between(0, 9));
-        }
 
         // Uses AST nodes instead of using the classes directly
         Interface* LHS = _AST->newNumber(std::stod(lhs));
@@ -449,7 +403,7 @@ double Test::evaluate()
 {
     //testOps();
     //testAST();
-    //testTokenizer();
+    testTokenizer();
     //testParser();
     return 0.0;
 }

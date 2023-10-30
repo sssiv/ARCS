@@ -3,7 +3,7 @@
 class Interface
 {
 public:
-    Interface();
+    Interface() {};
     virtual double evaluate() = 0;
-    ~Interface();
+    ~Interface() {};
 };

@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 
-// List of all tokens
+// Enum list of all tokens
 enum class Tokens 
 {
     NUMBER, 
@@ -21,14 +21,18 @@ private:
 
 public:
     Token();
-    // Does this constructor need to be 'explicit' ?
-    Token(const Tokens&, const double&);  // Takes in Tokens/enum and its value
 
+    // Takes in Tokens enum marker and its hash value
+    Token(const Tokens&, const double&);  
+
+    // If its an int, it returns its integer value
+    // else it will return the operators hash value
     inline double getValue() {return value;};
+
+    // current enum token marker
     inline Tokens getToken() {return token;};
 
     // All the characters for each token except stop
-    // If theres issues, just make this struct seperate from any class
     struct TokenChar
     {
         static inline const char zero = '0';
@@ -57,11 +61,16 @@ class Tokenizer
 {
 private:
     const std::string& _expression;     // The overall input expression
-    size_t _currentPos;                 // Counter as we itr through the expression
+    size_t _currentPos;                 // expression string index
 
+    // used to check if the current index in 
+    // the expression string in a number
     bool isNumber(const char&);
 
 public:
-    Tokenizer(const std::string&);      // A Parser object will take in the token class with the expression
-    Token* getNextToken();              // This itr's through each token as we evaluate the expression
+    // A Parser object will take in the token class with the expression
+    Tokenizer(const std::string&);      
+    
+    // itr's through each token as we evaluate the expression
+    Token* getNextToken();              
 };

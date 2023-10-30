@@ -6,14 +6,16 @@
 // we are currently looking in the expression
 Parser::Parser(Tokenizer* tokenizer) 
 {
-    AST = new ASTNode;
-    AST->getTokens(tokenizer);
-    AST->nextToken();
+    AST = new ASTNode;          // get fresh AST
+    AST->getTokens(tokenizer);  // collect the input and tokenize
+    AST->nextToken();           // start at the first token
 }
 
-// Starts the parsing
+// Runs parser
 Interface* Parser::parse()
 {
+    // In the grammar, expression starts everything off
+    // and works it way using the Top-Down Recursive approach
     Interface* result = AST->expression();
     if (!AST->stopCheck())
     {
@@ -24,4 +26,5 @@ Interface* Parser::parse()
     return result;
 }
 
+// Clear memory, AST
 Parser::~Parser() {delete AST;}

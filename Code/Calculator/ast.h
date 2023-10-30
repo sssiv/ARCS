@@ -1,13 +1,12 @@
 #pragma once
 
-
 #include "token.h"
 #include "op.h"
 #include "number.h"
 //#include "interface"
 //#include <iostream>
 
-// holds nodes
+// Collects tokens, returns instances 
 class ASTNode
 {
 private:
@@ -16,16 +15,28 @@ private:
     
 public:
     ASTNode();
+
+    // Number Node
     Interface* newNumber(const double&);
+    // Operator Node
     Interface* intOperator(const int&, Interface*, Interface*);
 
-    Interface* expression();                    // expression  ::= term   | Operator term
-    Interface* term();                          // term        ::= factor | Operator factor
-    Interface* factor();                        // factor      ::= Number | "(" expression* "")"
-    Interface* ops(Interface*, const int&);     // Operator    ::= {"+" | "-" | "*" | "/"}
+    // expression  ::= term   | Operator term
+    Interface* expression();    
+    // term        ::= factor | Operator factor               
+    Interface* term();   
+    // factor      ::= Number | "(" expression* "")"                       
+    Interface* factor(); 
+    // Operator    ::= {"+" | "-" | "*" | "/"}                       
+    Interface* ops(Interface*, const int&);     
 
+    // collect tokens to pass to _Tokenizer
     void getTokens(Tokenizer*);
-    inline void nextToken() { _currentToken = _tokenizer->getNextToken();};       // Initializes current token to the next. Should I keep inline?
+
+    // Initializes current token to the next
+    inline void nextToken() { _currentToken = _tokenizer->getNextToken();};  
+
+    // Checks if we reached the end of the expression     
     bool stopCheck();
     ~ASTNode();
 };

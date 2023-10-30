@@ -1,8 +1,11 @@
 #pragma once
 
-//#include "token.h"
 #include "ast.h"
+//#include "token.h"
 
+// Executes the expression
+// Tokenizer is used to get the tokens
+// AST is used to execute in the parser
 class Parser
 {
 private:
@@ -10,8 +13,10 @@ private:
     ASTNode* AST;
     
 public:
-    // Does this constructor need to be 'explicit' ?
+    // Takes in expression and tokenizes 
     Parser(Tokenizer*);
-    Interface* parse();   // Runs parser
+    
+    // Runs parser
+    Interface* parse();   
     ~Parser();
 };
