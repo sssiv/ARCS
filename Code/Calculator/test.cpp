@@ -38,22 +38,22 @@ std::string Test::randomExpression()
     {  
         // randomly chosen an op
         if (op == 1)
-            result = Token::TokenChar::leftParth + lhs + Token::TokenChar::plus + rhs + Token::TokenChar::rightParth;
+            result = TokenChar::leftParth + lhs + TokenChar::plus + rhs + TokenChar::rightParth;
         if (op == 2) 
-            result = Token::TokenChar::leftParth + lhs + Token::TokenChar::minus + rhs + Token::TokenChar::rightParth;
+            result = TokenChar::leftParth + lhs + TokenChar::minus + rhs + TokenChar::rightParth;
         if (op == 3) 
-            result = Token::TokenChar::leftParth + lhs + Token::TokenChar::multiply + rhs + Token::TokenChar::rightParth;
+            result = TokenChar::leftParth + lhs + TokenChar::multiply + rhs + TokenChar::rightParth;
         if (op == 4) 
-            result = Token::TokenChar::leftParth + lhs + Token::TokenChar::divide + rhs + Token::TokenChar::rightParth;
+            result = TokenChar::leftParth + lhs + TokenChar::divide + rhs + TokenChar::rightParth;
         exp = rand_between(0, 1);
     }
     // makes expression w/o parths
     else if (!exp)
     { 
-        if (op == 1) result = lhs + Token::TokenChar::plus + rhs;
-        if (op == 2) result = lhs + Token::TokenChar::minus + rhs;
-        if (op == 3) result = lhs + Token::TokenChar::multiply + rhs;
-        if (op == 4) result = lhs + Token::TokenChar::divide + rhs;
+        if (op == 1) result = lhs + TokenChar::plus + rhs;
+        if (op == 2) result = lhs + TokenChar::minus + rhs;
+        if (op == 3) result = lhs + TokenChar::multiply + rhs;
+        if (op == 4) result = lhs + TokenChar::divide + rhs;
     }
 
     if (result == "") return "An expression was not generated.";   
@@ -204,37 +204,37 @@ void Test::testTokenizer()
         }
 
         // plus token check
-        if (token->getToken() == Tokens::PLUS && expression[index] == Token::TokenChar::plus)
+        if (token->getToken() == Tokens::PLUS && expression[index] == TokenChar::plus)
         {
             ++_pass;
             ++counter;
         }
         // minus token check
-        else if (token->getToken() == Tokens::MINUS && expression[index] == Token::TokenChar::minus)
+        else if (token->getToken() == Tokens::MINUS && expression[index] == TokenChar::minus)
         {
             ++_pass;
             ++counter;
         }
         // multiply token check
-        else if (token->getToken() == Tokens::MULTIPLY && expression[index] == Token::TokenChar::multiply)
+        else if (token->getToken() == Tokens::MULTIPLY && expression[index] == TokenChar::multiply)
         {
             ++_pass;
             ++counter;
         }
         // divide token check
-        else if (token->getToken() == Tokens::DIVIDE && expression[index] == Token::TokenChar::divide)
+        else if (token->getToken() == Tokens::DIVIDE && expression[index] == TokenChar::divide)
         {
             ++_pass;
             ++counter;
         }
         // left parth token check
-        else if (token->getToken() == Tokens::LPARTH && expression[index] == Token::TokenChar::leftParth)
+        else if (token->getToken() == Tokens::LPARTH && expression[index] == TokenChar::leftParth)
         {
             ++_pass;
             ++counter;
         }
         // right parth token check
-        else if (token->getToken() == Tokens::RPARTH && expression[index] == Token::TokenChar::rightParth)
+        else if (token->getToken() == Tokens::RPARTH && expression[index] == TokenChar::rightParth)
         {
             ++_pass;
             ++counter;
@@ -257,13 +257,13 @@ void Test::testTokenizer()
             std::cerr << "Token Test Failure\n";
             std::cerr << "Test #" << counter << '\n';
             std::cerr << "Expression: "<< expression << "       Index: " << index << "          Expected Token: " << expression[index] <<'\n';
-            if (token->getToken() == Tokens::PLUS) std::cerr << "Current Token:  " << Token::TokenChar::plus << "\n";
-            else if (token->getToken() == Tokens::MINUS) std::cerr << "Current Token:  " << Token::TokenChar::minus << "\n";
-            else if (token->getToken() == Tokens::MULTIPLY) std::cerr << "Current Token:  " << Token::TokenChar::multiply << "\n";
-            else if (token->getToken() == Tokens::DIVIDE) std::cerr << "Current Token:  " << Token::TokenChar::divide << "\n";
+            if (token->getToken() == Tokens::PLUS) std::cerr << "Current Token:  " << TokenChar::plus << "\n";
+            else if (token->getToken() == Tokens::MINUS) std::cerr << "Current Token:  " << TokenChar::minus << "\n";
+            else if (token->getToken() == Tokens::MULTIPLY) std::cerr << "Current Token:  " << TokenChar::multiply << "\n";
+            else if (token->getToken() == Tokens::DIVIDE) std::cerr << "Current Token:  " << TokenChar::divide << "\n";
             else if (token->getToken() == Tokens::NUMBER) std::cerr << "Current Token:  " << token->getValue() << "\n";
-            else if (token->getToken() == Tokens::LPARTH) std::cerr << "Current Token:  " << Token::TokenChar::leftParth << "\n";
-            else if (token->getToken() == Tokens::RPARTH) std::cerr << "Current Token:  " << Token::TokenChar::rightParth << "\n";
+            else if (token->getToken() == Tokens::LPARTH) std::cerr << "Current Token:  " << TokenChar::leftParth << "\n";
+            else if (token->getToken() == Tokens::RPARTH) std::cerr << "Current Token:  " << TokenChar::rightParth << "\n";
             else if (token->getToken() == Tokens::STOP) std::cerr << "Current Token:  STOP\n";
             else std::cerr << "Current Token:  Unidentified\n";
             std::cerr << '\n';

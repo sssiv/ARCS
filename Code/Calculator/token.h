@@ -12,6 +12,28 @@ enum class Tokens
     STOP
 };
 
+    // All the characters for each token except stop
+struct TokenChar
+{
+    static constexpr char const zero = '0';
+    static constexpr char const one = '1';
+    static constexpr char const two = '2';
+    static constexpr char const three = '3';
+    static constexpr char const four = '4';
+    static constexpr char const five = '5';
+    static constexpr char const six = '6';
+    static constexpr char const seven = '7';
+    static constexpr char const eight = '8';
+    static constexpr char const nine = '9';
+
+    static constexpr char const plus = '+';
+    static constexpr char const minus = '-';
+    static constexpr char const multiply = '*';
+    static constexpr char const divide = '/';
+    static constexpr char const leftParth = '(';
+    static constexpr char const rightParth = ')';
+};
+
 // Current Token Holder
 class Token
 {
@@ -31,28 +53,6 @@ public:
 
     // current enum token marker
     inline Tokens getToken() {return token;};
-
-    // All the characters for each token except stop
-    struct TokenChar
-    {
-        static constexpr char const zero = '0';
-        static constexpr char const one = '1';
-        static constexpr char const two = '2';
-        static constexpr char const three = '3';
-        static constexpr char const four = '4';
-        static constexpr char const five = '5';
-        static constexpr char const six = '6';
-        static constexpr char const seven = '7';
-        static constexpr char const eight = '8';
-        static constexpr char const nine = '9';
-
-        static constexpr char const plus = '+';
-        static constexpr char const minus = '-';
-        static constexpr char const multiply = '*';
-        static constexpr char const divide = '/';
-        static constexpr char const leftParth = '(';
-        static constexpr char const rightParth = ')';
-    } TokenList;
 };
 
 // Holds the input expression

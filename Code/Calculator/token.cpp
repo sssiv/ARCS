@@ -17,16 +17,16 @@ bool Tokenizer::isNumber(const char& c)
 {
     switch (c) 
     {
-        case Token::TokenChar::zero:
-        case Token::TokenChar::one:
-        case Token::TokenChar::two:
-        case Token::TokenChar::three:
-        case Token::TokenChar::four:
-        case Token::TokenChar::five:
-        case Token::TokenChar::six:
-        case Token::TokenChar::seven:
-        case Token::TokenChar::eight:
-        case Token::TokenChar::nine:
+        case TokenChar::zero:
+        case TokenChar::one:
+        case TokenChar::two:
+        case TokenChar::three:
+        case TokenChar::four:
+        case TokenChar::five:
+        case TokenChar::six:
+        case TokenChar::seven:
+        case TokenChar::eight:
+        case TokenChar::nine:
             return true;
         default:
             return false;
@@ -35,13 +35,13 @@ bool Tokenizer::isNumber(const char& c)
 
 bool Tokenizer::isOperator(const char& c)
 {
-    return c == Token::TokenChar::plus || c == Token::TokenChar::minus
-        || c == Token::TokenChar::multiply || c == Token::TokenChar::divide;
+    return c == TokenChar::plus || c == TokenChar::minus
+        || c == TokenChar::multiply || c == TokenChar::divide;
 }
 
 bool Tokenizer::isParth(const char& c)
 {
-    return c == Token::TokenChar::leftParth || c == Token::TokenChar::rightParth;
+    return c == TokenChar::leftParth || c == TokenChar::rightParth;
 }
 
 // Default Constructor - Takes in the expression
@@ -95,28 +95,28 @@ Token* Tokenizer::getNextToken()
     if (isOperator(_expression[_currentPos]))
     {
         // Plus
-        if (_expression[_currentPos] == Token::TokenChar::plus)
+        if (_expression[_currentPos] == TokenChar::plus)
         {
             ++_currentPos;
             return new Token(Tokens::PLUS, 1);
         }
 
         //Minus
-        else if (_expression[_currentPos] == Token::TokenChar::minus)
+        else if (_expression[_currentPos] == TokenChar::minus)
         {
             ++_currentPos;
             return new Token(Tokens::MINUS, 2);
         }
 
         // Multiply
-        else if (_expression[_currentPos] == Token::TokenChar::multiply)
+        else if (_expression[_currentPos] == TokenChar::multiply)
         {
             ++_currentPos;
             return new Token(Tokens::MULTIPLY, 3);
         }
 
         // Divide 
-        else if (_expression[_currentPos] == Token::TokenChar::divide)
+        else if (_expression[_currentPos] == TokenChar::divide)
         {
             ++_currentPos;
             return new Token(Tokens::DIVIDE, 4);
@@ -127,14 +127,14 @@ Token* Tokenizer::getNextToken()
     if (isParth(_expression[_currentPos]))
     {
         // (
-        if (_expression[_currentPos] == Token::TokenChar::leftParth)
+        if (_expression[_currentPos] == TokenChar::leftParth)
         {
             ++_currentPos;
             return new Token(Tokens::LPARTH, 5);
         }
 
         // )
-        else if (_expression[_currentPos] == Token::TokenChar::rightParth)
+        else if (_expression[_currentPos] == TokenChar::rightParth)
         {
             ++_currentPos;
             return new Token(Tokens::RPARTH, 6);
