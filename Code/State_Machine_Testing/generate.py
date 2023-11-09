@@ -21,6 +21,26 @@ def get_list(sublist):
     # Returns found list
     return list
 
+# Checks variable type and gives it a value
+def make_value(type):
+    # Bool check
+    if type == 'bool':
+        if rand_num(0, 1):
+            value = True
+        else:
+            value = False
+    
+    # Int check
+    if type == 'int':
+        value = rand_num(0, 100)
+
+    # String check
+    if type == 'string':
+        value = '"enter a string"'
+
+    # Returns value
+    return value
+
 # Generates random proteus tokens
 def generate_random_text(list, length):
     # Initialize for text 
@@ -30,7 +50,7 @@ def generate_random_text(list, length):
     line_length = 0
 
     # These rows are for variable names, we want just random tokens
-    ignore_rows = -3
+    ignore_rows = -4
 
     # Random text still has more room
     while len(random_text) < length:
@@ -60,6 +80,7 @@ def generate_random_text(list, length):
     return random_text
 
 # Makes statemachine
+# initial needs fixing, I need it to somehow know which state will be made/used
 def generate_statemachine(code):
     # List for used names to avoid redefining
     used_names = []
@@ -78,7 +99,7 @@ def generate_statemachine(code):
     if rand_num(0, 1):
         code += f"        initial {initial_statename};\n\n"
 
-    # Generate random variables
+    # How many random variables will made
     num_variables = rand_num(0, len(tokens.variable_names))
     for _ in range(num_variables):
         # Makes sure that randomly choses states are not already used
@@ -94,8 +115,11 @@ def generate_statemachine(code):
         # Random variable type is chosen
         variable_type = rand_choice(tokens.variables)
 
+        # Checks variable type and gives it a value
+        value = make_value(variable_type)
+        
         # Variable syntax
-        code += f"        {variable_type} {var_name} = some value;\n"
+        code += f"        {variable_type} {var_name} = {value};\n"
     
     # Genrate States
     code += generate_state("")
@@ -147,11 +171,33 @@ def generate_actor(code):
     # Returns actor code
     return code
 
+# Generates random Event(s)
+def generate_events(code):
+    # Checks for used event names to avoid redefinitions
+    used = []
+
+    # Picks random Variables
+    variables = get_list(tokens.variables)
+    variable = rand_choice(variables)
+
+    # Picks random event name
+    event_names = get_list(tokens.event_names)
+    event_name = rand_choice(event_names)
+    
+    # Make a loop for this
+    code += f"event {event_name}{{{variable}}}; \n"
+    code += '\n'
+    return code
+
 # Generate random code
 def generate_random_code():
 
-    # Make actor, which calls statemachine which calls state
-    code = generate_actor("")
+    code = ""
+
+    # Generate events
+    code = generate_events(code)
+
+    code += generate_actor("")
 
     # Close state machine definitions
     code += "    }\n"
