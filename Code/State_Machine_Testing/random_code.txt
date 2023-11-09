@@ -1,160 +1,15 @@
-event DOWN{int}; 
+event LEFT{string}; 
 
-actor Jake_Gyllenhaal {
+actor Rami_Malek {
     statemachine {
-        string sub = "enter a string";
+        initial Idaho;
+
+        string index = "enter a string";
+        int flag = 88;
         bool mul = True;
-        bool name = False;
+        string div = "enter a string";
 
-        state Illinois {
-            // Add state behavior here
-        }
-
-        state Kentucky {
-            // Add state behavior here
-        }
-
-        state New_Jersey {
-            // Add state behavior here
-        }
-
-        state Idaho {
-            // Add state behavior here
-        }
-
-        state Alaska {
-            // Add state behavior here
-        }
-
-        state Vermont {
-            // Add state behavior here
-        }
-
-        state Missouri {
-            // Add state behavior here
-        }
-
-        state Mississippi {
-            // Add state behavior here
-        }
-
-        state California {
-            // Add state behavior here
-        }
-
-        state Wyoming {
-            // Add state behavior here
-        }
-
-        state Virginia {
-            // Add state behavior here
-        }
-
-        state West_Virginia {
-            // Add state behavior here
-        }
-
-        state North_Dakota {
-            // Add state behavior here
-        }
-
-        state Oklahoma {
-            // Add state behavior here
-        }
-
-        state Kansas {
-            // Add state behavior here
-        }
-
-        state Indiana {
-            // Add state behavior here
-        }
-
-        state Michigan {
-            // Add state behavior here
-        }
-
-        state Maine {
-            // Add state behavior here
-        }
-
-        state Georgia {
-            // Add state behavior here
-        }
-
-        state Massachusetts {
-            // Add state behavior here
-        }
-
-        state South_Dakota {
-            // Add state behavior here
-        }
-
-        state Wisconsin {
-            // Add state behavior here
-        }
-
-        state South_Carolina {
-            // Add state behavior here
-        }
-
-        state Arizona {
-            // Add state behavior here
-        }
-
-        state Iowa {
-            // Add state behavior here
-        }
-
-        state New_Hampshire {
-            // Add state behavior here
-        }
-
-        state Florida {
-            // Add state behavior here
-        }
-
-        state Nebraska {
-            // Add state behavior here
-        }
-
-        state Connecticut {
-            // Add state behavior here
-        }
-
-        state Tennessee {
-            // Add state behavior here
-        }
-
-        state Montana {
-            // Add state behavior here
-        }
-
-        state Alabama {
-            // Add state behavior here
-        }
-
-        state Ohio {
-            // Add state behavior here
-        }
-
-        state Minnesota {
-            // Add state behavior here
-        }
-
-        state North_Carolina {
-            // Add state behavior here
-        }
-
-        state Washington {
-            // Add state behavior here
-        }
-
-        state Louisiana {
-            // Add state behavior here
-        }
-
-        state Arkansas {
+        state Oregon {
             // Add state behavior here
         }
 
@@ -162,31 +17,27 @@ actor Jake_Gyllenhaal {
             // Add state behavior here
         }
 
-        state Oregon {
+        state North_Carolina {
             // Add state behavior here
         }
 
-        state Rhode_Island {
+        state Nebraska {
             // Add state behavior here
         }
 
-        state Hawaii {
+        state Delaware {
             // Add state behavior here
         }
 
-        state Pennsylvania {
+        state Minnesota {
             // Add state behavior here
         }
 
-        state Texas {
+        state Oklahoma {
             // Add state behavior here
         }
 
-        state Maryland {
-            // Add state behavior here
-        }
-
-        state Nevada {
+        state New_Mexico {
             // Add state behavior here
         }
     }

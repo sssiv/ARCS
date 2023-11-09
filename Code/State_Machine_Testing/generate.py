@@ -1,42 +1,40 @@
 from funcs import *
 
-# Generates random proteus tokens
-def generate_random_text(list, length):
-    # Initialize for text 
-    random_text = ""
+# Generates random Event(s)
+# Needs a loop to make more than one event if wanted
+def generate_event(code):
+    # Checks for used event names to avoid redefinitions
+    used = []
 
-    # Line counter
-    line_length = 0
+    # Picks random Variables
+    variables = get_list(tokens.variables)
+    variable = rand_choice(variables)
 
-    # These rows are for variable names, we want just random tokens
-    ignore_rows = -4
+    # Picks random event name
+    event_names = get_list(tokens.event_names)
+    event_name = rand_choice(event_names)
+    
+    # Make a loop for this
+    code += f"event {event_name}{{{variable}}}; \n"
+    code += '\n'
+    return code
 
-    # Random text still has more room
-    while len(random_text) < length:
-        # Picks randomly when to have a space, tab, or \n
-        if line_length >= rand_num(1, 20):
-            # Add a space, tab, or line break when the line length exceeds the random limit
-            random_text += rand_choice([" ", "\t", "\n"])
+# Generate an Actor, which makes a statemachine which makes state(s)
+def generate_actor(code):
+    # Get actor names list
+    actor_names = get_list(tokens.actor_names)
 
-            # Resets line counter
-            line_length = 0
+    # Picks random name from list
+    actor_name = rand_choice(actor_names)
 
-        # Starts making a new random line of code
-        else:
-            # Randomly picks tokens, ignores the variable names 
-            selected_list = rand_choice(list[:ignore_rows])
+    # Generate actor definition
+    code = f"actor {actor_name} {{\n"
 
-            # Randomly picks item from list
-            selected_item = str(rand_choice(selected_list))  # Convert to string
+    # Makes statmachine which calls generate_state
+    code += generate_statemachine("")
 
-            # Puts it in the random text
-            random_text += selected_item
-
-            # Updates the line length counter
-            line_length += len(selected_item)
-            
-    # Random code is now generated
-    return random_text
+    # Returns actor code
+    return code
 
 # Makes statemachine
 # initial needs fixing, I need it to somehow know which state will be made/used
@@ -113,40 +111,43 @@ def generate_state(code):
     # Returns state code
     return code
 
-# Generate an Actor, which makes a statemachine which makes state(s)
-def generate_actor(code):
-    # Get actor names list
-    actor_names = get_list(tokens.actor_names)
+# Generates random proteus tokens
+def generate_random_text(list, length):
+    # Initialize for text 
+    random_text = ""
 
-    # Picks random name from list
-    actor_name = rand_choice(actor_names)
+    # Line counter
+    line_length = 0
 
-    # Generate actor definition
-    code = f"actor {actor_name} {{\n"
+    # These rows are for variable names, we want just random tokens
+    ignore_rows = -4
 
-    # Makes statmachine which calls generate_state
-    code += generate_statemachine("")
+    # Random text still has more room
+    while len(random_text) < length:
+        # Picks randomly when to have a space, tab, or \n
+        if line_length >= rand_num(1, 20):
+            # Add a space, tab, or line break when the line length exceeds the random limit
+            random_text += rand_choice([" ", "\t", "\n"])
 
-    # Returns actor code
-    return code
+            # Resets line counter
+            line_length = 0
 
-# Generates random Event(s)
-def generate_event(code):
-    # Checks for used event names to avoid redefinitions
-    used = []
+        # Starts making a new random line of code
+        else:
+            # Randomly picks tokens, ignores the variable names 
+            selected_list = rand_choice(list[:ignore_rows])
 
-    # Picks random Variables
-    variables = get_list(tokens.variables)
-    variable = rand_choice(variables)
+            # Randomly picks item from list
+            selected_item = str(rand_choice(selected_list))  # Convert to string
 
-    # Picks random event name
-    event_names = get_list(tokens.event_names)
-    event_name = rand_choice(event_names)
-    
-    # Make a loop for this
-    code += f"event {event_name}{{{variable}}}; \n"
-    code += '\n'
-    return code
+            # Puts it in the random text
+            random_text += selected_item
+
+            # Updates the line length counter
+            line_length += len(selected_item)
+            
+    # Random code is now generated
+    return random_text
 
 # Generate random code
 def generate_random_code():
