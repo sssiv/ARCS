@@ -1,0 +1,46 @@
+ %=returninitial
+intboolprint event.string7	else.)1 ,+=8 intbool]	state	string	.!=string5.
+bool int;^=func (
+=9int
+event	exit
+event}!=	>>=int(} 1string	bool9;0{actor ;.. intintevent;int	boolint (event int ^= %= %=,4= %= string
+14boolstring
+actorint6 .func	elseoff
+int	0}[5initialactorend
+state	)intentry,
+go{<<go/actor
+intstring9 {string actor(exit,bool-  -=int; ]!=int{,if	string
+string
+.int,	bool (intbool	]7state9int string	initial<<= .>>=(exit
+string. string	bool25
+bool
+1bool;	actor>bool	int8on <<string
+state	int3printbool actor
+return	int string	.return	}8}<<=>>	^actor==state
+,(,4bool
+]59string 7initial
+bool5actor+	stringstring
+2state
+15stringentry
+exitactoractor	]1bool	;1+=int	eventint!=3
+intstringbool
+!=4/printifactor
+string3
+boolstateend
+go[{ ++=
+<=
+;actorgo	[on 6bool;.event
+,intif( =;7.state
+0],<<goifstring8	int9 return,2 },string7	bool1eventbool8 >>{state;
+6	,on; end},goif4[
+)boolevent	string 6.5else.	.6	(/,stringinitial
+6+=(,8;	,(string	.94}off
+exit)/int(else 2;end -=67	eventint	on{0
+entry3.state{	4state	(goifstring	intintintstring
+)}exitintbool	 -=event;string{,	event+||.bool .8exit
+72 ,/)ifactorbool 8;int
+stringexit^ <=3<<boolactor&&
+4exit<<6print= boolactorint ^=if
+boolbool	!=if== on&&	!=int3string	,actor||;goif	boolstring0}	,,,<< ^=bool
+}.intexit]while	)int||stringstring
+>>=offentry

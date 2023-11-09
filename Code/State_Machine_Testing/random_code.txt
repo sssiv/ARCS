@@ -1,0 +1,28 @@
+event STOP{bool}; 
+
+actor Qunintin_Tarantino {
+    statemachine {
+        int result = 12;
+        string time = "enter a string";
+
+        state Alaska {
+            // Add state behavior here
+        }
+
+        state Mississippi {
+            // Add state behavior here
+        }
+
+        state Florida {
+            // Add state behavior here
+        }
+
+        state Nevada {
+            // Add state behavior here
+        }
+
+        state Iowa {
+            // Add state behavior here
+        }
+    }
+}

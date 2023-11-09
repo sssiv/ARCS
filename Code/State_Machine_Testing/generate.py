@@ -172,7 +172,7 @@ def generate_actor(code):
     return code
 
 # Generates random Event(s)
-def generate_events(code):
+def generate_event(code):
     # Checks for used event names to avoid redefinitions
     used = []
 
@@ -195,7 +195,7 @@ def generate_random_code():
     code = ""
 
     # Generate events
-    code = generate_events(code)
+    code = generate_event(code)
 
     code += generate_actor("")
 
