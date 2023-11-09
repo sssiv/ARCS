@@ -16,7 +16,11 @@ def generate_event(code):
     
     # Make a loop for this
     code += f"event {event_name}{{{variable}}}; \n"
+
+    # Make sure this is at the end outside the loop
     code += '\n'
+
+    # Return events syntax
     return code
 
 # Generate an Actor, which makes a statemachine which makes state(s)
@@ -58,6 +62,8 @@ def generate_statemachine(code):
 
     # How many random variables will made
     num_variables = rand_num(0, len(tokens.variable_names))
+
+    # Make variables
     for _ in range(num_variables):
         # Makes sure that randomly choses states are not already used
         var_name = rand_choice(var_names)
@@ -77,14 +83,14 @@ def generate_statemachine(code):
         
         # Variable syntax
         code += f"        {variable_type} {var_name} = {value};\n"
-    
+
     # Genrate States
     code += generate_state("")
 
     # Return State machine syntax
     return code
 
-# Random states generated in statemachine
+# Make Random States
 def generate_state(code):
     # Picks random statename
     statenames = get_list(tokens.state_names)
@@ -107,7 +113,7 @@ def generate_state(code):
         code += f"\n        state {statename} {{\n"
         code += "            // Add state behavior here\n"
         code += "        }\n"
-    
+
     # Returns state code
     return code
 

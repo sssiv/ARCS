@@ -1,31 +1,39 @@
-event LEFT{string}; 
+event UP{int}; 
 
-actor Rami_Malek {
+actor Keanu_Reeves {
     statemachine {
-        initial Idaho;
-
+        string counter = "enter a string";
         string index = "enter a string";
-        int flag = 88;
-        bool mul = True;
-        string div = "enter a string";
+        bool check = False;
+        bool div = False;
+        int var = 46;
+        bool name = False;
 
-        state Oregon {
+        state Arizona {
             // Add state behavior here
         }
 
-        state Colorado {
+        state California {
             // Add state behavior here
         }
 
-        state North_Carolina {
+        state Nevada {
             // Add state behavior here
         }
 
-        state Nebraska {
+        state Texas {
             // Add state behavior here
         }
 
-        state Delaware {
+        state New_York {
+            // Add state behavior here
+        }
+
+        state Hawaii {
+            // Add state behavior here
+        }
+
+        state Vermont {
             // Add state behavior here
         }
 
@@ -33,11 +41,95 @@ actor Rami_Malek {
             // Add state behavior here
         }
 
-        state Oklahoma {
+        state Virginia {
+            // Add state behavior here
+        }
+
+        state Wisconsin {
+            // Add state behavior here
+        }
+
+        state Georgia {
+            // Add state behavior here
+        }
+
+        state Missouri {
+            // Add state behavior here
+        }
+
+        state Oregon {
+            // Add state behavior here
+        }
+
+        state Ohio {
+            // Add state behavior here
+        }
+
+        state Idaho {
+            // Add state behavior here
+        }
+
+        state Louisiana {
+            // Add state behavior here
+        }
+
+        state West_Virginia {
+            // Add state behavior here
+        }
+
+        state Delaware {
+            // Add state behavior here
+        }
+
+        state South_Carolina {
+            // Add state behavior here
+        }
+
+        state North_Carolina {
+            // Add state behavior here
+        }
+
+        state Illinois {
+            // Add state behavior here
+        }
+
+        state Florida {
+            // Add state behavior here
+        }
+
+        state Iowa {
+            // Add state behavior here
+        }
+
+        state Connecticut {
             // Add state behavior here
         }
 
         state New_Mexico {
+            // Add state behavior here
+        }
+
+        state New_Hampshire {
+            // Add state behavior here
+        }
+
+        state Maryland {
+            // Add state behavior here
+        }
+
+        state Maine {
+            // Add state behavior here
+        }
+
+        state Montana {
+            // Add state behavior here
+        }
+
+        state Michigan {
+            // Add state behavior here
+        }
+
+        state New_Jersey {
             // Add state behavior here
         }
     }
