@@ -23,7 +23,10 @@ def get_list(sublist):
 
 # Generates random proteus tokens
 def generate_random_text(list, length):
+    # Initialize for text 
     random_text = ""
+
+    # Line counter
     line_length = 0
 
     # These rows are for variable names, we want just random tokens
@@ -60,6 +63,8 @@ def generate_random_text(list, length):
 def generate_statemachine(code):
     # List for used names to avoid redefining
     used_names = []
+
+    # Start of statemachine syntax
     code += "    statemachine {\n"
 
     # Pick random statename to have as initial
@@ -78,6 +83,8 @@ def generate_statemachine(code):
     for _ in range(num_variables):
         # Makes sure that randomly choses states are not already used
         var_name = rand_choice(var_names)
+
+        # Makes sure the chosen variable name is used once
         while var_name in used_names:
             var_name = rand_choice(var_names)
 
@@ -108,7 +115,7 @@ def generate_state(code):
     # Generates 0 - 50 states
     for _ in range(rand_num(0, 50)):
 
-        # Makes sure that randomly choses states are not already used
+        # Makes sure the chosen state name is used once
         while statename in used_names:
             statename = rand_choice(statenames)
         
@@ -119,8 +126,11 @@ def generate_state(code):
         code += f"\n        state {statename} {{\n"
         code += "            // Add state behavior here\n"
         code += "        }\n"
+    
+    # Returns state code
     return code
 
+# Generate an Actor, which makes a statemachine which makes state(s)
 def generate_actor(code):
     # Get actor names list
     actor_names = get_list(tokens.actor_names)
@@ -133,6 +143,8 @@ def generate_actor(code):
 
     # Makes statmachine which calls generate_state
     code += generate_statemachine("")
+
+    # Returns actor code
     return code
 
 # Generate random code
