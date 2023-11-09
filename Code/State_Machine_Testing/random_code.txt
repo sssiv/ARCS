@@ -1,11 +1,36 @@
-event STOP{bool}; 
+event DOWN{int}; 
 
-actor Qunintin_Tarantino {
+actor Jake_Gyllenhaal {
     statemachine {
-        int result = 12;
-        string time = "enter a string";
+        string sub = "enter a string";
+        bool mul = True;
+        bool name = False;
+
+        state Illinois {
+            // Add state behavior here
+        }
+
+        state Kentucky {
+            // Add state behavior here
+        }
+
+        state New_Jersey {
+            // Add state behavior here
+        }
+
+        state Idaho {
+            // Add state behavior here
+        }
 
         state Alaska {
+            // Add state behavior here
+        }
+
+        state Vermont {
+            // Add state behavior here
+        }
+
+        state Missouri {
             // Add state behavior here
         }
 
@@ -13,15 +38,155 @@ actor Qunintin_Tarantino {
             // Add state behavior here
         }
 
-        state Florida {
+        state California {
             // Add state behavior here
         }
 
-        state Nevada {
+        state Wyoming {
+            // Add state behavior here
+        }
+
+        state Virginia {
+            // Add state behavior here
+        }
+
+        state West_Virginia {
+            // Add state behavior here
+        }
+
+        state North_Dakota {
+            // Add state behavior here
+        }
+
+        state Oklahoma {
+            // Add state behavior here
+        }
+
+        state Kansas {
+            // Add state behavior here
+        }
+
+        state Indiana {
+            // Add state behavior here
+        }
+
+        state Michigan {
+            // Add state behavior here
+        }
+
+        state Maine {
+            // Add state behavior here
+        }
+
+        state Georgia {
+            // Add state behavior here
+        }
+
+        state Massachusetts {
+            // Add state behavior here
+        }
+
+        state South_Dakota {
+            // Add state behavior here
+        }
+
+        state Wisconsin {
+            // Add state behavior here
+        }
+
+        state South_Carolina {
+            // Add state behavior here
+        }
+
+        state Arizona {
             // Add state behavior here
         }
 
         state Iowa {
+            // Add state behavior here
+        }
+
+        state New_Hampshire {
+            // Add state behavior here
+        }
+
+        state Florida {
+            // Add state behavior here
+        }
+
+        state Nebraska {
+            // Add state behavior here
+        }
+
+        state Connecticut {
+            // Add state behavior here
+        }
+
+        state Tennessee {
+            // Add state behavior here
+        }
+
+        state Montana {
+            // Add state behavior here
+        }
+
+        state Alabama {
+            // Add state behavior here
+        }
+
+        state Ohio {
+            // Add state behavior here
+        }
+
+        state Minnesota {
+            // Add state behavior here
+        }
+
+        state North_Carolina {
+            // Add state behavior here
+        }
+
+        state Washington {
+            // Add state behavior here
+        }
+
+        state Louisiana {
+            // Add state behavior here
+        }
+
+        state Arkansas {
+            // Add state behavior here
+        }
+
+        state Colorado {
+            // Add state behavior here
+        }
+
+        state Oregon {
+            // Add state behavior here
+        }
+
+        state Rhode_Island {
+            // Add state behavior here
+        }
+
+        state Hawaii {
+            // Add state behavior here
+        }
+
+        state Pennsylvania {
+            // Add state behavior here
+        }
+
+        state Texas {
+            // Add state behavior here
+        }
+
+        state Maryland {
+            // Add state behavior here
+        }
+
+        state Nevada {
             // Add state behavior here
         }
     }
