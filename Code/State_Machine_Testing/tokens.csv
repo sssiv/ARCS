@@ -1,0 +1,26 @@
+﻿Types,Numbers,Brackets,Keywords,Variables,Operators,Punctuation
+int,0,(,initial,event,*,.
+string,1,),while,actor,/,","
+bool,2,[,if,state,%,;
+actor,3,],go,int,+,
+event,4,{,goif,string,-,
+state,5,},exit,bool,<<,
+,6,,return,variable_name,>>,
+,7,,func,,<,
+,8,,entry,,>,
+,9,,exit,,<=,
+,,,print,,==,
+,,,,,!=,
+,,,,,^,
+,,,,,&&,
+,,,,,||,
+,,,,,*=,
+,,,,,/=,
+,,,,, %=,
+,,,,,+=,
+,,,,, -=,
+,,,,,<<=,
+,,,,,>>=,
+,,,,,^=,
+,,,,,=,
+,,,,,->,
