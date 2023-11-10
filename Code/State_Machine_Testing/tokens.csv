@@ -5,17 +5,17 @@ bool,2,[,if,bool,%,;,Rami_Malek,Arizona,flag,LEFT,something entered
 actor,3,],go,,+,,Keanu_Reeves,Arkansas,time,RIGHT,proteus words
 event,4,{,goif,,-,,Jake_Gyllenhaal,California,name,UP,JPL vs NASA
 state,5,},exit,,<<,,Samuel_L_Jackson,Colorado,index,DOWN,this code is very buggy
-,6,,return,,>>,,,Connecticut,var,,Now you need to impliment events
-,7,,func,,<,,,Delaware,add,,learn about event syntax
-,8,,entry,,>,,,Florida,mul,,Do stuff with events
-,9,,exit,,<=,,,Georgia,div,,Events and stuff doing things
-,,,print,,==,,,Hawaii,sub,,actors acting and whatnot
-,,,on,,!=,,,Idaho,result,,states are stated
-,,,off,,^,,,Illinois,,,There's issues with infinite loops in here
-,,,else,,&&,,,Indiana,,,"Please help me, im trapped in here"
-,,,end,,||,,,Iowa,,,
-,,,,,*=,,,Kansas,,,
-,,,,,/=,,,Kentucky,,,
+,6,,return,,>>,,,Connecticut,var,LIFT,Now you need to impliment events
+,7,,func,,<,,,Delaware,add,DROP,learn about event syntax
+,8,,entry,,>,,,Florida,mul,LOOK,Do stuff with events
+,9,,exit,,<=,,,Georgia,div,OPEN,Events and stuff doing things
+,,,print,,==,,,Hawaii,sub,CLOSE,actors acting and whatnot
+,,,on,,!=,,,Idaho,result,TURN,states are stated
+,,,off,,^,,,Illinois,numOfThings,SHOVE,There's issues with infinite loops in here
+,,,else,,&&,,,Indiana,scope,JUMP,"Please help me, im trapped in here"
+,,,end,,||,,,Iowa,thing,FALL,Debug this code for a prize
+,,,,,*=,,,Kansas,value,REST,I wonder if this string changed value
+,,,,,/=,,,Kentucky,key,,
 ,,,,, %=,,,Louisiana,,,
 ,,,,,+=,,,Maine,,,
 ,,,,, -=,,,Maryland,,,

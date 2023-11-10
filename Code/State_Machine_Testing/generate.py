@@ -227,10 +227,10 @@ class Generate:
     # Generate random code
     def generate_random_code(self):
 
-        # Events
+        # Events Generated
         self.code = self.generate_event(self.code)
 
-        # Actor
+        # Actor Generated
         self.code += self.generate_actor("")
 
         # Returns random code

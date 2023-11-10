@@ -10,7 +10,7 @@ tokens.tokens_txt()
 Generate = Generate()
 
 # Makes text file and writes random tokens in it
-num_of_chars = rand_num(1000, 2000)
+num_of_chars = rand_num(500, 2000)
 list_of_tokens = tokens.lists
 
 with open('random_tokens.txt', 'w') as file:
