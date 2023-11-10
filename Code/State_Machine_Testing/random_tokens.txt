@@ -1,73 +1,47 @@
-off,+= stringend
-int>>= statereturn {	bool4
-3 -=while	5bool /int[]return[,	&&;-));{,	(!=int] 8eventif }string
-state/=	=boolint
-state03,goif)9 {entryinitial
-42bool .boolstate0func string14
-event goifint1]] -=
-;;.}+=0->0. string} boolint	[int,
-goif]5on 5int
-intint%]96initial	;0}{ <<
-int,/ goifentrybool.	stringintbool	func,.(
-]0string3	bool} ,.<print
-string
-bool>>go5 ==1string
-eventevent	bool
-,. }off{
-<boolend ).int0=+exit2-
->go[stateentry
-{.exit3[while	2&&int ;print
-elseint%
-0string+=	bool +={}
-6-||int+bool	==)]state	actor;!=*=	int)>>=  -=actorexit
-0 %=!=go
-).string5;while
-77int.% <<1^( 5}string.offstate
-^bool5
-&&{bool return*bool
-ifbool
-6actorboolexit
-(intstring
-/state}return	exit
-[!= stateint	bool||)bool	8{,
-<<=9;.[	0int	stringelse+=	entrystring
-endbool9<=
-intstate3
-0initial. goif
-func7string1 string9[bool( %=.
-on5string;,( >funcexit whilestring<=
-<
-exitend<<=
-string stringgo	{=/string
-]bool,state returnboolstring <=,string	{;2;eventint
-1
-{string 9on->whileint
-9int!=
-{statewhileinton actorstate<<=bool .int
-2end stringgoif	{;intbool;	gobool	go6;;string[end
-6onstring
-;(]3bool) ()[*
-;boolexitint
-);5[offentry.int	end;string *8.string ,bool{exit	!=.<(bool	;,stateexit.
-=2[<<=boolintstring ;,  -=;string exitgo	]2go
-.state
-boolstring;/=	{bool&&  %=boolexit boolbool,int
-int.{while[ int{event0,, initial {5stringstring
-/)	intint	entrywhileint	initial/bool,0 2-]string
-int6
-intint<<= 92bool]
-string.statestring
-actorintstate	}!=exit2bool	<<=
-<=+string	string+{bool	[string
-boolstatereturn	entry.,string	stateevent	string0;
-.bool stringboolexitint ;;/=);.>>=	7	boolstring>>	bool.]return  -=. {>>bool)
-]boolreturn
-,,42string 5(returnstate
-2>>0811 .bool,6if(
-bool  -=7
-;intstring&&
--string!= !=print
-;+=.	;-;74exitstring	bool .)event 5;boolboolonexit.	)intboolevent||(	bool}	,stringexit-gobool= 4721int	8on(] bool(func >bool2 >>go
-exit.string.	event)string
-(returnbool	actor ,8;7
-ongo,	string
+.int
+;boolexitbool. 1whilestringexit ]^!=intprint	]0.if<=[ . %=whilebool	;bool
+; -==]entry>>3	]<[&&state
+0)initial
+exit[
+go<<==[ bool	state
+}(.else	(int8
+;string=
+elsebool
+267;{,string -= int	&&int ;	4intactor}{*=
+int<<=
+^;)5string	.bool
+bool.string -=	6return	inteventexit]	[bool 6int	[9==int
+<=exitintactor*=
+9funcexit ;(state{87]; exit>>=int} goifwhile	initialint1 }-func	8while	/=[boolbool	bool2.2off
+(bool.onint string;;.,	.37^=,eventstring	;int{string8;
+onentry
+;1	.^=%	;]]string,]string
+).== int<(exitgoif	17,==
+actorend8 [actorstring
+;entry	off )>>if
+.04,while	8/=.,5goifstringinitial
+return+7
+onexit<<=/{
+inton;actor;
+!=.	intbool off},boolstring bool!=while[;	(==<=if	while13bool
+int;
+,string }event
+ifstring
+..},state.event	%*go8goboolstring	*=)onbool	intelse string,int &&returnbool	(initial=int bool.(5end 8entry
+6[actorgoif2	&&4(bool ==stringstring	;goif, gofunc}	9*stringintint
+2 -=;string7event	eventeventoff[	state-> ;4==<= };initial.actorevent
+off.(;;;2>>= stringstring
+returnelse print 3else ,(event	26)^)5int
+printprint	state
+boolstatebool {==bool	goint
+if
+eventevent )int	 -=(bool6string	3673,, func.offstringevent	intexitintactor exit^0)string exitstring
+returnint
+/>> {}6{bool=
+ %=;	stringinitial bool+	}.}
+boolstring >{^intgoif	; -=,9]string	}{4bool
+actorbool	intwhile string[ stringboolstate ;bool3stringprint	+=,;7	}intactorint *=event]string	{exit	[ -=,{,event
+8end]
+intstate768
+{<6;]actorstate
+-if&&	;/<event	ififstring endstring

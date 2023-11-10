@@ -29,7 +29,7 @@ def make_value(type):
             value = True
         else:
             value = False
-    
+            
     # Int check
     if type == 'int':
         value = rand_num(0, 100)
