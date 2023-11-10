@@ -4,9 +4,9 @@ class Generate:
     def __init__(self):
         self.code = ""
 
-        # State names
-        self.used_state_names = []
+        # State variable names and amount
         self.num_of_states = rand_num(0, 50)
+        self.used_state_names = []
         self.generate_state_names()
 
         # Maps current variables with their types
@@ -97,7 +97,6 @@ class Generate:
                 eventname = rand_choice(event_names)
             #Adds used event name to list
             self.used_event_names[eventname] = variable
-
     #------------------------------------------------------------------------#
     # Generates random Event(s)
     # Needs a loop to make more than one event if wanted
