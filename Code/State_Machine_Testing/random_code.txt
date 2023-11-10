@@ -1,33 +1,264 @@
-event LEFT {string}; 
 
-actor Jake_Gyllenhaal {
+actor Rami_Malek {
 	statemachine {
-		initial Indiana;
+		bool mul = True;
+		int add = 65;
+		string name = "JPL vs NASA";
+		int value = 60;
+		string thing = "states are stated";
+		bool counter = True;
+		string time = "There's issues with infinite loops in here";
 
-		string key = "Now you need to impliment events";
-		string scope = "Debug this code for a prize";
-		int time = 89;
-		string thing = "Please help me, im trapped in here";
-		string result = "JPL vs NASA";
+		state Connecticut {
+			// Add state behavior here;
+		}
 
-		state Delaware {
-			key = "Here's a random string";
-			scope = "states are stated";
-			time = 5;
+		state Alaska {
+			// Add state behavior here;
+		}
+
+		state Maine {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			mul = True;
+			add = 50;
+			name = "proteus words";
+			value = 67;
+			thing = "actors acting and whatnot";
+			counter = False;
+			time = "this code is very buggy";
+		}
+
+		state Alabama {
+			mul = True;
+			add = 66;
+			name = "proteus words";
+			value = 28;
+			thing = "proteus words";
+			counter = False;
+			time = "proteus words";
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state Kansas {
+			mul = True;
+			add = 58;
+			name = "actors acting and whatnot";
+			value = 35;
 			thing = "learn about event syntax";
-			result = "Debug this code for a prize";
+			counter = False;
+			time = "states are stated";
+		}
+
+		state Arizona {
+			mul = False;
+			add = 45;
+			name = "proteus words";
+			value = 37;
+			thing = "Here's a random string";
+			counter = True;
+			time = "There's issues with infinite loops in here";
+		}
+
+		state New_Jersey {
+			mul = True;
+			add = 86;
+			name = "actors acting and whatnot";
+			value = 42;
+			thing = "Now you need to impliment events";
+			counter = False;
+			time = "Do stuff with events";
+		}
+
+		state Massachusetts {
+			mul = False;
+			add = 40;
+			name = "this code is very buggy";
+			value = 68;
+			thing = "JPL vs NASA";
+			counter = False;
+			time = "learn about event syntax";
+		}
+
+		state South_Carolina {
+			mul = True;
+			add = 10;
+			name = "Debug this code for a prize";
+			value = 12;
+			thing = "proteus words";
+			counter = True;
+			time = "Here's a random string";
+		}
+
+		state Illinois {
+			mul = False;
+			add = 85;
+			name = "learn about event syntax";
+			value = 34;
+			thing = "Do stuff with events";
+			counter = True;
+			time = "I wonder if this string changed value";
+		}
+
+		state Michigan {
+			// Add state behavior here;
+		}
+
+		state Idaho {
+			// Add state behavior here;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state Indiana {
+			// Add state behavior here;
+		}
+
+		state Oklahoma {
+			// Add state behavior here;
+		}
+
+		state Kentucky {
+			mul = False;
+			add = 96;
+			name = "this code is very buggy";
+			value = 98;
+			thing = "Debug this code for a prize";
+			counter = True;
+			time = "Debug this code for a prize";
+		}
+
+		state Maryland {
+			mul = True;
+			add = 95;
+			name = "actors acting and whatnot";
+			value = 15;
+			thing = "Please help me, im trapped in here";
+			counter = False;
+			time = "Debug this code for a prize";
+		}
+
+		state Louisiana {
+			// Add state behavior here;
+		}
+
+		state Washington {
+			mul = False;
+			add = 33;
+			name = "states are stated";
+			value = 71;
+			thing = "proteus words";
+			counter = True;
+			time = "Here's a random string";
+		}
+
+		state Iowa {
+			mul = False;
+			add = 50;
+			name = "Events and stuff doing things";
+			value = 91;
+			thing = "this code is very buggy";
+			counter = False;
+			time = "Events and stuff doing things";
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+
+		state New_Hampshire {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			mul = False;
+			add = 54;
+			name = "There's issues with infinite loops in here";
+			value = 60;
+			thing = "Please help me, im trapped in here";
+			counter = True;
+			time = "There's issues with infinite loops in here";
+		}
+
+		state Virginia {
+			// Add state behavior here;
+		}
+
+		state Missouri {
+			mul = False;
+			add = 34;
+			name = "states are stated";
+			value = 27;
+			thing = "learn about event syntax";
+			counter = True;
+			time = "learn about event syntax";
+		}
+
+		state Wyoming {
+			// Add state behavior here;
+		}
+
+		state Georgia {
+			mul = True;
+			add = 26;
+			name = "Debug this code for a prize";
+			value = 24;
+			thing = "JPL vs NASA";
+			counter = True;
+			time = "Please help me, im trapped in here";
+		}
+
+		state Arkansas {
+			// Add state behavior here;
+		}
+
+		state New_York {
+			mul = False;
+			add = 25;
+			name = "Please help me, im trapped in here";
+			value = 87;
+			thing = "There's issues with infinite loops in here";
+			counter = True;
+			time = "Debug this code for a prize";
+		}
+
+		state Minnesota {
+			// Add state behavior here;
 		}
 
 		state Florida {
 			// Add state behavior here;
 		}
 
-		state Indiana {
-			key = "I wonder if this string changed value";
-			scope = "states are stated";
-			time = 61;
-			thing = "Debug this code for a prize";
-			result = "Now you need to impliment events";
+		state California {
+			mul = True;
+			add = 39;
+			name = "learn about event syntax";
+			value = 42;
+			thing = "learn about event syntax";
+			counter = True;
+			time = "There's issues with infinite loops in here";
+		}
+
+		state Oregon {
+			// Add state behavior here;
+		}
+
+		state Tennessee {
+			mul = False;
+			add = 48;
+			name = "Now you need to impliment events";
+			value = 62;
+			thing = "JPL vs NASA";
+			counter = False;
+			time = "this code is very buggy";
 		}
 	}
 }
