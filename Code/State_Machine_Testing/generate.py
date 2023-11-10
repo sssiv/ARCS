@@ -85,6 +85,7 @@ class Generate:
         variables = get_list(tokens.variables)
         variable = rand_choice(variables)
 
+        # Generate and save event names
         for _ in range(self.num_of_events):
             # Makes each event have a random type
             variable = rand_choice(variables)
@@ -98,14 +99,12 @@ class Generate:
             self.events[eventname] = variable
     #------------------------------------------------------------------------#
     # Generates random Event(s)
-    # Needs a loop to make more than one event if wanted
     def generate_event(self, code):
-
-        # Make a loop for this
+        # Randomly decides if we have events at all
         if rand_num(0, 1):
+            # Generates event initialization syntax
             for key, value in self.events.items():
                 code += f"event {key} {{{value}}}; \n"
-        # Make sure this is at the end outside the loop
         code += '\n'
 
         # Return events syntax

@@ -9,7 +9,7 @@ def strip_single_quotes(entry):
 
 # Create arrays from columns, remove single quotes, and drop null values
 types = [strip_single_quotes(entry) for entry in df['Types'].dropna().tolist()]                     # Standard types
-numbers = [int(float(entry)) for entry in df['Numbers'].dropna().tolist()]                          # Integers
+numbers = [int(entry) for entry in df['Numbers'].dropna().tolist()]                                 # Integers, NOTE: was int(float(entry)). Shouldn't make a different, but just in case
 brackets = [strip_single_quotes(entry) for entry in df['Brackets'].dropna().tolist()]               # Proteus braces
 keywords = [strip_single_quotes(entry) for entry in df['Keywords'].dropna().tolist()]               # All Keywords
 variables = [strip_single_quotes(entry) for entry in df['Variables'].dropna().tolist()]             # Variable Keywords (except variable_name at the end)
