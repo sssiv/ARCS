@@ -10,18 +10,17 @@ class Generate:
         #self.state_names = []
         self.generate_state_names()
 
-        # Variable names
-        self.variable_names = []
-
         # Maps current variables with their types
         self.used_variable_names = {}
 
         # Event names
         self.event_names = []
         self.used_event_names = []
-
+    #------------------------------------------------------------------------#
     # Variables
-    def generate_variables(self, var_names, code):
+    def generate_variables(self, code):
+        var_names = tokens.variable_names
+        var_types = tokens.variables
         # Makes sure that randomly choses states are not already used
         var_name = rand_choice(var_names)
 
@@ -33,7 +32,7 @@ class Generate:
         self.used_state_names.append(var_name)
 
         # How many random variables will made
-        num_variables = rand_num(0, len(tokens.variable_names))
+        num_variables = rand_num(0, len(var_names))
 
         # Make variables
         for _ in range(num_variables):
@@ -45,7 +44,7 @@ class Generate:
                 var_name = rand_choice(var_names)
             
             # Random variable type is chosen
-            variable_type = rand_choice(tokens.variables)
+            variable_type = rand_choice(var_types)
             
             # Adds variable name in the used list
             self.used_variable_names[var_name] = variable_type
@@ -55,8 +54,11 @@ class Generate:
             
             # Variable syntax
             code += f"\t\t{variable_type} {var_name} = {value};\n"
+        
+        # Return variables
         return code
-    
+    #------------------------------------------------------------------------#
+    # Generate State names
     def generate_state_names(self):
         # Get statenames list
         statenames = get_list(tokens.state_names)
@@ -72,11 +74,13 @@ class Generate:
             
             # Adds used statename to list
             self.used_state_names.append(statename)
-
+    #------------------------------------------------------------------------#
+    def generate_event_names(self):
+        i = i
+    #------------------------------------------------------------------------#
     # Generates random Event(s)
     # Needs a loop to make more than one event if wanted
     def generate_event(self, code):
-        # Checks for used event names to avoid redefinitions
 
         # Picks random Variables from list
         variables = get_list(tokens.variables)
@@ -87,14 +91,15 @@ class Generate:
         event_name = rand_choice(event_names)
         
         # Make a loop for this
-        code += f"event {event_name}{{{variable}}}; \n"
+        if rand_num(0, 1):
+            code += f"event {event_name}{{{variable}}}; \n"
 
         # Make sure this is at the end outside the loop
         code += '\n'
 
         # Return events syntax
         return code
-
+    #------------------------------------------------------------------------#
     # Generate an Actor, which makes a statemachine which makes state(s)
     def generate_actor(self, code):
         # Get actor names list
@@ -114,41 +119,38 @@ class Generate:
 
         # Returns actor code
         return code
-
+    #------------------------------------------------------------------------#
     # Makes statemachine
-    # initial needs fixing, I need it to somehow know which state will be made/used
     def generate_statemachine(self, code):
-
         # Start of statemachine syntax
         code += "\tstatemachine {\n"
 
-        # Pick random statename to have as initial
-        statename = get_list(tokens.state_names)
-
-        # I want this to change to a variable that has been used
-        index = rand_num(0, len(self.used_state_names) - 1)
-        initial_statename = rand_choice(self.used_state_names)
-        
+        # Picks a state that has been initialized (if states exist)
+        if self.used_state_names:
+            initial_statename = rand_choice(self.used_state_names)
+        else:
+            initial_statename = "None"
+            
         # Randomly decides if we include an initial state 
-        if rand_num(0, 1):
+        if rand_num(0, 1) and initial_statename != "None":
             code += f"\t\tinitial {initial_statename};\n\n"
 
         # Genrate States
         code += self.generate_state("")
+
         # Close state machine definitions
         code += "\t}\n"
+
         # Return State machine syntax
         return code
-
+    #------------------------------------------------------------------------#
     # Make Random States
     def generate_state(self, code):
-        
-        # Picks random statename
-        statenames = get_list(tokens.state_names)
-        statename = rand_choice(statenames)
+        # Random Names have already been provided
+        # This was done so that statemachine can choose a state that exists
 
         # Make and save variables
-        code = self.generate_variables(tokens.variable_names, code)
+        code = self.generate_variables(code)
 
         # Generates 0 - 50 states
         for i in range(self.num_of_states):
@@ -160,8 +162,8 @@ class Generate:
                     value = make_value(self.used_variable_names[name])
                     code += f"\t\t\t{name} = {value};\n"
                 code += "\t\t}\n"
-                
-            # Print blank
+
+            # Print blank state
             else:
                 code += f"\n\t\tstate {self.used_state_names[i]} {{\n"
                 code += f"\t\t\t// Add state behavior here;\n"
@@ -169,7 +171,7 @@ class Generate:
 
         # Returns state code
         return code
-
+    #------------------------------------------------------------------------#
     # Generates random proteus tokens
     def generate_random_text(self, list, length):
         # Initialize for text 
@@ -207,7 +209,7 @@ class Generate:
                 
         # Random code is now generated
         return random_text
-
+    #------------------------------------------------------------------------#
     # Generate random code
     def generate_random_code(self):
 
