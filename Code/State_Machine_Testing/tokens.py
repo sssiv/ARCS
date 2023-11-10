@@ -32,3 +32,11 @@ def display_tokens():
         # Convert numbers to strings for printing
         print(f"{name}: {' '.join(map(str, list))}\n")  
     print("-" * 100, "\n")
+
+def tokens_txt():
+    with open('tokens.txt', 'w') as file:
+        for token_list in lists:
+            # Join the elements of each list into a string with spaces as separators
+            formatted_tokens = ' '.join(map(str, token_list))
+            # Write the name of the list followed by a colon and the formatted string, then a newline
+            file.write(f"{formatted_tokens}\n")

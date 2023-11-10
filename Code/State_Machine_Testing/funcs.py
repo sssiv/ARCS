@@ -23,13 +23,14 @@ def get_list(sublist):
 #------------------------------------------------------------------------#
 # Checks variable type and gives it a value
 def make_value(type):
+
     # Bool check
     if type == 'bool':
         if rand_num(0, 1):
             value = True
         else:
             value = False
-#------------------------------------------------------------------------#
+            
     # Int check
     if type == 'int':
         value = rand_num(0, 100)

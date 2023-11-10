@@ -224,6 +224,10 @@ class Generate:
 
 # Show all tokens
 tokens.display_tokens()
+
+# Write tokens to a textfile
+tokens.tokens_txt()
+
 Generate = Generate()
 
 
