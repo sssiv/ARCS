@@ -1,98 +1,142 @@
+event RIGHT{int}; 
 
-actor Keanu_Reeves {
+actor Qunintin_Tarantino {
 	statemachine {
-		initial Kentucky;
-
-		int time = 18;
-		bool check = False;
-		int name = 84;
-		string var = "enter a string";
-
-		state New_Jersey {
-			// Add state behavior here;
-		}
-
-		state Kansas {
-			time = 16;
-			check = True;
-			name = 40;
-			var = "enter a string";
-		}
+		int div = 63;
 
 		state Oregon {
 			// Add state behavior here;
 		}
 
-		state Kentucky {
-			time = 33;
-			check = True;
-			name = 96;
-			var = "enter a string";
-		}
-
-		state Florida {
+		state Indiana {
 			// Add state behavior here;
 		}
 
 		state Oklahoma {
-			time = 39;
-			check = True;
-			name = 77;
-			var = "enter a string";
-		}
-
-		state Maine {
 			// Add state behavior here;
 		}
 
-		state South_Dakota {
-			time = 61;
-			check = True;
-			name = 12;
-			var = "enter a string";
+		state Iowa {
+			div = 76;
 		}
 
-		state Michigan {
-			time = 34;
-			check = True;
-			name = 8;
-			var = "enter a string";
+		state Utah {
+			div = 51;
 		}
 
-		state Idaho {
-			time = 60;
-			check = False;
-			name = 34;
-			var = "enter a string";
+		state Tennessee {
+			// Add state behavior here;
 		}
 
-		state Wisconsin {
-			time = 43;
-			check = False;
-			name = 17;
-			var = "enter a string";
+		state Texas {
+			div = 88;
 		}
 
-		state New_Mexico {
-			time = 85;
-			check = False;
-			name = 4;
-			var = "enter a string";
+		state Delaware {
+			div = 30;
+		}
+
+		state New_York {
+			div = 79;
 		}
 
 		state Pennsylvania {
+			div = 74;
+		}
+
+		state Missouri {
 			// Add state behavior here;
+		}
+
+		state Ohio {
+			// Add state behavior here;
+		}
+
+		state Maryland {
+			div = 89;
+		}
+
+		state Georgia {
+			div = 13;
 		}
 
 		state Nevada {
+			div = 61;
+		}
+
+		state Nebraska {
+			div = 60;
+		}
+
+		state Vermont {
+			div = 54;
+		}
+
+		state Florida {
+			div = 43;
+		}
+
+		state Louisiana {
 			// Add state behavior here;
+		}
+
+		state Kentucky {
+			div = 30;
 		}
 
 		state North_Carolina {
+			div = 84;
+		}
+
+		state Alabama {
+			div = 89;
+		}
+
+		state California {
+			div = 28;
+		}
+
+		state Kansas {
 			// Add state behavior here;
 		}
 
-		state Hawaii {
+		state Illinois {
+			// Add state behavior here;
+		}
+
+		state Michigan {
+			// Add state behavior here;
+		}
+
+		state Washington {
+			div = 62;
+		}
+
+		state New_Jersey {
+			div = 36;
+		}
+
+		state Montana {
+			// Add state behavior here;
+		}
+
+		state Virginia {
+			// Add state behavior here;
+		}
+
+		state South_Carolina {
+			// Add state behavior here;
+		}
+
+		state New_Hampshire {
+			// Add state behavior here;
+		}
+
+		state Connecticut {
+			div = 15;
+		}
+
+		state Alaska {
 			// Add state behavior here;
 		}
 
@@ -100,48 +144,63 @@ actor Keanu_Reeves {
 			// Add state behavior here;
 		}
 
-		state Tennessee {
-			// Add state behavior here;
-		}
-
-		state Maryland {
-			// Add state behavior here;
-		}
-
-		state California {
-			// Add state behavior here;
+		state Minnesota {
+			div = 18;
 		}
 
 		state Mississippi {
-			time = 44;
-			check = True;
-			name = 61;
-			var = "enter a string";
+			div = 44;
 		}
 
-		state Virginia {
-			time = 42;
-			check = False;
-			name = 20;
-			var = "enter a string";
-		}
-
-		state Illinois {
+		state Arkansas {
 			// Add state behavior here;
 		}
 
-		state North_Dakota {
-			time = 80;
-			check = False;
-			name = 77;
-			var = "enter a string";
+		state West_Virginia {
+			div = 20;
 		}
 
 		state Massachusetts {
 			// Add state behavior here;
 		}
 
-		state Arkansas {
+		state Colorado {
+			div = 52;
+		}
+
+		state South_Dakota {
+			div = 88;
+		}
+
+		state Wyoming {
+			// Add state behavior here;
+		}
+
+		state Idaho {
+			// Add state behavior here;
+		}
+
+		state Wisconsin {
+			div = 92;
+		}
+
+		state North_Dakota {
+			div = 4;
+		}
+
+		state Arizona {
+			div = 66;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			// Add state behavior here;
+		}
+
+		state Maine {
 			// Add state behavior here;
 		}
 	}

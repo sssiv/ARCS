@@ -7,7 +7,6 @@ class Generate:
         # State names
         self.used_state_names = []
         self.num_of_states = rand_num(0, 50)
-        #self.state_names = []
         self.generate_state_names()
 
         # Maps current variables with their types
@@ -126,6 +125,7 @@ class Generate:
         code += "\tstatemachine {\n"
 
         # Picks a state that has been initialized (if states exist)
+        # Make sure the list is not empty
         if self.used_state_names:
             initial_statename = rand_choice(self.used_state_names)
         else:
@@ -236,4 +236,4 @@ with open('random_tokens.txt', 'w') as file:
 
 # Makes text file and writes random formatted code in it
 with open('random_code.txt', 'w') as file:
-        file.write(Generate.generate_random_code())
+    file.write(Generate.generate_random_code())
