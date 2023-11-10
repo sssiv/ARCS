@@ -2,12 +2,10 @@ import random
 import tokens
 
 # Generates a random number between x and y
-def rand_num(x, y):
-    return random.randint(x, y)
+rand_num = lambda x, y: random.randint(x, y)
 #------------------------------------------------------------------------#
 # Makes a random choice from a list
-def rand_choice(options):
-    return random.choice(options)
+rand_choice = lambda options: random.choice(options)
 #------------------------------------------------------------------------#
 # Gets sublist index
 def get_list(sublist):

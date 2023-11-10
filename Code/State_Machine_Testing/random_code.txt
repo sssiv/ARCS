@@ -1,26 +1,135 @@
+event DROP {bool}; 
+event OPEN {bool}; 
+event REST {int}; 
 
-actor Jake_Gyllenhaal {
+actor Lenardo_DiCaprio {
 	statemachine {
-		initial Wyoming;
+		initial Montana;
 
-		bool value = False;
-		string index = "proteus words";
-		bool div = False;
-		bool flag = False;
-		string numOfThings = "Please help me, im trapped in here";
-		int mul = 27;
-		bool sub = False;
-		string var = "Please help me, im trapped in here";
-		string key = "this code is very buggy";
-		bool add = False;
-		bool scope = False;
+		string mul = "Now you need to impliment events";
 
-		state Pennsylvania {
+		state Montana {
 			// Add state behavior here;
 		}
 
-		state Wyoming {
+		state Vermont {
 			// Add state behavior here;
+		}
+
+		state Oklahoma {
+			mul = "actors acting and whatnot";
+		}
+
+		state Alaska {
+			mul = "actors acting and whatnot";
+		}
+
+		state Texas {
+			mul = "There's issues with infinite loops in here";
+		}
+
+		state Michigan {
+			mul = "Here's a random string";
+		}
+
+		state Washington {
+			mul = "this code is very buggy";
+		}
+
+		state Alabama {
+			// Add state behavior here;
+		}
+
+		state South_Dakota {
+			mul = "states are stated";
+		}
+
+		state North_Carolina {
+			// Add state behavior here;
+		}
+
+		state Ohio {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			mul = "actors acting and whatnot";
+		}
+
+		state New_York {
+			// Add state behavior here;
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+
+		state Nebraska {
+			// Add state behavior here;
+		}
+
+		state Idaho {
+			// Add state behavior here;
+		}
+
+		state California {
+			mul = "I wonder if this string changed value";
+		}
+
+		state Louisiana {
+			mul = "Debug this code for a prize";
+		}
+
+		state New_Hampshire {
+			mul = "learn about event syntax";
+		}
+
+		state Kansas {
+			// Add state behavior here;
+		}
+
+		state Massachusetts {
+			// Add state behavior here;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state Maryland {
+			// Add state behavior here;
+		}
+
+		state Connecticut {
+			// Add state behavior here;
+		}
+
+		state Oregon {
+			// Add state behavior here;
+		}
+
+		state Delaware {
+			mul = "actors acting and whatnot";
+		}
+
+		state Iowa {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			mul = "Please help me, im trapped in here";
+		}
+
+		state Mississippi {
+			mul = "proteus words";
+		}
+
+		state Wyoming {
+			mul = "JPL vs NASA";
+		}
+
+		state Arkansas {
+			mul = "There's issues with infinite loops in here";
 		}
 	}
 }
