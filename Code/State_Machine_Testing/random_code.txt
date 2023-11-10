@@ -1,175 +1,48 @@
 
-actor Samuel_L_Jackson {
+actor Rami_Malek {
 	statemachine {
-		int name = 21;
-		bool sub = False;
+		initial Massachusetts;
 
-		state New_Mexico {
-			name = 20;
-			sub = False;
-		}
-
-		state Vermont {
-			// Add state behavior here;
-		}
-
-		state Iowa {
-			name = 30;
-			sub = False;
-		}
-
-		state Georgia {
-			// Add state behavior here;
-		}
-
-		state Missouri {
-			name = 7;
-			sub = False;
-		}
-
-		state South_Carolina {
-			// Add state behavior here;
-		}
-
-		state Kansas {
-			// Add state behavior here;
-		}
-
-		state Michigan {
-			// Add state behavior here;
-		}
-
-		state Virginia {
-			// Add state behavior here;
-		}
-
-		state Mississippi {
-			name = 66;
-			sub = True;
-		}
+		bool check = False;
 
 		state Utah {
-			// Add state behavior here;
-		}
-
-		state Texas {
-			// Add state behavior here;
-		}
-
-		state New_Jersey {
-			name = 16;
-			sub = True;
-		}
-
-		state North_Carolina {
-			// Add state behavior here;
+			check = False;
 		}
 
 		state Washington {
-			// Add state behavior here;
-		}
-
-		state West_Virginia {
-			name = 9;
-			sub = True;
-		}
-
-		state Pennsylvania {
-			// Add state behavior here;
-		}
-
-		state North_Dakota {
-			name = 30;
-			sub = False;
-		}
-
-		state Maine {
-			name = 36;
-			sub = True;
-		}
-
-		state Wisconsin {
-			name = 60;
-			sub = True;
-		}
-
-		state Alaska {
-			// Add state behavior here;
-		}
-
-		state Nevada {
-			// Add state behavior here;
-		}
-
-		state Arizona {
-			// Add state behavior here;
-		}
-
-		state Connecticut {
-			name = 49;
-			sub = False;
-		}
-
-		state Arkansas {
-			name = 2;
-			sub = False;
-		}
-
-		state Tennessee {
-			// Add state behavior here;
-		}
-
-		state Colorado {
-			name = 96;
-			sub = False;
-		}
-
-		state Indiana {
-			name = 10;
-			sub = True;
-		}
-
-		state Nebraska {
-			name = 21;
-			sub = False;
-		}
-
-		state Maryland {
-			// Add state behavior here;
-		}
-
-		state Kentucky {
-			name = 30;
-			sub = False;
+			check = False;
 		}
 
 		state Illinois {
-			name = 14;
-			sub = False;
+			// Add state behavior here;
 		}
 
 		state New_Hampshire {
-			name = 53;
-			sub = True;
+			// Add state behavior here;
 		}
 
-		state Delaware {
+		state Hawaii {
+			check = True;
+		}
+
+		state Massachusetts {
+			check = True;
+		}
+
+		state New_York {
+			// Add state behavior here;
+		}
+
+		state Minnesota {
 			// Add state behavior here;
 		}
 
 		state South_Dakota {
-			name = 60;
-			sub = True;
+			// Add state behavior here;
 		}
 
-		state Louisiana {
-			name = 82;
-			sub = False;
-		}
-
-		state Massachusetts {
-			name = 94;
-			sub = False;
+		state Delaware {
+			check = True;
 		}
 	}
 }

@@ -13,8 +13,11 @@ class Generate:
         self.used_variable_names = {}
 
         # Event names
-        self.event_names = []
-        self.used_event_names = []
+        self.num_of_events = rand_num(0, 5)
+
+        # Events are saved with their Variable Type
+        self.used_event_names = {}
+        self.generate_event_names()
     #------------------------------------------------------------------------#
     # Variables
     def generate_variables(self, code):
@@ -65,7 +68,7 @@ class Generate:
         # Pick a random statename
         statename = rand_choice(statenames)
 
-        # Generates 0 - 50 states
+        # Makes num_of_states amount of states
         for _ in range(self.num_of_states):
             # Makes sure the chosen state name is used once
             while statename in self.used_state_names:
@@ -75,24 +78,35 @@ class Generate:
             self.used_state_names.append(statename)
     #------------------------------------------------------------------------#
     def generate_event_names(self):
-        i = i
-    #------------------------------------------------------------------------#
-    # Generates random Event(s)
-    # Needs a loop to make more than one event if wanted
-    def generate_event(self, code):
+        # Get event names list
+        event_names = get_list(tokens.event_names)
+
+        # Pick a random event name
+        eventname = rand_choice(event_names)
 
         # Picks random Variables from list
         variables = get_list(tokens.variables)
         variable = rand_choice(variables)
 
-        # Picks random event name from list
-        event_names = get_list(tokens.event_names)
-        event_name = rand_choice(event_names)
-        
+        for _ in range(self.num_of_events):
+            # Makes each event have a random type
+            variable = rand_choice(variables)
+
+            # Make sure the chosen event name is used once
+            while eventname in self.used_event_names:
+                eventname = rand_choice(event_names)
+            #Adds used event name to list
+            self.used_event_names[eventname] = variable
+
+    #------------------------------------------------------------------------#
+    # Generates random Event(s)
+    # Needs a loop to make more than one event if wanted
+    def generate_event(self, code):
+
         # Make a loop for this
         if rand_num(0, 1):
-            code += f"event {event_name}{{{variable}}}; \n"
-
+            for key, value in self.used_event_names.items():
+                code += f"event {key} {{{value}}}; \n"
         # Make sure this is at the end outside the loop
         code += '\n'
 
@@ -152,7 +166,7 @@ class Generate:
         # Make and save variables
         code = self.generate_variables(code)
 
-        # Generates 0 - 50 states
+        # Iterating through how many state names we generated
         for i in range(self.num_of_states):
             # Actual State syntax
             # Randomly deciding if we want to change variable values in each state
@@ -181,7 +195,7 @@ class Generate:
         line_length = 0
 
         # These rows are for variable names, we want just random tokens
-        ignore_rows = -4
+        ignore_rows = -5
 
         # Random text still has more room
         while len(random_text) < length:

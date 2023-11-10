@@ -37,7 +37,9 @@ def make_value(type):
 
     # String check
     if type == 'string':
-        value = '"enter a string"'
+        rand_index = rand_num(0, len(tokens.string_input) - 1)
+        rand_string = tokens.string_input[rand_index]
+        value = f'"{rand_string}"'
 
     # Returns value
     return value

@@ -1,54 +1,34 @@
-<<<^=7]	string;
-state
-stringreturn]<< 2int	onevent+	3;^= exitinitial
-},go1>>>
->]{
-].3,int (bool-.
-string.0on
-funcstring.while	actorentryelse	9->
-6&&% 3->
-int/=
-<string};state{9
-1initial	bool97;(;
-entry/=>
-93print
-0*=.8[else3 onif	;( 4on }initial .	3elsebool.1,(	1string)9	3<=>
-;!=
-}goif	intinitialstring
-exit;string	0bool5	2^int -=string	else
-int;
-string08
-stringentryoff8}	exitelse	event3 .string /.boolend	||5actorbool	9endstring
-exit.^ ;, {state	!=
-else	(	int<<
-bool5
- %=exit 4[endevent
-.if6string
-intboolbool	4 -=]]	exit.+	=event<<
-initial.,off-4+
-event8stringstring	bool<actorstate9
-.{string	stringreturn-
->>=actor
-<<=
-)(goifwhile,
-boolexitbool, 5whilestring
-int8else-> ;printstring
-+=string<<;,, bool3end
-<=+=	6initial8
-intstring	1int!=*string	event	[exitreturnint func4int	)<<on{
-returnbool <<string+= returnstring
-exit
-||int(6go[	[5actor onbool6go
-printint; ;>	state]9{int
-<<intentry
-,string int 021]6while
-bool
-0initial{.intinitial eventeventint
-{(3[}2
->{ifend*>>	,;bool string
-6state;	;stateoff4,)
-3bool^=bool *=<= string*= %=
-event int [3;>>=int
-endintstringstring	offevent]	whileelsestring
-event{)state
-,stringifentry;	;*goif -=	;actor 85>>=	0245.	* -=5 )[string
+(boolint
+1.{string/=	goif}+
+actor
+7ongoif8
+string	offinitial^=8{	stringelse
+funcintactor (return
+.entryint=}event	actor>>=
+intprint	}^=,*intstate
+||7state ;7end(.(	/ %= bool int&&stringbool eventintint^=	47]bool/=	intevent>>
+state0
+28 stringint	bool(;string<int
++on.string on,	;exit
+bool>>=67else	=bool}==else	bool
+])*.boolstatestring	;[46	]	[string||func actor	state 2/intreturn }bool
+while{return	*0int
+int)while (<=;,}int,else	3entry	;<=}84
+,exit5 boolelse4
+. 2exitstring{	int	.<=
+int6int. return)+= -=
+83
+int/=return.[stringint boolstate. ) ;;string;intevent	*=bool, }event} 2int0bool5event	*actorgoif;].	*,7bool	7int5int/ end state; 6if;state string^=	int,
+exitactor8. 5intintint. string4(
+,;end .string intstate	int. ||.onactor (}76] (,stringstate >>= .stringreturn
+;string;
+*int)event 1event int -]elsebool	>>bool1string
+8string	stringstring	},4actor{
+ %=string6bool intint
+-%off	stringreturn% string]}<=0end	state
+exitprint -=string
+,{.
+;bool 3)	,intbool
+go;string %=entry
+([8stateevent	initial]04	string;bool
+goifstate
