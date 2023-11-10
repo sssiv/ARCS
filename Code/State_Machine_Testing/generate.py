@@ -129,10 +129,10 @@ class Generate:
         if self.used_state_names:
             initial_statename = rand_choice(self.used_state_names)
         else:
-            initial_statename = "None"
-            
+            initial_statename = None
+
         # Randomly decides if we include an initial state 
-        if rand_num(0, 1) and initial_statename != "None":
+        if rand_num(0, 1) and initial_statename is not None:
             code += f"\t\tinitial {initial_statename};\n\n"
 
         # Genrate States

@@ -1,281 +1,147 @@
 
-actor Samuel_L_Jackson {
+actor Keanu_Reeves {
 	statemachine {
-		int mul = 46;
-		int index = 73;
-		bool name = True;
-		string var = "enter a string";
-		bool counter = False;
-		string result = "enter a string";
-		string flag = "enter a string";
-		int div = 48;
-		string time = "enter a string";
-		string check = "enter a string";
-		bool add = True;
+		initial Kentucky;
 
-		state Maryland {
-			mul = 64;
-			index = 8;
-			name = False;
+		int time = 18;
+		bool check = False;
+		int name = 84;
+		string var = "enter a string";
+
+		state New_Jersey {
+			// Add state behavior here;
+		}
+
+		state Kansas {
+			time = 16;
+			check = True;
+			name = 40;
 			var = "enter a string";
-			counter = True;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 49;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
+		}
+
+		state Oregon {
+			// Add state behavior here;
+		}
+
+		state Kentucky {
+			time = 33;
+			check = True;
+			name = 96;
+			var = "enter a string";
+		}
+
+		state Florida {
+			// Add state behavior here;
 		}
 
 		state Oklahoma {
-			mul = 64;
-			index = 19;
-			name = False;
+			time = 39;
+			check = True;
+			name = 77;
 			var = "enter a string";
-			counter = False;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 30;
-			time = "enter a string";
-			check = "enter a string";
-			add = True;
 		}
 
-		state North_Carolina {
-			mul = 35;
-			index = 28;
-			name = False;
-			var = "enter a string";
-			counter = False;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 12;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
-		}
-
-		state Mississippi {
+		state Maine {
 			// Add state behavior here;
 		}
 
-		state Virginia {
-			mul = 96;
-			index = 58;
-			name = True;
+		state South_Dakota {
+			time = 61;
+			check = True;
+			name = 12;
 			var = "enter a string";
-			counter = False;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 83;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
-		}
-
-		state Washington {
-			mul = 89;
-			index = 19;
-			name = True;
-			var = "enter a string";
-			counter = True;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 51;
-			time = "enter a string";
-			check = "enter a string";
-			add = True;
-		}
-
-		state Iowa {
-			mul = 18;
-			index = 96;
-			name = True;
-			var = "enter a string";
-			counter = True;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 44;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
-		}
-
-		state Arkansas {
-			// Add state behavior here;
-		}
-
-		state Georgia {
-			mul = 15;
-			index = 71;
-			name = True;
-			var = "enter a string";
-			counter = True;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 75;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
 		}
 
 		state Michigan {
-			mul = 11;
-			index = 88;
-			name = False;
+			time = 34;
+			check = True;
+			name = 8;
 			var = "enter a string";
-			counter = True;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 85;
-			time = "enter a string";
-			check = "enter a string";
-			add = True;
 		}
 
-		state Alaska {
-			mul = 98;
-			index = 61;
-			name = False;
+		state Idaho {
+			time = 60;
+			check = False;
+			name = 34;
 			var = "enter a string";
-			counter = True;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 6;
-			time = "enter a string";
-			check = "enter a string";
-			add = True;
 		}
 
-		state Alabama {
-			mul = 89;
-			index = 56;
-			name = False;
+		state Wisconsin {
+			time = 43;
+			check = False;
+			name = 17;
 			var = "enter a string";
-			counter = False;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 20;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
+		}
+
+		state New_Mexico {
+			time = 85;
+			check = False;
+			name = 4;
+			var = "enter a string";
+		}
+
+		state Pennsylvania {
+			// Add state behavior here;
+		}
+
+		state Nevada {
+			// Add state behavior here;
+		}
+
+		state North_Carolina {
+			// Add state behavior here;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+
+		state Tennessee {
+			// Add state behavior here;
+		}
+
+		state Maryland {
+			// Add state behavior here;
+		}
+
+		state California {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			time = 44;
+			check = True;
+			name = 61;
+			var = "enter a string";
+		}
+
+		state Virginia {
+			time = 42;
+			check = False;
+			name = 20;
+			var = "enter a string";
 		}
 
 		state Illinois {
 			// Add state behavior here;
 		}
 
-		state South_Carolina {
-			mul = 7;
-			index = 88;
-			name = True;
+		state North_Dakota {
+			time = 80;
+			check = False;
+			name = 77;
 			var = "enter a string";
-			counter = False;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 14;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
-		}
-
-		state Vermont {
-			mul = 11;
-			index = 75;
-			name = False;
-			var = "enter a string";
-			counter = False;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 22;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
-		}
-
-		state Tennessee {
-			mul = 11;
-			index = 44;
-			name = False;
-			var = "enter a string";
-			counter = True;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 84;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
-		}
-
-		state Ohio {
-			// Add state behavior here;
-		}
-
-		state West_Virginia {
-			// Add state behavior here;
 		}
 
 		state Massachusetts {
 			// Add state behavior here;
 		}
 
-		state North_Dakota {
-			mul = 66;
-			index = 22;
-			name = True;
-			var = "enter a string";
-			counter = True;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 13;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
-		}
-
-		state Hawaii {
-			mul = 38;
-			index = 85;
-			name = True;
-			var = "enter a string";
-			counter = False;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 47;
-			time = "enter a string";
-			check = "enter a string";
-			add = True;
-		}
-
-		state Pennsylvania {
-			mul = 34;
-			index = 34;
-			name = True;
-			var = "enter a string";
-			counter = False;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 1;
-			time = "enter a string";
-			check = "enter a string";
-			add = False;
-		}
-
-		state Kansas {
-			mul = 17;
-			index = 45;
-			name = True;
-			var = "enter a string";
-			counter = True;
-			result = "enter a string";
-			flag = "enter a string";
-			div = 61;
-			time = "enter a string";
-			check = "enter a string";
-			add = True;
-		}
-
-		state Texas {
+		state Arkansas {
 			// Add state behavior here;
 		}
 	}
