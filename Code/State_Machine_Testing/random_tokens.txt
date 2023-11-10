@@ -1,34 +1,32 @@
-(boolint
-1.{string/=	goif}+
-actor
-7ongoif8
-string	offinitial^=8{	stringelse
-funcintactor (return
-.entryint=}event	actor>>=
-intprint	}^=,*intstate
-||7state ;7end(.(	/ %= bool int&&stringbool eventintint^=	47]bool/=	intevent>>
-state0
-28 stringint	bool(;string<int
-+on.string on,	;exit
-bool>>=67else	=bool}==else	bool
-])*.boolstatestring	;[46	]	[string||func actor	state 2/intreturn }bool
-while{return	*0int
-int)while (<=;,}int,else	3entry	;<=}84
-,exit5 boolelse4
-. 2exitstring{	int	.<=
-int6int. return)+= -=
-83
-int/=return.[stringint boolstate. ) ;;string;intevent	*=bool, }event} 2int0bool5event	*actorgoif;].	*,7bool	7int5int/ end state; 6if;state string^=	int,
-exitactor8. 5intintint. string4(
-,;end .string intstate	int. ||.onactor (}76] (,stringstate >>= .stringreturn
-;string;
-*int)event 1event int -]elsebool	>>bool1string
-8string	stringstring	},4actor{
- %=string6bool intint
--%off	stringreturn% string]}<=0end	state
-exitprint -=string
-,{.
-;bool 3)	,intbool
-go;string %=entry
-([8stateevent	initial]04	string;bool
-goifstate
+on*=8 0print -=
+actorstring
+intstate,),5
+,bool+,intboolprint
+^,off	intinitial,]&&	event	int.goifexit
+stringbool->actor	5},]entryon7	eventbool	int-> 3 ^3=exit	int60
+{state %=	int)[	.string)	string.= int.stringbool
+[	[<,(->	initial;int	entryprint7bool4, intexitboolevent
+string^=	9bool,event
+%intevent event}bool}2 exitendinitial state	)int)int	event state
+.->state	,event 76]/=actor	-;stringint	5string[string1 6&&stringend	intbool,intint actor<exitintstate	||stringstring,
+int[)event4	elsebool
+boolentry endstatewhile +.boolevent
+intstringactor
+ifstring4bool
+;(end!=elseinitial [bool,
+;;3 actorbool} ;bool;.%on0	.!=9goif( (end(.
+,,([goif)
+;;actor)string	^=intgoifevent stringifentry
+state
+2int,{off[	0bool[-
+bool	state;func [<<=;int	bool	int(},int )state0;string	boolbool6	7||stringbool	string string )]	state3func %=5 bool
+exitstringstring ;string	;event*=	==off  %=intstatebool
+stringbool
+if)	^= >>event (, entry.+=event	{]||,;,||
+ %=boolstring*=	,stringstring
+bool.6 on(72][exit	<<=7actor(3	];; %= int{,1
+bool	;,0initial
+goifintbool]string ||={string} state	!=[goif!=>>
+}*;[ %=string	7print
+intstatestring>>;	.9(4end9
+*-/ .8string int{exitbool

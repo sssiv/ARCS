@@ -1,19 +1,222 @@
+event LEFT {bool}; 
+event RIGHT {string}; 
+event DOWN {bool}; 
+event STOP {int}; 
+event GO {bool}; 
 
-actor Rami_Malek {
+actor Keanu_Reeves {
 	statemachine {
-		initial Massachusetts;
+		initial Texas;
 
-		bool check = False;
+		bool add = False;
+		int counter = 10;
+		int var = 83;
+		bool mul = False;
+		int sub = 82;
+		bool time = True;
+		bool index = True;
+		string div = "this code is very buggy";
+		string name = "made in python";
+		string flag = "Do stuff with events";
 
-		state Utah {
-			check = False;
+		state Rhode_Island {
+			// Add state behavior here;
 		}
 
-		state Washington {
-			check = False;
+		state Nevada {
+			add = False;
+			counter = 76;
+			var = 4;
+			mul = True;
+			sub = 25;
+			time = True;
+			index = True;
+			div = "something entered";
+			name = "Events and stuff doing things";
+			flag = "Please help me, im trapped in here";
+		}
+
+		state Colorado {
+			add = True;
+			counter = 18;
+			var = 57;
+			mul = False;
+			sub = 64;
+			time = True;
+			index = False;
+			div = "made in python";
+			name = "learn about event syntax";
+			flag = "this code is very buggy";
+		}
+
+		state New_Jersey {
+			add = True;
+			counter = 9;
+			var = 98;
+			mul = False;
+			sub = 76;
+			time = False;
+			index = True;
+			div = "proteus words";
+			name = "made in python";
+			flag = "learn about event syntax";
+		}
+
+		state Iowa {
+			add = True;
+			counter = 66;
+			var = 56;
+			mul = False;
+			sub = 37;
+			time = False;
+			index = True;
+			div = "Now you need to impliment events";
+			name = "Please help me, im trapped in here";
+			flag = "learn about event syntax";
+		}
+
+		state Montana {
+			// Add state behavior here;
+		}
+
+		state South_Dakota {
+			add = True;
+			counter = 70;
+			var = 41;
+			mul = True;
+			sub = 60;
+			time = False;
+			index = True;
+			div = "learn about event syntax";
+			name = "something entered";
+			flag = "Please help me, im trapped in here";
+		}
+
+		state Tennessee {
+			add = True;
+			counter = 93;
+			var = 74;
+			mul = False;
+			sub = 59;
+			time = True;
+			index = False;
+			div = "Events and stuff doing things";
+			name = "Please help me, im trapped in here";
+			flag = "this code is very buggy";
+		}
+
+		state North_Carolina {
+			// Add state behavior here;
+		}
+
+		state Pennsylvania {
+			add = False;
+			counter = 76;
+			var = 26;
+			mul = True;
+			sub = 73;
+			time = False;
+			index = True;
+			div = "JPL vs NASA";
+			name = "proteus words";
+			flag = "Events and stuff doing things";
+		}
+
+		state Maine {
+			add = True;
+			counter = 76;
+			var = 66;
+			mul = False;
+			sub = 7;
+			time = True;
+			index = True;
+			div = "states are stated";
+			name = "Please help me, im trapped in here";
+			flag = "made in python";
+		}
+
+		state New_Mexico {
+			add = False;
+			counter = 87;
+			var = 75;
+			mul = False;
+			sub = 79;
+			time = True;
+			index = False;
+			div = "Do stuff with events";
+			name = "proteus words";
+			flag = "something entered";
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state Maryland {
+			add = False;
+			counter = 48;
+			var = 86;
+			mul = False;
+			sub = 63;
+			time = False;
+			index = False;
+			div = "this code is very buggy";
+			name = "something entered";
+			flag = "actors acting and whatnot";
+		}
+
+		state Connecticut {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			add = False;
+			counter = 39;
+			var = 89;
+			mul = True;
+			sub = 52;
+			time = False;
+			index = False;
+			div = "actors acting and whatnot";
+			name = "learn about event syntax";
+			flag = "There's issues with infinite loops in here";
+		}
+
+		state Missouri {
+			// Add state behavior here;
+		}
+
+		state South_Carolina {
+			add = True;
+			counter = 12;
+			var = 50;
+			mul = False;
+			sub = 28;
+			time = True;
+			index = False;
+			div = "Please help me, im trapped in here";
+			name = "Now you need to impliment events";
+			flag = "JPL vs NASA";
 		}
 
 		state Illinois {
+			add = True;
+			counter = 31;
+			var = 57;
+			mul = True;
+			sub = 75;
+			time = True;
+			index = False;
+			div = "Events and stuff doing things";
+			name = "actors acting and whatnot";
+			flag = "JPL vs NASA";
+		}
+
+		state Alaska {
+			// Add state behavior here;
+		}
+
+		state North_Dakota {
 			// Add state behavior here;
 		}
 
@@ -21,28 +224,284 @@ actor Rami_Malek {
 			// Add state behavior here;
 		}
 
-		state Hawaii {
-			check = True;
+		state Michigan {
+			add = True;
+			counter = 83;
+			var = 75;
+			mul = True;
+			sub = 61;
+			time = False;
+			index = False;
+			div = "actors acting and whatnot";
+			name = "states are stated";
+			flag = "proteus words";
 		}
 
-		state Massachusetts {
-			check = True;
+		state Washington {
+			add = True;
+			counter = 97;
+			var = 54;
+			mul = False;
+			sub = 19;
+			time = False;
+			index = False;
+			div = "Events and stuff doing things";
+			name = "Here's a random string";
+			flag = "learn about event syntax";
+		}
+
+		state California {
+			add = True;
+			counter = 77;
+			var = 27;
+			mul = False;
+			sub = 83;
+			time = True;
+			index = False;
+			div = "Do stuff with events";
+			name = "states are stated";
+			flag = "this code is very buggy";
+		}
+
+		state Texas {
+			add = True;
+			counter = 16;
+			var = 51;
+			mul = True;
+			sub = 75;
+			time = True;
+			index = True;
+			div = "Now you need to impliment events";
+			name = "proteus words";
+			flag = "made in python";
+		}
+
+		state Minnesota {
+			add = True;
+			counter = 32;
+			var = 1;
+			mul = False;
+			sub = 47;
+			time = False;
+			index = False;
+			div = "learn about event syntax";
+			name = "Please help me, im trapped in here";
+			flag = "proteus words";
+		}
+
+		state Ohio {
+			add = False;
+			counter = 88;
+			var = 3;
+			mul = True;
+			sub = 26;
+			time = False;
+			index = True;
+			div = "Now you need to impliment events";
+			name = "Here's a random string";
+			flag = "Now you need to impliment events";
+		}
+
+		state Alabama {
+			add = True;
+			counter = 77;
+			var = 43;
+			mul = False;
+			sub = 17;
+			time = True;
+			index = True;
+			div = "proteus words";
+			name = "actors acting and whatnot";
+			flag = "Please help me, im trapped in here";
+		}
+
+		state Nebraska {
+			add = False;
+			counter = 54;
+			var = 63;
+			mul = True;
+			sub = 72;
+			time = True;
+			index = False;
+			div = "made in python";
+			name = "There's issues with infinite loops in here";
+			flag = "Here's a random string";
+		}
+
+		state Wisconsin {
+			add = False;
+			counter = 66;
+			var = 40;
+			mul = False;
+			sub = 96;
+			time = False;
+			index = True;
+			div = "proteus words";
+			name = "Do stuff with events";
+			flag = "Please help me, im trapped in here";
+		}
+
+		state West_Virginia {
+			// Add state behavior here;
+		}
+
+		state Arkansas {
+			add = False;
+			counter = 18;
+			var = 43;
+			mul = False;
+			sub = 24;
+			time = True;
+			index = False;
+			div = "Please help me, im trapped in here";
+			name = "actors acting and whatnot";
+			flag = "learn about event syntax";
+		}
+
+		state Delaware {
+			add = True;
+			counter = 60;
+			var = 17;
+			mul = True;
+			sub = 22;
+			time = True;
+			index = False;
+			div = "this code is very buggy";
+			name = "states are stated";
+			flag = "Now you need to impliment events";
+		}
+
+		state Kansas {
+			add = True;
+			counter = 80;
+			var = 74;
+			mul = True;
+			sub = 30;
+			time = True;
+			index = False;
+			div = "There's issues with infinite loops in here";
+			name = "There's issues with infinite loops in here";
+			flag = "states are stated";
 		}
 
 		state New_York {
 			// Add state behavior here;
 		}
 
-		state Minnesota {
+		state Louisiana {
 			// Add state behavior here;
 		}
 
-		state South_Dakota {
+		state Vermont {
+			add = False;
+			counter = 30;
+			var = 30;
+			mul = False;
+			sub = 89;
+			time = False;
+			index = False;
+			div = "Please help me, im trapped in here";
+			name = "made in python";
+			flag = "Here's a random string";
+		}
+
+		state Idaho {
+			add = False;
+			counter = 12;
+			var = 5;
+			mul = True;
+			sub = 28;
+			time = True;
+			index = True;
+			div = "Events and stuff doing things";
+			name = "actors acting and whatnot";
+			flag = "Please help me, im trapped in here";
+		}
+
+		state Arizona {
+			add = False;
+			counter = 100;
+			var = 46;
+			mul = True;
+			sub = 65;
+			time = True;
+			index = False;
+			div = "JPL vs NASA";
+			name = "Here's a random string";
+			flag = "proteus words";
+		}
+
+		state Florida {
+			add = False;
+			counter = 57;
+			var = 2;
+			mul = False;
+			sub = 62;
+			time = False;
+			index = True;
+			div = "proteus words";
+			name = "Events and stuff doing things";
+			flag = "Please help me, im trapped in here";
+		}
+
+		state Wyoming {
 			// Add state behavior here;
 		}
 
-		state Delaware {
-			check = True;
+		state Virginia {
+			add = False;
+			counter = 44;
+			var = 33;
+			mul = True;
+			sub = 33;
+			time = False;
+			index = True;
+			div = "made in python";
+			name = "this code is very buggy";
+			flag = "actors acting and whatnot";
+		}
+
+		state Georgia {
+			add = True;
+			counter = 90;
+			var = 46;
+			mul = True;
+			sub = 88;
+			time = False;
+			index = True;
+			div = "states are stated";
+			name = "JPL vs NASA";
+			flag = "Please help me, im trapped in here";
+		}
+
+		state Oklahoma {
+			add = False;
+			counter = 84;
+			var = 59;
+			mul = True;
+			sub = 50;
+			time = False;
+			index = True;
+			div = "Please help me, im trapped in here";
+			name = "Here's a random string";
+			flag = "states are stated";
+		}
+
+		state Kentucky {
+			// Add state behavior here;
+		}
+
+		state Oregon {
+			add = False;
+			counter = 25;
+			var = 70;
+			mul = False;
+			sub = 36;
+			time = True;
+			index = True;
+			div = "There's issues with infinite loops in here";
+			name = "this code is very buggy";
+			flag = "made in python";
 		}
 	}
 }
