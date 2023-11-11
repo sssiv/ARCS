@@ -2,30 +2,33 @@
 #include "tokens.h"
 #include <tuple>
 
+#define _tuple_(i, j, k) std::tuple<i, j, k>
+#define _pair_(i, j) std::pair<i, j>
+
 class Generate
 {
 private:
 // Generates a random number starting "From" X all the way "to" Y
     int rand_between(const int&, const int&);
-    std::tuple<std::string, std::string, std::string> generateVariableValue(const std::string&, const std::string&);
+    _tuple_(str, str, str) generateVariableValue(const str&, const str&);
 
-    std::string _code;
+    str _code;
     Tokens _Tokens;
-    std::vector<std::vector<std::string>> _tokens;
-    std::vector<std::pair<std::string, std::string>> _events;
-    std::vector<std::tuple<std::string, std::string, std::string>> _variables;
+    std::vector<std::vector<str>> _tokens;
+    std::vector<_pair_(str, str)> _events;
+    std::vector<_tuple_(str, str, str)> _variables;
     
 public:
     Generate();
  
-    std::string generateEvents();
-    std::string generateVariables();
-    std::string generateActors();
-    std::string generateStatemachine();
-    std::string generateStates();
+    str generateEvents();
+    str generateVariables();
+    str generateActors();
+    str generateStatemachine();
+    str generateStates();
 
     // Generates a new text file with proteus code
-    void generateCode(const std::string&);
+    void generateCode(const str&);
 
     ~Generate(){};
 };

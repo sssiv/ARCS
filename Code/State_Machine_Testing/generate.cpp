@@ -16,7 +16,7 @@ int Generate::rand_between(const int& from, const int& to)
     return dist(gen);
 }
 
-std::tuple<std::string, std::string, std::string> Generate::generateVariableValue(const std::string& type, const std::string& name) 
+_tuple_(str, str, str) Generate::generateVariableValue(const str& type, const str& name) 
 {
     // Makes first variable an int
     if (type == "int")
@@ -37,7 +37,7 @@ std::tuple<std::string, std::string, std::string> Generate::generateVariableValu
     if (type == "bool")
     {
         int trueOfFalse = rand_between(0, 1);
-        std::string boolValue = "";
+        str boolValue = "";
         if (trueOfFalse) boolValue = "True;";
         else boolValue = "False;";
         return {"bool", name, boolValue};  
@@ -45,16 +45,16 @@ std::tuple<std::string, std::string, std::string> Generate::generateVariableValu
     return {"None", "None", "None"};
 }
 
-std::string Generate::generateEvents()
+str Generate::generateEvents()
 {
     // Random variable type and event name string
-    std::string randVarType, randEventName;
+    str randVarType, randEventName;
 
     // Int for random indecies
     int randVarIndex, randEventIndex;
 
     // Blank string for code
-    std::string code = "";
+    str code = "";
 
     // Pick random indecies
     randVarIndex = rand_between(0, _tokens[Columns::VARIABLES].size() - 1);
@@ -113,19 +113,19 @@ std::string Generate::generateEvents()
     return code;
 }
 
-std::string Generate::generateVariables()
+str Generate::generateVariables()
 {
     // Random variable type and event name string
-    std::string  randVarValue;
+    str  randVarValue;
 
     // Int for random indecies
     int randVarIndex = rand_between(0, _tokens[Columns::VARIABLES].size() - 1);;
     int randNameIndex = rand_between(0, _tokens[Columns::VARIABLE_NAMES].size() - 1);
 
     // Blank string for code
-    std::string code = "";
-    std::string randVarType = _tokens[Columns::VARIABLES][randVarIndex];
-    std::string randVarName = _tokens[Columns::VARIABLE_NAMES][randNameIndex];
+    str code = "";
+    str randVarType = _tokens[Columns::VARIABLES][randVarIndex];
+    str randVarName = _tokens[Columns::VARIABLE_NAMES][randNameIndex];
 
     _variables.push_back(generateVariableValue(randVarType, randVarName));
     // Picks a random number of events to generate
@@ -174,25 +174,25 @@ std::string Generate::generateVariables()
     return code;
 }
 
-
-std::string Generate::generateActors()
+str Generate::generateActors()
 {
     return _code;
 }
 
-std::string Generate::generateStatemachine()
+str Generate::generateStatemachine()
 {
     return _code;
 }
 
-std::string Generate::generateStates()
+str Generate::generateStates()
 {
     return _code;
 }
 
-void Generate::generateCode(const std::string& filename)
+void Generate::generateCode(const str& filename)
 {
-    _code += generateEvents();
+    _code += generateEvents() + "\n";
+    _code += generateVariables() + "\n";
 
     // Create and open a text file
     std::ofstream MyFile(filename);

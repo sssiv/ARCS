@@ -1,7 +1,16 @@
-event LIFT{int}
-event JUMP{int}
+event DOWN{bool}
+event DROP{int}
 event TURN{string}
-event FALL{int}
-event LEFT{bool}
-event LOOK{string}
-event CLOSE{int}
+
+string thing= "with";
+bool key= True;
+int name= 71;
+bool result= False;
+int counter= 223;
+int check= 294;
+int sub= 344;
+int time= 254;
+string value= ""Here's";
+int index= 217;
+string div= "a";
+

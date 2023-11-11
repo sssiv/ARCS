@@ -14,6 +14,7 @@
 // Vector, obviously
 #include <vector>
 
+#define str std::string
 
 // For making 2D vectors easier to read. These are all the columns
 class Columns
@@ -37,10 +38,10 @@ public:
 class Tokens
 {
 private:
-    std::vector<std::vector<std::string>> _tokens;
+    std::vector<std::vector<str>> _tokens;
 public:
     
-    std::vector<std::vector<std::string>> getTokens();
+    std::vector<std::vector<str>> getTokens();
     // Get tokens given to us from the Python script
     void read();
     void readCSV();

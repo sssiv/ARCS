@@ -2,19 +2,19 @@
 
 Tokens::Tokens(){read();}
 
-std::vector<std::vector<std::string>> Tokens::getTokens() {return _tokens;}
+std::vector<std::vector<str>> Tokens::getTokens() {return _tokens;}
 
 void Tokens::readCSV() 
 {
-    std::vector<std::vector<std::string>> data;
+    std::vector<std::vector<str>> data;
     std::ifstream file("tokens.csv");
     std::string line;
 
     while (std::getline(file, line)) 
     {
         std::stringstream lineStream(line);
-        std::string cell;
-        std::vector<std::string> parsedRow;
+        str cell;
+        std::vector<str> parsedRow;
         bool nullValueFound = false;
 
         while (std::getline(lineStream, cell, ' ')) 
@@ -40,16 +40,16 @@ void Tokens::read()
     std::ifstream file("tokens.txt");
 
     // Used to read in each line
-    std::string line;
+    str line;
 
     // From file, input to line
     while (std::getline(file, line))
     {
         // Used for individual tokens
-        std::string token;
+        str token;
 
         // Temp vector for making a vector for the 2D vector
-        std::vector<std::string> v;
+        std::vector<str> v;
 
         // Set iss to read in from line variable
         std::istringstream iss(line);
@@ -73,7 +73,7 @@ void Tokens::print()
     for (const auto& vec : _tokens) 
     {
         // For a string iterating through the vector thats looking at an individual column
-        for (const std::string& token : vec) 
+        for (const str& token : vec) 
         {
             // Show the token
             std::cout << token << " ";
