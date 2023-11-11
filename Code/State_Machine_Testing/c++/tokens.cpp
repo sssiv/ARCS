@@ -37,7 +37,7 @@ void Tokens::readCSV()
 void Tokens::read()
 {
     // Token text file made from python
-    std::ifstream file("tokens.txt");
+    std::ifstream file("../tokens.txt");
 
     // Used to read in each line
     str line;

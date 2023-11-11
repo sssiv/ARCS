@@ -12,9 +12,9 @@ list_of_tokens = tokens.lists
 
 # NOTE: Not using an object for Generate() cause 
 # I want the generated data to be purposfully lost for new tests
-with open('random_tokens.txt', 'w') as file:
+with open('../random_tokens.txt', 'w') as file:
         file.write(Generate.Fail().generate_random_text(list_of_tokens, num_of_chars))
 
 # Makes text file and writes random formatted code in it
-with open('passing_code.txt', 'w') as file:
+with open('../passing_code.txt', 'w') as file:
     file.write(Generate.Pass().generate_random_code())

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV file
-df = pd.read_csv('tokens.csv')
+df = pd.read_csv('../tokens.csv')
 
 # Define functions to handle stripping single quotes
 def strip_single_quotes(entry):
@@ -46,7 +46,7 @@ def display_tokens():
 
 # Writes all tokens to a txt file
 def tokens_txt():
-    with open('tokens.txt', 'w') as file:
+    with open('../tokens.txt', 'w') as file:
         for token_list in lists:
             # Join the elements of each list into a string with spaces as separators
             formatted_tokens = ' '.join(map(str, token_list))
