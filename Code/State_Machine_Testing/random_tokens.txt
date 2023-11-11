@@ -1,29 +1,58 @@
-->intentry),int	return 7,func 3int if(4	string.int offprint
-;int
-8}	.>statestate) {(,(string ,ifstate!=state	!=int;
-int]^bool	>>=,;}eventstate int9, 4	funcintwhile->
-]{(,[int!=]	intinitialint
-||bool91	state
-entry< 09string
->> 37==return
-string==int
-9int
-}>0off[
-string ,1state
-;state2	/=string5	.*=
-,intstring ]+exitbool.
-state71;	actor]	 %=;8+=int5.int	actor intgoif	61)!=} bool	<<)(string
-9 state;int,int	initialend
-stateoff0}
-boolstate else	func,0go )stringprint	exit
-string.6int ,4entryentry
-whilego [func>>)intreturn 7int9;state
-bool
- -=;	0+3 <exit	1state
-9.boolbool,	string, intstate
-state	04func( ;)^string ;*=intboolexitevent
-event{.==
-)>>int./=
-state<<= statereturnbool	string	intbool;string,	exit(bool }return <>4).5.initial
-eventboolstring}	 -=while=(!=bool	entry =6}goif9exit
-;;string goifint
+func*int
+bool+=state ->,event
+string} *]8bool bool[+=	*=[,actorint boolbool2 %=<=
+.7	string>
+->bool	statestring on[)string
+func&&string	,>>=,	03onstring	.intboolbool>>	string9string %=
+0string
+[string,
+string	}boolexit
+==[
+*= ]{string= 3.state	event	actor. 9;<<off -=initial
+3actor,	bool	intstringif	^(,string 6&&actor,	intstring[	string
+bool	int6	8 -=goifstring
+go
+<;exit	on9bool
+int9&&while
+,[,int %=while 5state ,exit>ifbool.
+)}3event]	ifstring returnbool
+}returnoff(end ;goif[,initial	.event	-intgo9 offactor}]return intexitboolstring	event	;<=boolreturnbool.	1end.else+=. .>>=7while
+567,event/={6,
+67intstring
+[!=0bool
+int,
+<(6eventstate
+boolevent
+}actorbool>> ]state	<<=int,([ /=435string1]string
+ifint4string.	off
+!=int	}{[>>9event;.,	,1,entry 8(func/;exit	ongostate5
+ %=
+int.^bool eventgobool	))*.,;1bool
+{4||int3initial;
+9bool -=&&
+state.	(stringevent ;bool
+],=
+-	string.=
+>>=
+}<=actorbool	initial/=4
+->]bool
+6exit exit1,func
+>string-> 7.<<=	string
+/!={end
+exit->	==<=+=}bool off	,6print==intboolint
+><<=5]>>=]
+;*=9
+.!=bool
+stringactor ,}<*=exit )7int.(
+actor bool	event	]<<state
+||( ;func
+;6 %=print<<=}	(&&actorinitial
+bool+=2	}<bool4+{]
+<<actor.
+stringboolentry 6	int8entry	stringexit+=	>(	7.77 -= /=>string
+while9>>=bool string)intint
+string9else
+;actorstring}	stringstring	off,||{ elsebool6	1exit0	bool+=intstring	string,int(	event,event	(off
+intstring	actor entry)8	string	%actorstring	boolevent(int,
+6;;;
+ -=

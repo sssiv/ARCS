@@ -1,6 +1,7 @@
-event LIFT{string}
-event CLOSE{bool}
+event LIFT{int}
+event JUMP{int}
+event TURN{string}
 event FALL{int}
-event SHOVE{string}
-event TURN{bool}
+event LEFT{bool}
 event LOOK{string}
+event CLOSE{int}

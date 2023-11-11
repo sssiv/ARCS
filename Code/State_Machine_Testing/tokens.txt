@@ -5,8 +5,8 @@ initial while if go goif exit return func entry exit print on off else end
 int string bool
 * / % + - << >> < > <= == != ^ && || *= /=  %= +=  -= <<= >>= ^= = ->
 . , ;
-Qunintin_Tarantino Lenardo_DiCaprio Rami_Malek Keanu_Reeves Jake_Gyllenhaal Samuel_L_Jackson
+Qunintin_Tarantino Lenardo_DiCaprio Rami_Malek Keanu_Reeves Jake_Gyllenhaal Samuel_L_Jackson Morgan_Freeman Robin_Williams Danny_DeVito Tom_Hanks
 Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New_Hampshire New_Jersey New_Mexico New_York North_Carolina North_Dakota Ohio Oklahoma Oregon Pennsylvania Rhode_Island South_Carolina South_Dakota Tennessee Texas Utah Vermont Virginia Washington West_Virginia Wisconsin Wyoming
-counter check flag time name index var add mul div sub result numOfThings scope thing value key
-STOP GO LEFT RIGHT UP DOWN LIFT DROP LOOK OPEN CLOSE TURN SHOVE JUMP FALL REST
-Here's a random string made in python something entered proteus words JPL vs NASA this code is very buggy Now you need to impliment events learn about event syntax Do stuff with events Events and stuff doing things actors acting and whatnot states are stated There's issues with infinite loops in here Please help me, im trapped in here Debug this code for a prize I wonder if this string changed value
+counter check flag time name index var add mul div sub result numOfThings scope thing value key data what
+STOP GO LEFT RIGHT UP DOWN LIFT DROP LOOK OPEN CLOSE TURN SHOVE JUMP FALL REST ACTIVATE MOVE TERMINATE
+Here's a random string made in python something entered proteus words JPL vs NASA this code is very buggy Now you need to impliment events learn about event syntax Do stuff with events Events and stuff doing things actors acting and whatnot states are stated There's issues with infinite loops in here Please help me, im trapped in here! Debug this code for a prize I wonder if this string changed value More sentences! This was easier in Python than C++ I don't care if Python is 'easier', I prefer C++
