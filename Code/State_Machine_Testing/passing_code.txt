@@ -1,0 +1,85 @@
+
+actor Morgan_Freeman {
+	statemachine {
+		initial Vermont;
+
+		bool thing = False;
+		bool sub = False;
+		string key = "Do stuff with events";
+		string check = "Now you need to impliment events";
+		bool counter = True;
+		bool index = False;
+		int flag = 50;
+		string name = "There's issues with infinite loops in here";
+		bool var = False;
+		bool mul = False;
+		string div = "something entered";
+		string data = "this code is very buggy";
+
+		state Colorado {
+			mul = True;
+			var = False;
+			index = True;
+		}
+
+		state Alaska {
+			key = "this code is very buggy";
+			counter = True;
+			sub = False;
+			index = False;
+			thing = True;
+			check = "made in python";
+			data = "made in python";
+			div = "Do stuff with events";
+		}
+
+		state Virginia {
+			check = "There's issues with infinite loops in here";
+			index = True;
+			data = "I wonder if this string changed value";
+			var = True;
+			sub = False;
+		}
+
+		state Vermont {
+			// Add state behavior here;
+		}
+
+		state Illinois {
+			// Add state behavior here;
+		}
+
+		state Kentucky {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			check = "actors acting and whatnot";
+			data = "proteus words";
+			name = "This was easier in Python than C++";
+			div = "something entered";
+			sub = True;
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+
+		state South_Carolina {
+			data = "Here's a random string";
+			index = True;
+			div = "actors acting and whatnot";
+			check = "actors acting and whatnot";
+			name = "Now you need to impliment events";
+			flag = 51;
+			counter = True;
+		}
+
+		state Massachusetts {
+			// Add state behavior here;
+		}
+
+		state Minnesota {
+		}
+	}
+}
