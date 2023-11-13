@@ -30,12 +30,6 @@ class Generate:
             # Picks a random name
             var_name = Functions.Lambdas.rand_choice(var_names)
 
-            """
-            I shouldnt need this because the list is currently empty, there cant possibly be repeats, right?            
-            # Makes sure the chosen variable name is not a repeat
-            while var_name in self.variables.keys():
-                var_name = rand_choice(var_names)
-            """
             # Make variables
             for _ in range(self.num_of_variables):
                 # Makes sure that randomly choses states are not already used
@@ -172,9 +166,7 @@ class Generate:
 
                     # Randomly select variables to modify
                     random_vars = Functions.Lambdas.rand_num(0, len(self.variables))
-                    # NOTE: list(self.variables.keys()) was self.variables.keys() 
-                    # # For some reason the laptop needs it but not the desktop??
-                    selected_vars = Functions.Lambdas.rand_samples(self.variables.keys(), random_vars)
+                    selected_vars = Functions.Lambdas.rand_samples(list(self.variables.keys()), random_vars)
                     
                     # Give new values to the variables
                     for name in selected_vars:

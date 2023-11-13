@@ -16,8 +16,7 @@ void Tokens::readCSV()
         str cell;
         std::vector<str> parsedRow;
         bool nullValueFound = false;
-
-        while (std::getline(lineStream, cell, ' ')) 
+        while (std::getline(lineStream, cell, ',')) 
         {
             // Define your null value condition here
             if (cell.empty() || cell == "NULL") 

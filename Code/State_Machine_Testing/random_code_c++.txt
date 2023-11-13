@@ -1,31 +1,20 @@
-event GO{bool}
-event FALL{bool}
-event LOOK{bool}
-event JUMP{int}
-event TURN{int}
-event REST{string}
-event LIFT{bool}
-event LEFT{bool}
-event MOVE{bool}
+event TURN,{bool}
+event SHOVE,{string,}
+event GO,{string,}
+event LOOK,{bool}
+event ACTIVATE,{int,}
+event DROP,{string,}
+event RIGHT,{string,}
+event STOP,{string,}
 event TERMINATE{bool}
-event SHOVE{bool}
-event CLOSE{int}
-event DROP{int}
-event RIGHT{string}
-event OPEN{int}
-event UP{bool}
-event STOP{bool}
-event DOWN{bool}
+event LEFT,{string,}
+event CLOSE,{int,}
+event JUMP,{int,}
 
-string index= "infinite";
-string data= "string";
-bool flag= False;
-int add= 371;
-string sub= "I";
-string value= "and";
-bool var= False;
-int counter= 118;
-int scope= 44;
-string add= "im";
-int mul= 28;
+None None= None
+None None= None
+None None= None
+None None= None
+None None= None
+None None= None
 
