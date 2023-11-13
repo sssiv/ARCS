@@ -1,85 +1,277 @@
+event OPEN {int}; 
+event REST {string}; 
+event SHOVE {int}; 
 
-actor Morgan_Freeman {
+actor Samuel_L_Jackson {
 	statemachine {
-		initial Vermont;
+		initial Alaska;
 
-		bool thing = False;
-		bool sub = False;
-		string key = "Do stuff with events";
-		string check = "Now you need to impliment events";
-		bool counter = True;
-		bool index = False;
-		int flag = 50;
-		string name = "There's issues with infinite loops in here";
-		bool var = False;
-		bool mul = False;
-		string div = "something entered";
-		string data = "this code is very buggy";
+		int time = 22;
+		string what = "I don't care if Python is 'easier', I prefer C++";
+		bool value = True;
+		int div = 61;
+		int key = 91;
+		bool name = False;
+		int var = 97;
+		int counter = 63;
 
-		state Colorado {
-			mul = True;
-			var = False;
-			index = True;
-		}
-
-		state Alaska {
-			key = "this code is very buggy";
-			counter = True;
-			sub = False;
-			index = False;
-			thing = True;
-			check = "made in python";
-			data = "made in python";
-			div = "Do stuff with events";
-		}
-
-		state Virginia {
-			check = "There's issues with infinite loops in here";
-			index = True;
-			data = "I wonder if this string changed value";
-			var = True;
-			sub = False;
-		}
-
-		state Vermont {
-			// Add state behavior here;
-		}
-
-		state Illinois {
+		state Arizona {
 			// Add state behavior here;
 		}
 
 		state Kentucky {
+		}
+
+		state Hawaii {
 			// Add state behavior here;
 		}
 
-		state New_Mexico {
-			check = "actors acting and whatnot";
-			data = "proteus words";
-			name = "This was easier in Python than C++";
-			div = "something entered";
-			sub = True;
+		state Texas {
+			div = 4;
+			time = 31;
+			value = True;
+			name = False;
+			key = 36;
+			var = 5;
+			what = "this code is very buggy";
 		}
 
-		state Rhode_Island {
+		state Washington {
+			var = 34;
+			time = 74;
+		}
+
+		state Wyoming {
 			// Add state behavior here;
 		}
 
-		state South_Carolina {
-			data = "Here's a random string";
-			index = True;
-			div = "actors acting and whatnot";
-			check = "actors acting and whatnot";
-			name = "Now you need to impliment events";
-			flag = 51;
-			counter = True;
+		state Louisiana {
+			// Add state behavior here;
+		}
+
+		state Connecticut {
+			var = 59;
+			value = True;
+			key = 21;
+			div = 5;
+			what = "learn about event syntax";
+			time = 87;
+			counter = 37;
+			name = False;
+		}
+
+		state Maryland {
+			counter = 58;
+			what = "This was easier in Python than C++";
+			name = False;
+		}
+
+		state Maine {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			value = True;
+			counter = 1;
+			what = "Do stuff with events";
+			key = 13;
+			time = 35;
+		}
+
+		state Nebraska {
+			// Add state behavior here;
+		}
+
+		state Colorado {
+			counter = 26;
+			time = 7;
 		}
 
 		state Massachusetts {
 			// Add state behavior here;
 		}
 
+		state Ohio {
+			div = 18;
+			counter = 8;
+		}
+
 		state Minnesota {
+			// Add state behavior here;
+		}
+
+		state Utah {
+			what = "something entered";
+			value = True;
+			name = False;
+			div = 37;
+			var = 27;
+			time = 70;
+			key = 7;
+		}
+
+		state Tennessee {
+			// Add state behavior here;
+		}
+
+		state South_Carolina {
+			// Add state behavior here;
+		}
+
+		state Virginia {
+			// Add state behavior here;
+		}
+
+		state Wisconsin {
+			// Add state behavior here;
+		}
+
+		state Georgia {
+			name = False;
+			what = "There's issues with infinite loops in here";
+			key = 43;
+			div = 27;
+			time = 22;
+		}
+
+		state Oregon {
+		}
+
+		state West_Virginia {
+			div = 37;
+			time = 38;
+			value = True;
+			what = "Please help me, im trapped in here!";
+			name = True;
+		}
+
+		state Pennsylvania {
+			// Add state behavior here;
+		}
+
+		state Alaska {
+			div = 93;
+			counter = 2;
+			value = True;
+			name = True;
+		}
+
+		state Oklahoma {
+			counter = 35;
+			name = False;
+			what = "learn about event syntax";
+			time = 39;
+			value = False;
+			var = 54;
+			key = 62;
+			div = 21;
+		}
+
+		state North_Carolina {
+			what = "learn about event syntax";
+			value = False;
+			name = False;
+		}
+
+		state New_Hampshire {
+			// Add state behavior here;
+		}
+
+		state Alabama {
+			// Add state behavior here;
+		}
+
+		state New_Jersey {
+			var = 23;
+			key = 26;
+			counter = 39;
+			div = 7;
+			name = False;
+			what = "states are stated";
+		}
+
+		state Rhode_Island {
+			counter = 47;
+			time = 12;
+		}
+
+		state Michigan {
+			counter = 62;
+			key = 61;
+			what = "Please help me, im trapped in here!";
+			value = False;
+		}
+
+		state New_York {
+			value = False;
+			counter = 89;
+			var = 35;
+		}
+
+		state Illinois {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			// Add state behavior here;
+		}
+
+		state North_Dakota {
+			what = "this code is very buggy";
+			counter = 0;
+			key = 9;
+			value = False;
+			div = 45;
+			var = 80;
+			name = True;
+		}
+
+		state Vermont {
+			// Add state behavior here;
+		}
+
+		state Idaho {
+			name = True;
+		}
+
+		state California {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			div = 28;
+			key = 37;
+			var = 15;
+			what = "learn about event syntax";
+			name = True;
+			value = False;
+		}
+
+		state Iowa {
+			// Add state behavior here;
+		}
+
+		state South_Dakota {
+			key = 5;
+			div = 97;
+			what = "Events and stuff doing things";
+			var = 79;
+			value = True;
+			time = 70;
+			counter = 38;
+			name = True;
+		}
+
+		state Kansas {
+			// Add state behavior here;
+		}
+
+		state Delaware {
+			// Add state behavior here;
 		}
 	}
 }

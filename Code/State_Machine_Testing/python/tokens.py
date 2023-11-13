@@ -1,54 +1,61 @@
 import pandas as pd
 
-# Read the CSV file
-df = pd.read_csv('../tokens.csv')
+class Tokens():
+    def __init__(self):
+        # Read the CSV file
+        self.df = pd.read_csv('../tokens.csv')
 
-# Define functions to handle stripping single quotes
-def strip_single_quotes(entry):
-    return str(entry).strip("'") if isinstance(entry, str) else str(entry)
+        # Define functions to handle stripping single quotes
+        self.strip_single_quotes = lambda entry: str(entry).strip("'") if isinstance(entry, str) else str(entry)
 
-# Create arrays from columns, remove single quotes, and drop null values
-types = [strip_single_quotes(entry) for entry in df['Types'].dropna().tolist()]                            # Standard types
-numbers = [int(entry) for entry in df['Numbers'].dropna().tolist()]                                 # Integers, NOTE: was int(float(entry)). Shouldn't make a different, but just in case
-brackets = [strip_single_quotes(entry) for entry in df['Brackets'].dropna().tolist()]               # Proteus braces
-keywords = [strip_single_quotes(entry) for entry in df['Keywords'].dropna().tolist()]               # All Keywords
-variables = [strip_single_quotes(entry) for entry in df['Variables'].dropna().tolist()]             # Variable Keywords (except variable_name at the end)
-operators = [strip_single_quotes(entry) for entry in df['Operators'].dropna().tolist()]             # All operators
-punctuation = [strip_single_quotes(entry) for entry in df['Punctuation'].dropna().tolist()]         # Any type of punctuation Proteus will allow
-actor_names = [strip_single_quotes(entry) for entry in df['Actor_Names'].dropna().tolist()]         # Demo names for actors 
-state_names = [strip_single_quotes(entry) for entry in df['State_Names'].dropna().tolist()]         # Demo names for states
-variable_names = [strip_single_quotes(entry) for entry in df['Variable_Names'].dropna().tolist()]   # Demo names for variables
-event_names = [strip_single_quotes(entry) for entry in df['Event_Names'].dropna().tolist()]         # Demo names for events
-string_input = [strip_single_quotes(entry) for entry in df['String_Input'].dropna().tolist()]       # Random inputs for strings
+        # Takes df column, drops null values, converts to list
+        self.df_column = lambda column: self.df[column].dropna().tolist()
 
-# List of all proteus lists
-lists = [
-    types, numbers, brackets, keywords, 
-    variables, operators, punctuation, actor_names, 
-    state_names, variable_names, event_names, string_input
-    ]
+        # combine all functions and get column data
+        self.column = lambda func_1, func_2, column: [func_1(entry) for entry in func_2(column)]
 
-# String list of all the columns
-names = [
-    'Types', 'Numbers', 'Brackets', 'Keywords', 
-    'Variables', 'Operators', 'Punctuation', 'Actor_Names', 
-    'State_Names', 'Variable_Names', 'Event_Names', 'String_Input'
-    ]
+        # Create arrays from columns, remove single quotes, and drop null values
+        self.types = self.column(self.strip_single_quotes, self.df_column, 'Types')                      # Standard types
+        self.numbers = self.column(int, self.df_column, 'Numbers')                                       # Integers, NOTE: was int(float(entry)). Shouldn't make a different, but just in case
+        self.brackets = self.column(self.strip_single_quotes, self.df_column, 'Brackets')                # Proteus braces
+        self.keywords = self.column(self.strip_single_quotes, self.df_column, 'Keywords')                # All Keywords
+        self.variables = self.column(self.strip_single_quotes, self.df_column, 'Variables')              # Variable Keywords (except variable_name at the end)
+        self.operators = self.column(self.strip_single_quotes, self.df_column, 'Operators')              # All operators
+        self.punctuation =self. column(self.strip_single_quotes, self.df_column, 'Punctuation')          # Any type of punctuation Proteus will allow
+        self.actor_names = self.column(self.strip_single_quotes, self.df_column, 'Actor_Names')          # Demo names for actors 
+        self.state_names = self.column(self.strip_single_quotes, self.df_column, 'State_Names')          # Demo names for states
+        self.variable_names = self.column(self.strip_single_quotes, self.df_column, 'Variable_Names')    # Demo names for variables
+        self.event_names = self.column(self.strip_single_quotes, self.df_column, 'Event_Names')          # Demo names for events
+        self.string_input = self.column(self.strip_single_quotes,self. df_column, 'String_Input')        # Random inputs for strings
 
-# Confirm everything has been collected
-def display_tokens():
-    print("-" * 100)
-    # For every name in list
-    for name, list in zip(names, lists):
-        # Convert numbers to strings for printing
-        print(f"{name}: {' '.join(map(str, list))}\n")  
-    print("-" * 100, "\n")
+        # List of all proteus lists
+        self.lists = [
+            self.types, self.numbers, self.brackets, self.keywords, 
+            self.variables, self.operators, self.punctuation, self.actor_names, 
+            self.state_names, self.variable_names, self.event_names, self.string_input
+            ]
 
-# Writes all tokens to a txt file
-def tokens_txt():
-    with open('../tokens.txt', 'w') as file:
-        for token_list in lists:
-            # Join the elements of each list into a string with spaces as separators
-            formatted_tokens = ' '.join(map(str, token_list))
-            # Write the name of the list followed by a colon and the formatted string, then a newline
-            file.write(f"{formatted_tokens}\n")
+        # String list of all the columns
+        self.names = [
+            'Types', 'Numbers', 'Brackets', 'Keywords', 
+            'Variables', 'Operators', 'Punctuation', 'Actor_Names', 
+            'State_Names', 'Variable_Names', 'Event_Names', 'String_Input'
+            ]
+
+    # Confirm everything has been collected
+    def display_tokens(self):
+        print("-" * 100)
+        # For every name in list
+        for name, list in zip(self.names, self.lists):
+            # Convert numbers to strings for printing
+            print(f"{name}: {', '.join(map(str, list))}\n")  
+        print("-" * 100, "\n")
+
+    # Writes all tokens to a txt file
+    def tokens_txt(self):
+        with open('../tokens.txt', 'w') as file:
+            for token_list in self.lists:
+                # Join the elements of each list into a string with spaces as separators
+                formatted_tokens = ', '.join(map(str, token_list))
+                # Write the name of the list followed by a colon and the formatted string, then a newline
+                file.write(f"{formatted_tokens}\n")

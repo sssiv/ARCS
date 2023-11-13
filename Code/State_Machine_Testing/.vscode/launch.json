@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/SamSS/OneDrive/Desktop/College/CSUN/ARCS/Code/State_Machine_Testing",
-      "program": "c:/Users/SamSS/OneDrive/Desktop/College/CSUN/ARCS/Code/State_Machine_Testing/build/Debug/outDebug",
+      "cwd": "c:/Users/SamSS/OneDrive/Desktop/College/CSUN/ARCS/Code/State_Machine_Testing/c++",
+      "program": "c:/Users/SamSS/OneDrive/Desktop/College/CSUN/ARCS/Code/State_Machine_Testing/c++/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
