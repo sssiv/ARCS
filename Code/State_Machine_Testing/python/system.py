@@ -48,5 +48,3 @@ class System():
         System.__clear_folder("../pass/")
         System.__clear_folder("../fail/")
     #Sys#------------------------------------------------------------------------#
-
-

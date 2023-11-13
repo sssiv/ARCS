@@ -1,51 +1,58 @@
-event LEFT {int}; 
-event RIGHT {string}; 
-event CLOSE {string}; 
-event SHOVE {bool}; 
-event TURN {string}; 
-event MOVE {string}; 
-event STOP {bool}; 
-event FALL {int}; 
-event ACTIVATE {string}; 
+event STOP {int}; 
 event TERMINATE {bool}; 
-event OPEN {int}; 
-event LIFT {int}; 
-event DROP {int}; 
+event SHOVE {string}; 
+event MOVE {bool}; 
+event LIFT {string}; 
+event ACTIVATE {string}; 
+event DOWN {string}; 
+event GO {bool}; 
+event RIGHT {int}; 
 event REST {int}; 
-event JUMP {string}; 
 
-actor Robin_Williams {
+actor Jake_Gyllenhaal {
 	statemachine {
 		initial Pennsylvania;
 
 
-		state New_York {
+		state Montana {
 		}
 
-		state New_Mexico {
-		}
-
-		state Massachusetts {
-		}
-
-		state Maine {
-		}
-
-		state Arizona {
-		}
-
-		state New_Jersey {
-		}
-
-		state South_Dakota {
+		state Alabama {
 			// Add state behavior here;
 		}
 
-		state Alaska {
+		state Maryland {
+		}
+
+		state Nebraska {
+		}
+
+		state Georgia {
+		}
+
+		state Colorado {
 			// Add state behavior here;
 		}
 
-		state Kentucky {
+		state Florida {
+		}
+
+		state Washington {
+			// Add state behavior here;
+		}
+
+		state Connecticut {
+			// Add state behavior here;
+		}
+
+		state Tennessee {
+		}
+
+		state North_Dakota {
+			// Add state behavior here;
+		}
+
+		state Arkansas {
 			// Add state behavior here;
 		}
 
@@ -54,118 +61,87 @@ actor Robin_Williams {
 		}
 
 		state Michigan {
+			// Add state behavior here;
 		}
 
-		state Utah {
+		state New_York {
+			// Add state behavior here;
 		}
 
 		state Wyoming {
 			// Add state behavior here;
 		}
 
-		state Connecticut {
+		state Minnesota {
+		}
+
+		state Oklahoma {
+		}
+
+		state New_Mexico {
 			// Add state behavior here;
 		}
 
-		state Virginia {
+		state North_Carolina {
 			// Add state behavior here;
 		}
 
-		state Pennsylvania {
+		state Mississippi {
+		}
+
+		state Indiana {
+		}
+
+		state Ohio {
+			// Add state behavior here;
 		}
 
 		state Idaho {
-			// Add state behavior here;
 		}
 
 		state Rhode_Island {
 			// Add state behavior here;
 		}
 
-		state Nevada {
-		}
-
-		state Arkansas {
-			// Add state behavior here;
-		}
-
-		state California {
-		}
-
-		state North_Carolina {
-		}
-
-		state Vermont {
-		}
-
-		state Delaware {
-			// Add state behavior here;
-		}
-
-		state Florida {
-		}
-
-		state Mississippi {
-			// Add state behavior here;
-		}
-
-		state Washington {
-		}
-
-		state Wisconsin {
-			// Add state behavior here;
-		}
-
-		state Tennessee {
-		}
-
-		state Hawaii {
-		}
-
-		state Illinois {
-			// Add state behavior here;
-		}
-
-		state Ohio {
-		}
-
-		state North_Dakota {
+		state Iowa {
 		}
 
 		state Oregon {
 		}
 
-		state Georgia {
+		state Massachusetts {
 			// Add state behavior here;
 		}
 
-		state Texas {
+		state South_Dakota {
+		}
+
+		state Utah {
+		}
+
+		state New_Jersey {
 			// Add state behavior here;
 		}
 
-		state Maryland {
+		state Delaware {
 		}
 
-		state Louisiana {
-		}
-
-		state Indiana {
-		}
-
-		state Iowa {
-		}
-
-		state Alabama {
-		}
-
-		state Colorado {
+		state Kansas {
 			// Add state behavior here;
 		}
 
-		state Minnesota {
+		state New_Hampshire {
 		}
 
-		state Nebraska {
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state West_Virginia {
+			// Add state behavior here;
+		}
+
+		state Pennsylvania {
 			// Add state behavior here;
 		}
 	}
