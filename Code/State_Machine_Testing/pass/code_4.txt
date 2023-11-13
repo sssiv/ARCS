@@ -1,0 +1,119 @@
+event FALL {string}; 
+event LIFT {int}; 
+event GO {string}; 
+event MOVE {bool}; 
+event RIGHT {int}; 
+event REST {bool}; 
+event STOP {bool}; 
+event TERMINATE {int}; 
+event UP {int}; 
+event JUMP {bool}; 
+event OPEN {bool}; 
+event DROP {int}; 
+
+actor Morgan_Freeman {
+	statemachine {
+		initial Vermont;
+
+		int thing = 87;
+		bool data = True;
+		bool index = True;
+		bool time = False;
+		int flag = 28;
+		bool sub = False;
+		bool counter = True;
+		string check = "I don't care if Python is 'easier', I prefer C++";
+		bool scope = True;
+		int var = 15;
+
+		state Maine {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state West_Virginia {
+			scope = True;
+			time = False;
+		}
+
+		state Ohio {
+			// Add state behavior here;
+		}
+
+		state Vermont {
+			time = True;
+			index = True;
+			data = False;
+			thing = 82;
+			flag = 67;
+			scope = False;
+			sub = False;
+			var = 98;
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+
+		state Louisiana {
+			var = 74;
+			index = False;
+			counter = True;
+			check = "Do stuff with events";
+		}
+
+		state Alaska {
+			counter = True;
+			scope = True;
+			flag = 78;
+			thing = 94;
+		}
+
+		state Iowa {
+			// Add state behavior here;
+		}
+
+		state Massachusetts {
+			// Add state behavior here;
+		}
+
+		state Connecticut {
+			// Add state behavior here;
+		}
+
+		state Georgia {
+			// Add state behavior here;
+		}
+
+		state Illinois {
+			index = True;
+			time = True;
+			sub = False;
+			counter = False;
+			scope = True;
+		}
+
+		state Arkansas {
+			// Add state behavior here;
+		}
+
+		state Nebraska {
+			// Add state behavior here;
+		}
+
+		state Colorado {
+			data = False;
+			flag = 7;
+			sub = False;
+			time = True;
+			thing = 6;
+			check = "Now you need to impliment events";
+			scope = False;
+			index = True;
+			counter = True;
+		}
+	}
+}

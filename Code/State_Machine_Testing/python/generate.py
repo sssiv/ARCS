@@ -145,9 +145,6 @@ class Generate:
     #Pas#------------------------------------------------------------------------#
         # Make Random States
         def __generate_states(self):
-            # Random Names have already been provided
-            # This was done so that statemachine can choose a state that exists
-
             # Make and save variables
             self.code = self.__generate_variables("")
 

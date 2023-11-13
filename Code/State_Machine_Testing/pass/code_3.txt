@@ -1,0 +1,86 @@
+event LEFT {string}; 
+event MOVE {bool}; 
+event LIFT {string}; 
+event JUMP {int}; 
+event DOWN {int}; 
+event TURN {string}; 
+event TERMINATE {int}; 
+event FALL {bool}; 
+event RIGHT {bool}; 
+event GO {string}; 
+event UP {bool}; 
+event DROP {bool}; 
+event REST {bool}; 
+event ACTIVATE {bool}; 
+event OPEN {int}; 
+event SHOVE {int}; 
+event LOOK {int}; 
+event CLOSE {int}; 
+event STOP {int}; 
+
+actor Robin_Williams {
+	statemachine {
+		initial West_Virginia;
+
+		int time = 72;
+		bool thing = False;
+		int add = 48;
+		bool key = True;
+		string sub = "Now you need to impliment events";
+		string what = "proteus words";
+		string mul = "this code is very buggy";
+		bool check = False;
+		string name = "proteus words";
+		bool counter = False;
+		int flag = 66;
+		int scope = 0;
+		string result = "made in python";
+		string data = "More sentences!";
+		string value = "states are stated";
+		string div = "This was easier in Python than C++";
+		bool var = True;
+
+		state Tennessee {
+			thing = True;
+		}
+
+		state South_Carolina {
+			// Add state behavior here;
+		}
+
+		state Nevada {
+			mul = "Please help me, im trapped in here!";
+			key = False;
+			value = "made in python";
+			what = "made in python";
+			check = True;
+			result = "JPL vs NASA";
+			data = "JPL vs NASA";
+			add = 55;
+			var = True;
+			flag = 78;
+			time = 43;
+			scope = 71;
+			sub = "This was easier in Python than C++";
+			thing = False;
+			div = "proteus words";
+			counter = False;
+			name = "this code is very buggy";
+		}
+
+		state Delaware {
+			var = True;
+			counter = True;
+			value = "I wonder if this string changed value";
+			mul = "something entered";
+		}
+
+		state West_Virginia {
+			// Add state behavior here;
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+	}
+}

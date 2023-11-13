@@ -1,0 +1,33 @@
+printstring
+event(1.3 .]^if
+^=9string
+stringoff->2off <=/=&&(	->go{;0
+gointstring
+&&]bool	!=on
+boolint->actorgoif	bool{bool return;	1
+string	event] stateint*=
+boolstring	2print)}int	intint^=	4actor
+<<=bool
+;bool==	,0,while ifint
++=stateint) >>=if ,intif	3int4 -=5boolstring	; %=<=int0 ,5)string .{]bool[bool ][==;string}-)%
+stateactor	stringstring^=goif	;actor]	>>=,,8 48^=elsestring intentry	initial boolstringreturn
+=string,int6[	>)	;exitstate	,/=>>;	exitgoifwhile
+string. .<=intelse}	5bool8bool
+stringint	int;==
+8;.actor
+offgoif
+,initial	*=bool intstringexit
+.
+],]/2state;
+9{>>=)<string
+event if*int2	actoractor/state	2state[==
+end
+ %=exitint[int	on,5bool goif event	string
+int{
+return,whilestring 9,endint,
+=>>=return0	->>(^event 4int;
+5string
+state<<=5
+offinitial	>>^print	(5.	0,,.[
+{ event end.initial9
+8

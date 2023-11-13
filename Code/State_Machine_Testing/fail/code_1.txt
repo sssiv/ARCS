@@ -1,38 +1,31 @@
-bool4	/8intoffstring	while
-({,exit3*	]9+=actor>>=
-string [> %=func	->intif
-string<=string	,<=<<<=;string <<actor	}state
-^=5,>>=
->> ((,(	return
-.]bool	,6) intbool[boolint 2bool(go[ 3actorstring5 actor8
-exit,)statestringreturn
-,,.)<string
-exitevent stringbool,	,*=intboolfunc	>>% eventint ;5->==	;->3({ 1}bool;.8bool string6int >stringbool{bool5/	0intstring	bool
-0 %=.on 6boolstringend
-string );return]string off2eventstring	.,;0exitint
-<string()>
-^+=intstringeventstring
-<=,state 7string
-,intbool goifstate;
-bool.	[string ^eventeventint
-5exitbool 0)4 9,*=string	returnactor	,5]
-<<=.{	exit0<<= [^=string,;18
-stringboolelse	->9,)goifbool,int	;4
-actorexit;	6ifstatestring	1)event!= .print,23( /bool5int string/= int<=actor {(else	bool] initialstate	int->bool>->	boolbooloff
-string
-stringon string
-intinitial4event	bool6*=)	if08{bool}	go,boolint .;.string	bool,
-bool.->)string <<[event<	string
-5initialint	(bool	exit4int int
-}4bool state!=bool ^stateevent!=
-{;6string(3	initial
-,)>>else,event	9[initial	if}7	>>= bool ;2else	,func<<
-}exit*=	string 3exit[], ({ exit2whilestate bool ^=>>=	)bool+=state
-eventbool),	*2onoff	 %=actorend5 bool
-returnstate	6},,
-.on(,
-.6}intint8
-[intintifint
-event7intint
- %=intelse(bool
-8>{boolstring
+eventintintactor bool{
+stringint
+[
+;8,;;(stringinitial 4func
+3;,
+while&&;2bool
+bool	bool2{while	;int exit^actorint .)bool)
+}bool[ boolintbool ;%]+=if,
+actor	intelse
+printbool <]1{}
+string %=.int0bool	.75funcstate	,),.. actor;bool<	stringoff-;if event
+exitstring
+string8
+81.int	8bool%,)string 5. -=off
+;&&[
+<<=
+&&	}func	6[ func{.4{	+int};(
+while}}state
+stringbool.
+{.,2,boolstring
+(int bool -=intstate string.	1if5[([intstring intint[	],8.
+print intinitial	9.^=
+),actor;(8 bool/stringon .7string boolstring	event41	intwhilefunc	intstatestring int1	,7,return {
+.7.]64
+stringprint
+(3,5;intint return	whileinitial ,,,go,actor ^=bool
+7,->boolstring(offinitial bool/onstring
+goif.<	28string +exitstate7int
+elsefunc.bool	082bool} 1
+gostring[ >intstring .
+<<0return) actorstate	7<=40 .74	+=4bool	string) 2bool
