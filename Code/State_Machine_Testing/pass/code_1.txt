@@ -1,0 +1,156 @@
+event LOOK {bool}; 
+event TERMINATE {int}; 
+event LIFT {bool}; 
+event OPEN {string}; 
+event ACTIVATE {bool}; 
+event FALL {int}; 
+event CLOSE {string}; 
+event UP {int}; 
+event GO {bool}; 
+
+actor Qunintin_Tarantino {
+	statemachine {
+		initial Delaware;
+
+		string key = "proteus words";
+		string time = "made in python";
+		int add = 26;
+		bool mul = True;
+		int check = 89;
+
+		state South_Carolina {
+			add = 72;
+			key = "I don't care if Python is 'easier', I prefer C++";
+			time = "JPL vs NASA";
+			mul = False;
+			check = 43;
+		}
+
+		state New_York {
+		}
+
+		state Ohio {
+			// Add state behavior here;
+		}
+
+		state Nebraska {
+			// Add state behavior here;
+		}
+
+		state Michigan {
+			time = "actors acting and whatnot";
+			mul = False;
+		}
+
+		state Minnesota {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			time = "Please help me, im trapped in here!";
+		}
+
+		state Delaware {
+			// Add state behavior here;
+		}
+
+		state Kansas {
+			// Add state behavior here;
+		}
+
+		state West_Virginia {
+			check = 4;
+			key = "Please help me, im trapped in here!";
+			add = 52;
+		}
+
+		state New_Hampshire {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			check = 87;
+			add = 71;
+			mul = False;
+			key = "actors acting and whatnot";
+			time = "Please help me, im trapped in here!";
+		}
+
+		state Iowa {
+			// Add state behavior here;
+		}
+
+		state Colorado {
+			// Add state behavior here;
+		}
+
+		state Maryland {
+			time = "Do stuff with events";
+			add = 63;
+			mul = False;
+		}
+
+		state Vermont {
+			check = 46;
+		}
+
+		state Louisiana {
+		}
+
+		state Virginia {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			// Add state behavior here;
+		}
+
+		state Texas {
+			check = 96;
+			mul = True;
+			key = "Here's a random string";
+			add = 25;
+		}
+
+		state Idaho {
+			// Add state behavior here;
+		}
+
+		state Georgia {
+			// Add state behavior here;
+		}
+
+		state Wisconsin {
+		}
+
+		state Pennsylvania {
+			time = "There's issues with infinite loops in here";
+			check = 59;
+		}
+
+		state Connecticut {
+		}
+
+		state Kentucky {
+			// Add state behavior here;
+		}
+
+		state Alabama {
+			// Add state behavior here;
+		}
+
+		state Oklahoma {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			time = "Here's a random string";
+			key = "There's issues with infinite loops in here";
+			check = 64;
+			add = 88;
+		}
+
+		state Arkansas {
+		}
+	}
+}

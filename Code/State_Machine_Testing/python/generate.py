@@ -204,7 +204,7 @@ class Generate:
                 if column == Tokens().punctuation:
                     break
                 ignore -= 1
-                
+
             # Random text still has more room
             while len(random_tokens) < length:
                 # Picks randomly when to have a space, tab, or \n

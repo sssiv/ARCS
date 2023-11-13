@@ -1,0 +1,16 @@
+if26}	-entry(	){funcstate 6event eventbool->int	9(int*=3event ;;(string, }func1go
+.>>{;
+offgoif&&bool	)initial ; boolbool
+string.event
+,statestring	; onevent
+}bool	int]state^=bool
+;2bool.[== =
+->bool3+=
+string	onend	actorif	string=string
+int^on; 1.[}1,goif	,3exit )goifevent	,state9 state5}. %= *=;if;	=],9);}string 2
+>intentry<< 7 -=;	intint (int2stringint
+}<goif)actor )statestring8(	==)bool;9; while)([bool	2)int -> -= ;^bool[.+=8 )( -=)string	<<=whilestring
+[exit
+onprint	,5event,	intbool]^
+state-exit[^= exit-else	[,else
+state ,int{
