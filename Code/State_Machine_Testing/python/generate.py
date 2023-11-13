@@ -18,7 +18,7 @@ class Generate:
             self.events = {}
             self.__generate_event_names()
     #Pas#------------------------------------------------------------------------#
-        # Variable Handler
+        # Create Variables with values and names
         # NOTE: Need to split this into 2 functions. One for names, one for vars
         def __generate_variables(self, code):
             # Gets variable names list
@@ -64,7 +64,6 @@ class Generate:
             # Makes num_of_states amount of states
             for _ in range(self.num_of_states):
                 # Makes sure the chosen state name is not already used
-
                 state_name = Functions.Variable_Handler.avoid_redecloration(state_name, self.states, state_names)
                 
                 # Adds used statename to list
@@ -130,11 +129,8 @@ class Generate:
             code += "\tstatemachine {\n"
 
             # Picks a state that has been initialized (if states exist)
-            # Make sure the list is not empty
-            if self.states:
-                initial_statename = Functions.Lambdas.rand_choice(self.states)
-            else:
-                initial_statename = None
+            # Makes sure the list is not empty
+            initial_statename = Functions.Lambdas.rand_choice(self.states) if self.states else None
 
             # Randomly decides if we include an initial state 
             if Functions.Lambdas.rand_num(0, 1) and initial_statename is not None:

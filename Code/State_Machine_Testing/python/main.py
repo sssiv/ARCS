@@ -6,14 +6,11 @@ Tokens().display_tokens()
 # Write tokens to a textfile (Seperated by a comma)
 Tokens().tokens_txt()
 
-# How many chars will be in the random tokens textfile fail case
+# How many characters will be in the random tokens textfile fail case
 num_of_chars = Functions.Lambdas.rand_num(500, 2000)
 
 # Get all token lists
 token_lists = Tokens().lists
-
-# NOTE: Not using an object for Generate() cause 
-# I want the generated data to be purposfully lost for new tests
 
 # Makes text file and writes random tokens to purposfully fail
 with open('../random_tokens.txt', 'w') as file:

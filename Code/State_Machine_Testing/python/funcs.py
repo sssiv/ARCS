@@ -22,10 +22,7 @@ class Functions():
         def make_value(type):
             # Bool handler
             if type == 'bool':
-                if Functions.Lambdas.rand_num(0, 1):
-                    value = True
-                else:
-                    value = False
+                value = True if Functions.Lambdas.rand_num(0, 1) else False
                     
             # Int handler
             if type == 'int':
@@ -46,7 +43,7 @@ class Functions():
             # Uses current name to check the variables, events, and states list
             while name in used_names:
                 # Makes a new choice from the tokens list
-                name = Functions.Lambdas().rand_choice(name_list)
+                name = Functions.Lambdas.rand_choice(name_list)
             
             # Returns a unique name
             return name
