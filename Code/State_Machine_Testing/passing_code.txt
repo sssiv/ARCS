@@ -1,54 +1,19 @@
+event JUMP {bool}; 
+event TURN {string}; 
+event GO {bool}; 
+event OPEN {string}; 
 
-actor Tom_Hanks {
+actor Lenardo_DiCaprio {
 	statemachine {
-		initial Delaware;
+		initial Illinois;
 
-		int name = 18;
-		string result = "learn about event syntax";
-		string value = "There's issues with infinite loops in here";
-		int what = 80;
-		int time = 87;
-		bool var = True;
-		string key = "This was easier in Python than C++";
-
-		state Alabama {
-			// Add state behavior here;
-		}
-
-		state Connecticut {
-			// Add state behavior here;
-		}
-
-		state North_Carolina {
-			// Add state behavior here;
-		}
-
-		state Utah {
-			result = "There's issues with infinite loops in here";
-			what = 29;
-			key = "Events and stuff doing things";
-			time = 85;
-			var = True;
-			value = "JPL vs NASA";
-		}
+		string flag = "I don't care if Python is 'easier', I prefer C++";
 
 		state Alaska {
 			// Add state behavior here;
 		}
 
-		state Colorado {
-			// Add state behavior here;
-		}
-
-		state Oregon {
-			// Add state behavior here;
-		}
-
-		state Montana {
-			// Add state behavior here;
-		}
-
-		state Idaho {
+		state Kansas {
 			// Add state behavior here;
 		}
 
@@ -56,201 +21,59 @@ actor Tom_Hanks {
 			// Add state behavior here;
 		}
 
-		state Massachusetts {
+		state New_Mexico {
 			// Add state behavior here;
 		}
 
-		state New_Jersey {
-			// Add state behavior here;
+		state Delaware {
+			flag = "Please help me, im trapped in here!";
 		}
 
-		state South_Dakota {
-			// Add state behavior here;
-		}
-
-		state Louisiana {
-			result = "made in python";
-			what = 71;
-		}
-
-		state Missouri {
-			// Add state behavior here;
-		}
-
-		state Nebraska {
+		state Rhode_Island {
 			// Add state behavior here;
 		}
 
 		state Wyoming {
-			// Add state behavior here;
+			flag = "I don't care if Python is 'easier', I prefer C++";
 		}
 
-		state Iowa {
-			// Add state behavior here;
+		state Nebraska {
 		}
 
-		state Texas {
-			time = 56;
-			what = 83;
-			var = True;
-			value = "actors acting and whatnot";
-			result = "made in python";
-		}
-
-		state Maryland {
-			result = "states are stated";
-			time = 68;
-			value = "made in python";
-			var = True;
-		}
-
-		state Arkansas {
-			key = "made in python";
-			name = 22;
-			what = 61;
-		}
-
-		state West_Virginia {
-			// Add state behavior here;
-		}
-
-		state Tennessee {
-			value = "JPL vs NASA";
-			what = 57;
-			time = 50;
-			result = "Do stuff with events";
-			name = 62;
-			var = False;
-		}
-
-		state Wisconsin {
-			// Add state behavior here;
-		}
-
-		state Georgia {
-			// Add state behavior here;
-		}
-
-		state Arizona {
-			result = "made in python";
-			what = 50;
-			key = "More sentences!";
-		}
-
-		state Hawaii {
-			what = 4;
-			name = 31;
-			time = 46;
-			result = "More sentences!";
-			value = "actors acting and whatnot";
-			var = False;
-			key = "Events and stuff doing things";
-		}
-
-		state Rhode_Island {
-			value = "JPL vs NASA";
-			key = "More sentences!";
+		state Maine {
 		}
 
 		state Illinois {
-			name = 42;
-			var = False;
 		}
 
-		state Indiana {
-			key = "Do stuff with events";
-			what = 7;
-			name = 67;
-			value = "I wonder if this string changed value";
-			time = 39;
-			result = "actors acting and whatnot";
-			var = True;
+		state Virginia {
 		}
 
-		state North_Dakota {
-			// Add state behavior here;
-		}
-
-		state Washington {
-			name = 0;
-			time = 47;
-		}
-
-		state California {
-			// Add state behavior here;
-		}
-
-		state New_York {
-			what = 44;
-			key = "Please help me, im trapped in here!";
-			var = False;
-			result = "I don't care if Python is 'easier', I prefer C++";
-			time = 64;
-			value = "something entered";
-			name = 79;
-		}
-
-		state Vermont {
-			// Add state behavior here;
+		state West_Virginia {
+			flag = "something entered";
 		}
 
 		state Ohio {
 			// Add state behavior here;
 		}
 
-		state New_Mexico {
-			result = "Do stuff with events";
-			value = "states are stated";
+		state New_York {
+			flag = "Please help me, im trapped in here!";
 		}
 
-		state Oklahoma {
+		state New_Jersey {
 			// Add state behavior here;
 		}
 
-		state Virginia {
+		state California {
+			flag = "More sentences!";
+		}
+
+		state Iowa {
 			// Add state behavior here;
 		}
 
-		state South_Carolina {
-		}
-
-		state New_Hampshire {
-			key = "More sentences!";
-			name = 89;
-		}
-
-		state Kentucky {
-			time = 37;
-			name = 56;
-			result = "Debug this code for a prize";
-			key = "made in python";
-			value = "something entered";
-			var = False;
-			what = 15;
-		}
-
-		state Nevada {
-		}
-
-		state Pennsylvania {
-			what = 56;
-			result = "There's issues with infinite loops in here";
-		}
-
-		state Kansas {
-			// Add state behavior here;
-		}
-
-		state Delaware {
-			// Add state behavior here;
-		}
-
-		state Florida {
-			result = "this code is very buggy";
-		}
-
-		state Minnesota {
-			// Add state behavior here;
+		state Montana {
 		}
 	}
 }
