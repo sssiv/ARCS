@@ -1,5 +1,6 @@
 import pandas as pd
 
+# Collection of all proteus tokens and demo input names for testing
 class Tokens():
     def __init__(self):
         # Read the CSV file
@@ -43,18 +44,18 @@ class Tokens():
             self.event_names, 
             self.string_input
             ]
-
+    #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
     # Outputs all tokens to terminal
     def display_tokens(self):
-        print("-" * 179)
+        print("-" * 150)
         # For every column name in lists
         for column_name, list in zip(self.df.columns, self.lists):
             # Join the elements of each list into a string with comma as separators
             tokens = ', '.join(map(str, list))
             # print the tokens with token name
             print(f"{column_name}: {tokens}\n")  
-        print("-" * 179, "\n")
-
+        print("-" * 150, "\n")
+    #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
     # Makes and writes tokens to a txt file
     def write_tokens_txt(self):
         with open('../tokens.txt', 'w') as file:
@@ -64,3 +65,4 @@ class Tokens():
                 tokens = ', '.join(map(str, list))
                 # Write the tokens with token name
                 file.write(f"{column_name}: {tokens}\n")
+    #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#

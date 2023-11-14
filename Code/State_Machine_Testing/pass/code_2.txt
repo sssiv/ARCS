@@ -1,171 +1,35 @@
+event FALL {}; 
+event DROP {string}; 
+event STOP {bool}; 
+event MOVE {}; 
+event DOWN {int}; 
+event TURN {}; 
 
-actor Lenardo_DiCaprio {
+actor Qunintin_Tarantino {
 	statemachine {
-		int result = 8;
-		bool time = False;
-		int counter = 55;
-		string scope = "something entered";
+		bool value = False;
+		string time = "this code is very buggy";
+		int check = 54;
+		bool div = True;
+		int index = 63;
 
-		state Idaho {
+		state Arkansas {
 			// Add state behavior here;
-		}
-
-		state Maryland {
-			// Add state behavior here;
-		}
-
-		state Arizona {
-			// Add state behavior here;
-		}
-
-		state Wyoming {
-			result = 24;
-			time = False;
-			counter = 31;
-			scope = "Please help me, im trapped in here!";
 		}
 
 		state Missouri {
+			div = False;
+			time = "actors acting and whatnot";
+			index = 15;
+			value = False;
+			check = 40;
+		}
+
+		state Maine {
 			// Add state behavior here;
 		}
 
-		state Massachusetts {
-		}
-
-		state Nebraska {
-			counter = 77;
-			scope = "states are stated";
-			time = True;
-		}
-
-		state Florida {
-			// Add state behavior here;
-		}
-
-		state Ohio {
-			time = False;
-			counter = 18;
-			result = 72;
-		}
-
-		state South_Carolina {
-			counter = 64;
-			time = False;
-			scope = "Here's a random string";
-		}
-
-		state North_Dakota {
-			result = 21;
-		}
-
-		state Illinois {
-			// Add state behavior here;
-		}
-
-		state Pennsylvania {
-			// Add state behavior here;
-		}
-
-		state Arkansas {
-			time = False;
-			scope = "something entered";
-			result = 85;
-			counter = 65;
-		}
-
-		state New_Mexico {
-			// Add state behavior here;
-		}
-
-		state Kansas {
-			// Add state behavior here;
-		}
-
-		state Wisconsin {
-			result = 38;
-			time = False;
-		}
-
-		state Alabama {
-			result = 30;
-			counter = 69;
-		}
-
-		state Oregon {
-		}
-
-		state Utah {
-			time = True;
-			result = 3;
-		}
-
-		state South_Dakota {
-			// Add state behavior here;
-		}
-
-		state Hawaii {
-			// Add state behavior here;
-		}
-
-		state Indiana {
-		}
-
-		state Iowa {
-			// Add state behavior here;
-		}
-
-		state Delaware {
-			// Add state behavior here;
-		}
-
-		state California {
-			result = 21;
-			counter = 23;
-			scope = "made in python";
-			time = True;
-		}
-
-		state Nevada {
-			time = False;
-		}
-
-		state Texas {
-			// Add state behavior here;
-		}
-
-		state Michigan {
-			result = 97;
-			counter = 91;
-		}
-
-		state Mississippi {
-			scope = "Here's a random string";
-			result = 78;
-			time = False;
-			counter = 70;
-		}
-
-		state Connecticut {
-		}
-
-		state Virginia {
-			// Add state behavior here;
-		}
-
-		state New_Jersey {
-			// Add state behavior here;
-		}
-
-		state Alaska {
-			counter = 78;
-			time = False;
-			scope = "Events and stuff doing things";
-		}
-
-		state New_Hampshire {
-			result = 55;
-			scope = "states are stated";
-			time = True;
+		state Oklahoma {
 		}
 	}
 }

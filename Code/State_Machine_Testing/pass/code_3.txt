@@ -1,86 +1,241 @@
-event LEFT {string}; 
-event MOVE {bool}; 
-event LIFT {string}; 
-event JUMP {int}; 
-event DOWN {int}; 
-event TURN {string}; 
-event TERMINATE {int}; 
-event FALL {bool}; 
-event RIGHT {bool}; 
-event GO {string}; 
-event UP {bool}; 
-event DROP {bool}; 
-event REST {bool}; 
-event ACTIVATE {bool}; 
-event OPEN {int}; 
-event SHOVE {int}; 
-event LOOK {int}; 
-event CLOSE {int}; 
-event STOP {int}; 
 
-actor Robin_Williams {
+actor Danny_DeVito {
 	statemachine {
-		initial West_Virginia;
+		initial North_Dakota;
 
-		int time = 72;
-		bool thing = False;
-		int add = 48;
-		bool key = True;
-		string sub = "Now you need to impliment events";
-		string what = "proteus words";
-		string mul = "this code is very buggy";
-		bool check = False;
-		string name = "proteus words";
-		bool counter = False;
-		int flag = 66;
-		int scope = 0;
-		string result = "made in python";
-		string data = "More sentences!";
-		string value = "states are stated";
-		string div = "This was easier in Python than C++";
-		bool var = True;
+		bool check = True;
+		bool numOfThings = False;
+		string add = "Here's a random string";
+		string index = "I don't care if Python is 'easier', I prefer C++";
+		int scope = 34;
+		bool data = False;
+		int name = 18;
 
 		state Tennessee {
-			thing = True;
+			numOfThings = True;
+			index = "Now you need to impliment events";
+			scope = 53;
+			name = 36;
+			add = "Debug this code for a prize";
+			data = False;
+			check = True;
 		}
 
-		state South_Carolina {
+		state Alaska {
 			// Add state behavior here;
 		}
 
-		state Nevada {
-			mul = "Please help me, im trapped in here!";
-			key = False;
-			value = "made in python";
-			what = "made in python";
-			check = True;
-			result = "JPL vs NASA";
-			data = "JPL vs NASA";
-			add = 55;
-			var = True;
-			flag = 78;
-			time = 43;
-			scope = 71;
-			sub = "This was easier in Python than C++";
-			thing = False;
-			div = "proteus words";
-			counter = False;
-			name = "this code is very buggy";
+		state Rhode_Island {
+			// Add state behavior here;
 		}
 
-		state Delaware {
-			var = True;
-			counter = True;
-			value = "I wonder if this string changed value";
-			mul = "something entered";
+		state Wyoming {
+			// Add state behavior here;
+		}
+
+		state Missouri {
+			// Add state behavior here;
+		}
+
+		state New_Hampshire {
+			data = False;
+			add = "actors acting and whatnot";
+			numOfThings = True;
+		}
+
+		state Colorado {
+			// Add state behavior here;
+		}
+
+		state Utah {
+			// Add state behavior here;
+		}
+
+		state Vermont {
+			// Add state behavior here;
+		}
+
+		state Georgia {
+		}
+
+		state California {
+			numOfThings = True;
+			add = "proteus words";
+			scope = 33;
+			name = 79;
+			check = True;
+			data = True;
+		}
+
+		state Nebraska {
+			check = False;
+			scope = 39;
+			data = True;
+			numOfThings = False;
+			name = 83;
+		}
+
+		state Maine {
+			// Add state behavior here;
+		}
+
+		state Arizona {
+			// Add state behavior here;
+		}
+
+		state Minnesota {
+			add = "states are stated";
+			numOfThings = False;
+			data = True;
+			scope = 56;
+			index = "Now you need to impliment events";
+			check = True;
+		}
+
+		state Louisiana {
+			// Add state behavior here;
+		}
+
+		state New_York {
+			index = "This was easier in Python than C++";
+			add = "There's issues with infinite loops in here";
+			numOfThings = True;
+			scope = 97;
+		}
+
+		state Massachusetts {
+			name = 70;
+			numOfThings = True;
+			scope = 75;
+		}
+
+		state Ohio {
+			// Add state behavior here;
+		}
+
+		state North_Dakota {
+			index = "JPL vs NASA";
+			scope = 45;
+			name = 82;
+			data = False;
+			check = False;
+			add = "proteus words";
+			numOfThings = False;
+		}
+
+		state Alabama {
+			// Add state behavior here;
+		}
+
+		state South_Dakota {
+			numOfThings = True;
+		}
+
+		state Michigan {
+			scope = 85;
+			index = "JPL vs NASA";
+			numOfThings = False;
+			data = True;
+			add = "Here's a random string";
+		}
+
+		state North_Carolina {
+		}
+
+		state Connecticut {
+			// Add state behavior here;
 		}
 
 		state West_Virginia {
 			// Add state behavior here;
 		}
 
-		state Rhode_Island {
+		state Montana {
+			add = "something entered";
+			name = 74;
+		}
+
+		state Kentucky {
 			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			scope = 64;
+			check = True;
+			add = "something entered";
+			name = 60;
+			index = "actors acting and whatnot";
+			numOfThings = True;
+		}
+
+		state Washington {
+			// Add state behavior here;
+		}
+
+		state Texas {
+			// Add state behavior here;
+		}
+
+		state Nevada {
+			// Add state behavior here;
+		}
+
+		state Virginia {
+			index = "Here's a random string";
+			numOfThings = False;
+			check = False;
+			data = False;
+			add = "Here's a random string";
+			scope = 95;
+		}
+
+		state Wisconsin {
+			add = "Events and stuff doing things";
+			data = False;
+			name = 89;
+			check = True;
+			index = "made in python";
+			scope = 18;
+		}
+
+		state Florida {
+			scope = 26;
+			numOfThings = False;
+			name = 18;
+			check = True;
+			data = False;
+		}
+
+		state Iowa {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			scope = 7;
+			add = "This was easier in Python than C++";
+		}
+
+		state Oklahoma {
+			add = "states are stated";
+			name = 17;
+			index = "This was easier in Python than C++";
+			check = True;
+			numOfThings = True;
+			scope = 72;
+			data = True;
+		}
+
+		state Maryland {
+			// Add state behavior here;
+		}
+
+		state Oregon {
+			scope = 97;
+			name = 32;
+			numOfThings = True;
+			add = "something entered";
+			data = True;
+			check = True;
 		}
 	}
 }

@@ -1,6 +1,7 @@
-from funcs import Functions
+from functions import Functions
 from tokens import Tokens
 
+# Used to make passing and failing proteus code
 class Generate:
     class Pass:
         def __init__(self):
@@ -19,7 +20,7 @@ class Generate:
             self.num_of_events = Functions.Random.rand_num(0, len(Tokens().event_names))
             self.events = {}
             self.__generate_event_names()
-    #Pas#------------------------------------------------------------------------#
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Generate State names
         def __generate_state_names(self):
             # Get statenames list
@@ -35,7 +36,7 @@ class Generate:
                 
                 # Adds used statename to list
                 self.states.append(state_name)
-    #Pas#------------------------------------------------------------------------#
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Makes variable names mapped with a random type
         def __generate_variable_names(self):
             # Gets variable names list
@@ -54,7 +55,7 @@ class Generate:
                 
                 # Random variable type is chosen and adds variable name in the used list
                 self.variables[var_name] = Functions.Random.rand_choice(var_types)
-    #Pas#------------------------------------------------------------------------#
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         def __generate_event_names(self):
             # Get event names list
             event_names = Functions.Lists.get_list(Tokens().event_names)
@@ -68,14 +69,15 @@ class Generate:
 
             # Generate and save event names
             for _ in range(self.num_of_events):
-                # Makes each event have a random type
-                variable = Functions.Random.rand_choice(variables)
+                # Makes each event have a random type (if it has one)
+                variable = Functions.Random.rand_choice(variables) if Functions.Random.rand_num(0, 1) else  ""
 
                 # Make sure the chosen event name is not already used
                 event_name = Functions.Variable_Handler.avoid_redecloration(event_name, self.events, event_names)
 
                 #Adds used event name to list
                 self.events[event_name] = variable
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Create Variables with values and names
         def __generate_variables(self, code):
             # itr's with key = name, value = type
@@ -88,7 +90,7 @@ class Generate:
             
             # Return variables
             return code
-    #Pas#------------------------------------------------------------------------#
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Generates random Event(s)
         def __generate_events(self, code):
             # Randomly decides if we have events at all
@@ -100,7 +102,7 @@ class Generate:
 
             # Return events syntax
             return code
-    #Pas#------------------------------------------------------------------------#
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Generate an Actor, which makes a statemachine which makes state(s)
         def __generate_actor(self):
             # Get actor names list
@@ -120,7 +122,7 @@ class Generate:
 
             # Returns actor code
             return self.code
-    #Pas#------------------------------------------------------------------------#
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Makes statemachine
         def __generate_statemachine(self, code):
             # Start of statemachine syntax
@@ -142,7 +144,7 @@ class Generate:
 
             # Return State machine syntax
             return code
-    #Pas#------------------------------------------------------------------------#
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Make Random States
         def __generate_states(self):
             # Make and save variables
@@ -172,7 +174,7 @@ class Generate:
 
             # Returns state code
             return self.code
-    #Pas#------------------------------------------------------------------------#
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Generate random code
         def generate_random_code(self):
 
@@ -184,9 +186,9 @@ class Generate:
 
             # Returns random code
             return self.code
-    #Pas#------------------------------------------------------------------------#
-#---#---#------------------------------------------------------------------------#
-#---#---#------------------------------------------------------------------------#    
+    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
+#---#---#---------------------------------------------------------------------------------------------------------------------------------------------#
+#---#---#---------------------------------------------------------------------------------------------------------------------------------------------#   
     class Fail:
         def generate_random_tokens(self, length):
             # Initialize empty string for text 
@@ -228,6 +230,6 @@ class Generate:
                     
             # Returns random tokens
             return random_tokens
-    #Fai#------------------------------------------------------------------------#
+    #Fai#---------------------------------------------------------------------------------------------------------------------------------------------#
 
-    #Fai#------------------------------------------------------------------------#
+    #Fai#---------------------------------------------------------------------------------------------------------------------------------------------#
