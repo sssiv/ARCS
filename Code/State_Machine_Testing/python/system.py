@@ -30,7 +30,7 @@ class System():
             except Exception as e:
                 # Print an error message showing the file path and the exception reason
                 print('Failed to delete %s. Reason: %s' % (file_path, e))
-    #Sys#------------------------------------------------------------------------#
+    #Sys#---------------------------------------------------------------------------------------------------------------------------------------------#
     # Input after the command to compile
     @staticmethod
     def sys_args():
@@ -42,31 +42,53 @@ class System():
                 num_of_pass_cases = int(sys.argv[1])
                 num_of_fail_cases = int(sys.argv[2])
 
+                # Flag to track file writing success
+                all_files_written = True  
+
                 # Makes text file and writes random formatted code in it
                 for i in range(num_of_pass_cases):
-                    with open(f'../pass/code_{i + 1}.txt', 'w') as file:
-                        file.write(Generate.Pass().generate_random_code())
-                
+                    # Attempt write text file block
+                    try:
+                        # Makes text file and writes sucessful code
+                        with open(f'../pass/code_{i + 1}.txt', 'w') as file:
+                            file.write(Generate.Pass().generate_random_code())
+
+                    # File was not able to be created
+                    except IOError as e:
+                        # Specific file where the fault was caused and its error
+                        print(f"Failed to write ../pass/code_{i + 1}.txt: {e}")
+                        all_files_written = False
+                    
                 # Once I can make code that fails, I need it to randomly pick full code or just random tokens
                 for i in range(num_of_fail_cases):
-                    # How many characters will be in the random tokens textfile fail case
-                    num_of_chars = Functions.Random.rand_num(500, 2000)
+                    try:
+                        # How many characters will be in the random tokens textfile fail case
+                        num_of_chars = Functions.Random.rand_num(500, 2000)
 
-                    # Makes text file and writes random tokens to purposfully fail
-                    with open(f'../fail/code_{i + 1}.txt', 'w') as file:
-                        file.write(Generate.Fail().generate_random_tokens(num_of_chars))
+                        # Makes text file and writes random tokens to purposefully fail
+                        with open(f'../fail/code_{i + 1}.txt', 'w') as file:
+                            file.write(Generate.Fail().generate_random_tokens(num_of_chars))
+                    except IOError as e:
+                        print(f"Failed to write ../fail/code_{i + 1}.txt: {e}")
+                        all_files_written = False
+                
+                # Check the flag and print the appropriate message
+                if all_files_written:
+                    print("All test files were successfully created.\n")
+                else:
+                    print("Some files were not created successfully.\n")
             
-            # If arguments arent of type int
+            # If arguments aren't of type int
             except ValueError:
-                print("Both arguments must be valid integers.")
+                print("Both arguments must be valid integers.\n")
 
         # Not enough arguments entered
         else:
-            print("Please provide exactly two integer inputs.")
-    #Sys#------------------------------------------------------------------------#
+            print("Please provide exactly two integer inputs.\n")
+    #Sys#---------------------------------------------------------------------------------------------------------------------------------------------#
     # Removes content from all folders
     @staticmethod
     def clear_folders():
         System.__clear_folder("../pass/")
         System.__clear_folder("../fail/")
-    #Sys#------------------------------------------------------------------------#
+    #Sys#---------------------------------------------------------------------------------------------------------------------------------------------#

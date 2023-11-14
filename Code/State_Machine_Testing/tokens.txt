@@ -1,4 +1,4 @@
-Types: int, string, bool, actor, event, state
+Types: int, string, bool, actor, event, state, statemachine
 Numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 Brackets: (, ), [, ], {, }
 Keywords: initial, while, if, go, goif, exit, return, func, entry, exit, print, on, off, else, end

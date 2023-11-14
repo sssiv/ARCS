@@ -11,9 +11,6 @@
 #include <random>
 #include <chrono>
 
-// Vector, obviously
-#include <vector>
-
 #define str std::string
 
 // For making 2D vectors easier to read. These are all the columns
@@ -38,14 +35,10 @@ public:
 class Tokens
 {
 private:
-    std::vector<std::vector<str>> _tokens;
-public:
-    
-    std::vector<std::vector<str>> getTokens();
-    // Get tokens given to us from the Python script
-    void read();
-    void readCSV();
 
+public:
+    void readCSV();
+    void read();
     Tokens();
     // Print function to confirm we got all the tokens
     void print();

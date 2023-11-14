@@ -6,17 +6,17 @@ class Generate:
     class Pass:
         def __init__(self):
             self.code = ""
-            # States
+            # States list
             self.num_of_states = Functions.Random.rand_num(0, len(Tokens().state_names))
             self.states = []
             self.__generate_state_names()
 
-            # Variables
+            # Variable named mapped with types
             self.num_of_variables = Functions.Random.rand_num(0, len(Tokens().variable_names))
             self.variables = {}
             self.__generate_variable_names()
 
-            # Events
+            # Event names mapped with types
             self.num_of_events = Functions.Random.rand_num(0, len(Tokens().event_names))
             self.events = {}
             self.__generate_event_names()
@@ -214,13 +214,13 @@ class Generate:
                     # Resets line counter
                     line_length = 0
 
-                # Starts making a new random line of code
+                # Starts making a new line of random tokens
                 else:
                     # Randomly picks tokens, ignores the variable names 
                     selected_list = Functions.Random.rand_choice(Tokens().lists[:ignore])
 
-                    # Randomly picks item from list
-                    selected_item = str(Functions.Random.rand_choice(selected_list))  # Convert to string
+                    # Randomly picks item from list, Convert to string
+                    selected_item = str(Functions.Random.rand_choice(selected_list))   
 
                     # Puts it in the random text
                     random_tokens += selected_item
