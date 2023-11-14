@@ -3,14 +3,15 @@ Proteus HSM test case code generater
 How to run Python:
     * Must have Python version 3.10 or newer
     * Enter the number of desired pass and fail through the command line
-    * 
+    * Change directory to python folder by entering "cd python"
     * Run with the following command
-        * Windows: python main.py (number of pass cases) (number of fail cases)
-        * Linux and MacOS: python3 main.py (number of pass cases) (number of fail cases)
+        * Windows: "python main.py (number of pass cases) (number of fail cases)"
+        * Linux and MacOS: "make (number of pass cases) (number of fail cases)"
 
 How to run C++:
     * Must have g++ version 7 or newer
     * Enter the number of desired pass and fail through the command line
+    * Make must be installed
     * Run with the following command
         * Windows: 
             * Ill figure it out later

@@ -58,11 +58,15 @@ class Tokens():
     #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
     # Makes and writes tokens to a txt file
     def write_tokens_txt(self):
-        with open('../tokens.txt', 'w') as file:
+        with open('../c++/tokens.txt', 'w') as file:
             # For every column name in lists
             for column_name, list in zip(self.df.columns, self.lists):
                 # Join the elements of each list into a string with comma as separators
                 tokens = ', '.join(map(str, list))
                 # Write the tokens with token name
-                file.write(f"{column_name}: {tokens}\n")
+                file.write(f"{column_name}, {tokens}\n")
     #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
+
+# Make collect tokens and make textfile of tokens to c++ folder
+if __name__ == "__main__":
+    Tokens().write_tokens_txt()

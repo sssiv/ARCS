@@ -11,7 +11,8 @@
 #include <random>
 #include <chrono>
 
-#define str std::string
+#include <vector>
+#include <algorithm>
 
 // For making 2D vectors easier to read. These are all the columns
 class Columns
@@ -35,12 +36,14 @@ public:
 class Tokens
 {
 private:
+    std::vector<std::vector<std::string>> _tokens;
 
-public:
     void readCSV();
     void read();
+
+public:
     Tokens();
-    // Print function to confirm we got all the tokens
+    std::vector<std::vector<std::string>> getTokens() {return _tokens;};
     void print();
     ~Tokens(){};
 };

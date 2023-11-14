@@ -4,20 +4,23 @@
 class Generate
 {
 private:
-// Generates a random number starting "From" X all the way "to" Y
+    Tokens _Tokens;
+
+    std::vector<std::vector<std::string>> _tokens;
+
     int rand_between(const int&, const int&);
     
 public:
     Generate();
  
-    str generateEvents();
-    str generateVariables();
-    str generateActors();
-    str generateStatemachine();
-    str generateStates();
+    std::string generateEvents();
+    std::string generateVariables();
+    std::string generateActors();
+    std::string generateStatemachine();
+    std::string generateStates();
 
     // Generates a new text file with proteus code
-    void generateCode(const str&);
+    void generateCode(const std::string&);
 
     ~Generate(){};
 };

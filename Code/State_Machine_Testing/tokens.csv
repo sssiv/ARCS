@@ -2,7 +2,7 @@
 int,0,(,initial,int,*,.,Qunintin_Tarantino,Alabama,counter,STOP,Here's a random string
 string,1,),while,string,/,",",Lenardo_DiCaprio,Alaska,check,GO,made in python
 bool,2,[,if,bool,%,;,Rami_Malek,Arizona,flag,LEFT,something entered
-actor,3,],go,,+,,Keanu_Reeves,Arkansas,time,RIGHT,proteus words
+actor,3,],go,,+,"""",Keanu_Reeves,Arkansas,time,RIGHT,proteus words
 event,4,{,goif,,-,,Jake_Gyllenhaal,California,name,UP,JPL vs NASA
 state,5,},exit,,<<,,Samuel_L_Jackson,Colorado,index,DOWN,this code is very buggy
 statemachine,6,,return,,>>,,Morgan_Freeman,Connecticut,var,LIFT,Now you need to impliment events

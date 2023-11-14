@@ -2,6 +2,7 @@
 
 Generate::Generate()
 {
+    _tokens = _Tokens.getTokens();
 };
 
 
@@ -14,32 +15,32 @@ int Generate::rand_between(const int& from, const int& to)
     return dist(gen);
 }
 
-str Generate::generateEvents()
+std::string Generate::generateEvents()
 {
     return "";
 }
 
-str Generate::generateVariables()
+std::string Generate::generateVariables()
 {
     return "";
 }
 
-str Generate::generateActors()
+std::string Generate::generateActors()
 {
     return "";
 }
 
-str Generate::generateStatemachine()
+std::string Generate::generateStatemachine()
 {
     return "";
 }
 
-str Generate::generateStates()
+std::string Generate::generateStates()
 {
     return "";
 }
 
-void Generate::generateCode(const str& filename)
+void Generate::generateCode(const std::string& filename)
 {
     // Create and open a text file
     std::ofstream MyFile(filename);
