@@ -26,11 +26,11 @@ void Variables::makeNamesAndTypes()
     std::vector<std::string> selectedNames(allNames.begin(), allNames.begin() + numOfVariables);
 
     // Push Variable name and Type pair into the vector
-    for (size_t i = 0; i < selectedNames.size(); i++)
+    for (const std::string& name : selectedNames)
     {
         std::string type = _tokens[Indices::VARIABLES][rand_between(0, _tokens[Indices::VARIABLES].size() - 1)];
         std::string value = makeValue(type);
-        _variables.push_back(std::make_tuple(selectedNames[i], type, value));   
+        _variables.push_back(std::make_tuple(name, type, value));   
     }
 }
 

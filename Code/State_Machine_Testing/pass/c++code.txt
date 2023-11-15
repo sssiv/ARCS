@@ -1,2 +1,8 @@
-div, string, "Do stuff with events"
-whatsThis, string, "learn about event syntax"
+result, int, 98
+counter, int, 59
+var, int, 419
+check, bool, True
+time, int, 415
+thing, int, 193
+scope, string, "Please help me"
+index, bool, False
