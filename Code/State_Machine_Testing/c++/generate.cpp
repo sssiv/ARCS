@@ -40,11 +40,20 @@ void Generate::generateCode(const std::string& filename)
     std::ofstream MyFile(filename);
 
     // Loop through each tuple in _variables and cout its elements
+    _code += "Variables: \n";
     for (const auto& variable : _variables)
     {
         _code += std::get<0>(variable) + ", " + std::get<1>(variable) + ", " + std::get<2>(variable) + "\n";
     }
+    _code += "\n";
 
+    _code += "Events: \n";
+    for (const auto& event : _events)
+    {
+        _code += event.first + ", " + event.second + "\n";
+    }
+    _code += "\n";
+    
     // Writes code
     MyFile << _code;
 

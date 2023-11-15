@@ -1,7 +1,14 @@
-check, bool, False
-flag, int, 87
-div, bool, True
-key, int, 401
-counter, bool, False
+Variables: 
+index, string, "Now you need to impliment events"
 time, bool, False
-data, bool, False
+var, int, 144
+check, int, 120
+flag, string, "There's issues with infinite loops in here"
+
+Events: 
+TERMINATE, int
+CLOSE, 
+STOP, 
+REST, 
+UP, 
+
