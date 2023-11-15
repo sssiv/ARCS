@@ -4,12 +4,13 @@
 class Generate
 {
 private:
-    //Tokens _Tokens;
+    Tokens _Tokens;
+    Variables _Variables;
     std::vector<std::vector<std::string>> _tokens;
 
     std::string _code;
 
-    std::vector<std::pair<std::string, std::string>> _variables;
+    std::vector<std::tuple<std::string, std::string, std::string>> _variables;
     int numOfVariables;
 
     int rand_between(const int&, const int&);
