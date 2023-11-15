@@ -44,6 +44,22 @@ class Tokens():
             self.event_names, 
             self.string_input
             ]
+        
+        # List of column names
+        self.lcolumn_names = [
+            'Types', 
+            'Numbers', 
+            'Brackets', 
+            'Keywords', 
+            'Variables', 
+            'Operators', 
+            'Punctuation', 
+            'Actor_Names', 
+            'State_Names', 
+            'Variable_Names', 
+            'Event_Names', 
+            'String_Input'
+            ]
     #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
     # Outputs all tokens to terminal
     def display_tokens(self):
@@ -60,7 +76,7 @@ class Tokens():
     def write_tokens_txt(self):
         with open('../c++/tokens.txt', 'w') as file:
             # For every column name in lists
-            for column_name, list in zip(self.df.columns, self.lists):
+            for list in self.lists:
                 # Join the elements of each list into a string with comma as separators
                 tokens = ', '.join(map(str, list))
                 # Write the tokens to the c++ folder (without column names)
@@ -69,4 +85,5 @@ class Tokens():
 
 # Make collect tokens and make textfile of tokens to c++ folder
 if __name__ == "__main__":
+    Tokens().display_tokens()
     Tokens().write_tokens_txt()

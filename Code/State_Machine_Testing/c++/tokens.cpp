@@ -83,26 +83,33 @@ void Tokens::print()
     // }
 
     // read() print
-    for (size_t row = 0; row < _tokens.size(); ++row)
-    {
-        // First item in the row is the name of the column
-        std::cout << "Section: " << _tokens[row][0] << std::endl;
+    // for (size_t row = 0; row < _tokens.size(); ++row)
+    // {
+    //     // Prints the rest of the row
+    //     for (size_t column = 0; column < _tokens[row].size(); ++column)
+    //         std::cout << _tokens[row][column] << std::endl;
+    //     std::cout << std::endl;
+    // }
 
-        // Prints the rest of the row
-        for (size_t column = 1; column < _tokens[row].size(); ++column)
-            std::cout << _tokens[row][column] << std::endl;
-        std::cout << std::endl;
-    }
-
-    // For a vector iterating through the 2D vector
+    // read() print, ranged based
     // for (const auto& vec : _tokens) 
     // {
     //     // For a string iterating through the vector thats looking at an individual column
     //     for (const std::string& token : vec) 
     //     {
-    //         // Show the token
-    //         std::cout << token << " ";
+    //         std::cout << token << "  ";
     //     }
-    //     std::cout << std::endl;
+    //     std::cout << std::endl << std::endl;
     // }
+
+    // read() print, better organization
+    for (const auto& vec : _tokens) 
+    {
+        // For a string iterating through the vector thats looking at an individual column
+        for (size_t i = 0; i < vec.size(); ++i) 
+        {
+            i < vec.size() - 1 ? std::cout << vec[i] << ", " : std::cout << vec[i] << " ";
+        }
+        std::cout << std::endl << std::endl;
+    }
 }

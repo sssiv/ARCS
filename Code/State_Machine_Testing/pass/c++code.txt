@@ -1,8 +1,1 @@
-result, int, 98
-counter, int, 59
-var, int, 419
-check, bool, True
-time, int, 415
-thing, int, 193
-scope, string, "Please help me"
-index, bool, False
+counter, int, 387

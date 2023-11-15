@@ -1,0 +1,127 @@
+event UP {}; 
+
+actor Tom_Hanks {
+	statemachine {
+		initial Florida;
+
+		int counter = 21;
+		int time = 100;
+		string index = "actors acting and whatnot";
+		string var = "made in python";
+		bool key = False;
+		bool numOfThings = True;
+		int value = 92;
+		int result = 92;
+		int name = 54;
+		string check = "this code is very buggy";
+
+		state New_York {
+			// Add state behavior here;
+		}
+
+		state Arkansas {
+			name = 56;
+			index = "I don't care if Python is 'easier', I prefer C++";
+			var = "I wonder if this string changed value";
+			value = 73;
+		}
+
+		state Minnesota {
+			// Add state behavior here;
+		}
+
+		state Vermont {
+			// Add state behavior here;
+		}
+
+		state Ohio {
+			counter = 24;
+			check = "This was easier in Python than C++";
+		}
+
+		state Florida {
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state Virginia {
+			index = "something entered";
+			var = "Events and stuff doing things";
+			name = 40;
+			counter = 4;
+			check = "Events and stuff doing things";
+			key = True;
+		}
+
+		state Nevada {
+			index = "Debug this code for a prize";
+			result = 31;
+			value = 79;
+			numOfThings = True;
+			key = False;
+			counter = 11;
+			check = "Events and stuff doing things";
+		}
+
+		state Washington {
+			// Add state behavior here;
+		}
+
+		state Michigan {
+			name = 3;
+			value = 37;
+			time = 5;
+			counter = 65;
+			var = "made in python";
+			result = 76;
+			numOfThings = False;
+			index = "states are stated";
+		}
+
+		state Illinois {
+		}
+
+		state Oregon {
+			key = False;
+			index = "Debug this code for a prize";
+		}
+
+		state Arizona {
+			name = 87;
+			value = 74;
+		}
+
+		state North_Carolina {
+			check = "I wonder if this string changed value";
+		}
+
+		state Pennsylvania {
+			// Add state behavior here;
+		}
+
+		state New_Hampshire {
+			// Add state behavior here;
+		}
+
+		state Missouri {
+			// Add state behavior here;
+		}
+
+		state Georgia {
+		}
+
+		state Utah {
+			// Add state behavior here;
+		}
+
+		state Kentucky {
+			// Add state behavior here;
+		}
+
+		state Wisconsin {
+			// Add state behavior here;
+		}
+	}
+}

@@ -1,20 +1,31 @@
 Proteus HSM test case code generater
 
+!! Make must be installed for Linux/MacOS if you want to use the shortcut methods !!
+
 How to run Python:
     * Must have Python version 3.10 or newer
-    * Enter the number of desired pass and fail through the command line
     * Change directory to python folder by entering "cd python"
     * Run with the following command
-        * Windows: "python main.py (number of pass cases) (number of fail cases)"
-        * Linux and MacOS: "make (number of pass cases) (number of fail cases)"
+        * Windows: 
+            * run.bat (number of pass cases) (number of fail cases)
+        * Linux and MacOS: 
+            * ./run.sh (number of pass cases) (number of fail cases)
+               OR
+               python3 main.py (number of pass cases) (number of fail cases)
+               OR
+               make -f Makefile p=(number of pass cases) f=(number of fail cases)
+
 
 How to run C++:
-    * Must have g++ version 7 or newer
-    * Enter the number of desired pass and fail through the command line
-    * Make must be installed
+    * Must have g++ version 6 or newer
+    * Change directory to c++ folder by entering "cd c++"
     * Run with the following command
+        Before running anything, Need to run tokens.py. CD to python by cd ../python, then run python3 tokens.py
         * Windows: 
-            * Ill figure it out later
+            * Must haev MinGW installed and in your PATH
+            * Type mingw32-make
+            * main.exe
+            * To clean, type mingw32-make clean
         * Linux and MacOS: python3 main.py (number of pass cases) (number of fail cases)
-            * make 
             * ./main (number of pass cases) (number of fail cases)
+            * Clean by typing make clean

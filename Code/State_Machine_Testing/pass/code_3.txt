@@ -1,0 +1,131 @@
+
+actor Jake_Gyllenhaal {
+	statemachine {
+		initial Missouri;
+
+		bool name = False;
+		int numOfThings = 31;
+		string value = "states are stated";
+		bool check = True;
+		int var = 35;
+		bool index = True;
+
+		state Oregon {
+			// Add state behavior here;
+		}
+
+		state Minnesota {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+		}
+
+		state Arkansas {
+			// Add state behavior here;
+		}
+
+		state Michigan {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			// Add state behavior here;
+		}
+
+		state Ohio {
+			// Add state behavior here;
+		}
+
+		state Massachusetts {
+		}
+
+		state Vermont {
+			numOfThings = 87;
+			value = "states are stated";
+			check = True;
+			var = 70;
+		}
+
+		state Missouri {
+			// Add state behavior here;
+		}
+
+		state Tennessee {
+			// Add state behavior here;
+		}
+
+		state Georgia {
+		}
+
+		state California {
+			// Add state behavior here;
+		}
+
+		state Alabama {
+			// Add state behavior here;
+		}
+
+		state Connecticut {
+		}
+
+		state New_Jersey {
+			// Add state behavior here;
+		}
+
+		state West_Virginia {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			// Add state behavior here;
+		}
+
+		state Indiana {
+			var = 97;
+			numOfThings = 72;
+			check = False;
+			name = True;
+		}
+
+		state Maryland {
+			check = False;
+		}
+
+		state Illinois {
+			name = True;
+			numOfThings = 94;
+		}
+
+		state Maine {
+			// Add state behavior here;
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+
+		state Nevada {
+			var = 10;
+			numOfThings = 39;
+			value = "this code is very buggy";
+			name = True;
+			check = False;
+		}
+
+		state New_Mexico {
+			// Add state behavior here;
+		}
+
+		state Colorado {
+			name = True;
+			index = False;
+			value = "Now you need to impliment events";
+			numOfThings = 97;
+		}
+
+		state Delaware {
+			check = False;
+		}
+	}
+}

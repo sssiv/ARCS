@@ -1,0 +1,36 @@
+}entry
+"{boolstate goif7<=
+^print, 7*intstringentry
+)[	stringstatemachine	2off9entry /<=0statemachine intbool,0string
+;exit8.
+bool(( "1string
+bool6while	boolevent	7stringint,
+bool	statemachine"	<<=9
+<0+	.;"5,==	stringintinitial	;*4while=1return}
+state>>goif]	}boolstring 1)int. -int string	intevent
+statemachine event
+([exit-	string9string	string	exit}else3while]	exit
+bool *=state];
+1)(print9state<=	" 0string5intevent
+. "3exitstringreturn
++9bool ]>>bool ;,,int	off^=boolbool
+(
+5/
+<=0boolbool 4()7bool7goonint [==string .= entrybool	[[9)endoff	exit
+exitstringelse
+exitinitial)
+off	event>^=
+"print ->>=int<<
+boolwhilestring9
+*=8printstatemachine	int.intint	8;=3].
+int 516	}0boolon 9)end) ^||7string 6statemachine  -=whileint5 %=
+"&&}bool,exit bool;)1	-2]> bool5.<<=	<<40on  -= %=(return	end."
+bool}
+stringstringstatemachine	goif*=
+,[state	^=int]	[entry7,
+int<<=boolwhile
+,"on
+stringboolstring
+==^,;int
+{4^"exit)bool
+funcreturn ,2.9 }string>>=4 stringint	2;bool}
