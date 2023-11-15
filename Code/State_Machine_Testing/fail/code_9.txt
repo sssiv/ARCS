@@ -1,0 +1,46 @@
+;bool
+event
+81&&string }0entry(,	end4
+)||.;6go( 48go
+/=stringexitprint actor(	2else{
+{5stringbool"bool
+]end1event entry"intbool ; ,]]".offstring
+[string )stringstringstring
+string6exit
+go)while int{ string	intend("0 2=%%state
+5actorstring >>9int4bool)9 "/=;entry/= /{2state) 9^!=exit!=exit
+statestatemachine	,while"actorbool actor( bool"
+if= bool] if])1."end<<= bool ) .actor
+!=string
+5"==off"bool"string string  %=int]
+return6end };%"	6=booloff	end[ event{
+)"bool printint,	->)bool
+intstatebool {funcend||else	bool,8(	]/ %=string( .boolexit8 stringstringexit ,;]7boolint initialon	= ,}"bool](	actor/
+2}/=boolint ->0 {/=5,,1<= statemachine
+5)bool8
+event"print;,
+while1{"]8,
+bool(actor	6{+string{	1,whilestring int,return*= intreturn7bool	int",== >>stateintint	on)>>] ^=.stateevent	 -=	+=on4[5	statemachine )goif" off<< },	string([]	(,eventboolboolactor
+,]"2"92){ "bool->4statemachine	endstring^=9 stringint+int5 .else ,75
+,.bool"
+4.;1. %=	*.)[< intstatemachinestring	string	int)>>=	>;eventelse 5{]7(>>) func(bool="intboolstring
++=]{intstring int 9state
+>>;||boolint
+int||	7else,func!=
+(/=+/==<<<" event,1	.goif](
+.end[{	;exit
+exit(bool
+endboolstring
+9 -=bool
+"{{*,
+;int
+4.{	int;;	stringintprint(	string{statemachine ]{.[5 whilefunc	[74intstring	4actorprint^
+intstring
+actor
+statemachine;{
+bool](returnstring
+whilebool )8}" else	ifon(==
++int06initial
+.{	3>>bool0
+.};*=76bool
+intstring==string

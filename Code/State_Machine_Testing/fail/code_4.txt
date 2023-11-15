@@ -1,0 +1,35 @@
+initial }8whilestatemachine	int(
+6while
+.9;{[string ),.	3eventbool.entry	intentry[	off	bool4
+exit	exit	/=go	[.bool7||	0{)[.
+stringbool &&int	func7return!=	17<[int
+string0+->bool
+func	boolentryevent	514go0actor {}func^=print
+.7int;{"else
+int]intint5]1 bool
+bool<<intreturnevent end(goif  %="int	eventintbool
+go	),bool"++="" stateprint9
+"!=;string7
+2stringwhile ."9"string goif 0(+initialentry	67&& else;	else;!=boolboolbool	1string2
+actor
+string	event
+4(2 string+= whilebool}actor	bool -=]int 9<<=",string,intstate	<<=)0->initial	if,;;)	{ go+=()go	int54{statemachine	boolon	^&&
+;state
+5<bool 7<=]
+>[exit
+exit
+>>=
+2int{.bool <<=evententry	;exit<<)bool
+statestring 7elseevent6==string >>{boolentry	(string.gooff
+(<<= 9>9stringexit2
+[8.}"
+!=%stringstate
+2exit	(0int>>end =[ "
+string9]bool]
+while	",string!={
+;!=elseend
+.>>)bool	,5{state initialboolstring
+<<=string"4
+string <entry0( 4int2if.int;8	,.state>..
+string}||.	string actor	*=	{};(string	{3string	if	intbool)^
+initial

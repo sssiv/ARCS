@@ -1,0 +1,185 @@
+
+actor Qunintin_Tarantino {
+	statemachine {
+		bool flag = False;
+		int div = 9;
+		bool add = False;
+		int name = 76;
+		bool sub = True;
+		int counter = 48;
+		bool thing = True;
+		string index = "Events and stuff doing things";
+		bool whatsThis = False;
+		string result = "This was easier in Python than C++";
+		int data = 29;
+
+		state Louisiana {
+			// Add state behavior here;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			thing = True;
+		}
+
+		state Arizona {
+			data = 81;
+			result = "This was easier in Python than C++";
+			div = 51;
+			name = 21;
+			add = True;
+			counter = 17;
+			thing = False;
+			index = "actors acting and whatnot";
+			whatsThis = False;
+			flag = True;
+			sub = True;
+		}
+
+		state South_Carolina {
+			div = 27;
+			sub = False;
+			index = "I don't care if Python is 'easier', I prefer C++";
+			name = 57;
+			add = True;
+			result = "More sentences!";
+		}
+
+		state Maine {
+			// Add state behavior here;
+		}
+
+		state Iowa {
+			result = "I wonder if this string changed value";
+			whatsThis = True;
+			add = False;
+			data = 96;
+			index = "Please help me, im trapped in here!";
+			counter = 0;
+			name = 58;
+			div = 11;
+			sub = False;
+		}
+
+		state South_Dakota {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state Arkansas {
+			// Add state behavior here;
+		}
+
+		state Maryland {
+			// Add state behavior here;
+		}
+
+		state Pennsylvania {
+			index = "This was easier in Python than C++";
+		}
+
+		state Connecticut {
+			// Add state behavior here;
+		}
+
+		state Oklahoma {
+		}
+
+		state Oregon {
+			// Add state behavior here;
+		}
+
+		state New_Hampshire {
+			// Add state behavior here;
+		}
+
+		state Idaho {
+			// Add state behavior here;
+		}
+
+		state New_Jersey {
+			// Add state behavior here;
+		}
+
+		state Missouri {
+			add = True;
+			name = 87;
+		}
+
+		state Wyoming {
+			add = False;
+			flag = True;
+			whatsThis = False;
+			sub = False;
+			data = 55;
+			counter = 18;
+			result = "JPL vs NASA";
+			div = 9;
+			index = "Now you need to impliment events";
+			name = 49;
+		}
+
+		state Wisconsin {
+		}
+
+		state Ohio {
+			index = "Do stuff with events";
+			sub = True;
+			flag = False;
+		}
+
+		state Alaska {
+			// Add state behavior here;
+		}
+
+		state Nebraska {
+			// Add state behavior here;
+		}
+
+		state New_York {
+			whatsThis = True;
+			add = False;
+			thing = True;
+			flag = True;
+			result = "I don't care if Python is 'easier', I prefer C++";
+			name = 19;
+			index = "Debug this code for a prize";
+			counter = 51;
+			data = 16;
+		}
+
+		state Virginia {
+			// Add state behavior here;
+		}
+
+		state Indiana {
+			// Add state behavior here;
+		}
+
+		state Kentucky {
+			// Add state behavior here;
+		}
+
+		state Minnesota {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			name = 39;
+			whatsThis = True;
+			sub = False;
+			counter = 24;
+			data = 46;
+		}
+
+		state Illinois {
+			// Add state behavior here;
+		}
+	}
+}

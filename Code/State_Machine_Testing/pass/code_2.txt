@@ -1,0 +1,196 @@
+
+actor Robin_Williams {
+	statemachine {
+		string scope = "Here's a random string";
+		bool value = True;
+		bool whatsThis = True;
+		bool data = False;
+		string time = "states are stated";
+
+		state Alabama {
+			data = False;
+			time = "Events and stuff doing things";
+			whatsThis = False;
+		}
+
+		state Oklahoma {
+			// Add state behavior here;
+		}
+
+		state Minnesota {
+			// Add state behavior here;
+		}
+
+		state Texas {
+			scope = "states are stated";
+			value = False;
+			time = "I wonder if this string changed value";
+			whatsThis = True;
+		}
+
+		state Michigan {
+			// Add state behavior here;
+		}
+
+		state Georgia {
+		}
+
+		state Louisiana {
+			// Add state behavior here;
+		}
+
+		state Arkansas {
+			// Add state behavior here;
+		}
+
+		state Virginia {
+			data = False;
+			value = False;
+			whatsThis = False;
+			scope = "This was easier in Python than C++";
+			time = "There's issues with infinite loops in here";
+		}
+
+		state Washington {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			whatsThis = False;
+			value = True;
+		}
+
+		state West_Virginia {
+			scope = "proteus words";
+			data = False;
+			whatsThis = True;
+			time = "Now you need to impliment events";
+			value = False;
+		}
+
+		state Tennessee {
+			// Add state behavior here;
+		}
+
+		state Massachusetts {
+			// Add state behavior here;
+		}
+
+		state Nevada {
+			// Add state behavior here;
+		}
+
+		state New_York {
+			// Add state behavior here;
+		}
+
+		state Rhode_Island {
+			scope = "JPL vs NASA";
+		}
+
+		state Pennsylvania {
+			time = "something entered";
+			whatsThis = False;
+			scope = "I don't care if Python is 'easier', I prefer C++";
+		}
+
+		state California {
+			// Add state behavior here;
+		}
+
+		state North_Dakota {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			// Add state behavior here;
+		}
+
+		state Alaska {
+			value = True;
+			whatsThis = True;
+		}
+
+		state Missouri {
+			value = True;
+			scope = "JPL vs NASA";
+			data = False;
+			time = "this code is very buggy";
+			whatsThis = False;
+		}
+
+		state Vermont {
+			// Add state behavior here;
+		}
+
+		state South_Carolina {
+			// Add state behavior here;
+		}
+
+		state Colorado {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state Oregon {
+			scope = "Now you need to impliment events";
+			time = "this code is very buggy";
+			data = True;
+			whatsThis = False;
+		}
+
+		state Maryland {
+			// Add state behavior here;
+		}
+
+		state New_Hampshire {
+			scope = "This was easier in Python than C++";
+		}
+
+		state Illinois {
+			scope = "I wonder if this string changed value";
+			data = True;
+			value = False;
+			time = "Please help me, im trapped in here!";
+		}
+
+		state Kentucky {
+			// Add state behavior here;
+		}
+
+		state Arizona {
+			data = True;
+			time = "Do stuff with events";
+		}
+
+		state Kansas {
+			whatsThis = True;
+			data = True;
+		}
+
+		state Utah {
+			whatsThis = False;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state Ohio {
+			data = False;
+			scope = "JPL vs NASA";
+		}
+
+		state New_Mexico {
+			value = True;
+			data = False;
+		}
+
+		state Wisconsin {
+			// Add state behavior here;
+		}
+	}
+}

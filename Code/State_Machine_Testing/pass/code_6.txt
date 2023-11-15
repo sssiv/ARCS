@@ -1,0 +1,7 @@
+
+actor Danny_DeVito {
+	statemachine {
+		bool numOfThings = True;
+		bool whatsThis = True;
+	}
+}

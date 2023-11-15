@@ -1,0 +1,242 @@
+event UP {bool}; 
+event DOWN {int}; 
+
+actor Robin_Williams {
+	statemachine {
+		initial Pennsylvania;
+
+		bool data = True;
+		int time = 83;
+		bool flag = False;
+		int key = 23;
+		bool div = False;
+		int name = 36;
+
+		state Nebraska {
+			flag = False;
+		}
+
+		state Wyoming {
+			// Add state behavior here;
+		}
+
+		state Texas {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			name = 82;
+			key = 78;
+			flag = True;
+		}
+
+		state South_Dakota {
+			// Add state behavior here;
+		}
+
+		state North_Dakota {
+			key = 37;
+			div = False;
+			flag = True;
+			name = 76;
+		}
+
+		state Michigan {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			// Add state behavior here;
+		}
+
+		state Delaware {
+		}
+
+		state Massachusetts {
+			div = False;
+			time = 99;
+			data = True;
+		}
+
+		state Kentucky {
+			key = 74;
+			div = False;
+			flag = True;
+			name = 77;
+		}
+
+		state Washington {
+			// Add state behavior here;
+		}
+
+		state Oregon {
+			// Add state behavior here;
+		}
+
+		state Wisconsin {
+			// Add state behavior here;
+		}
+
+		state Rhode_Island {
+			key = 64;
+		}
+
+		state Illinois {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			data = True;
+			name = 84;
+			time = 20;
+			div = False;
+			key = 15;
+			flag = True;
+		}
+
+		state California {
+			// Add state behavior here;
+		}
+
+		state Idaho {
+			time = 66;
+			name = 74;
+			data = False;
+			flag = True;
+			key = 26;
+		}
+
+		state Georgia {
+			key = 38;
+		}
+
+		state Minnesota {
+			// Add state behavior here;
+		}
+
+		state New_York {
+			// Add state behavior here;
+		}
+
+		state Colorado {
+			// Add state behavior here;
+		}
+
+		state Arizona {
+			// Add state behavior here;
+		}
+
+		state New_Hampshire {
+			flag = False;
+			time = 7;
+			key = 43;
+			name = 44;
+			data = False;
+		}
+
+		state Alabama {
+			// Add state behavior here;
+		}
+
+		state Arkansas {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state Alaska {
+			name = 93;
+			key = 35;
+			data = True;
+			flag = False;
+			div = True;
+			time = 84;
+		}
+
+		state Nevada {
+			// Add state behavior here;
+		}
+
+		state Kansas {
+			// Add state behavior here;
+		}
+
+		state West_Virginia {
+			// Add state behavior here;
+		}
+
+		state New_Jersey {
+			div = True;
+			time = 93;
+			key = 59;
+		}
+
+		state Maine {
+			key = 21;
+			data = False;
+			div = False;
+			time = 73;
+			name = 54;
+			flag = False;
+		}
+
+		state Vermont {
+			// Add state behavior here;
+		}
+
+		state Ohio {
+			data = True;
+			key = 79;
+			name = 59;
+		}
+
+		state North_Carolina {
+			name = 78;
+			flag = True;
+			div = False;
+			time = 31;
+		}
+
+		state Virginia {
+			// Add state behavior here;
+		}
+
+		state Missouri {
+			time = 5;
+			name = 65;
+			key = 80;
+			flag = False;
+			data = True;
+		}
+
+		state Tennessee {
+			// Add state behavior here;
+		}
+
+		state Pennsylvania {
+			div = True;
+			flag = True;
+			data = True;
+			key = 35;
+		}
+
+		state Maryland {
+			// Add state behavior here;
+		}
+
+		state Utah {
+			// Add state behavior here;
+		}
+
+		state Oklahoma {
+			time = 51;
+			name = 31;
+		}
+	}
+}

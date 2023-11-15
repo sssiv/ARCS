@@ -1,0 +1,26 @@
+5go;"7state
+ %=0+=-( >>&&2 int7int -> %=string +,{print
+if6""
+]exit	intstatemachine	8)7".6event	;{string
+stringstatemachinebool
+int->statebool( 0exitactor  %= returnstatemachine
+ifstring
+(.exit
+state
+statemachine	;{]>>if	}stringprint int
+;>	go)int/5]()84 end %=-	<<=	int}"stringstring
+on).boolelse
+8!=boolreturn
+string	9<<=func;
+ongoifend 9^/int-7 >>=state&&entry" %=
+bool/=int	string> %=||
+int==int.9[	(intint>>->	3).;{,bool,
+statemachine	.bool}	intentry end ";stringstring
+>>int {]bool stateint	;.go.goboolstatemachine	04,	intstring0{3	bool9while	01 %=<6bool 0event	stateactorfunc .off	<=)^=0bool1
+bool1int.bool( 6string	func1/=statemachine
+],(bool <="exitstringbool	/2int>	exitstring	stringinitial on5string	&&return"
+332||<= state}(=,event 7eventinitial
+-[state "7)bool<=string{
+stateexit1	intint	stringstringstring statemachine
+intwhile" string{event	,state..	eventstringevent ,exitgostring	eventstring
+eventint ]intstring] ^=actor	bool
