@@ -83,7 +83,7 @@ class Tokens():
                 file.write(f"{tokens}\n")
     #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
 
-# Make collect tokens and make textfile of tokens to c++ folder
+# Make textfile of tokens to c++ folder and Display tokens
 if __name__ == "__main__":
     Tokens().display_tokens()
     Tokens().write_tokens_txt()
