@@ -3,20 +3,17 @@
 #include "variables.h"
 #include "events.h"
 
-class Generate
+class Generate : public Utilities
 {
 private:
     Tokens _Tokens;
     Variables _Variables;
     Events _Events;
-    std::vector<std::vector<std::string>> _tokens;
-
+    
     std::string _code;
-
+    std::vector<std::vector<std::string>> _tokens;
     std::vector<std::tuple<std::string, std::string, std::string>> _variables;
-    int numOfVariables;
-
-    int rand_between(const int&, const int&);
+    std::vector<std::pair<std::string, std::string>> _events;
     
 public:
     Generate();

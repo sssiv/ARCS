@@ -1,1 +1,7 @@
-flag, int, 301
+check, bool, False
+flag, int, 87
+div, bool, True
+key, int, 401
+counter, bool, False
+time, bool, False
+data, bool, False
