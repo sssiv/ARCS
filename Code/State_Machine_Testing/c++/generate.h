@@ -18,7 +18,6 @@ private:
 public:
     Generate();
     std::string generateVariables();
-    
     std::string generateEvents();
     
     std::string generateActors();

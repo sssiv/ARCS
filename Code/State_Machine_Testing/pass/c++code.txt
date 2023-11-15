@@ -1,14 +1,14 @@
 Variables: 
-index, string, "Now you need to impliment events"
-time, bool, False
-var, int, 144
-check, int, 120
-flag, string, "There's issues with infinite loops in here"
+mul, int, 394
+var, bool, True
+add, string, "I wonder if this string changed value"
+sub, int, 67
+div, bool, True
+counter, bool, True
+flag, string, "this code is very buggy"
+numOfThings, int, 92
 
 Events: 
-TERMINATE, int
-CLOSE, 
-STOP, 
-REST, 
-UP, 
+RIGHT, string
+LIFT, 
 
