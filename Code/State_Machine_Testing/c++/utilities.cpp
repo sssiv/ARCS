@@ -1,10 +1,10 @@
-#include "functions.h"
+#include "utilities.h"
 
-Functions::Functions()
+Utilities::Utilities()
 {
 }
 
-int Functions::rand_between(const int& from, const int& to)
+int Utilities::rand_between(const int& from, const int& to)
 {
     // Set Seed
     unsigned seed = static_cast<unsigned>(std::chrono::system_clock::now().time_since_epoch().count());
@@ -15,6 +15,6 @@ int Functions::rand_between(const int& from, const int& to)
     return dist(gen);
 }
 
-Functions::~Functions()
+Utilities::~Utilities()
 {
 }

@@ -1,9 +1,9 @@
 #pragma once
 
 #include "tokens.h"
-#include "functions.h"
+#include "utilities.h"
 
-class Events : public Functions
+class Events : public Utilities
 {
 private:
     Tokens _Tokens;

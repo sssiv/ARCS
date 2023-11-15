@@ -1,11 +1,14 @@
 #pragma once
+
 #include "variables.h"
+#include "events.h"
 
 class Generate
 {
 private:
     Tokens _Tokens;
     Variables _Variables;
+    Events _Events;
     std::vector<std::vector<std::string>> _tokens;
 
     std::string _code;

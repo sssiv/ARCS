@@ -4,13 +4,13 @@
 #include <random>
 #include <chrono>
 
-class Functions
+class Utilities
 {
 private:
     
 public:
-    Functions();
+    Utilities();
     int rand_between(const int&, const int&);
-    ~Functions();
+    ~Utilities();
 };
 

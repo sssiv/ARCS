@@ -1,11 +1,11 @@
 #pragma once
 
 #include "tokens.h"
-#include "functions.h"
+#include "utilities.h"
 #include <utility>
 #include <tuple>
 
-class Variables : public Functions
+class Variables : public Utilities
 {
 private:
     Tokens _Tokens;
