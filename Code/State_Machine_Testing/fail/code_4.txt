@@ -1,22 +1,36 @@
-<goevententry
-<=int/=4->
-,(6actorprint>
-boolgo 3,; else 7bool[else(+= entry(*=4
-while.(string	.2int {2boolintstring	event3.6]if 3
-int!=>>=bool	,func-->} eventstring	bool[returnstate	boolexitbool 8(>>on.actor
-goifint	intintbool
-}stringfunc
-actor
-bool0^=	bool28	exit5int
-string.event4[;	string. 9,=int
-int"intexit"	state" int}actor
-(/return[ while,bool
-string goif/=)	"/=state <=3"if *while;bool	]boolbool<;}intint	boolstring/string
-ifstring9event	string*= statefunc	*=;+"	actor ,({}->func
-;<initial ;3}string	string	statemachine bool=bool	]<=intstring ,5int	statebool){
-(] 0funcexit	int!=(	^(
-=string
-state||)int
-]string5<<= -=
-string.,int	4stringstring} 06exit
-int] <=^int 7bool
+], %=printentry
+"3intstring
+]7
+-state inton)string
+/int"stringint stateentry	{ -57,stringbool	print
+{[^=	==||7while )} bool, 9actor<< ,string (while2initial
+,0eventbool
+string	)(2stringint<<->	state*=string/
+]<<bool.int"int actor ||event"}initial
+funcstatemachine
+int]string) -=<<=end	actor<while0	)5,stringstate3	.if3}(]statemachine
+statemachine
+; ;string,	off4"actor
+int)>	entryint- go=,+	{int4 1int	]
+string=
+4stringstring *={5bool0	7,3on(goint 7go
+string.string
+bool	6actoreventstring [2=return
+event; .print;exit	[;/8}.
+4*=exit "exit1ifstring .go]	func) stringstring eventboolstatemachine
+/=actor  %=;>/],	]+=event"	end,actor5{funcbool /{goif,func	entry boolintifprint else}<===go bool8	event,bool	1{88->6;+=6 ) %=
+stringon	6stringentry
+3^9statemachine*= exitinitial]	,1{
+intbool	boolentry8event
+int
+else} entry	;-0
+.go	stringint statemachine ,	->int	string
+(print]
+statemachine
+intactor ,9intint6+<=
+goif!=int4event	exitgoifint bool.string
+else< bool)	string7"
+exit8]0 off)	==statemachine "||+=	intprint
+86 int.ifstatestatemachine	elseint*=exit	.>>=;on. 6int	-bool]5)string 0-)5
+ifstring{boolstring
+}event

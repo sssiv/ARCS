@@ -1,11 +1,23 @@
 
 actor Danny_DeVito {
 	statemachine {
-		initial Louisiana;
+		initial Arizona;
 
-		bool time = False;
 
-		state Oklahoma {
+		state Mississippi {
+		}
+
+		state Nevada {
+		}
+
+		state Rhode_Island {
+		}
+
+		state Indiana {
+			// Add state behavior here;
+		}
+
+		state Maryland {
 			// Add state behavior here;
 		}
 
@@ -13,32 +25,154 @@ actor Danny_DeVito {
 			// Add state behavior here;
 		}
 
-		state Wisconsin {
-			// Add state behavior here;
-		}
-
-		state Minnesota {
-		}
-
 		state Alabama {
+		}
+
+		state Massachusetts {
 			// Add state behavior here;
 		}
 
-		state Louisiana {
+		state Illinois {
+		}
+
+		state South_Carolina {
+		}
+
+		state California {
+		}
+
+		state Wyoming {
+			// Add state behavior here;
+		}
+
+		state Virginia {
+			// Add state behavior here;
+		}
+
+		state Arizona {
+			// Add state behavior here;
+		}
+
+		state Florida {
+		}
+
+		state Kansas {
+		}
+
+		state Alaska {
+			// Add state behavior here;
+		}
+
+		state Tennessee {
+		}
+
+		state New_Jersey {
+			// Add state behavior here;
+		}
+
+		state Maine {
+		}
+
+		state Michigan {
+			// Add state behavior here;
+		}
+
+		state West_Virginia {
+			// Add state behavior here;
+		}
+
+		state Washington {
+		}
+
+		state Oregon {
+		}
+
+		state North_Carolina {
+			// Add state behavior here;
+		}
+
+		state Missouri {
+		}
+
+		state Pennsylvania {
+		}
+
+		state Oklahoma {
+		}
+
+		state Kentucky {
+		}
+
+		state Colorado {
+		}
+
+		state Nebraska {
+			// Add state behavior here;
 		}
 
 		state New_Hampshire {
 			// Add state behavior here;
 		}
 
+		state Delaware {
+			// Add state behavior here;
+		}
+
+		state Vermont {
+			// Add state behavior here;
+		}
+
+		state Louisiana {
+			// Add state behavior here;
+		}
+
+		state Ohio {
+			// Add state behavior here;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+		}
+
+		state Idaho {
+			// Add state behavior here;
+		}
+
+		state Iowa {
+			// Add state behavior here;
+		}
+
+		state Minnesota {
+			// Add state behavior here;
+		}
+
+		state Texas {
+			// Add state behavior here;
+		}
+
+		state Connecticut {
+		}
+
+		state Montana {
+			// Add state behavior here;
+		}
+
 		state North_Dakota {
+			// Add state behavior here;
 		}
 
-		state Wyoming {
-			time = False;
+		state South_Dakota {
+			// Add state behavior here;
 		}
 
-		state Washington {
+		state Wisconsin {
+		}
+
+		state Arkansas {
+			// Add state behavior here;
 		}
 	}
 }

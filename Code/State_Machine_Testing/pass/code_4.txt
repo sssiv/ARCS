@@ -1,126 +1,43 @@
+event MOVE {}; 
+event LOOK {}; 
+event STOP {int}; 
+event LEFT {}; 
+event TERMINATE {int}; 
+event FALL {}; 
+event CLOSE {bool}; 
+event SHOVE {bool}; 
+event REST {int}; 
 
-actor Jake_Gyllenhaal {
+actor Samuel_L_Jackson {
 	statemachine {
-		string div = "JPL vs NASA";
-		int key = 82;
-		int sub = 14;
+		initial Delaware;
 
-		state Oklahoma {
-			div = "Now you need to impliment events";
-			sub = 0;
+
+		state Oregon {
+			// Add state behavior here;
 		}
 
-		state Illinois {
-		}
-
-		state Wisconsin {
+		state Connecticut {
 			// Add state behavior here;
 		}
 
 		state Delaware {
-		}
-
-		state Indiana {
-			// Add state behavior here;
-		}
-
-		state Alabama {
-			// Add state behavior here;
-		}
-
-		state Mississippi {
-			// Add state behavior here;
-		}
-
-		state Alaska {
-			// Add state behavior here;
-		}
-
-		state Kansas {
-			div = "I wonder if this string changed value";
-			sub = 27;
-			key = 94;
-		}
-
-		state Arkansas {
-			div = "Here's a random string";
-		}
-
-		state Rhode_Island {
-			// Add state behavior here;
-		}
-
-		state Oregon {
-		}
-
-		state Michigan {
-			sub = 91;
-			div = "There's issues with infinite loops in here";
-			key = 17;
-		}
-
-		state West_Virginia {
-		}
-
-		state Washington {
-		}
-
-		state Louisiana {
-			div = "something entered";
-			sub = 64;
-			key = 72;
-		}
-
-		state Nebraska {
-		}
-
-		state Pennsylvania {
-			key = 64;
-			div = "Do stuff with events";
-			sub = 65;
-		}
-
-		state New_Mexico {
-			// Add state behavior here;
-		}
-
-		state Florida {
 			// Add state behavior here;
 		}
 
 		state California {
-			key = 3;
-		}
-
-		state Iowa {
-			sub = 33;
-			div = "proteus words";
-		}
-
-		state North_Carolina {
-			sub = 6;
-			key = 55;
-			div = "JPL vs NASA";
-		}
-
-		state New_York {
-			sub = 60;
-			div = "Do stuff with events";
-			key = 37;
 		}
 
 		state Missouri {
 			// Add state behavior here;
 		}
 
-		state Virginia {
+		state Oklahoma {
 			// Add state behavior here;
 		}
 
-		state Ohio {
-			div = "There's issues with infinite loops in here";
-			sub = 66;
-			key = 85;
+		state Colorado {
+			// Add state behavior here;
 		}
 	}
 }

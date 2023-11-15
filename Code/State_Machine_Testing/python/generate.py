@@ -79,7 +79,10 @@ class Generate:
                 self.events[event_name] = variable
     #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Create Variables with values and names
-        def __generate_variables(self, code):
+        def __generate_variables(self):
+            # Empty string to write variables
+            code = ""
+
             # itr's with key = name, value = type
             for key, value in self.variables.items():
                 # Checks variable type and gives it a value
@@ -92,7 +95,10 @@ class Generate:
             return code
     #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Generates random Event(s)
-        def __generate_events(self, code):
+        def __generate_events(self):
+            # String to write events in
+            code = ""
+
             # Randomly decides if we have events at all
             if Functions.Random.rand_num(0, 1):
                 # Generates event initialization syntax
@@ -115,7 +121,7 @@ class Generate:
             self.code = f"actor {actor_name} {{\n"
 
             # Makes statmachine which calls generate_state
-            self.code += self.__generate_statemachine("")
+            self.code += self.__generate_statemachine()
 
             # Close actor definitions
             self.code += "}\n"
@@ -124,9 +130,10 @@ class Generate:
             return self.code
     #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Makes statemachine
-        def __generate_statemachine(self, code):
+        def __generate_statemachine(self):
+
             # Start of statemachine syntax
-            code += "\tstatemachine {\n"
+            code = "\tstatemachine {\n"
 
             # Picks a state that has been initialized (if states exist)
             # Makes sure the list is not empty
@@ -148,7 +155,7 @@ class Generate:
         # Make Random States
         def __generate_states(self):
             # Make and save variables
-            self.code = self.__generate_variables("")
+            self.code = self.__generate_variables()
 
             # Iterating through how many state names we generated
             for i in range(self.num_of_states):
@@ -179,7 +186,7 @@ class Generate:
         def generate_random_code(self):
 
             # Events Generated
-            self.code = self.__generate_events(self.code)
+            self.code += self.__generate_events()
 
             # Actor Generated
             self.code += self.__generate_actor()

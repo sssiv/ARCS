@@ -1,107 +1,86 @@
-event RIGHT {}; 
-event SHOVE {}; 
-event REST {}; 
-event JUMP {string}; 
-event FALL {}; 
-event STOP {}; 
-event LIFT {string}; 
 
-actor Lenardo_DiCaprio {
+actor Qunintin_Tarantino {
 	statemachine {
-		initial Delaware;
+		initial Kentucky;
 
-		string result = "states are stated";
-		string check = "this code is very buggy";
-		bool value = False;
-		int scope = 40;
-		bool data = True;
-		string add = "learn about event syntax";
-		string time = "actors acting and whatnot";
-		int index = 67;
-		string sub = "Events and stuff doing things";
-		string counter = "made in python";
-		bool flag = True;
-		string whatsThis = "This was easier in Python than C++";
-		string mul = "JPL vs NASA";
-		string numOfThings = "proteus words";
-		bool div = True;
-		int name = 20;
-		string key = "Do stuff with events";
-		string thing = "I don't care if Python is 'easier', I prefer C++";
+		string value = "JPL vs NASA";
+		string sub = "actors acting and whatnot";
+		string mul = "states are stated";
+		bool add = False;
+		int counter = 12;
+		string result = "This was easier in Python than C++";
+		string name = "Do stuff with events";
+		string numOfThings = "I don't care if Python is 'easier', I prefer C++";
+		int index = 14;
+		int var = 20;
+		string time = "proteus words";
 
-		state South_Carolina {
+		state Alabama {
 			// Add state behavior here;
 		}
 
-		state Connecticut {
+		state Ohio {
 			// Add state behavior here;
 		}
 
 		state Kansas {
-			counter = "I don't care if Python is 'easier', I prefer C++";
-			sub = "something entered";
-			name = 14;
-			result = "this code is very buggy";
-			mul = "actors acting and whatnot";
-			scope = 45;
+			add = False;
 			numOfThings = "I don't care if Python is 'easier', I prefer C++";
-			div = False;
-			whatsThis = "made in python";
-			index = 15;
-			add = "made in python";
-			key = "learn about event syntax";
-			check = "actors acting and whatnot";
-			data = False;
-			flag = False;
-			time = "states are stated";
+			name = "Now you need to impliment events";
+			counter = 40;
+			time = "actors acting and whatnot";
+			value = "Do stuff with events";
+			sub = "There's issues with infinite loops in here";
+			var = 69;
+			mul = "Here's a random string";
+			index = 1;
+			result = "Do stuff with events";
 		}
 
-		state Mississippi {
-			check = "made in python";
-			index = 49;
-			thing = "I wonder if this string changed value";
-			sub = "Now you need to impliment events";
-			div = True;
-			scope = 94;
-			key = "proteus words";
-			time = "This was easier in Python than C++";
-			result = "Here's a random string";
-			add = "This was easier in Python than C++";
-			whatsThis = "I wonder if this string changed value";
-			value = False;
-			name = 35;
-			numOfThings = "Debug this code for a prize";
-		}
-
-		state Delaware {
+		state Iowa {
 			// Add state behavior here;
 		}
 
-		state Rhode_Island {
+		state Hawaii {
 			// Add state behavior here;
 		}
 
-		state Oklahoma {
-			check = "Please help me, im trapped in here!";
-			name = 39;
+		state Vermont {
+			// Add state behavior here;
+		}
+
+		state Missouri {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			// Add state behavior here;
+		}
+
+		state Kentucky {
+			index = 20;
+			sub = "proteus words";
+			mul = "Here's a random string";
+		}
+
+		state New_Mexico {
+			add = False;
+			index = 80;
+			value = "Here's a random string";
 			result = "made in python";
-			value = False;
+			counter = 78;
+			numOfThings = "I don't care if Python is 'easier', I prefer C++";
 		}
 
-		state Utah {
-			check = "made in python";
-			flag = True;
-			result = "something entered";
-			name = 79;
-			data = True;
-			sub = "Do stuff with events";
-			add = "actors acting and whatnot";
-			key = "Debug this code for a prize";
-			mul = "learn about event syntax";
-			whatsThis = "Events and stuff doing things";
-			div = True;
-			counter = "proteus words";
-			value = False;
+		state New_Jersey {
+			sub = "states are stated";
+			add = False;
+			counter = 10;
+			index = 54;
+		}
+
+		state North_Carolina {
+			// Add state behavior here;
 		}
 	}
 }

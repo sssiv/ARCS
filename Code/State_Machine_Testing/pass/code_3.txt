@@ -1,149 +1,60 @@
+event STOP {string}; 
+event DOWN {}; 
 event GO {}; 
-event TERMINATE {int}; 
-event CLOSE {int}; 
-event JUMP {}; 
-event DOWN {int}; 
-event ACTIVATE {}; 
-event MOVE {int}; 
-event RIGHT {}; 
-event DROP {}; 
-event OPEN {int}; 
-event LEFT {string}; 
-event REST {int}; 
-event STOP {int}; 
-event SHOVE {}; 
-event LIFT {int}; 
 
-actor Jake_Gyllenhaal {
+actor Keanu_Reeves {
 	statemachine {
-		initial Nebraska;
+		bool thing = False;
+		string div = "Here's a random string";
+		int scope = 81;
+		string name = "made in python";
+		int index = 75;
+		string result = "proteus words";
+		string data = "Debug this code for a prize";
+		string whatsThis = "There's issues with infinite loops in here";
+		string numOfThings = "made in python";
+		string value = "Here's a random string";
+		string check = "I don't care if Python is 'easier', I prefer C++";
+		int mul = 80;
+		int flag = 9;
+		string add = "Events and stuff doing things";
+		string key = "Now you need to impliment events";
+		string counter = "I wonder if this string changed value";
+		bool sub = False;
+		int time = 79;
+		bool var = False;
 
-		int data = 95;
-		string time = "this code is very buggy";
-		string value = "JPL vs NASA";
-		string thing = "states are stated";
-		string flag = "Please help me, im trapped in here!";
-		string numOfThings = "Debug this code for a prize";
-		string whatsThis = "actors acting and whatnot";
-		string sub = "Please help me, im trapped in here!";
-		int counter = 92;
-		bool check = False;
-		bool key = True;
-		bool result = True;
-		string name = "Debug this code for a prize";
-		bool scope = True;
-		string index = "made in python";
-
-		state Wyoming {
-			thing = "states are stated";
-			scope = False;
-			key = True;
-			time = "More sentences!";
-			index = "something entered";
+		state North_Dakota {
+			flag = 54;
+			data = "learn about event syntax";
+			whatsThis = "I wonder if this string changed value";
+			var = False;
+			mul = 75;
+			value = "Do stuff with events";
+			add = "Do stuff with events";
+			sub = True;
 		}
 
-		state Massachusetts {
-			scope = False;
-			flag = "Please help me, im trapped in here!";
-			name = "I don't care if Python is 'easier', I prefer C++";
-			check = False;
-			thing = "This was easier in Python than C++";
-			data = 3;
-			numOfThings = "Do stuff with events";
-			value = "this code is very buggy";
-			counter = 20;
-			whatsThis = "This was easier in Python than C++";
-			sub = "Now you need to impliment events";
-			time = "something entered";
-		}
-
-		state Alabama {
-			// Add state behavior here;
-		}
-
-		state Oklahoma {
-			// Add state behavior here;
-		}
-
-		state Indiana {
-			// Add state behavior here;
-		}
-
-		state Iowa {
-			time = "Please help me, im trapped in here!";
-			data = 1;
-			index = "I don't care if Python is 'easier', I prefer C++";
-			result = True;
-			name = "Do stuff with events";
-			numOfThings = "There's issues with infinite loops in here";
-			check = True;
-			key = True;
-			whatsThis = "states are stated";
-			value = "Events and stuff doing things";
-			counter = 63;
-			scope = True;
-			thing = "There's issues with infinite loops in here";
-		}
-
-		state Kansas {
-			result = False;
-			thing = "I wonder if this string changed value";
-			scope = True;
-			counter = 13;
-		}
-
-		state Arkansas {
-			// Add state behavior here;
-		}
-
-		state New_Jersey {
-			// Add state behavior here;
-		}
-
-		state Georgia {
-			// Add state behavior here;
-		}
-
-		state Pennsylvania {
-			thing = "Now you need to impliment events";
-			counter = 71;
-			key = False;
-			sub = "something entered";
-			check = True;
-			scope = True;
-			result = False;
-			value = "I don't care if Python is 'easier', I prefer C++";
-			time = "proteus words";
-			index = "I don't care if Python is 'easier', I prefer C++";
-		}
-
-		state West_Virginia {
-			// Add state behavior here;
-		}
-
-		state Alaska {
-			// Add state behavior here;
+		state Tennessee {
+			value = "something entered";
+			add = "this code is very buggy";
+			counter = "Now you need to impliment events";
+			mul = 77;
+			result = "learn about event syntax";
+			data = "There's issues with infinite loops in here";
+			flag = 7;
+			scope = 95;
+			key = "More sentences!";
+			div = "Events and stuff doing things";
+			time = 48;
+			sub = True;
 		}
 
 		state Colorado {
 			// Add state behavior here;
 		}
 
-		state Maine {
-			// Add state behavior here;
-		}
-
-		state New_York {
-			data = 61;
-			time = "made in python";
-			numOfThings = "something entered";
-		}
-
-		state Texas {
-			// Add state behavior here;
-		}
-
-		state Maryland {
+		state Alabama {
 			// Add state behavior here;
 		}
 
@@ -151,142 +62,20 @@ actor Jake_Gyllenhaal {
 			// Add state behavior here;
 		}
 
-		state Tennessee {
-			value = "I don't care if Python is 'easier', I prefer C++";
-			index = "Events and stuff doing things";
-			numOfThings = "Do stuff with events";
-			sub = "this code is very buggy";
-			name = "this code is very buggy";
-			flag = "JPL vs NASA";
-			time = "There's issues with infinite loops in here";
-			result = True;
-			data = 38;
-			thing = "Do stuff with events";
-			counter = 51;
-			scope = True;
-			whatsThis = "proteus words";
-			key = True;
-		}
-
-		state North_Dakota {
-			name = "Now you need to impliment events";
-			scope = False;
-			value = "actors acting and whatnot";
-			check = True;
-			index = "This was easier in Python than C++";
-			sub = "made in python";
-			thing = "Now you need to impliment events";
-			result = True;
-			numOfThings = "states are stated";
-			data = 47;
-			flag = "learn about event syntax";
-		}
-
-		state Hawaii {
+		state California {
 			// Add state behavior here;
 		}
 
-		state Illinois {
-			time = "JPL vs NASA";
-			whatsThis = "learn about event syntax";
-			index = "I wonder if this string changed value";
-			result = False;
-			numOfThings = "learn about event syntax";
-			data = 21;
-			value = "More sentences!";
-			check = True;
-			name = "something entered";
-			thing = "Now you need to impliment events";
-			sub = "JPL vs NASA";
-			key = False;
-		}
-
-		state Vermont {
-			index = "Do stuff with events";
-			sub = "There's issues with infinite loops in here";
-			numOfThings = "proteus words";
-			value = "JPL vs NASA";
-			whatsThis = "states are stated";
-		}
-
-		state Virginia {
-			name = "I don't care if Python is 'easier', I prefer C++";
-			numOfThings = "There's issues with infinite loops in here";
-			index = "More sentences!";
-			time = "This was easier in Python than C++";
-			value = "something entered";
-			key = False;
-			data = 6;
-			flag = "something entered";
-		}
-
-		state Wisconsin {
+		state Arkansas {
 			// Add state behavior here;
 		}
 
-		state Florida {
+		state Kentucky {
 			// Add state behavior here;
 		}
 
-		state Idaho {
+		state Georgia {
 			// Add state behavior here;
-		}
-
-		state Utah {
-			// Add state behavior here;
-		}
-
-		state Delaware {
-			numOfThings = "Here's a random string";
-			index = "JPL vs NASA";
-			check = False;
-			data = 48;
-		}
-
-		state Louisiana {
-			value = "I wonder if this string changed value";
-		}
-
-		state New_Hampshire {
-			name = "Here's a random string";
-		}
-
-		state Nebraska {
-		}
-
-		state Nevada {
-			// Add state behavior here;
-		}
-
-		state New_Mexico {
-			counter = 69;
-			index = "I don't care if Python is 'easier', I prefer C++";
-			data = 17;
-			key = False;
-			whatsThis = "I wonder if this string changed value";
-			flag = "Events and stuff doing things";
-			time = "More sentences!";
-		}
-
-		state Ohio {
-			// Add state behavior here;
-		}
-
-		state Connecticut {
-			key = False;
-			whatsThis = "This was easier in Python than C++";
-			index = "something entered";
-			scope = True;
-			sub = "Now you need to impliment events";
-			name = "Please help me, im trapped in here!";
-			flag = "Events and stuff doing things";
-			result = False;
-			check = True;
-			counter = 82;
-			thing = "JPL vs NASA";
-			time = "actors acting and whatnot";
-			numOfThings = "states are stated";
-			value = "states are stated";
 		}
 	}
 }
