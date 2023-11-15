@@ -1,14 +1,17 @@
+#pragma once
+
 #include "tokens.h"
+#include "functions.h"
 #include <utility>
 #include <tuple>
 
-class Variables
+class Variables : public Functions
 {
 private:
     Tokens _Tokens;
-    std::vector<std::tuple<std::string, std::string, std::string>> _variables;
     std::vector<std::vector<std::string>> _tokens;
-    int rand_between(const int&, const int&);
+    std::vector<std::tuple<std::string, std::string, std::string>> _variables;
+
     void makeNamesAndTypes();
     std::string makeValue(const std::string&);
 

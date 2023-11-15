@@ -7,10 +7,6 @@
 #include <fstream>
 #include <sstream>
 
-// Used for rng
-#include <random>
-#include <chrono>
-
 #include <vector>
 #include <algorithm>
 
@@ -43,7 +39,7 @@ private:
 
 public:
     Tokens();
-    const std::vector<std::vector<std::string>>& getTokens() const {return _tokens;};
-    void print();
+    inline const std::vector<std::vector<std::string>>& getTokens() const {return _tokens;};
+    void printTokens();
     ~Tokens(){};
 };

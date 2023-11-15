@@ -1,0 +1,93 @@
+event REST {}; 
+event LIFT {bool}; 
+event ACTIVATE {}; 
+event DROP {}; 
+event MOVE {}; 
+event LOOK {}; 
+event UP {string}; 
+event OPEN {bool}; 
+event CLOSE {string}; 
+event LEFT {bool}; 
+event TURN {bool}; 
+event FALL {}; 
+event JUMP {}; 
+event SHOVE {}; 
+event DOWN {}; 
+event STOP {}; 
+event TERMINATE {bool}; 
+
+actor Rami_Malek {
+	statemachine {
+		bool check = True;
+		string flag = "More sentences!";
+		int counter = 9;
+		int key = 21;
+		int numOfThings = 15;
+		int sub = 5;
+		string var = "this code is very buggy";
+		string thing = "This was easier in Python than C++";
+
+		state Georgia {
+			// Add state behavior here;
+		}
+
+		state South_Carolina {
+			thing = "Events and stuff doing things";
+		}
+
+		state Alaska {
+			var = "Events and stuff doing things";
+			check = False;
+			numOfThings = 70;
+			key = 50;
+			counter = 58;
+			flag = "There's issues with infinite loops in here";
+			thing = "states are stated";
+			sub = 59;
+		}
+
+		state New_Hampshire {
+			counter = 52;
+			numOfThings = 49;
+		}
+
+		state Nevada {
+			sub = 28;
+			thing = "states are stated";
+		}
+
+		state Kentucky {
+			numOfThings = 41;
+			check = False;
+			flag = "There's issues with infinite loops in here";
+			sub = 95;
+			thing = "Please help me, im trapped in here!";
+			var = "JPL vs NASA";
+			key = 58;
+			counter = 57;
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state New_York {
+			// Add state behavior here;
+		}
+
+		state Oregon {
+			sub = 99;
+			counter = 20;
+			check = True;
+			key = 12;
+		}
+
+		state West_Virginia {
+			key = 9;
+		}
+
+		state New_Mexico {
+			numOfThings = 62;
+		}
+	}
+}

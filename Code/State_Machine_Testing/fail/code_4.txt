@@ -1,0 +1,22 @@
+<goevententry
+<=int/=4->
+,(6actorprint>
+boolgo 3,; else 7bool[else(+= entry(*=4
+while.(string	.2int {2boolintstring	event3.6]if 3
+int!=>>=bool	,func-->} eventstring	bool[returnstate	boolexitbool 8(>>on.actor
+goifint	intintbool
+}stringfunc
+actor
+bool0^=	bool28	exit5int
+string.event4[;	string. 9,=int
+int"intexit"	state" int}actor
+(/return[ while,bool
+string goif/=)	"/=state <=3"if *while;bool	]boolbool<;}intint	boolstring/string
+ifstring9event	string*= statefunc	*=;+"	actor ,({}->func
+;<initial ;3}string	string	statemachine bool=bool	]<=intstring ,5int	statebool){
+(] 0funcexit	int!=(	^(
+=string
+state||)int
+]string5<<= -=
+string.,int	4stringstring} 06exit
+int] <=^int 7bool

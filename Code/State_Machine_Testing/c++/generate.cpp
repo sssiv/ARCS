@@ -49,7 +49,7 @@ void Generate::generateCode(const std::string& filename)
 {
     // Create and open a text file
     std::ofstream MyFile(filename);
-    
+
     // Loop through each tuple in _variables and cout its elements
     for (const auto& variable : _variables)
     {
@@ -58,10 +58,7 @@ void Generate::generateCode(const std::string& filename)
 
     // Writes code
     MyFile << _code;
-    for (const auto& variable : _variables)
-    {
-        std::cout << std::get<0>(variable) << ", " << std::get<1>(variable) << ", " << std::get<2>(variable) + "\n";
-    }
+
     // Close the file
     MyFile.close();
 }

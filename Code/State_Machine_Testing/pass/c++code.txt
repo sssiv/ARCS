@@ -1,1 +1,5 @@
-counter, int, 387
+mul, bool, False
+div, bool, False
+flag, bool, True
+result, string, "This was easier in Python than C++"
+scope, string, "Events and stuff doing things"

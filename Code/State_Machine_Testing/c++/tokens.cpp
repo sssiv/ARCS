@@ -1,11 +1,5 @@
 #include "tokens.h"
 
-Tokens::Tokens()
-{
-    read();
-    //readCSV();
-}
-
 void Tokens::readCSV() 
 {
     std::ifstream file("../tokens.csv");
@@ -68,7 +62,14 @@ void Tokens::read()
     file.close();
 }
 
-void Tokens::print()
+Tokens::Tokens()
+{
+    read();
+    //readCSV();
+}
+
+
+void Tokens::printTokens()
 {
     // // readCSV()
     // for (size_t column = 0; column < _tokens[0].size(); ++column)
