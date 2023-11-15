@@ -63,8 +63,8 @@ class Tokens():
             for column_name, list in zip(self.df.columns, self.lists):
                 # Join the elements of each list into a string with comma as separators
                 tokens = ', '.join(map(str, list))
-                # Write the tokens with token name
-                file.write(f"{column_name}, {tokens}\n")
+                # Write the tokens to the c++ folder (without column names)
+                file.write(f"{tokens}\n")
     #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
 
 # Make collect tokens and make textfile of tokens to c++ folder

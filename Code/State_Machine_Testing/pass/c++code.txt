@@ -1,0 +1,24 @@
+Without Types
+numOfThings
+Without Types
+index
+Without Types
+div
+Without Types
+scope
+Without Types
+flag
+Without Types
+name
+With Types
+numOfThings, int
+With Types
+index, int
+With Types
+div, bool
+With Types
+scope, string
+With Types
+flag, bool
+With Types
+name, bool

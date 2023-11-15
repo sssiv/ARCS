@@ -85,7 +85,10 @@ void Tokens::print()
     // read() print
     for (size_t row = 0; row < _tokens.size(); ++row)
     {
-        std::cout << "Column: " << _tokens[row][0] << std::endl;
+        // First item in the row is the name of the column
+        std::cout << "Section: " << _tokens[row][0] << std::endl;
+
+        // Prints the rest of the row
         for (size_t column = 1; column < _tokens[row].size(); ++column)
             std::cout << _tokens[row][column] << std::endl;
         std::cout << std::endl;

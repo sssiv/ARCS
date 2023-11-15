@@ -17,7 +17,7 @@ statemachine,6,,return,,>>,,Morgan_Freeman,Connecticut,var,LIFT,Now you need to 
 ,,,,,*=,,,Kansas,value,REST,I wonder if this string changed value
 ,,,,,/=,,,Kentucky,key,ACTIVATE,More sentences!
 ,,,,, %=,,,Louisiana,data,MOVE,This was easier in Python than C++
-,,,,,+=,,,Maine,what,TERMINATE,"I don't care if Python is 'easier', I prefer C++"
+,,,,,+=,,,Maine,whatsThis,TERMINATE,"I don't care if Python is 'easier', I prefer C++"
 ,,,,, -=,,,Maryland,,,
 ,,,,,<<=,,,Massachusetts,,,
 ,,,,,>>=,,,Michigan,,,

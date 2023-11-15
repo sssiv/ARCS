@@ -2,7 +2,7 @@
 
 int main() 
 {
-    Tokens tokens;
-    tokens.print();
+    Generate gen;
+    //gen.generateCode("../pass/c++code.txt");
     return 0;
 }

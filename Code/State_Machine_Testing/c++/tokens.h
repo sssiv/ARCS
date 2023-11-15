@@ -15,7 +15,7 @@
 #include <algorithm>
 
 // For making 2D vectors easier to read. These are all the columns
-class Columns
+class Indices
 {
 public:
     constexpr static int TYPES = 0; 
@@ -43,7 +43,7 @@ private:
 
 public:
     Tokens();
-    std::vector<std::vector<std::string>> getTokens() {return _tokens;};
+    const std::vector<std::vector<std::string>>& getTokens() const {return _tokens;};
     void print();
     ~Tokens(){};
 };
