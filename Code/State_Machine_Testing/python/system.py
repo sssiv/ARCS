@@ -1,5 +1,5 @@
 from generate import Generate
-from functions import Functions
+from utilities import Utilities
 
 import sys
 import os
@@ -63,7 +63,7 @@ class System():
                 for i in range(num_of_fail_cases):
                     try:
                         # How many characters will be in the random tokens textfile fail case
-                        num_of_chars = Functions.Random.rand_num(500, 2000)
+                        num_of_chars = Utilities.Random.rand_num(500, 2000)
 
                         # Makes text file and writes random tokens to purposefully fail
                         with open(f'../fail/code_{i + 1}.txt', 'w') as file:

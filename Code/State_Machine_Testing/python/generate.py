@@ -1,5 +1,8 @@
-from functions import Functions
+from utilities import Utilities
 from tokens import Tokens
+
+from variables import Variables
+from events import Events
 
 # Used to make passing and failing proteus code
 class Generate:
@@ -7,115 +10,39 @@ class Generate:
         def __init__(self):
             self.code = ""
             # States list
-            self.num_of_states = Functions.Random.rand_num(0, len(Tokens().state_names))
+            self.num_of_states = Utilities.Random.rand_num(0, len(Tokens().state_names))
             self.states = []
             self.__generate_state_names()
 
-            # Variable named mapped with types
-            self.num_of_variables = Functions.Random.rand_num(0, len(Tokens().variable_names))
-            self.variables = {}
-            self.__generate_variable_names()
+            # Variables
+            self.variables = Variables() 
 
             # Event names mapped with types
-            self.num_of_events = Functions.Random.rand_num(0, len(Tokens().event_names))
-            self.events = {}
-            self.__generate_event_names()
+            self.events = Events()
     #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Generate State names
         def __generate_state_names(self):
             # Get statenames list
-            state_names = Functions.Lists.get_list(Tokens().state_names)
+            state_names = Utilities.Lists.get_list(Tokens().state_names)
 
             # First item on list. If it's empty, the loop below wont work
-            state_name = Functions.Random.rand_choice(state_names)
+            state_name = Utilities.Random.rand_choice(state_names)
 
             # Puts random states into states list
             for _ in range(self.num_of_states):
                 # Makes sure the chosen state name is not already used
-                state_name = Functions.Variable_Handler.avoid_redecloration(state_name, self.states, state_names)
+                state_name = Utilities.Variable_Handler.avoid_redecloration(state_name, self.states, state_names)
                 
                 # Adds used statename to list
                 self.states.append(state_name)
     #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
-        # Makes variable names mapped with a random type
-        def __generate_variable_names(self):
-            # Gets variable names list
-            var_names = Tokens().variable_names
-
-            # Gets variable types list
-            var_types = Tokens().variables
-
-            # Make variables
-            for _ in range(self.num_of_variables):
-                # Get a random name
-                var_name = Functions.Random.rand_choice(var_names)
-
-                # Makes sure the chosen variable name is not already used
-                var_name = Functions.Variable_Handler.avoid_redecloration(var_name, self.variables, var_names)
-                
-                # Random variable type is chosen and adds variable name in the used list
-                self.variables[var_name] = Functions.Random.rand_choice(var_types)
-    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
-        def __generate_event_names(self):
-            # Get event names list
-            event_names = Functions.Lists.get_list(Tokens().event_names)
-
-            # Pick a random event name
-            event_name = Functions.Random.rand_choice(event_names)
-
-            # Picks random Variables from list
-            variables = Functions.Lists.get_list(Tokens().variables)
-            variable = Functions.Random.rand_choice(variables)
-
-            # Generate and save event names
-            for _ in range(self.num_of_events):
-                # Makes each event have a random type (if it has one)
-                variable = Functions.Random.rand_choice(variables) if Functions.Random.rand_num(0, 1) else  ""
-
-                # Make sure the chosen event name is not already used
-                event_name = Functions.Variable_Handler.avoid_redecloration(event_name, self.events, event_names)
-
-                #Adds used event name to list
-                self.events[event_name] = variable
-    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
-        # Create Variables with values and names
-        def __generate_variables(self):
-            # Empty string to write variables
-            code = ""
-
-            # itr's with key = name, value = type
-            for key, value in self.variables.items():
-                # Checks variable type and gives it a value
-                var_value = Functions.Variable_Handler.make_value(value)
-
-                # Variable syntax
-                code += f"\t\t{value} {key} = {var_value};\n"
-            
-            # Return variables
-            return code
-    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
-        # Generates random Event(s)
-        def __generate_events(self):
-            # String to write events in
-            code = ""
-
-            # Randomly decides if we have events at all
-            if Functions.Random.rand_num(0, 1):
-                # Generates event initialization syntax
-                for key, value in self.events.items():
-                    code += f"event {key} {{{value}}}; \n"
-            code += '\n'
-
-            # Return events syntax
-            return code
-    #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Generate an Actor, which makes a statemachine which makes state(s)
         def __generate_actor(self):
             # Get actor names list
-            actor_names = Functions.Lists.get_list(Tokens().actor_names)
+            actor_names = Utilities.Lists.get_list(Tokens().actor_names)
 
             # Picks random name from list
-            actor_name = Functions.Random.rand_choice(actor_names)
+            actor_name = Utilities.Random.rand_choice(actor_names)
 
             # Generate actor definition
             self.code = f"actor {actor_name} {{\n"
@@ -137,10 +64,10 @@ class Generate:
 
             # Picks a state that has been initialized (if states exist)
             # Makes sure the list is not empty
-            initial_statename = Functions.Random.rand_choice(self.states) if self.states else None
+            initial_statename = Utilities.Random.rand_choice(self.states) if self.states else None
 
             # Randomly decides if we include an initial state 
-            if Functions.Random.rand_num(0, 1) and initial_statename is not None:
+            if Utilities.Random.rand_num(0, 1) and initial_statename is not None:
                 code += f"\t\tinitial {initial_statename};\n\n"
 
             # Genrate States
@@ -155,21 +82,22 @@ class Generate:
         # Make Random States
         def __generate_states(self):
             # Make and save variables
-            self.code = self.__generate_variables()
+            self.code = self.variables.generate_variables()
 
             # Iterating through how many state names we generated
             for i in range(self.num_of_states):
                 # Randomly deciding if we want to change variable values in each state
-                if Functions.Random.rand_num(0, 1):
+                if Utilities.Random.rand_num(0, 1):
                     self.code += f"\n\t\tstate {self.states[i]} {{\n"
 
                     # Randomly select variables to modify
-                    random_vars = Functions.Random.rand_num(0, len(self.variables))
-                    selected_vars = Functions.Random.rand_samples(list(self.variables.keys()), random_vars)
+                    random_vars = Utilities.Random.rand_num(0, len(self.variables.get_variables()))
+                    var_keys = list(self.variables.get_variables().keys())
+                    selected_vars = Utilities.Random.rand_samples(var_keys, random_vars)
                     
                     # Give new values to the variables
                     for name in selected_vars:
-                        value = Functions.Variable_Handler.make_value(self.variables[name])
+                        value = Utilities.Variable_Handler.make_value(self.variables.get_variables()[name])
                         self.code += f"\t\t\t{name} = {value};\n"
                     self.code += "\t\t}\n"
 
@@ -184,9 +112,8 @@ class Generate:
     #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
         # Generate random code
         def generate_random_code(self):
-
             # Events Generated
-            self.code += self.__generate_events()
+            self.code += self.events.generate_events()
 
             # Actor Generated
             self.code += self.__generate_actor()
@@ -214,9 +141,9 @@ class Generate:
             # Random text still has more room
             while len(random_tokens) < length:
                 # Picks randomly when to have a space, tab, or \n
-                if line_length >= Functions.Random.rand_num(1, 20):
+                if line_length >= Utilities.Random.rand_num(1, 20):
                     # Add a space, tab, or line break when the line length exceeds the random limit
-                    random_tokens += Functions.Random.rand_choice([" ", "\t", "\n"])
+                    random_tokens += Utilities.Random.rand_choice([" ", "\t", "\n"])
 
                     # Resets line counter
                     line_length = 0
@@ -224,10 +151,10 @@ class Generate:
                 # Starts making a new line of random tokens
                 else:
                     # Randomly picks tokens, ignores the variable names 
-                    selected_list = Functions.Random.rand_choice(Tokens().lists[:ignore])
+                    selected_list = Utilities.Random.rand_choice(Tokens().lists[:ignore])
 
                     # Randomly picks item from list, Convert to string
-                    selected_item = str(Functions.Random.rand_choice(selected_list))   
+                    selected_item = str(Utilities.Random.rand_choice(selected_list))   
 
                     # Puts it in the random text
                     random_tokens += selected_item
@@ -239,4 +166,3 @@ class Generate:
             return random_tokens
     #Fai#---------------------------------------------------------------------------------------------------------------------------------------------#
 
-    #Fai#---------------------------------------------------------------------------------------------------------------------------------------------#

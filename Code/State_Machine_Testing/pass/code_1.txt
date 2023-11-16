@@ -1,23 +1,40 @@
+event CLOSE {string}; 
+event SHOVE {}; 
+event REST {}; 
+event STOP {}; 
+event RIGHT {int}; 
+event LIFT {int}; 
+event LEFT {bool}; 
+event TERMINATE {bool}; 
+event FALL {string}; 
+event GO {string}; 
+event JUMP {}; 
 
-actor Danny_DeVito {
+actor Rami_Malek {
 	statemachine {
-		initial Arizona;
+		initial South_Dakota;
 
+		int var = 84;
+		bool thing = False;
+		bool check = True;
+		string div = "There's issues with infinite loops in here";
+		string counter = "Events and stuff doing things";
 
-		state Mississippi {
+		state Alaska {
+			var = 11;
+			check = False;
+			counter = "Debug this code for a prize";
 		}
 
-		state Nevada {
-		}
-
-		state Rhode_Island {
-		}
-
-		state Indiana {
+		state North_Carolina {
 			// Add state behavior here;
 		}
 
-		state Maryland {
+		state North_Dakota {
+			// Add state behavior here;
+		}
+
+		state Iowa {
 			// Add state behavior here;
 		}
 
@@ -25,27 +42,178 @@ actor Danny_DeVito {
 			// Add state behavior here;
 		}
 
-		state Alabama {
+		state Vermont {
+			// Add state behavior here;
 		}
 
 		state Massachusetts {
+		}
+
+		state South_Dakota {
+		}
+
+		state Hawaii {
+			div = "Do stuff with events";
+			thing = False;
+		}
+
+		state Tennessee {
+			counter = "proteus words";
+			thing = False;
+			div = "Debug this code for a prize";
+			var = 89;
+			check = False;
+		}
+
+		state Georgia {
+			thing = False;
+			div = "this code is very buggy";
+			var = 14;
+			check = True;
+			counter = "This was easier in Python than C++";
+		}
+
+		state California {
+			div = "proteus words";
+			counter = "made in python";
+			var = 78;
+			thing = False;
+			check = True;
+		}
+
+		state Oklahoma {
+			div = "I wonder if this string changed value";
+		}
+
+		state Michigan {
+			div = "I don't care if Python is 'easier', I prefer C++";
+			var = 12;
+			counter = "this code is very buggy";
+			check = True;
+			thing = False;
+		}
+
+		state Arkansas {
+			div = "Please help me, im trapped in here!";
+			check = False;
+			thing = False;
+			var = 29;
+		}
+
+		state West_Virginia {
+			// Add state behavior here;
+		}
+
+		state Nebraska {
+			// Add state behavior here;
+		}
+
+		state Pennsylvania {
+			// Add state behavior here;
+		}
+
+		state Washington {
+		}
+
+		state Louisiana {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			// Add state behavior here;
+		}
+
+		state Maine {
+			counter = "this code is very buggy";
+		}
+
+		state New_Jersey {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			var = 86;
+			div = "Events and stuff doing things";
+			check = True;
+			counter = "Events and stuff doing things";
+		}
+
+		state Ohio {
+			check = True;
+			div = "Debug this code for a prize";
+			var = 100;
+			counter = "made in python";
+		}
+
+		state Maryland {
+			// Add state behavior here;
+		}
+
+		state Indiana {
+			counter = "actors acting and whatnot";
+			var = 71;
+		}
+
+		state Rhode_Island {
+			thing = False;
+		}
+
+		state Nevada {
+			// Add state behavior here;
+		}
+
+		state Delaware {
+			thing = True;
+		}
+
+		state Texas {
+			var = 10;
+			counter = "actors acting and whatnot";
+		}
+
+		state New_Hampshire {
+		}
+
+		state Oregon {
+			var = 10;
+		}
+
+		state Minnesota {
+			thing = False;
+		}
+
+		state Idaho {
+			counter = "this code is very buggy";
+		}
+
+		state Alabama {
+			// Add state behavior here;
+		}
+
+		state Connecticut {
+			check = False;
+			thing = False;
+		}
+
+		state Kansas {
+			var = 10;
+			check = True;
+			counter = "I wonder if this string changed value";
+			thing = False;
+		}
+
+		state New_York {
 			// Add state behavior here;
 		}
 
 		state Illinois {
+			// Add state behavior here;
 		}
 
 		state South_Carolina {
 		}
 
-		state California {
-		}
-
-		state Wyoming {
-			// Add state behavior here;
-		}
-
-		state Virginia {
+		state Montana {
 			// Add state behavior here;
 		}
 
@@ -54,125 +222,12 @@ actor Danny_DeVito {
 		}
 
 		state Florida {
-		}
-
-		state Kansas {
-		}
-
-		state Alaska {
 			// Add state behavior here;
 		}
 
-		state Tennessee {
-		}
-
-		state New_Jersey {
-			// Add state behavior here;
-		}
-
-		state Maine {
-		}
-
-		state Michigan {
-			// Add state behavior here;
-		}
-
-		state West_Virginia {
-			// Add state behavior here;
-		}
-
-		state Washington {
-		}
-
-		state Oregon {
-		}
-
-		state North_Carolina {
-			// Add state behavior here;
-		}
-
-		state Missouri {
-		}
-
-		state Pennsylvania {
-		}
-
-		state Oklahoma {
-		}
-
-		state Kentucky {
-		}
-
-		state Colorado {
-		}
-
-		state Nebraska {
-			// Add state behavior here;
-		}
-
-		state New_Hampshire {
-			// Add state behavior here;
-		}
-
-		state Delaware {
-			// Add state behavior here;
-		}
-
-		state Vermont {
-			// Add state behavior here;
-		}
-
-		state Louisiana {
-			// Add state behavior here;
-		}
-
-		state Ohio {
-			// Add state behavior here;
-		}
-
-		state Hawaii {
-			// Add state behavior here;
-		}
-
-		state New_Mexico {
-		}
-
-		state Idaho {
-			// Add state behavior here;
-		}
-
-		state Iowa {
-			// Add state behavior here;
-		}
-
-		state Minnesota {
-			// Add state behavior here;
-		}
-
-		state Texas {
-			// Add state behavior here;
-		}
-
-		state Connecticut {
-		}
-
-		state Montana {
-			// Add state behavior here;
-		}
-
-		state North_Dakota {
-			// Add state behavior here;
-		}
-
-		state South_Dakota {
-			// Add state behavior here;
-		}
-
-		state Wisconsin {
-		}
-
-		state Arkansas {
-			// Add state behavior here;
+		state Wyoming {
+			check = True;
+			div = "this code is very buggy";
 		}
 	}
 }

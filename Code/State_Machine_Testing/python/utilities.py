@@ -1,7 +1,7 @@
 import random
 from tokens import Tokens
 
-class Functions():
+class Utilities():
     class Random():
         # Generates a random number between x and y
         rand_num = staticmethod(lambda x, y: random.randint(x, y))
@@ -26,15 +26,15 @@ class Functions():
         def make_value(type):
             # Bool handler
             if type == 'bool':
-                return True if Functions.Random.rand_num(0, 1) else False
+                return True if Utilities.Random.rand_num(0, 1) else False
                     
             # Int handler
             if type == 'int':
-                return Functions.Random.rand_num(0, 100)
+                return Utilities.Random.rand_num(0, 100)
 
             # String handler
             if type == 'string':
-                rand_index = Functions.Random.rand_num(0, len(Tokens().string_input) - 1)
+                rand_index = Utilities.Random.rand_num(0, len(Tokens().string_input) - 1)
                 return f'"{Tokens().string_input[rand_index]}"'
 
             # Returns variable value
@@ -46,7 +46,7 @@ class Functions():
             # Uses current name to check the variables, events, and states list
             while name in used_names:
                 # Makes a new choice from the tokens list
-                name = Functions.Random.rand_choice(name_list)
+                name = Utilities.Random.rand_choice(name_list)
             
             # Returns a unique name
             return name

@@ -1,86 +1,113 @@
+event MOVE {}; 
+event RIGHT {}; 
+event CLOSE {}; 
+event GO {int}; 
+event JUMP {int}; 
+event TURN {}; 
+event OPEN {}; 
+event FALL {bool}; 
+event LOOK {}; 
+event STOP {bool}; 
+event LEFT {}; 
 
-actor Qunintin_Tarantino {
+actor Lenardo_DiCaprio {
 	statemachine {
-		initial Kentucky;
+		bool key = True;
+		int whatsThis = 56;
+		int result = 7;
+		int thing = 61;
+		string time = "JPL vs NASA";
+		string sub = "JPL vs NASA";
+		string index = "learn about event syntax";
+		string flag = "this code is very buggy";
+		int div = 31;
+		bool mul = True;
 
-		string value = "JPL vs NASA";
-		string sub = "actors acting and whatnot";
-		string mul = "states are stated";
-		bool add = False;
-		int counter = 12;
-		string result = "This was easier in Python than C++";
-		string name = "Do stuff with events";
-		string numOfThings = "I don't care if Python is 'easier', I prefer C++";
-		int index = 14;
-		int var = 20;
-		string time = "proteus words";
-
-		state Alabama {
+		state North_Dakota {
 			// Add state behavior here;
 		}
 
-		state Ohio {
+		state New_York {
+			sub = "learn about event syntax";
+			result = 25;
+			index = "something entered";
+			mul = True;
+			time = "proteus words";
+			flag = "Here's a random string";
+			thing = 69;
+		}
+
+		state West_Virginia {
+			// Add state behavior here;
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+
+		state Texas {
+			// Add state behavior here;
+		}
+
+		state Michigan {
+			sub = "Now you need to impliment events";
+			result = 55;
+			thing = 10;
+			time = "Here's a random string";
+			div = 33;
+			flag = "Now you need to impliment events";
+			index = "Now you need to impliment events";
+		}
+
+		state Wyoming {
+			index = "states are stated";
+			div = 35;
+		}
+
+		state New_Mexico {
+			key = True;
+			mul = False;
+			div = 10;
+		}
+
+		state Georgia {
+			result = 59;
+			div = 35;
+		}
+
+		state Maine {
+			// Add state behavior here;
+		}
+
+		state Idaho {
+			// Add state behavior here;
+		}
+
+		state New_Jersey {
+			flag = "this code is very buggy";
+			key = False;
+			index = "learn about event syntax";
+			mul = False;
+			thing = 19;
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state Louisiana {
 			// Add state behavior here;
 		}
 
 		state Kansas {
-			add = False;
-			numOfThings = "I don't care if Python is 'easier', I prefer C++";
-			name = "Now you need to impliment events";
-			counter = 40;
-			time = "actors acting and whatnot";
-			value = "Do stuff with events";
-			sub = "There's issues with infinite loops in here";
-			var = 69;
-			mul = "Here's a random string";
-			index = 1;
-			result = "Do stuff with events";
-		}
-
-		state Iowa {
 			// Add state behavior here;
 		}
 
-		state Hawaii {
-			// Add state behavior here;
+		state South_Carolina {
+			result = 76;
 		}
 
-		state Vermont {
-			// Add state behavior here;
-		}
-
-		state Missouri {
-			// Add state behavior here;
-		}
-
-		state Florida {
-			// Add state behavior here;
-		}
-
-		state Kentucky {
-			index = 20;
-			sub = "proteus words";
-			mul = "Here's a random string";
-		}
-
-		state New_Mexico {
-			add = False;
-			index = 80;
-			value = "Here's a random string";
-			result = "made in python";
-			counter = 78;
-			numOfThings = "I don't care if Python is 'easier', I prefer C++";
-		}
-
-		state New_Jersey {
-			sub = "states are stated";
-			add = False;
-			counter = 10;
-			index = 54;
-		}
-
-		state North_Carolina {
-			// Add state behavior here;
+		state Nebraska {
 		}
 	}
 }

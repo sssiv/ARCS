@@ -1,26 +1,38 @@
-]string2int	;string&& 1while5off
-3 -=||returnfunc [5string0}
-<<}.end-	]
-(string boolif	" %=65statemachine	end5actor
-statemachine
-->||intstate	65bool /2<<2string string.bool)
-if*=]
-bool1
-9state	statestring .]intint^=bool bool,; -> string	exitint
-int]string 29 onstateexitif4go
-+=boolint) statemachine	bool[.	,statestringgoif "if(func string7statemachine
-1[4state7	string{	&&stringbool1	if,(func}	*=string	 -={event
-,
-[boolint  -=
-(on{gofunc
-{>><<=5int +.string/=	"offfunc
-1int	<<bool2 -string	goif 77>>=print"	string-string eventgoif..]
-printstate0	3bool" )[.;	<< ;entrystring	string
-[]{"
-int.string
-entry[return
-"4};[] int;.4)
-boolintreturn
-^=].(	/=bool	.<intbool	5statemachine
-boolint state
-exitactor
+->stringstring(
+gobool event^= " %=,ifboolinitial
+2,}(string	""string
+)if( 5-statemachinestatemachine	exit[end
+*=
+state ,elsewhile
+}4.8event	func[,string	statemachinebool
+"[returnbool 4while. -=(print	onstatemachine *=49string
+endreturn {	3actor&&"bool
+event)inteventstatemachine 6]{4 -= ,string string"	string	string,.string 7,bool{statemachine
+<<=int
+);[&&state string<<
+&&.statemachineactor
+.state
+string %=	^=boolint	+=string return	boolstate5	)funcevent
+int>> bool} boolstate )"
+string9
+bool
+,go.{0
+<
+stateboolstring
+state
+"offexit	int	booloff}gogoif	%+=boolstatemachine , -=state {stateoff,7bool {statemachine	stringstring	if>>= else.	4== statemachine	boolreturn
+bool=^=	bool. %=int go8)[statestringbool ==37statemachine
+8int<<bool	stringstate go{(statemachine	4||;7	initialexitstring{
+int stringexit event 2>stringstringstring	boolstring	}while;1exit	initialstringstate >,7event] .end -=/=	statemachine8intstring
+if{;3*=}
+event^=.
+printbool. printprint->;1 off5int"/ >>;event
+statemachineexit initial>bool	->2int
+[]end
+6initial, )65
+{5}	int54^=" string3event
+6"+.	.string<{.2int2 -string)	8onstring5	)6stringactor +actorstring, ,;statemachine) ||	2boolintint*^=
+exit<<=	exit	elsego(whileexit off{3,int{	boolexit,	initial	boolint;	^=	<<9	4!=<<=2)
+bool0	elsestate	;.6	};;	"if6(;8[" 9^string(string	eventstatemachine {/=86
+offboolstring
+<<=eventbool
