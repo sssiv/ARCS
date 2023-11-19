@@ -38,6 +38,9 @@ class System():
         if len(sys.argv) == 3:
             # Attempt block for arguments
             try:
+                # Clear Folders for new tests
+                System.clear_folders()
+                
                 # ensure arg's are int using int()
                 num_of_pass_cases = int(sys.argv[1])
                 num_of_fail_cases = int(sys.argv[2])

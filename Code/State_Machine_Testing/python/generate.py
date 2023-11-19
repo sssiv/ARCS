@@ -67,7 +67,7 @@ class Generate:
             initial_statename = Utilities.Random.rand_choice(self.states) if self.states else None
 
             # Randomly decides if we include an initial state 
-            if Utilities.Random.rand_num(0, 1) and initial_statename is not None:
+            if Utilities.Random.rand_choice([True, False]) and initial_statename is not None:
                 code += f"\t\tinitial {initial_statename};\n\n"
 
             # Genrate States
@@ -87,7 +87,7 @@ class Generate:
             # Iterating through how many state names we generated
             for i in range(self.num_of_states):
                 # Randomly deciding if we want to change variable values in each state
-                if Utilities.Random.rand_num(0, 1):
+                if Utilities.Random.rand_choice([True, False]):
                     self.code += f"\n\t\tstate {self.states[i]} {{\n"
 
                     # Randomly select variables to modify

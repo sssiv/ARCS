@@ -1,22 +1,45 @@
-state	int2string/=bool  %=boolexit	boolintifint
-"stringint5 int.")int
-]string>>=
-;||int[( ^{exit||string
-(	funcstring ^/=offon. return
-]5	initial ;
-"string
-ifbool(string 9int	],"
-if1[actorstring"
-int1)..func
-)entry	boolgoif; bool	.booleventactorgoif	int,[)int)string
-stringwhile9(	string3{exit	,actor ;string	>return8<&&}
-<<,statemachine	[string	string	statemachine
-string	boolevent %=
-%	end	^statemachineoff
-;3int
-stringoff 7int.
-57]}[print+=1	>print	else,int
-]0	".exit{event intexitstring 5bool
-{gobool;0initialactor	-}bool	go)int
-)initial	string 1)	entry8
-53stringend return[(,string
+event
+^=statemachine
+.396stringbool ;  -=5state
+"return, /->^=5 goif)	>}[ifbool 5.3>>=string	8.,
+intgostring -go }"string	]9bool>> boolstring
+3
+3)off+entry "->/7bool	while0string(
+]state
+eventstring;int 7string	string0return 1-stringon[, intevent) string	[	statemachine	*=endstring	,(bool"	int
+statemachine )event %=] int	 -=<<exitbool
+{,2;5actor	int
+intint
+off	booloff	""8state ]string7go	bool	||.{ 3}printprint
+5bool	entry";^=
+statemachineevent	&&string7185 >>=int
+.statemachine}	(->"stateint||	int
+intstateevent },actor 4intint
+string,	{}goifevent event;&&0
+;statemachine
+=statemachine
+go.2"	->eventstring/= ,(string
+].statemachine	6else,	8else	[bool.	int*=elseentry
+return ]bool
+}" statemachine
+<<=boolon	73bool stringactor	stringreturn	%7event1,string	,)while^=&&]
+stringint2int ;*int&&,	/=>bool	{}	actorint	initial bool5
+[event
+offinton) <<=statemachine	0stringfuncint
+[{returnbool	{7"boolbool) exitgoif stringif .% state,*=state exit %=event
+actor}<string
+state	8-	exitstring .goif*=int7=	else,7string 7	^; %=7"6 97(>7<=on /goif5statemachine
+8<.){2func[- "return0% [int }if8state	end<bool"2 ;event[7 onstringbool 3,boolend- 79initial	statemachine
+state	)5stringfunc ;intint,2 bool [ actor	statemachine(int 0intentry [)2,on),	int
+go(
+string4+7	<<8^=}entry stringbool ifeventstate<< }<=int	string;	"bool	,	)exit
+bool>>= 6,";7;22)string	 -=}>]<<=int( 4}.;string
+)}string ;-0bool	actorstatemachineelse
+!=60,<<= boolstring]go int[string (; 1bool	 -=7+{ initial>>
+bool/*=)"(	60if event
+.	intint
+(1]	initialfunc	intwhile(=	string	^,"0	else;*=,bool intgoif^=
+<7eventstring goifstring	!=.(	5stringint.if3	==])=initial	,.16boolstring 3!=4on /1bool<=
+*bool ((bool4
+goifint<<={1"
+(6string

@@ -36,7 +36,7 @@ class Events():
         code = ""
 
         # Randomly decides if we have events at all
-        if Utilities.Random.rand_num(0, 1):
+        if Utilities.Random.rand_choice([True, False]):
             # Generates event initialization syntax
             for key, value in self.events.items():
                 code += f"event {key} {{{value}}}; \n"
