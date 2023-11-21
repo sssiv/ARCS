@@ -1,6 +1,5 @@
 #include "variables.h"
 
-
 void Variables::makeNamesAndTypes()
 {   
     // List of Variable types and Names

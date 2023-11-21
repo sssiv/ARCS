@@ -18,7 +18,7 @@ std::string Generate::generateEvents()
 
     // Write events
     for (const auto& event : _events)
-    {
+    {           // Name              // Param Type
         code += event.first + " {" + event.second + "};\n";
     }
     code += "\n";
@@ -32,20 +32,19 @@ std::string Generate::generateVariables()
     // Empty string to write variables
     std::string code = "";
 
-    code += "Variables: \n";
-
     // Write Variables
+    code += "Variables: \n";
     for (const auto& variable : _variables)
-    {
+    {               // Type                       // Name                         // Value
         code += std::get<0>(variable) + " " + std::get<1>(variable) + " = " + std::get<2>(variable) + ";\n";
     }
     code += "\n";
 
-    code += "New Values: \n";
     // Write new Variable values
+    code += "New Values: \n";
     _Variables.makeNewValues(_variables);
     for (const auto& variable : _variables)
-    {
+    {               // Name                         // Value
         code += std::get<1>(variable) + " = " + std::get<2>(variable) + ";\n";
     }
     code += "\n";
@@ -135,11 +134,8 @@ void Generate::generateRandomTokens(const std::string& file)
             // Select random list before name inputs
             std::vector<std::string> selectedList = _tokens[rand_between(0, Indices::PUNCTUATION)];
 
-            // Size of seleced List
-            int listSize = selectedList.size();
-
             // Random string from selected list
-            tokens += selectedList[rand_between(0, listSize - 1)];
+            tokens += selectedList[rand_between(0, selectedList.size() - 1)];
 
             // Length added to compare to limit
             lineLength += tokens.size();
