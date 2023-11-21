@@ -3,10 +3,8 @@
 int main() 
 {
     Generate gen;
-    gen.generateCode("../pass/c++code.txt");
-
-    Tokens tokens;
-    tokens.printTokens();
+    gen.generateRandomTokens("../fail/c++random_Token.txt");
+    gen.generateCode("../pass/c++random_Code.txt");
     
     return 0;
 }

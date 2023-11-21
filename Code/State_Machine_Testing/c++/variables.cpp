@@ -20,7 +20,7 @@ void Variables::makeNamesAndTypes()
     {
         std::string type = _tokens[Indices::VARIABLES][rand_between(0, _tokens[Indices::VARIABLES].size() - 1)];
         std::string value = makeValue(type);
-        _variables.push_back(std::make_tuple(name, type, value));   
+        _variables.push_back(std::make_tuple(type, name, value));   
     }
 }
 
@@ -34,19 +34,16 @@ Variables::Variables()
 void Variables::makeNewValues(std::vector<std::tuple<std::string, std::string, std::string>>& tokens)
 {
     for (auto& value : tokens)
-    {
-        std::get<2>(value) = makeValue(std::get<1>(value));
-    }
+        // Changes value by passing in its own type
+        std::get<2>(value) = makeValue(std::get<0>(value));
 }
 
 // Needs testing, Should make a new value when found
 void Variables::makeNewValue(const std::string& name, std::vector<std::tuple<std::string, std::string, std::string>>& tokens)
 {
     for (auto& target : tokens)
-    {
-        if (std::get<0>(target) == name)
-            std::get<2>(target) = makeValue(std::get<1>(target));
-    }
+        if (std::get<1>(target) == name)
+            std::get<2>(target) = makeValue(std::get<0>(target));
 }
 
 // Returns int, string, or bool initializations

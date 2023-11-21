@@ -33,5 +33,7 @@ public:
     // Generates a new text file with proteus code
     void generateCode(const std::string&);
 
+    void generateRandomTokens(const std::string&);
+
     ~Generate(){};
 };

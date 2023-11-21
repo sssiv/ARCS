@@ -1,171 +1,88 @@
-event TERMINATE {bool}; 
-event JUMP {bool}; 
+event GO {bool}; 
+event STOP {bool}; 
+event LEFT {}; 
+event LOOK {}; 
+event FALL {string}; 
+event RIGHT {int}; 
+event CLOSE {bool}; 
+event TURN {int}; 
+event DOWN {}; 
+event OPEN {}; 
+event SHOVE {}; 
+event DROP {}; 
+event TERMINATE {}; 
+event UP {}; 
+event LIFT {}; 
 event ACTIVATE {}; 
-event RIGHT {}; 
+event REST {bool}; 
 
 actor Lenardo_DiCaprio {
 	statemachine {
-		initial North_Carolina;
-
+		string mul = "I don't care if Python is 'easier', I prefer C++";
+		int index = 61;
+		string value = "There's issues with infinite loops in here";
 		bool name = True;
-		string mul = "More sentences!";
-		int numOfThings = 76;
-		string counter = "There's issues with infinite loops in here";
-		string div = "proteus words";
-		bool check = True;
-		bool key = True;
-		bool thing = False;
-		string time = "JPL vs NASA";
-		int whatsThis = 97;
-		bool scope = False;
-		int result = 100;
+		string check = "this code is very buggy";
+		string thing = "This was easier in Python than C++";
+		int time = 52;
+		bool data = False;
+		bool flag = True;
+		string add = "Debug this code for a prize";
+		bool sub = False;
+		int numOfThings = 100;
+		bool whatsThis = False;
+		bool var = False;
+		string key = "made in python";
 
-		state Louisiana {
-			key = True;
-			check = True;
-			mul = "this code is very buggy";
-			numOfThings = 61;
-		}
-
-		state Kentucky {
-			// Add state behavior here;
-		}
-
-		state Vermont {
-			check = False;
-			counter = "something entered";
-			scope = False;
-			key = True;
-			result = 20;
-			time = "More sentences!";
-		}
-
-		state Washington {
-			// Add state behavior here;
-		}
-
-		state Rhode_Island {
-			numOfThings = 64;
-			div = "Here's a random string";
-			scope = True;
-			mul = "something entered";
-		}
-
-		state Minnesota {
-			// Add state behavior here;
-		}
-
-		state South_Carolina {
-			// Add state behavior here;
-		}
-
-		state Indiana {
-			// Add state behavior here;
-		}
-
-		state Pennsylvania {
-			mul = "states are stated";
-			result = 97;
-		}
-
-		state Iowa {
-			// Add state behavior here;
-		}
-
-		state Idaho {
-			// Add state behavior here;
-		}
-
-		state Nevada {
-			// Add state behavior here;
-		}
-
-		state Georgia {
-			time = "actors acting and whatnot";
-			thing = False;
-			check = True;
-			key = False;
-			result = 92;
-			mul = "I don't care if Python is 'easier', I prefer C++";
-			scope = True;
+		state Illinois {
+			sub = False;
+			whatsThis = True;
+			mul = "JPL vs NASA";
 			name = True;
-			numOfThings = 79;
-		}
-
-		state Maryland {
-			result = 19;
-			div = "JPL vs NASA";
-			key = True;
-			scope = False;
-			counter = "There's issues with infinite loops in here";
-		}
-
-		state Hawaii {
-			// Add state behavior here;
-		}
-
-		state Mississippi {
-			// Add state behavior here;
+			numOfThings = 21;
+			thing = "states are stated";
+			flag = False;
+			time = 64;
+			add = "There's issues with infinite loops in here";
+			check = "actors acting and whatnot";
 		}
 
 		state Missouri {
+			whatsThis = False;
+			time = 2;
+			data = True;
 		}
 
 		state Maine {
+			add = "More sentences!";
+			thing = "Now you need to impliment events";
+			index = 88;
+			time = 50;
+			data = False;
+			mul = "made in python";
+			numOfThings = 32;
+			whatsThis = False;
+			check = "proteus words";
+		}
+
+		state Minnesota {
+			add = "Do stuff with events";
+			whatsThis = False;
+			var = True;
+			data = True;
+			thing = "actors acting and whatnot";
+			key = "Now you need to impliment events";
+		}
+
+		state New_Jersey {
 			// Add state behavior here;
 		}
 
-		state Montana {
-			result = 54;
-			scope = False;
-			counter = "learn about event syntax";
-		}
-
-		state Oklahoma {
+		state Utah {
 			// Add state behavior here;
 		}
 
-		state Tennessee {
-			numOfThings = 19;
-			key = True;
-			whatsThis = 32;
-			name = False;
-			div = "actors acting and whatnot";
-			result = 47;
-			thing = True;
-			mul = "Here's a random string";
-			scope = True;
-			counter = "This was easier in Python than C++";
-			check = True;
-		}
-
-		state Arkansas {
-			scope = True;
-			check = False;
-			thing = False;
-			name = True;
-			result = 74;
-			key = False;
-			time = "Debug this code for a prize";
-		}
-
-		state North_Dakota {
-			thing = True;
-			numOfThings = 42;
-			check = False;
-			counter = "I wonder if this string changed value";
-		}
-
-		state Michigan {
-			thing = False;
-			name = True;
-			time = "something entered";
-			check = False;
-			whatsThis = 20;
-			key = False;
-		}
-
-		state New_Mexico {
+		state Washington {
 			// Add state behavior here;
 		}
 
@@ -173,77 +90,119 @@ actor Lenardo_DiCaprio {
 			// Add state behavior here;
 		}
 
-		state North_Carolina {
-			scope = True;
-			result = 100;
-			div = "learn about event syntax";
-			time = "There's issues with infinite loops in here";
-			name = True;
-			counter = "learn about event syntax";
-			key = True;
-			check = True;
-			mul = "something entered";
+		state Alabama {
+			value = "states are stated";
+			numOfThings = 60;
+			sub = False;
+			time = 8;
+			index = 52;
 		}
 
-		state Virginia {
+		state Tennessee {
+		}
+
+		state Georgia {
+			key = "Now you need to impliment events";
+			add = "something entered";
+			mul = "learn about event syntax";
+			var = True;
+			whatsThis = False;
+			value = "Debug this code for a prize";
+			name = False;
+			numOfThings = 40;
+			data = False;
+			thing = "This was easier in Python than C++";
+			check = "learn about event syntax";
+			flag = True;
+			time = 70;
+			index = 64;
+		}
+
+		state South_Carolina {
+			key = "Do stuff with events";
+			var = False;
+			sub = False;
+			add = "Please help me, im trapped in here!";
+			numOfThings = 54;
+			index = 55;
+			name = True;
+			data = False;
+			check = "Here's a random string";
+			whatsThis = False;
+			time = 91;
+			value = "Here's a random string";
+			thing = "This was easier in Python than C++";
+			flag = True;
+		}
+
+		state Pennsylvania {
 			// Add state behavior here;
 		}
 
-		state California {
-			scope = False;
+		state Iowa {
+			time = 32;
 		}
 
-		state New_Jersey {
+		state Vermont {
+			time = 17;
+			thing = "Events and stuff doing things";
+			mul = "states are stated";
+			sub = True;
+			numOfThings = 15;
+			flag = False;
+			key = "Do stuff with events";
+			add = "actors acting and whatnot";
+			name = True;
+			var = False;
+			index = 76;
+			value = "proteus words";
+		}
+
+		state New_Mexico {
+			// Add state behavior here;
+		}
+
+		state North_Carolina {
+			index = 98;
+			name = True;
+			time = 22;
+			value = "proteus words";
+			check = "proteus words";
+			var = True;
+			thing = "Now you need to impliment events";
+			add = "something entered";
+			whatsThis = True;
+			sub = False;
+		}
+
+		state New_York {
 			// Add state behavior here;
 		}
 
 		state South_Dakota {
-			// Add state behavior here;
+			check = "Do stuff with events";
+			data = False;
 		}
 
-		state Alaska {
-			// Add state behavior here;
-		}
-
-		state Florida {
-			whatsThis = 36;
-			check = True;
-			thing = False;
-			counter = "Debug this code for a prize";
-			mul = "something entered";
-			key = False;
-			scope = True;
-			time = "I wonder if this string changed value";
-			div = "More sentences!";
-			name = False;
-			numOfThings = 27;
-			result = 48;
-		}
-
-		state Utah {
-			// Add state behavior here;
-		}
-
-		state Nebraska {
-			// Add state behavior here;
-		}
-
-		state Alabama {
+		state Ohio {
 			name = True;
-			whatsThis = 89;
-			key = True;
-			mul = "made in python";
-			div = "learn about event syntax";
-			scope = False;
-			thing = False;
+			thing = "states are stated";
+			mul = "this code is very buggy";
+			var = True;
+			check = "I don't care if Python is 'easier', I prefer C++";
 		}
 
-		state Oregon {
+		state Arkansas {
 			// Add state behavior here;
 		}
 
-		state Kansas {
-			numOfThings = 80;
+		state North_Dakota {
+			index = 57;
+			name = False;
+		}
+
+		state Massachusetts {
+			// Add state behavior here;
 		}
 
 		state West_Virginia {
@@ -251,27 +210,198 @@ actor Lenardo_DiCaprio {
 		}
 
 		state Connecticut {
-			key = False;
+			var = False;
+			add = "made in python";
+			data = False;
+			whatsThis = True;
+			time = 8;
+			key = "Do stuff with events";
+			flag = True;
+			mul = "I wonder if this string changed value";
+			name = False;
+			numOfThings = 36;
+			check = "Please help me, im trapped in here!";
+			thing = "I wonder if this string changed value";
+			index = 16;
+			value = "There's issues with infinite loops in here";
+			sub = False;
 		}
 
-		state Wyoming {
+		state Virginia {
+			numOfThings = 76;
+			time = 8;
+			data = True;
+			thing = "Do stuff with events";
+			check = "made in python";
+			add = "Debug this code for a prize";
+			mul = "this code is very buggy";
+			sub = True;
+			key = "Do stuff with events";
+			flag = False;
+			name = True;
+			var = False;
+			index = 78;
 		}
 
-		state Texas {
+		state Delaware {
 			// Add state behavior here;
 		}
 
-		state New_Hampshire {
-			result = 34;
+		state Louisiana {
+			data = True;
+		}
+
+		state Alaska {
+			index = 10;
+			value = "I don't care if Python is 'easier', I prefer C++";
+			data = False;
+			flag = False;
+			key = "I don't care if Python is 'easier', I prefer C++";
+			numOfThings = 70;
+			var = True;
+			add = "learn about event syntax";
+			thing = "actors acting and whatnot";
+			time = 80;
+			sub = False;
+			check = "proteus words";
+		}
+
+		state Oregon {
+			// Add state behavior here;
+		}
+
+		state Michigan {
+			// Add state behavior here;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state Indiana {
+			// Add state behavior here;
+		}
+
+		state Kentucky {
+			numOfThings = 22;
+			time = 23;
+			mul = "learn about event syntax";
+			key = "I wonder if this string changed value";
+			data = True;
+			thing = "Now you need to impliment events";
+			flag = False;
+		}
+
+		state Wisconsin {
+			// Add state behavior here;
+		}
+
+		state Maryland {
+			value = "learn about event syntax";
+			add = "Please help me, im trapped in here!";
+			time = 19;
+			mul = "Here's a random string";
+			var = True;
+			index = 3;
+			sub = True;
+			thing = "I don't care if Python is 'easier', I prefer C++";
 			name = False;
-			thing = False;
-			whatsThis = 51;
-			check = False;
-			numOfThings = 17;
-			counter = "Events and stuff doing things";
+			flag = False;
+		}
+
+		state Nevada {
+			thing = "I wonder if this string changed value";
+			flag = True;
+			sub = False;
+			time = 78;
+			var = False;
+			numOfThings = 82;
 			mul = "Events and stuff doing things";
-			scope = True;
-			key = False;
+			key = "Do stuff with events";
+			add = "I wonder if this string changed value";
+			index = 58;
+			name = False;
+			data = False;
+			check = "Events and stuff doing things";
+		}
+
+		state Florida {
+			var = True;
+		}
+
+		state Oklahoma {
+			name = False;
+			var = False;
+		}
+
+		state California {
+			name = True;
+			whatsThis = True;
+			thing = "something entered";
+			sub = True;
+			flag = True;
+			add = "states are stated";
+			mul = "learn about event syntax";
+			var = False;
+			numOfThings = 21;
+			index = 1;
+			data = True;
+			key = "Debug this code for a prize";
+			check = "actors acting and whatnot";
+			value = "I wonder if this string changed value";
+			time = 20;
+		}
+
+		state Idaho {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			// Add state behavior here;
+		}
+
+		state Wyoming {
+			// Add state behavior here;
+		}
+
+		state Nebraska {
+			add = "I wonder if this string changed value";
+			index = 33;
+			numOfThings = 79;
+			key = "There's issues with infinite loops in here";
+			data = False;
+			whatsThis = False;
+			name = False;
+			flag = True;
+			value = "made in python";
+			thing = "made in python";
+			var = True;
+			mul = "Do stuff with events";
+		}
+
+		state Mississippi {
+			var = True;
+			index = 30;
+			check = "I don't care if Python is 'easier', I prefer C++";
+			time = 43;
+			data = False;
+			name = False;
+			numOfThings = 96;
+		}
+
+		state Kansas {
+			data = False;
+			time = 63;
+			add = "This was easier in Python than C++";
+			key = "something entered";
+			flag = False;
+			numOfThings = 36;
+			thing = "I wonder if this string changed value";
+			mul = "More sentences!";
+			check = "proteus words";
+			whatsThis = True;
+			var = False;
+			value = "proteus words";
 		}
 	}
 }
