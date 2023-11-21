@@ -86,14 +86,15 @@ class Generate:
 
             # Iterating through how many state names we generated
             for i in range(self.num_of_states):
+                # state syntax
+                self.code += f"\n\t\tstate {self.states[i]} {{\n"
+
                 # Randomly deciding if we want to change variable values in each state
                 if Utilities.Random.rand_choice([True, False]):
-                    self.code += f"\n\t\tstate {self.states[i]} {{\n"
-
                     # Randomly select variables to modify
-                    random_vars = Utilities.Random.rand_num(0, len(self.variables.get_variables()))
+                    num_of_vars = Utilities.Random.rand_num(0, len(self.variables.get_variables()))
                     var_keys = list(self.variables.get_variables().keys())
-                    selected_vars = Utilities.Random.rand_samples(var_keys, random_vars)
+                    selected_vars = Utilities.Random.rand_samples(var_keys, num_of_vars)
                     
                     # Give new values to the variables
                     for name in selected_vars:
@@ -103,7 +104,6 @@ class Generate:
 
                 # Print blank state
                 else:
-                    self.code += f"\n\t\tstate {self.states[i]} {{\n"
                     self.code += f"\t\t\t// Add state behavior here;\n"
                     self.code += "\t\t}\n"
 

@@ -14,7 +14,7 @@ Generate::Generate()
 std::string Generate::generateEvents()
 {
     // Empty string to write events
-    std::string code = "Events: \n";
+    std::string code = "";
 
     // Write events
     for (const auto& event : _events)
@@ -53,9 +53,20 @@ std::string Generate::generateVariables()
     return code;
 }
 
+// Can an actor have multiple statemachines?
 std::string Generate::generateActors()
 {
-    return "";
+    // List of actor names
+    std::vector<std::string> actorNames = _tokens[Indices::ACTOR_NAMES];
+
+    // Random name from the list
+    std::string randName = actorNames[rand_between(0, actorNames.size() - 1)];
+
+    // Actor syntax
+    std::string actor = "actor " + randName + " {\n";
+
+    // Return syntax with name
+    return actor;
 }
 
 std::string Generate::generateStatemachine()
@@ -78,9 +89,13 @@ void Generate::generateCode(const std::string& file)
     _code += generateEvents();
 
     // Actor
+    _code += generateActors();
 
     // Variables
     _code += generateVariables();
+
+    // Close actor (for now)
+    _code += "}\n";
 
     //States
     
@@ -91,6 +106,7 @@ void Generate::generateCode(const std::string& file)
     MyFile.close();
 }
 
+// random randoms to random file randomly
 void Generate::generateRandomTokens(const std::string& file)
 {
     // Create and open a text file
@@ -102,13 +118,13 @@ void Generate::generateRandomTokens(const std::string& file)
     // Counter for current line length
     int lineLength = 0;
 
-    // String to collect of random tokens
+    // String to collect all random tokens
     std::string tokens = "";
     
     // Having not hit the limit
     while (tokens.size() < limit)
     {
-        // Each code line length is between 1 - 1,000
+        // Each code line length is between 1 - 1,000 characters long
         if (lineLength >= rand_between(1, 1000))
         {
             // Randomly Decide if we want a space, tab, or new line
@@ -123,7 +139,6 @@ void Generate::generateRandomTokens(const std::string& file)
                     default: break;
                 }
             }
-
             // Re-set line legnth counter
             lineLength = 0;
         }
@@ -140,7 +155,6 @@ void Generate::generateRandomTokens(const std::string& file)
             // Length added to compare to limit
             lineLength += tokens.size();
         }
-        
     }
     
     // Write strings to file
