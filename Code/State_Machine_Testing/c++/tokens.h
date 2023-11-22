@@ -26,7 +26,7 @@ private:
 
 public:
     Tokens();
-    inline const std::vector<std::vector<std::string>>& getTokens() const {return _tokens;};
+    const std::vector<std::vector<std::string>>& getTokens() const {return _tokens;};
     void printTokens();
     ~Tokens(){};
 };

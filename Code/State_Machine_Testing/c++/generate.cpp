@@ -1,5 +1,7 @@
 #include "generate.h"
 
+using std::vector, std::string, std::ofstream;
+
 Generate::Generate()
 {
     // Get all code data
@@ -11,10 +13,10 @@ Generate::Generate()
     _code = "";
 };
 
-std::string Generate::generateEvents()
+string Generate::generateEvents()
 {
     // Empty string to write events
-    std::string code = "";
+    string code = "";
 
     // Write events
     for (const auto&[name, type] : _events)
@@ -27,10 +29,10 @@ std::string Generate::generateEvents()
     return code;
 }
 
-std::string Generate::generateVariables()
+string Generate::generateVariables()
 {
     // Empty string to write variables
-    std::string code = "";
+    string code = "";
 
     // Write Variables
     code += "Variables: \n";
@@ -54,36 +56,36 @@ std::string Generate::generateVariables()
 }
 
 // Can an actor have multiple statemachines?
-std::string Generate::generateActors()
+string Generate::generateActors()
 {
     // List of actor names
-    std::vector<std::string> actorNames = _tokens[Indices::ACTOR_NAMES];
+    vector<string> actorNames = _tokens[Indices::ACTOR_NAMES];
 
     // Random name from the list
-    std::string randName = actorNames[rand_between(0, actorNames.size() - 1)];
+    string randName = actorNames[rand_between(0, actorNames.size() - 1)];
 
     // Actor syntax
-    std::string actor = "actor " + randName + " {\n";
+    string actor = "actor " + randName + " {\n";
 
     // Return syntax with name
     return actor;
 }
 
-std::string Generate::generateStatemachine()
+string Generate::generateStatemachine()
 {
-    return "";
+    return string();
 }
 
-std::string Generate::generateStates()
+string Generate::generateStates()
 {
-    return "";
+    return string();
 }
 
 // Makes complete proteus code
-void Generate::generateRandomCode(const std::string& file)
+void Generate::generateRandomCode(const string& file)
 {
     // Create and open a text file
-    std::ofstream MyFile(file);
+    ofstream MyFile(file);
 
     // Generate events first
     _code += generateEvents();
@@ -107,10 +109,10 @@ void Generate::generateRandomCode(const std::string& file)
 }
 
 // random randoms to random file randomly
-void Generate::generateRandomTokens(const std::string& file)
+void Generate::generateRandomTokens(const string& file)
 {
     // Create and open a text file
-    std::ofstream MyFile(file);
+    ofstream MyFile(file);
 
     // Set total limit of written tokens
     int limit = rand_between(10000, 100000);
@@ -119,7 +121,7 @@ void Generate::generateRandomTokens(const std::string& file)
     int lineLength = 0;
 
     // String to collect all random tokens
-    std::string tokens = "";
+    string tokens = "";
     
     // Having not hit the limit
     while (tokens.size() < limit)
@@ -147,7 +149,7 @@ void Generate::generateRandomTokens(const std::string& file)
         else
         {
             // Select random list before name inputs
-            std::vector<std::string> selectedList = _tokens[rand_between(0, Indices::PUNCTUATION)];
+            vector<string> selectedList = _tokens[rand_between(0, Indices::PUNCTUATION)];
 
             // Random string from selected list
             tokens += selectedList[rand_between(0, selectedList.size() - 1)];

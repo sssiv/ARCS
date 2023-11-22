@@ -1,16 +1,18 @@
 #include "tokens.h"
 
+using std::vector, std::string, std::ifstream, std::stringstream, std::cout;
+
 void Tokens::readCSV() 
 {
-    std::ifstream file("../tokens.csv");
-    std::string line;
+    ifstream file("../tokens.csv");
+    string line;
 
     // Check if file is open
     while (getline(file, line)) 
     {
-        std::vector<std::string> row;
-        std::stringstream lineStream(line);
-        std::string cell;
+        vector<string> row;
+        stringstream lineStream(line);
+        string cell;
 
         while (getline(lineStream, cell, ',')) 
             row.push_back(cell);
@@ -22,19 +24,19 @@ void Tokens::readCSV()
 void Tokens::read() 
 {
     // Make sure tokens.py ran first
-    std::ifstream file("tokens.txt");
-    std::string line;
+    ifstream file("tokens.txt");
+    string line;
 
     while (std::getline(file, line)) 
     {
         // In stream
-        std::stringstream lineStream(line);
+        stringstream lineStream(line);
 
         // Individual input from lines
-        std::string token;
+        string token;
 
         // Vector of each line from in stream
-        std::vector<std::string> tokenList;
+        vector<string> tokenList;
 
         while (std::getline(lineStream, token, ',')) 
         {
@@ -42,13 +44,13 @@ void Tokens::read()
             size_t start = token.find_first_not_of(" ");
 
             // Check if theres whitespaces
-            start = (start == std::string::npos) ? 0 : start;
+            start = (start == string::npos) ? 0 : start;
             
             // Trim trailing whitespace
             size_t end = token.find_last_not_of(" ");
 
             // Check if theres more whitespaces
-            token = (end == std::string::npos) ? "" : token.substr(start, (end - start + 1));
+            token = (end == string::npos) ? "" : token.substr(start, (end - start + 1));
 
             // Get line list
             tokenList.push_back(token);
@@ -108,8 +110,8 @@ void Tokens::printTokens()
         // For a string iterating through the vector thats looking at an individual column
         for (size_t i = 0; i < vec.size(); ++i) 
         {
-            i < vec.size() - 1 ? std::cout << vec[i] << ", " : std::cout << vec[i] << " ";
+            i < vec.size() - 1 ? cout << vec[i] << ", " : cout << vec[i] << " ";
         }
-        std::cout << std::endl << std::endl;
+        cout << "\n\n";
     }
 }

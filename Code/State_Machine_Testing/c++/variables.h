@@ -20,6 +20,6 @@ public:
     Variables();
     void makeNewValues(std::vector<std::tuple<std::string, std::string, std::string>>&);
     void makeNewValue(const std::string&, std::vector<std::tuple<std::string, std::string, std::string>>&);
-    inline const std::vector<std::tuple<std::string, std::string, std::string>>& getVariables() const {return _variables;};
+    const std::vector<std::tuple<std::string, std::string, std::string>>& getVariables() const {return _variables;};
     ~Variables();
 };

@@ -17,6 +17,6 @@ private:
     
 public:
     Events();
-    inline const std::vector<std::pair<std::string, std::string>>& getEvents() const {return _events;};
+    const std::vector<std::pair<std::string, std::string>>& getEvents() const {return _events;};
     ~Events();
 };

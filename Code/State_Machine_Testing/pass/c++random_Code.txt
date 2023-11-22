@@ -1,29 +1,16 @@
-event RIGHT {string};
+event OPEN {};
 event ACTIVATE {};
-event TURN {int};
-event FALL {string};
-event GO {};
-event JUMP {bool};
+event JUMP {string};
 
-actor Keanu_Reeves {
+actor Jake_Gyllenhaal {
 Variables: 
-string mul = "This was easier in Python than C++";
-bool index = True;
-int scope = 415;
-bool thing = False;
-string add = "Debug this code for a prize";
-bool div = True;
-bool counter = False;
-bool key = True;
+string value = "actors acting and whatnot";
+int key = 276;
+string thing = "More sentences!";
 
 New Values: 
-mul = "I don't care if Python is 'easier'";
-index = True;
-scope = 238;
-thing = False;
-add = "proteus words";
-div = False;
-counter = False;
-key = False;
+value = "I wonder if this string changed value";
+key = 211;
+thing = "Do stuff with events";
 
 }
