@@ -9,11 +9,11 @@ How to run Python:
         * Windows: 
             * run.bat (number of pass cases) (number of fail cases)
         * Linux and MacOS: 
-            * ./run.sh (number of pass cases) (number of fail cases)
+            * "./run.sh (number of pass cases) (number of fail cases)"
                OR
-               python3 main.py (number of pass cases) (number of fail cases)
+               "python3 main.py (number of pass cases) (number of fail cases)"
                OR
-               make -f Makefile p=(number of pass cases) f=(number of fail cases)
+               "make -f Makefile p=(number of pass cases) f=(number of fail cases)"
 
 
 How to run C++:
@@ -23,9 +23,9 @@ How to run C++:
         Before running anything, Need to run tokens.py. CD to python by cd ../python, then run python3 tokens.py
         * Windows: 
             * Must haev MinGW installed and in your PATH
-            * Type mingw32-make
-            * main.exe
-            * To clean, type mingw32-make clean
-        * Linux and MacOS: python3 main.py (number of pass cases) (number of fail cases)
-            * ./main (number of pass cases) (number of fail cases)
-            * Clean by typing make clean
+            * Type "mingw32-make"
+            * "main.exe"
+            * To clean, type "mingw32-make clean"
+        * Linux and MacOS: "make"
+            * "./main (number of pass cases) (number of fail cases)"
+            * Clean by typing "make clean"

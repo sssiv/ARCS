@@ -1,0 +1,20 @@
+
+actor Qunintin_Tarantino {
+	statemachine {
+		string value = "I don't care if Python is 'easier', I prefer C++";
+		bool result = False;
+		string time = "This was easier in Python than C++";
+		int div = 30;
+		int var = 73;
+
+		state Montana {
+			// Add state behavior here;
+		}
+
+		state New_York {
+			value = "something entered";
+			time = "this code is very buggy";
+			result = False;
+		}
+	}
+}

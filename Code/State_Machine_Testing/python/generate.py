@@ -1,3 +1,5 @@
+from functools import cache
+
 from utilities import Utilities
 from tokens import Tokens
 
@@ -123,6 +125,7 @@ class Generate:
     #Pas#---------------------------------------------------------------------------------------------------------------------------------------------#
 #---#---#---------------------------------------------------------------------------------------------------------------------------------------------#
 #---#---#---------------------------------------------------------------------------------------------------------------------------------------------#   
+    @cache
     class Fail:
         def generate_random_tokens(self, length):
             # Initialize empty string for text 
@@ -132,11 +135,7 @@ class Generate:
             line_length = 0
 
             # These rows are for variable names, we want just random tokens
-            ignore = 0
-            for column in reversed(Tokens().lists):
-                if column == Tokens().punctuation:
-                    break
-                ignore -= 1
+            ignore = Tokens().lists.index(Tokens().punctuation)
 
             # Random text still has more room
             while len(random_tokens) < length:

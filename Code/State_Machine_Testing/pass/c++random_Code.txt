@@ -1,0 +1,27 @@
+event GO {};
+event STOP {};
+event SHOVE {};
+event MOVE {int};
+event UP {};
+event RIGHT {};
+
+actor Jake_Gyllenhaal {
+Variables: 
+int sub = 324;
+string name = "There's issues with infinite loops in here";
+bool div = True;
+int flag = 226;
+int add = 138;
+string time = "JPL vs NASA";
+string key = "Now you need to impliment events";
+
+New Values: 
+sub = 31;
+name = "Debug this code for a prize";
+div = True;
+flag = 338;
+add = 349;
+time = "I prefer C++";
+key = "Debug this code for a prize";
+
+}

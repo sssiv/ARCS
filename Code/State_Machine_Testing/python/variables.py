@@ -29,12 +29,12 @@ class Variables():
         code = ""
 
         # itr's with key = name, value = type
-        for key, value in self.variables.items():
+        for name, var_type in self.variables.items():
             # Checks variable type and gives it a value
-            var_value = Utilities.Variable_Handler.make_value(value)
+            var_value = Utilities.Variable_Handler.make_value(var_type)
 
             # Variable syntax
-            code += f"\t\t{value} {key} = {var_value};\n"
+            code += f"\t\t{var_type} {name} = {var_value};\n"
         
         # Return variables
         return code

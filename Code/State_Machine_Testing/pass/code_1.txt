@@ -1,0 +1,158 @@
+event SHOVE {}; 
+event JUMP {}; 
+event LEFT {}; 
+event DOWN {}; 
+event TURN {}; 
+event TERMINATE {}; 
+event UP {}; 
+event GO {}; 
+event LIFT {string}; 
+event STOP {}; 
+event RIGHT {bool}; 
+event LOOK {int}; 
+event CLOSE {string}; 
+event MOVE {}; 
+event OPEN {}; 
+event REST {string}; 
+event DROP {}; 
+
+actor Samuel_L_Jackson {
+	statemachine {
+		initial Indiana;
+
+		bool check = True;
+		string value = "this code is very buggy";
+		string numOfThings = "This was easier in Python than C++";
+		int flag = 50;
+		int add = 100;
+
+		state Ohio {
+			add = 26;
+		}
+
+		state North_Dakota {
+			add = 56;
+			check = True;
+			numOfThings = "Events and stuff doing things";
+		}
+
+		state Utah {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			// Add state behavior here;
+		}
+
+		state Delaware {
+		}
+
+		state South_Carolina {
+			value = "Do stuff with events";
+			check = False;
+			add = 88;
+			numOfThings = "learn about event syntax";
+		}
+
+		state New_Mexico {
+			check = False;
+			numOfThings = "proteus words";
+			flag = 92;
+			value = "I don't care if Python is 'easier', I prefer C++";
+		}
+
+		state Nebraska {
+			// Add state behavior here;
+		}
+
+		state Maine {
+			value = "I don't care if Python is 'easier', I prefer C++";
+			check = True;
+			numOfThings = "JPL vs NASA";
+			add = 20;
+		}
+
+		state Oklahoma {
+			// Add state behavior here;
+		}
+
+		state Pennsylvania {
+			// Add state behavior here;
+		}
+
+		state Oregon {
+			// Add state behavior here;
+		}
+
+		state New_York {
+		}
+
+		state Massachusetts {
+			// Add state behavior here;
+		}
+
+		state New_Hampshire {
+			numOfThings = "Please help me, im trapped in here!";
+			flag = 5;
+			check = False;
+			value = "made in python";
+			add = 42;
+		}
+
+		state Colorado {
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			// Add state behavior here;
+		}
+
+		state Missouri {
+			// Add state behavior here;
+		}
+
+		state Kentucky {
+			numOfThings = "Please help me, im trapped in here!";
+			flag = 70;
+			value = "proteus words";
+			add = 83;
+		}
+
+		state Indiana {
+			flag = 25;
+			check = False;
+			numOfThings = "Events and stuff doing things";
+			add = 24;
+			value = "learn about event syntax";
+		}
+
+		state Illinois {
+			check = True;
+			numOfThings = "Please help me, im trapped in here!";
+			add = 98;
+			flag = 86;
+			value = "learn about event syntax";
+		}
+
+		state Kansas {
+			value = "Please help me, im trapped in here!";
+		}
+
+		state Michigan {
+			// Add state behavior here;
+		}
+
+		state New_Jersey {
+			// Add state behavior here;
+		}
+
+		state Wisconsin {
+			value = "made in python";
+			check = True;
+			add = 68;
+		}
+	}
+}

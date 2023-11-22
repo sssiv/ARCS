@@ -46,7 +46,8 @@ class Tokens():
             ]
         
         # List of column names
-        self.lcolumn_names = [
+        # column_name in df.columns is basically the same thing I think
+        self.column_names = [
             'Types', 
             'Numbers', 
             'Brackets', 

@@ -1,0 +1,76 @@
+
+actor Qunintin_Tarantino {
+	statemachine {
+		initial Oregon;
+
+		bool check = True;
+		string data = "states are stated";
+		string time = "Events and stuff doing things";
+
+		state Oregon {
+			time = "I don't care if Python is 'easier', I prefer C++";
+		}
+
+		state Pennsylvania {
+			check = False;
+			time = "Do stuff with events";
+		}
+
+		state Montana {
+			// Add state behavior here;
+		}
+
+		state Florida {
+			check = False;
+			data = "proteus words";
+			time = "This was easier in Python than C++";
+		}
+
+		state Wyoming {
+			// Add state behavior here;
+		}
+
+		state Nebraska {
+		}
+
+		state Rhode_Island {
+			// Add state behavior here;
+		}
+
+		state California {
+		}
+
+		state Oklahoma {
+			// Add state behavior here;
+		}
+
+		state Massachusetts {
+		}
+
+		state Alabama {
+			// Add state behavior here;
+		}
+
+		state South_Dakota {
+		}
+
+		state Indiana {
+		}
+
+		state South_Carolina {
+			// Add state behavior here;
+		}
+
+		state Delaware {
+			time = "Now you need to impliment events";
+		}
+
+		state Kansas {
+			// Add state behavior here;
+		}
+
+		state Utah {
+			// Add state behavior here;
+		}
+	}
+}

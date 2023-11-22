@@ -1,0 +1,63 @@
+event STOP {int}; 
+event TURN {}; 
+event GO {}; 
+event LIFT {}; 
+event RIGHT {int}; 
+event FALL {}; 
+event OPEN {int}; 
+event DROP {}; 
+event LEFT {bool}; 
+event MOVE {}; 
+event ACTIVATE {}; 
+event TERMINATE {string}; 
+event CLOSE {}; 
+event SHOVE {int}; 
+event LOOK {string}; 
+event UP {int}; 
+event REST {int}; 
+
+actor Morgan_Freeman {
+	statemachine {
+		string sub = "I wonder if this string changed value";
+		bool whatsThis = False;
+		bool key = False;
+		string add = "states are stated";
+
+		state California {
+			add = "I don't care if Python is 'easier', I prefer C++";
+			key = True;
+		}
+
+		state South_Carolina {
+		}
+
+		state Florida {
+			// Add state behavior here;
+		}
+
+		state Mississippi {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			sub = "This was easier in Python than C++";
+			key = True;
+			whatsThis = True;
+			add = "Here's a random string";
+		}
+
+		state Ohio {
+			// Add state behavior here;
+		}
+
+		state Hawaii {
+			// Add state behavior here;
+		}
+
+		state New_Jersey {
+			key = True;
+			add = "More sentences!";
+			whatsThis = False;
+		}
+	}
+}

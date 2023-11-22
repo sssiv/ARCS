@@ -26,7 +26,7 @@ class Utilities():
         def make_value(type):
             # Bool handler
             if type == 'bool':
-                return True if Utilities.Random.rand_num(0, 1) else False
+                return True if Utilities.Random.rand_choice([True, False]) else False
                     
             # Int handler
             if type == 'int':

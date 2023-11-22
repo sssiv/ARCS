@@ -18,8 +18,8 @@ std::string Generate::generateEvents()
 
     // Write events
     for (const auto& event : _events)
-    {           // Name              // Param Type
-        code += event.first + " {" + event.second + "};\n";
+    {                      // Name              // Param Type
+        code += "event " + event.first + " {" + event.second + "};\n";
     }
     code += "\n";
 
@@ -80,7 +80,7 @@ std::string Generate::generateStates()
 }
 
 // Makes complete proteus code
-void Generate::generateCode(const std::string& file)
+void Generate::generateRandomCode(const std::string& file)
 {
     // Create and open a text file
     std::ofstream MyFile(file);

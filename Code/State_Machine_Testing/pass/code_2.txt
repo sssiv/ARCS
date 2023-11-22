@@ -1,0 +1,238 @@
+
+actor Danny_DeVito {
+	statemachine {
+		initial Alaska;
+
+		bool result = False;
+		int name = 51;
+		string mul = "proteus words";
+		string data = "something entered";
+		string numOfThings = "JPL vs NASA";
+		int div = 70;
+		bool sub = True;
+		string scope = "JPL vs NASA";
+		bool flag = True;
+		bool whatsThis = True;
+		int var = 50;
+		int check = 2;
+		int value = 93;
+
+		state Alaska {
+			// Add state behavior here;
+		}
+
+		state Minnesota {
+			name = 65;
+			div = 27;
+		}
+
+		state North_Dakota {
+			scope = "Here's a random string";
+			sub = True;
+			div = 39;
+			var = 79;
+			flag = True;
+			check = 29;
+			data = "proteus words";
+			name = 97;
+			numOfThings = "this code is very buggy";
+			mul = "JPL vs NASA";
+			whatsThis = False;
+		}
+
+		state Wyoming {
+			data = "More sentences!";
+			var = 43;
+			result = True;
+		}
+
+		state Connecticut {
+			// Add state behavior here;
+		}
+
+		state Virginia {
+			// Add state behavior here;
+		}
+
+		state Montana {
+			data = "Events and stuff doing things";
+			scope = "states are stated";
+			check = 31;
+			div = 94;
+		}
+
+		state New_Hampshire {
+			check = 45;
+			div = 99;
+			result = True;
+			var = 65;
+			data = "Here's a random string";
+			whatsThis = True;
+			scope = "learn about event syntax";
+			value = 42;
+			name = 87;
+			numOfThings = "Debug this code for a prize";
+			mul = "More sentences!";
+			sub = False;
+		}
+
+		state Hawaii {
+			sub = False;
+			var = 7;
+			whatsThis = True;
+			check = 80;
+			div = 6;
+			numOfThings = "Events and stuff doing things";
+			name = 6;
+			flag = True;
+			mul = "More sentences!";
+			scope = "actors acting and whatnot";
+		}
+
+		state South_Carolina {
+			// Add state behavior here;
+		}
+
+		state Kansas {
+			scope = "More sentences!";
+			var = 61;
+			data = "This was easier in Python than C++";
+		}
+
+		state Maine {
+			// Add state behavior here;
+		}
+
+		state Tennessee {
+			// Add state behavior here;
+		}
+
+		state Alabama {
+			// Add state behavior here;
+		}
+
+		state Ohio {
+			// Add state behavior here;
+		}
+
+		state Rhode_Island {
+			data = "JPL vs NASA";
+			flag = True;
+			numOfThings = "states are stated";
+			scope = "Here's a random string";
+		}
+
+		state Louisiana {
+			check = 31;
+			div = 64;
+			name = 24;
+			result = False;
+			value = 52;
+			data = "Do stuff with events";
+			flag = True;
+			var = 44;
+			numOfThings = "More sentences!";
+		}
+
+		state New_York {
+			// Add state behavior here;
+		}
+
+		state Arkansas {
+			data = "learn about event syntax";
+			var = 94;
+		}
+
+		state North_Carolina {
+			var = 12;
+			name = 30;
+			result = False;
+			mul = "I don't care if Python is 'easier', I prefer C++";
+		}
+
+		state West_Virginia {
+			div = 98;
+			var = 90;
+			name = 68;
+			sub = False;
+			flag = True;
+			check = 95;
+			mul = "actors acting and whatnot";
+			numOfThings = "Debug this code for a prize";
+			data = "Events and stuff doing things";
+		}
+
+		state California {
+			scope = "JPL vs NASA";
+			data = "This was easier in Python than C++";
+			whatsThis = True;
+		}
+
+		state Idaho {
+			// Add state behavior here;
+		}
+
+		state New_Mexico {
+			// Add state behavior here;
+		}
+
+		state Nevada {
+			flag = True;
+			name = 36;
+			numOfThings = "Now you need to impliment events";
+			mul = "Events and stuff doing things";
+			var = 85;
+			value = 57;
+			result = True;
+			check = 92;
+			whatsThis = True;
+			data = "Now you need to impliment events";
+			scope = "I don't care if Python is 'easier', I prefer C++";
+			div = 56;
+			sub = False;
+		}
+
+		state Texas {
+			numOfThings = "More sentences!";
+			mul = "proteus words";
+			sub = True;
+			result = True;
+			name = 37;
+			flag = False;
+			check = 43;
+			scope = "actors acting and whatnot";
+			data = "JPL vs NASA";
+			value = 67;
+			div = 44;
+			var = 72;
+			whatsThis = True;
+		}
+
+		state New_Jersey {
+			// Add state behavior here;
+		}
+
+		state Oklahoma {
+			var = 100;
+			data = "actors acting and whatnot";
+			whatsThis = False;
+			check = 13;
+			numOfThings = "Here's a random string";
+			div = 65;
+			sub = True;
+		}
+
+		state Georgia {
+			check = 63;
+			numOfThings = "Here's a random string";
+			data = "states are stated";
+			whatsThis = False;
+			name = 15;
+			scope = "proteus words";
+			mul = "this code is very buggy";
+			div = 84;
+			var = 46;
+			flag = True;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+stringif>>= event[))	event whileoff<=	3[2initial	5exit	exitactoractor+on string
+)7	else7	}string
+stringstatemachine (00initial endstate	-boolstatemachine	intstatemachine	boolstring[else	statemachineelse
+int	print	bool [go)bool	initial
+1 -=func 1offbool *=^]>>=)8)
+(int[string	&&int1string	+16intstatemachine 6gostring 2intexitstring
+2/^
+intend
+exitintbool
+]<(
+[bool[string{ =bool9	boolint )endstatestate+6 39) -=bool	initial	bool5bool
+eventint string&& stateint	boolfunc4	<<=boolstate0event	&&<=^entry
+if5% goon int4{[ {stringstring->entry intbool event

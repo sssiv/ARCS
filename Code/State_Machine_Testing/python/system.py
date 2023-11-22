@@ -71,7 +71,10 @@ class System():
                         # Makes text file and writes random tokens to purposefully fail
                         with open(f'../fail/code_{i + 1}.txt', 'w') as file:
                             file.write(Generate.Fail().generate_random_tokens(num_of_chars))
+                    
+                    # File was not able to be created       
                     except IOError as e:
+                        # Specific file where the fault was caused and its error
                         print(f"Failed to write ../fail/code_{i + 1}.txt: {e}")
                         all_files_written = False
                 
