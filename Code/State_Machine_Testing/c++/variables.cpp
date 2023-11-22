@@ -32,17 +32,17 @@ Variables::Variables()
 // Needs testing, used when reinitialized variables are in states
 void Variables::makeNewValues(std::vector<std::tuple<std::string, std::string, std::string>>& tokens)
 {
-    for (auto& value : tokens)
+    for (auto&[type, name, value] : tokens)
         // Changes value by passing in its own type
-        std::get<2>(value) = makeValue(std::get<0>(value));
+        value = makeValue(type);
 }
 
 // Needs testing, Should make a new value when found
-void Variables::makeNewValue(const std::string& name, std::vector<std::tuple<std::string, std::string, std::string>>& tokens)
+void Variables::makeNewValue(const std::string& target, std::vector<std::tuple<std::string, std::string, std::string>>& tokens)
 {
-    for (auto& target : tokens)
-        if (std::get<1>(target) == name)
-            std::get<2>(target) = makeValue(std::get<0>(target));
+    for (auto&[type, name, value] : tokens)
+        if (name == target)
+            value = makeValue(type);
 }
 
 // Returns int, string, or bool initializations

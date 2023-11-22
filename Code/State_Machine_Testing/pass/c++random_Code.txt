@@ -1,27 +1,29 @@
+event RIGHT {string};
+event ACTIVATE {};
+event TURN {int};
+event FALL {string};
 event GO {};
-event STOP {};
-event SHOVE {};
-event MOVE {int};
-event UP {};
-event RIGHT {};
+event JUMP {bool};
 
-actor Jake_Gyllenhaal {
+actor Keanu_Reeves {
 Variables: 
-int sub = 324;
-string name = "There's issues with infinite loops in here";
+string mul = "This was easier in Python than C++";
+bool index = True;
+int scope = 415;
+bool thing = False;
+string add = "Debug this code for a prize";
 bool div = True;
-int flag = 226;
-int add = 138;
-string time = "JPL vs NASA";
-string key = "Now you need to impliment events";
+bool counter = False;
+bool key = True;
 
 New Values: 
-sub = 31;
-name = "Debug this code for a prize";
-div = True;
-flag = 338;
-add = 349;
-time = "I prefer C++";
-key = "Debug this code for a prize";
+mul = "I don't care if Python is 'easier'";
+index = True;
+scope = 238;
+thing = False;
+add = "proteus words";
+div = False;
+counter = False;
+key = False;
 
 }

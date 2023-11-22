@@ -17,9 +17,9 @@ std::string Generate::generateEvents()
     std::string code = "";
 
     // Write events
-    for (const auto& event : _events)
-    {                      // Name              // Param Type
-        code += "event " + event.first + " {" + event.second + "};\n";
+    for (const auto&[name, type] : _events)
+    {                     
+        code += "event " + name + " {" + type + "};\n";
     }
     code += "\n";
 
@@ -34,18 +34,18 @@ std::string Generate::generateVariables()
 
     // Write Variables
     code += "Variables: \n";
-    for (const auto& variable : _variables)
-    {               // Type                       // Name                         // Value
-        code += std::get<0>(variable) + " " + std::get<1>(variable) + " = " + std::get<2>(variable) + ";\n";
+    for (const auto&[type, name, value] : _variables)
+    {      
+        code += type + " " + name + " = " + value + ";\n";
     }
     code += "\n";
 
     // Write new Variable values
     code += "New Values: \n";
     _Variables.makeNewValues(_variables);
-    for (const auto& variable : _variables)
-    {               // Name                         // Value
-        code += std::get<1>(variable) + " = " + std::get<2>(variable) + ";\n";
+    for (const auto&[type, name, value] : _variables)
+    {               
+        code += name + " = " + value + ";\n";
     }
     code += "\n";
 
