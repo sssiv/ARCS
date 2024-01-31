@@ -3,4 +3,5 @@ int, string, bool, actor, event, state, statemachine
 (, ), [, ], {, }
 initial, while, if, go, goif, exit, return, func, entry, exit, print, on, off, else, end
 int, string, bool
-*, /, %, +, -, <<, >>, <, >, <=, ==, !=, ^, &&, ||, *=, /=,  %=, +=,  -=, <<=, >>=, ^=, =, ->, ., ,, ;, "
+*, /, %, +, -, <<, >>, <, >, <=, ==, !=, ^, &&, ||, *=, /=,  %=, +=,  -=, <<=, >>=, ^=, =, ->
+., ,, ;, "

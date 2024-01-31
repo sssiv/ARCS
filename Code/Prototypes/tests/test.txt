@@ -1,4265 +1,4209 @@
-intintintintintintintintintintintintintintintintintintintintintint intintintintint	intintintint
-intintint intintintintintintintint	intintintintintintintintintintintint	intintint	intint	intint
-intint	intint intintint intint intintintintintintintintintintintintintintintintintintintintint intintintintintintintint
-intintint
-intint intintintintintintintintintint intintint
-intintintintintint	int
-intintintintintintintintintintintint intintintintintintintint intintintintintintintintintintint	intint	int intint
-intintint intint
-int	int	intintintintintintintint
-int
-int	intintintint intintint	int intint	intint	intint intint	intintint
-intintint
-intint
-intintintint
-int
-intint intintintint intintintintintintintintintint int intintint	int int	intint
-int
-intintint intint
-intintint int int int intint	intintintintintint int intintintint
-intintintint	int int
-int intintintint	intintintintint
-intintint	intint	int int
-int intintintintintintintint
-int
-intint	int intint
-intintint int int	int int
-int	int
-int
-intintintintint int int intint intintintint
-int	intint
-intint
-intintintint
-intint	intintint int
-int int int
-int	intint intintint	intintintint	intintint
-intintint int
-intint
-int	int intintintint	intintintintint int int int
-intint	intint
-intintint	int int	intintint intintintintint intint intint int
-int int int	intintint	intintint
-intintintint
-intint	intint
-intint
-int	intint
-intintintint intint	intintint int	int	int int	int
-intint int int intintint int int	int	intintint	int	intintintint	int
-int intintint
-intint
-int
-intint intint	intint	intintint	intint int
-intint
-intintintint	int	intintintint int int	int	int intintint
-int
-intintintintint	intint
-intint	intintint	int int intint	intintint int
-intint int	intint intint	intint	intintintintint
-intint	int	intint	intintint int intint	int	intint intintint
-intintint intint	intint intintint
-intintintintintintint
-int	intintint	int
-int intintintint intintintint
-int
-intintint
-int	int int
-intint intintint intint
-intintintint
-int
-intintintint	int	intint
-int
-intintintint intintint
-int	intintint	intint
-int
-int	intintintint	int intintint	int
-int
-int int int	intintintintintint
-int int	intintint	int	intintint	int
-int
-int intintintintintint	int	intintintintint
-int int intintintint int intintintintintint	intint	intint
-int	int intintintintintint	intintint intint	int intintintint intintint
-int
-int intint int	int	intint int	intint	int	int intintintintintintint intintint
-intint
-intint
-int
-intintintint
-int
-intint	intint
-intint	intint int
-intint
-int	intint
-intintintintintintintint	intintintintint
-intint
-int intintint
-intintint intintintintint
-intintint	int
-intintintintint int
-intint	int
-int intintint
-intintintintint	int intint intint
-int	intintintintint
-intintint
-int intint	intint intintintint intintint int int intint intintintintintintint	intintint	int
-intintint intintint
-int	int	int	intintintint
-int
-intintint	intintintint int
-intintintintintint
-intint	int	intintintintint	int intint int
-intint int	int	int	intint	int
-int
-intint intint intint
-int
-intint
-int
-intint
-intint	intintint int int
-int
-int intint int	intint intint int	intintintint	intint
-int	intintintint	intint intint	int intint int int int int
-int	intint	int	intintintint
-int
-intintint intintintint
-intint intint
-intintintintint
-int
-int intint	intint int
-int intint	intint
-int	intint int	intintintintint
-int intint
-int int
-int int int
-intintintint int intint intintintintintintint	int	int
-int
-intint
-int
-intint intint	intintintintintintintintintint int	intint	int
-intint	int	int int int	intintint intintintint
-intintint	intintintintint int intint intintintint int	int
-int intintint
-int int intintint
-intintint
-int
-intint	int
-intint
-int	intintintint	intintint	intintint	intintintintint
-int	intint int int
-intint	intint	intint intintint
-int int int	int
-int int
-intintintintint	int
-int int	int
-intintint int	intint
-int	int intint
-intintint intintintintintint intintint	int int int
-intintintint	int int	intint	int	intint intint	int	intint
-intint	int	intintintintint	int	int	intintint int int
-intint int
-intint	intint intint	int intintint	int intint	int
-intintintint int	intintint
-int int intint int intint
-intintint intintint intint	intintint int
-int	intintintintint int
-intint
-intint intintintint	int	int
-int intint	int	intintintintintintint	intintintintint
-int intintint	intint	int
-int int int	int intint	int intintintintintintint	int
-int
-intint	intint intint	intintint int intintintint	intintintint
-int
-intintint intint	intint intint
-intintintintintint int
-int
-intintintintintintintintint int
-int	int	intintintintintintint
-intint	intintintintint int
-intintint
-int int intint	intintint
-intint	intint
-int	intint
-int	int intint
-int	intint	int int intintint	int intintintint
-int	int
-int int
-intint	int
-int	intintint int int	intint
-int
-intintintintintintintintint
-int intintint
-intintint	intintint int
-intint	intint intint	intint	intint
-int	int	intintintintintint
-int
-intint intintintintint
-int int	int
-intintint intint
-int	intintintint
-int intint
-int
-intint
-intintintintintintint
-int
-intintintintint intint	intintint	int int
-int	int	int	int intintint	int
-int	intint intintint intintint	int
-int
-intint	intint intint	int
-intintint
-int	int int int
-intint
-int
-intintintint
-int
-int	int	intint	int intintint	intint
-int int int int intintintintintintintintint
-intint intint
-int intint intintint
-intint	int
-int intint
-intint	int	int
-intint int	int
-intint int	intintint
-int	intintint
-int intint
-intintintintintintint
-intint
-int
-intint	int	int
-intintintintint
-intint intintint	int
-intintintintint intintintintintint
-int	intint int
-intint	int
-intintint intintint	intint
-int intint
-intint int int	intint
-int int	int	intint	intintintintintintint int intint	intint int intintintint int
-intintintintintint
-intintintint int	int intintintintint
-intintintintintint	intint
-int
-intint intintintint
-int
-int
-int
-intintint	int intintintint intintintint	int	intintintint	int intintint intint intintint intint	int
-intintintint intint intint	intint intintintint	int	int intint	intintint	intintint
-int	int
-intintint
-intintintint
-intintintint int
-intintint	int
-int int int int	intintintintintintintint
-intint	int int intint	intintintint	int
-intint intintintint	int
-int int
-intint intintint intint intint intintint	intint int int intint	int	intintintint
-intint	int int intint
-intintint	int	int intint int int
-int
-intint	intint	int	int	intintintint	int
-intint
-int
-int intint	int
-intintintintintint	intintint	int
-intint	int	int int int
-int
-intint int int
-int intint int	int intint intint int int int	int intintint int int	intintintint	intint	int intint
-int intintint
-int	intint intintint
-intint	int
-intintint intintintintint int	intint intint	intintintintint
-intint
-intintint int	intintint
-intint
-intintintintintint	int
-intint intint intintint	int	intintint	int	int int int	int
-int	intintintintint
-intintintintintint
-intintintint	intintintintint
-intintint int
-int int	int int	intint
-intint
-intint
-intintintintintint intint intint
-intintint	intint
-intint
-int
-intintint intintintint	intintint	intint	intintintintintintintintintint	intint
-intintint
-intint intintintintint	int
-int
-intintintintintintintint	intint intint int	int intintint int
-int
-int
-int intintint
-int	int	intint	intint
-intintintint
-intint
-intintint int	int int intint int intintint int
-intint	intintintint
-int	intintint	int
-intint	intintint
-int	int	int int
-int	int	intint
-intint	intint
-int	intintint	intintintintint int	int	intint	intint	intint	int intintintint	int	int intint	intint
-intint
-int	int
-int	int int
-intintint	int	int
-intintintint intintintint
-intintint
-int	intint	intintintint int	intintint	int
-intintint
-intintintintintintintintintint int
-int	intint	int intintintint	int int	int
-int
-intintint intint	intint	intint int
-int
-intint
-intint
-intint	intintintintint	intintint intintintintint
-intint	int intintint
-intintintintintintintintintintint int	intintintintintintintint
-int
-intint
-int
-int	int
-intintint
-int	intintint	int
-intint int
-intintintintint intintint	intint
-intint intint
-intintint intint	int
-intintintint	intintint	intint intintint	intint
-int intintintintintint intint int
-intint	int	intintint intintint
-int
-int	intint	intint	int
-int int
-intintint intint
-int	int
-intintint intintint intint	int int	int	intint	int	intint
-intintintintintint intint	int	intint intint	int	intintint	int	intint	intint
-int	int intintint	int int int
-int int	intint
-intintint	intint intintint intintintintint	intint int int	int
-intintintintint
-int	int	intintint	intintintintint	int	int
-intintintint	int intint int	intintintintint
-int
-int int	int
-intint
-int	intintint
-intintint
-intintintint
-int int	intintint	intintintint intint	int
-intintint
-int
-int
-int int int intint int intintint	int
-intintint	intint
-intint
-int	int	intint
-int	int intintintintint intintint	intintint	intintint	intint	intintintint int	intintint
-int	intintintintintint
-intintint
-int int	int
-intintintintint
-intint	int int	int
-intintint intint
-int
-intint	int
-intint int int	int int
-intintint intint	int
-int
-intint intintintint	intint int
-intint	int	int
-int	int intintintintintintint	intintint
-intintint
-int	intintint	intintint	int
-intintint	int intint
-intintint intint
-int	int
-int	intintint int
-intintint	intint	int intintintintintintint
-int intint
-intint	intint
-int int	intintintint
-intint	int
-intintintint	intintint intint intintintintint int
-int	intintint intintint
-intintintint
-intint
-intintintintint	int	intintintintint
-intint int
-intint	int	int	int intintint intint
-intintint
-int	int
-int intintintintintintint
-int	intint	int int intintintint intint int
-intintintintintint
-intintint	intintint int	int
-int
-intint
-intint intint int	int int
-int int
-intint int	intintint intintint	int	intintintint int intintintint
-int
-intint
-intint	intint	int int	intintintint intint
-intint	int	int	int	intintint intintintint
-int	intint int
-int	intintint
-intint int int int
-intintint	intint
-int
-intint	intintint
-int int
-intintintint
-int	int
-int int int
-int intint	intint	int intint
-int
-int
-int	intintintint intintint
-intintintint	int
-intintintint	intint intintintint intintint intintintint	intintint	int
-intint	intintint int	int	intint	intintintintintint	intintintintintint
-int	int	intint
-intintintint	intintintint
-int	int
-int
-intint intint
-intintint	int
-int	intintint int
-int	int
-int
-int intint	int	int	intintint int
-intint intintintint	intintintintintintint	int intint
-intint intint	int intintintintint intint	intintint	int intint	intint intint	intint	intintintintintint
-int
-intint	intintint
-intint intint int
-intintint	int
-intint	int int
-int int int
-int int	int
-int
-int intint
-intintintintintintint intintintintint int
-int	intint
-int
-int	int intintintintintintint
-intintintint	int
-int	intintint
-intintintint intintintint int	int int
-intint
-intintintint
-int	intintintintint	int	intintintintintint	intintint
-intint	intintint	intintintint	int
-intint int	intintintintintintintintint int intintint intintint int intint int
-int	intint	intintint	int intint
-intint	intintint	intintint intintint	int
-intint
-int	intint
-int int	int	intint intint	int	intintintint	int
-int
-intint
-int int
-int	intint int intintintintint	intintintintint
-int
-intint intint	int	intint intintintintintintint intint intintint
-intintintintintintintint
-int	int int intintintintintint	int	int
-int intintintint intint	intintint intintint
-intintint int intint intintint	int int int	int	intintint
-intint	int	intintint
-intint int intint int	intint
-intint
-intintintint
-int	int int intintintintint	intintint
-intintintint int intint
-int
-intintintintint
-intint intintintintint
-intint	intint	int int	int
-intint int
-intintintint int	intintint
-intint	int intint	intint	intintintintint
-intintint	int	int intintintint int
-int	intint int	intintintint
-int
-int
-int	int intintintint
-intintintintintintint int intintintintintint intintint
-intint
-intint	int intint intintintint intint intint	int
-int
-intintintintint	intint int
-int
-intintint
-intint
-intint	int int
-int intintintint intintint
-intint int intint	int	intint
-intint
-intintintintint	int
-intintintint
-intint intint	intintint	int	int intintint	int
-int	int int	int intint intint	int
-int	intint
-int	int
-int
-intintint
-int
-int
-int
-int intint	intintintint	int intintintint int intintintintint int
-intint	intintint intintintint	intint intint	int
-int
-intint int	intint int	intintint	int int
-int
-intintint intint intint
-intintint	int
-int
-int int
-int intintint int
-int
-intint int intint int int	int
-intint	int	int intintintintintintint	intint
-int intint
-intint intint int	int
-int	int int
-int int intintint	intintint intint intintintintintint
-intintint intintintint int int intintint intintint	intint	intint
-intintint	int int
-intintintint
-intint
-intintint intint
-intintint
-int
-int	int
-int	int
-intint int
-int intint intint	intint intint
-int int
-int
-intintintint int	intintint
-int	intintintint
-intint
-int intint intint intintint	int intint	intintintint int
-intintint
-int	intint
-intint int
-int intintint intintintint
-int intintintintint int
-intintint
-int
-intint
-intint int int
-int	int intintintintint intint intintintint
-intintint intint
-intint int int	intint int	intint intintintint
-intint	int intintintintint int
-int
-int	intint
-intintint
-int
-intintintintint intintint int intintint
-int
-intintintint	intint
-intint int
-intint int intint
-int
-int
-int
-int	int int int
-intint intintint
-intintintint
-intint	intintintint	int intintint	intintintintint
-int	int
-intint intintint
-int
-intint
-int intintintint	int	int
-intintintint int
-int intint	intint	intintintintintintintintintint	intintintint int
-int intintintint int int int
-int
-intintint intintint	int int
-intintintint
-int
-int int
-intintint
-int	intint
-intintintintint	intint intint intintintint
-intint
-int int	intint	intintint intint	int intint	intintint	intint intintintintintint
-intint intintint int	int int	intint int
-intintint intintint	int
-int int
-intint	int intint intint	intintint intintintintint int
-int int	int	int	intintint int
-intint	int	intint	intintintintint
-intint	intintint int intintint
-int
-int
-intint
-int	intintint	intintint
-intintint
-intint
-int	intintint int	int int
-int	intintint
-int	intintintint int
-int intintint	int intint
-intintintint int
-int
-int int
-int
-intint
-int	int	int int intintint
-intintint	int	int	intint int
-intint
-int int	int intintintint	int
-intint
-int int	int	int	int	int
-int	intint int int
-intint	intint int
-int intint int intintint	int intintint
-intint
-intint intintintintintint
-intint	intintint
-intintintint	int
-int
-intintint	intintint intint	int int	intintint intintintint
-int
-intint intint	intint
-int	int
-intintint	intintint intint int	intint
-intintint
-intint int int int int
-int	int
-intint	int
-intintint int int	int int intint
-intint int	intint int intintintint	intintintint
-intintint	intintint intint
-int	intintint	intint
-intint	int
-int	intint intint	intint	int	intintint
-int int
-int	intintint
-intint
-intintint
-int	intint int
-intint intint intint
-intint	int
-int
-int	intint
-int intint	int
-intintint
-int intint int	int	int
-int intint
-intintintintint int intint
-intintint
-intintint	int	intint
-intint
-int	intintintintint intint intint	int	intintintint	int int intint	intintint	intintintintintint
-int
-intintint
-intintint	int	int	int	intint
-int intintintint
-intintintintintint int intint
-intint	int int	int intint
-int int	int	intint intint	intintint intint
-int	int
-int intintintintint
-int intintint
-intintint	intintintintint
-int	intintintint
-intint intintint
-intintint
-intint	intint int	intintint int	int
-intintint
-intint	intint intint	intintint
-intintintint
-int	intintintint	int	intintintint	intintint
-intint	int	int int	intintintintint	int	int	int
-int intintint	intint
-intintint	intintint	int	int int
-intint	intint	int	intintint
-intintint intintint intint
-intint
-int intintint	int	intintint int	intintint	int	int
-intint int	intintintintint
-intint int
-intintintintint	intint
-int int	intint
-int	intintint
-intint
-int int	intint	intint
-int	intint
-intintint	int intint intintint int int	int int	int	int int intint intint	int	int	intintintint
-intintint
-int	int
-intint	intintintint	intint
-intintintintint int	intint
-intintintint	int	int	intintint int
-int
-int	int intint
-intintint
-intint
-intint	int int
-intint intint	intintintintint int
-intintintint
-int
-intint int intintintintintint
-intintint	int intint
-int
-int int
-int	int
-int	int	intintint int intintint	int int	intintint
-intintintint intint	intintint	int
-int
-intintintintint intintintint
-int int
-intintint	int
-intintintint
-intint	int
-intintintint	int intint
-intint int	intintintint	int	int int
-intint int int	intintintint intintintintintintintint
-int	intintintint	int int
-intintintintint	int	intintintintintint int
-int
-int intintintint int int intint	int	intintintint
-int	int	intint	int int	intint
-int
-int int
-intintintint
-int int
-int intint int intintint int	intint intintint intint int
-int intint intintintintintintintint intint	int
-intintint
-int	intint intintintintint
-intintint
-int intint	int	int intintint	intintint	intint	intint
-intint	intint	int
-int	intint
-int
-intintint int
-intintint
-int	intintint
-int intintint	intintint intintintint
-int
-intintintintintint intintint intintintint	intint	intintint int int int	int intintintintint
-intintint
-int	intint intintint	intint intint
-intint
-int	intintint intintintintint intintintintint int int int	intintint	int intintint	int	int int int
-intintintint	intintint int
-intintint intint intint
-intint
-intint intint int intintint int
-intintintintintintintintint	int
-intintint intint
-int	intint
-intintint intint	intint	intint int
-intintintint int int
-intintintintint	int
-int int	intintintint	int
-int int	intint
-int int	intint	intintintintint	int
-int
-intint
-int
-intintint	intintint	int	int	int
-int	intintint	int	int
-intintintintintintintintintint intintintintint
-intintint	int int	intintint intint	intintint
-intintint intintintintint
-int	int
-intint intint int
-int	int	int	intint intint
-intint	int	int int	int intintintintint
-int
-int
-intint	int
-int
-int	int int intintintintint intint
-int intint	intintint	int int
-intint	int	intint
-intint	intint intintintint	int
-int
-intintint	intint intint intint
-int intintintint intint
-int	int
-int
-int int
-intint intintint	intint
-int
-int	intintintintint
-int
-intintint int intint	int
-intintint	intint
-int int int	intintint intintint intintintint int
-int
-int
-intint	intint intint int
-int	intint
-intintintintint
-intint intint
-int
-int
-intintintint
-int	intintint	int
-int	int intint
-intintintint
-int	int
-intintintintint	int	int
-int int
-intint	int	int	int
-intintint
-intintint
-int int
-intintint	int int	int int intint
-int
-intintint	int	int int intintint	intintintintintintintintint
-intint int	int	int int	int int intintint	int intint intint
-int intint
-intintintint int
-intint int	intint intint int int	int intint intint	int	int	int	intintintintint
-intint int
-intintint int int int	int
-int int	int
-intintintint
-int	intintint
-intint	int int int int intintint
-intintintintint	intintintintint	int
-intint	int	int intintintintintint	intint int int	intint
-intint
-intintint	intint
-int
-int	int
-int
-int int	intint int	intintint int
-int intint	intintint intint int
-intintintint	int	intintint int
-int
-intint	int
-intint	int
-int
-intintint
-intintint	int	int int int intintintint
-intint int int
-int
-intint int intintintintintint	intintintintintintint intintint
-int intintint	int	int	int	intintintintintintint
-int int
-intint	intintintint
-int	int	intint	intintint	intintintint	intint
-int int	intint
-intint
-int
-intint	intintintintint intint int	int intint int
-intintintintint	intint intintintintint	int int	int intint
-intintint intint	int	int	int intintintintint
-intintintint int	intint	int
-intintintintint
-int
-intintintintintintint
-intintint
-intint	intint	int
-intintint	int	int
-intint	int	intintintintintintint
-int intint intintintintint	intintint
-int
-intint	intint	int
-int
-int
-intint	intintintint	int
-int intint	intintint intint intintint
-intintint	intint	int
-intintint
-int
-intint	intint	intintint
-int int
-intint intintintintint	intintint	intintintint
-intint	int
-intintint intint	intint intintintintintint intint int intintintint int	intint	int	intint int
-intintintintintint int intint
-int intint
-intint intintintint int
-int	int	intint
-intintintintint intintintint intint	intintint intint	int intintint	int int
-intint	intint
-int int	int	int int	intint int intintint	int	int intint	int	int
-intintint int int
-intintint int
-intint	int intintint	int	intintintintintintint int	int int	int	intintint	intint	intintint
-int int
-intintintint
-int intintint	intint
-int	intint intintint	int
-intintintintint	int
-int	intint int int
-int
-intint
-int intint intintint
-intint
-intintintintint int	intintint	int
-intint intint	intint	intint
-intintintintint
-int	intintint
-int	intint intintint	intintintintintint int intintintint	int	int	intint	intint
-intint intintint intintint	int
-intint
-int	intintintintint	int int intint
-int int intint
-intint intintintint
-intintint
-intint
-int
-int	int int intint intint	intintint	intintintintintint
-intint intint
-int int
-intintintintintintint
-int
-intint intintintintint
-intint int
-intint	intintint	intint intint intintint
-int
-intint int
-intintint	intintintint
-intintintintint intint
-int	int
-intintintintintintintint
-intint	intint
-int
-int
-intint	int
-int
-int	int int	int
-int	int
-int int
-int int int	intint	int
-int
-int
-intintintintint
-int intint	int	int
-int	intint
-int	int int int
-int	intint	intintintintint	intintintintint
-intint	int	intintintintint
-intintintintint	intintintintintintint	intintintint	int	intintintintintint intintintint intint int intintintintintintint
-int intintintint	int	int
-intint int	int
-intint int
-intintint intintint	intintint
-intint
-intintint	intintint intintintintintintintint	intint
-int	int
-intint
-int
-int	int intint	int	int
-intintint
-intint
-intint	int	int
-intint	int
-intint
-intint intint int	intint int intintint
-intintint intint intint	intint
-intintintintintint	int	int
-intintintint	int	int int	int int intint
-intint intint
-intint intint intintintint	intintintintint	int intint
-int int	int intint
-intint
-int int int	int
-intint
-intintint
-int	intintint int
-intint intintint intint
-intint
-intintint intintint
-int	intintint	int int intint
-intint intintintint	intintintintintintint	intintint	intint
-int intintintint intintint	intintintintintintintintint	int int
-intint
-intintintint int
-intintint int
-int
-int intintintintint
-int
-int int
-int
-intint intint	intintint int	int int	intint
-int intintintintint
-intint intintintint	int
-intint	intintint intint
-intint
-intint intint
-int intintint intintint
-int	intint
-int	intint
-intint	intint int intint	intint
-int
-int int
-int	int
-int
-intintintint	int intintint intint int intintint int
-intintint int
-intint int intintint int
-intint	intintintintint	int int intintint	int intint intintint
-int	int
-int	intint	intint intintint int	int	int
-intintint
-intint
-intint
-intintintint
-int	int	int	int	int
-int intint intintint	intint	intintintintint	intintintintint	int	intintintintint int	intintint int
-int
-intintintint	intintint int	int
-intintintintint	intint int	int int
-intint intintintintintint	intintint
-intint int
-int
-int	int
-intint int	intintint	int intintint	int intintintint
-int	intintint int
-int intint
-int int
-int int	intintintint	int
-intintint int
-intintint
-int intint	int
-intintint intint	int intintint	int int	intintintintintintintintintint
-int intint
-int	intint	int
-int intint intint	intintint	int
-intintintint	int	int	int
-intintint int	int	int int intintint
-int	intintintintintintint int intint int
-int intintint	intint
-intintintint int	intint intint intintint
-intintintint intint int	intint int	int
-int	int intintint	intintintint	int intint intintint	int	int
-int int	intint intint	int	intintintintint
-intintint
-intint	int	intintint
-int	int int	intint int	int	int	int	int	int
-intintintintintint
-intintint	intint
-int
-intint int intintint
-int intint intint intintint int	intintint intint int
-intintintint	intintintintint
-intintintint	intint
-intintintintint	intintint	int	int	int
-int	intint	int	intint intintint
-intint int
-int intintint int	int intintint
-int	int
-intintint	intint
-intintintintintintint
-intintint
-int
-intint	intintint	int	int
-intintint intint	intint int	int	int	int int
-int int intintint
-int
-int	int	int
-intint
-intint int
-int
-intintint int	int	int	intintintint int
-int int
-int
-int int
-int intintintintint	int intint int	int
-int	int int	int
-intint
-int
-int intint intint	intintint
-intintint
-intintint
-int
-intintintint int	int	intintint
-int
-int	intint	intintint
-intintintint	intint	int intintintint
-int	intint	int	intint	int	int	intintintintint	intintint	int
-intintint	intint
-int	intint
-intintint
-int
-int	int int	int
-int intintint
-intintintintintintintintintintint	int	intintintintintintintint int intintint	intintintintint	intint
-int
-intint
-intintintintint int int
-intintint	int
-int intintint intintintintint	int	intint	int
-intintintint
-int intintintintint
-int
-int
-intintint int int
-intintintintint
-int
-int int intintintintint	intintintint
-intintintint	intint intint
-intint int int
-intintintintintint int	int
-int int
-int	int	intint intint
-intintint	intint int
-int
-intint
-int
-int
-intint intintintintint	intintint int	intint
-int int	intintint
-int	intint
-int
-int	int intint intint int	int
-int int int intintint intint
-intint
-int
-int int
-intintint
-intintintintint intintintintint
-int intintintintintintintint int	intint intint int intintintint int	int
-int	int
-intint	int
-int
-intintintintint int int
-intintint	int
-int int intintint
-int	intint
-int intint intintint
-intint int
-int	intint	int
-int
-int intintint	intint
-intintint int	int
-int	int intintintintintint
-intintintint	intintintint	int
-int int
-int int
-int int
-int
-intint	int	int	intint
-intint
-int	intint	intint int
-intint intintint
-intintint
-intintintintintint	intint
-int intint
-intintint int	int
-int	int	int
-int int	int
-int int	int	intintint	int
-intintintintintint
-intint	intint
-intint int int int
-int
-int intintintint	int
-intint	int intintintint int
-intintintint
-int int	intintintint intint	intint int
-int int int intintintintint
-intint	int
-int	intint
-intintintint	int	int int	intintintint
-intintintintint
-intintint intint intintint	intint	int	int	intintintintintint
-intint int intint
-int	intintint int
-int intint int	intintint intintintint
-intint intint int	int int	int int
-intint int
-int
-intint int intintint
-int	int intint intintintint	int	int
-intint int	intint
-int
-int	intint intintintint
-int	int
-int
-int	intint
-int	intintint	int	intintintint
-intintint
-intintint int intintintintintintintint
-int intintintint
-int	intintint	intintint	int intintint	int
-intint	intint	intintint int	intintint intint	intint int int int intintintint	intintintintintintint int intintint
-int	intint
-intintintint
-int
-int	intint	int
-int
-intintint	int intint intintint
-int	int	int intint
-int
-intintintint	int	intintintint
-intint	intint
-int	intintint
-intintintintintintintintintintintintintintintint
-intint
-int	int
-int	int	int
-int intintint
-intintint int intintintintintintintintint intint	int intint intintint intintint	int intint int intintintintint
-int	intintintint	int	int	intintintintintint int	intintintintint	intintint	intint	int int int	intint int int
-intint int
-int int int
-intint
-intintint intintintint
-int intint	int	int	intintintintintint int
-intint int
-intint intintintint
-intintint	int intint intintint
-int
-int	int intintint int	int	int intint int
-intint int int
-intintintintintint	int	intint	intint	intint	int	int	intintintintint	intintint	intint	intintint
-int	int int	intintintint	intint	int int
-intint
-int
-intintintintint	int
-int int intint int intint int
-intint
-int
-intint	intintint	int
-int intint intint	intint
-int
-intint
-intintintint
-int	int int
-intint	int intintintint	intint int	int	intint int
-intintintintintint
-int int
-intint int	intint
-intintintint
-intint int
-intint
-intintintint	intint	int intintintintint
-intintintintintintintintint intintint	int	intintint	intint intint intint
-intint int	int	intintintintintint	intintint int int intint intintintintint int intint intint intintint int int	intintintint	int
-int
-intint	intint	int
-intintintintintint	int	intintint
-int int int	int
-intint
-intintint	int	intint intintint intintintintint
-intintintintintint	int int	int
-intintintint
-intintintintintintint int	int
-intint
-intintint
-intintint	int	intint
-intintintintint	int
-intintint
-intintint
-intint
-intintintintint	int
-intint	intintint
-intint
-int
-intintint
-int intint int
-intint	intint
-int	intintint	intintint
-intintintint	int int	intintint intintintint int	intintint
-intintint intint int
-int int intintintintint int
-intint	int	int
-intint intint	intint intintint
-intintintint
-int
-int intint
-int	int
-int	int	intint	intintintintintint intintintintint	int
-intint intint int	int	int
-int int intintintint	int
-intint intint intintint
-intintint	int
-intint
-int	int	intintint	intint
-intintintint int
-intint
-intint int int int
-intint
-int
-int intint intintint intint	int intintint
-intint int
-intintintint	intintint int intintint
-int	int	intintint
-intintint intintintintintint intint intint int int int	int	intintintintintintintint
-int intint int
-int	int	int
-int	intintint
-int
-int int int	intint	intint
-intintintintint	int int int
-intint intintint int intint
-intintintint	int	intint int
-intint	int int	int	intintintint
-intint intintintintint	intintint	int int intint int
-intintint	intint	intintintint int int
-int
-int int
-int
-int	intint
-int
-intint	int
-int
-int int	int	intint intintintintintint	intintintintintintint
-intint	int	intintintint
-intintint
-int
-intintintintintint int	intint
-intintintintintintintint	int intint intintint intintint intintint
-intintintint
-intint
-int	intintintint
-intint int
-intint intint	int	int
-intintint
-intintintint
-intint intintintint
-intint intint int	intint	intint	int int
-int intintintint
-intintintint	intintintint	intint int
-int	intintint	int intintint
-intint
-intint	int	intintintint
-int intint int
-intintintintintint	int intintintint	intintint int	intint
-int
-int
-intintintintint	intint intintint
-intint	intint intint intint
-int
-intintintint
-int	int
-int
-int
-int	intint intintintint
-intint intintint	int int	intint intintint	int int int	int
-int intintintintintint	int int int	intintintintintintintintintintint
-int intint	int	int	int	intintint
-int
-intintintintint intintint	int	int
-intintint
-int int
-int intint
-intint int intint
-intintint
-int	int
-int	intintint int	int
-int intint	intintint intint	int
-int	intint
-intint intintint intintintintint	intint intintintint int intint	int intintintintint	int int int int
-int
-intintintintint	int	int intint
-int int intintintintintint intintintint int	int
-intint intintint	int
-int
-int intintint	int
-intint
-intintintintintintintintintintint intintintint
-int	int int	intintintint int intint
-int int
-int int intint intintint
-intint
-intint	int	int	int
-intintint intint	intintint
-intint	intint intintintint
-intint
-intintint
-int int	intintint
-int	int	intint int intintintintintint
-intintintint intint	intintintint	int intint int	intintint	intint
-int	int intintintint intint
-int	intintint	int	intintintint int
-int
-int int	int int int intint	intint
-int intint	intint
-int intint int intint intint	int	int intintintint	intint
-intint int intintint	intint	intint	int	int	int int	int int	intintint	intintint
-int	int	int
-int
-intint int int	int intintint intint intint int int
-intint int
-int intintint	int
-intintint intintint
-int	int
-intintint int intint int	intintintintint
-int int	intintintintintint	int	intintint
-intintintint
-int intint
-int int	intint int
-int intintint
-int intintintintintintint int
-int
-int
-intintint	intintintintint int	intintint	intintintintint
-intint	intint
-int
-intint
-intintintintint int intintint intintintintint
-int int
-intint int	intint	int
-intint intint intintintint
-intint int	intint
-int	int
-int
-int
-intint
-intint int	intint
-intint intintintintintint intint
-intintintintintint	intintintint	int
-intint int
-int int
-intintint int
-intint
-int	intintint	int int	intintint
-intintintintintintint	int int int
-intintintintint int
-intintintint	intint int int
-intint
-int
-int
-int
-intint
-int	int
-int int
-intint	intintintint
-int	int	int	intintintintint int
-int int
-int
-int intintint int
-intint intintint	intint	int intintintint
-int	intint	int
-intintint	int	intint	int intint	int intint	int	int
-int
-intintint	int int	intintintint intintint	int	intint intint
-int
-int	intint int	int
-int	intintintintintintintint	intint	int	int
-int intint
-intint	intint intint	intint intintintintint	int int int int	intint intintint intintint	int
-intintintint	intint int intintintintintint
-intintint intint	intint intintintint	int intint int
-intintintintint
-intintintint	intint	int
-intintint intintint int
-intint	intint
-int intint	intintint
-int	int intintint int
-intint	intint
-intintint int	int intintint int
-intintintintintint	int int int intintint int
-int intint
-int
-int intint
-intintint
-intintint
-intint int intint	intintintintintint	intint	intint
-int	int
-intint
-int intint
-intint	int intintintintintint
-int intintint	int
-intintintint
-int intint	intint int
-intintint int
-int	int	intintintint
-int	int intintint
-int intintintintint int int int
-intint	intint
-int
-intintintint
-intint int intint	int	intintint
-intintint	intintint
-int int	int intintint
-int	intintintint int
-int int	intint intintint	int
-intint intintintintint
-int
-intintint
-intint int
-int	intint
-intintintint	int
-intint
-int
-int int	int
-intint	intint
-intintint	intintintintintintint intintintintint
-int intint	int	intint
-intint int	int	intintint int	int intintint int intint int	int
-intintintint int	int int
-int intint	intintint int
-int	intintintint intintint
-int intint	int int
-intintintintint int	intint	int int	int
-int int
-int	int	intint
-intintint
-intintint
-int intint
-int intintintintint int
-int	int	int intintint
-int	int
-int
-intintintint int
-int int	intint	intintintintint	int
-intint int int	intintint int	intintintint	intintintintintint	int int
-int
-intint intintint	int	int	intint
-int
-int
-intint
-intint
-intintintintintintint	intint
-int int	intintint
-int
-int	int	intintint	intint	intint
-intint
-intint intintintintint intintintint
-intint	int
-int int int
-intintint	int	intint	intint	intint	intint intintintint	intint	intintintint intint
-intint	intintintint
-intintintintint	int
-intintint	intintintint
-int
-intintintintint	int intint int	int	intintint	intintint
-int intintintint	intint
-intintintint int
-int intintintintintintint intint
-intintintintint intintint intint intint
-intintintint
-int
-int	int	intintint
-int int	intint	intintint	intintint
-intint	intint	intintintintintint intintint
-int	intint
-int intint	int	intint intint int	int
-int	intintintint	intint int
-int int intint	int int int	int int	intintint intintintintint intint	intintint	intintint intintint	int	int
-intint
-intintintint
-intint intintintint	int	int intintint	int
-int int
-int	int	intint int
-int	intintint	intint	int	int
-intint	int
-intintint	int	intint intint intintintintint	intint
-int	int
-intintintint int
-intint int	int
-intintintintintint
-int
-intintintintint intint intintintintint	intint
-intint
-intintint intint	intintint
-int intintintintintintintintintintintintintint intintintintint
-intint intintintint
-intintintint	intintintint
-int intint	int
-int
-intintint	int int
-intintintintint
-int	int	intintintintintintintint intintint	int	int	intint
-intint	intintintint	int	int
-intint int
-int intintint
-int
-int int int	intint	int	int
-intintint	int int
-intint	intintintintintint intintintintint
-int intint int	int	int int	int int int
-intintint
-intint
-int	int
-int intint
-intintintintintintint
-intintint	int
-intintintintintintint intintint	int int int	int intint	intintint intint	intint	intint
-int intint intint intintintint int	intint	int	int
-int
-intint	intint	int intintint	int	int	int int
-int	intintintintint
-intintintintintint
-int	intint	intintint
-intint	intint	intint
-intint
-int
-int
-intint
-int int int	intint	intintint	int
-intintintint int	int
-int intint intintintintint intintint	int intintintintint
-intint
-int int intint intint
-intint
-intint int	intintintint int	intintintint intintintintintintint int int	intintintint
-int
-intint	int int intint int int
-intintint	intint
-intintintintintint intint intintintintint
-int int int int	int int intint intintint int int	intintint intintint int	int
-intintintint
-int
-int
-intint	int int int intint	intintint int	intint
-int
-intint int intint	intint
-intintintintint intint
-intint
-intint intintint intint
-int
-intintint	intint intintint
-int	intint	intintint	int int int	intintintint intint intintintintint
-int	intint
-int int intint intintintintint	int	int	intint	int
-int	intint	int
-intintint
-int
-intint intint	int int intintintint
-intint int
-int intintintintint
-int intintint	int	intint int int	int intint
-int
-int
-int int	int
-int	intint	intint
-int	int intintint int int	intintintint
-int intintint int	intint intintintintint int
-intintint
-intintint
-int
-intint intint	int
-intint	intint
-intint	intintint int
-int int intint
-intint
-intint
-intint	intintint	intintint int
-intint
-intint
-intint	intint int
-intintint
-intintint	intintint int int
-int intint intintintint intint
-intint	intint	intintintintintintintintintintintint	intint
-intint	int	int
-int int
-intintintint intintint
-int int int	int int int intintint
-int	intint int
-int	intintint intintint int
-intintint	int
-int
-int int int
-int	int	intint	int
-int
-int
-int int
-int
-int intint
-intint intint intint intint	int	intintint int intint
-intintintint
-intint
-int	intintint intintint
-int int	int intint int	int int intintintint
-int
-intint intint	int intintint int
-intintint
-intint int	int intint	intint	intint	int int	intint
-intint intintint int int
-intintint
-intint	int intint	int
-intint	intintint
-int	intint int int int
-intint
-int intint int
-int int int int int	intint int
-intintintint	int	intintintint int	intintint	int int int
-int
-int	int
-int int	int	intintint
-int	intintintint intintint
-int	int intint	int	int	intintint
-intintintintintint	intint intintint int intintintint
-intint intintintintint int
-int intintint	intintintint int
-intint	int
-int int intint
-int
-int
-intintintintintint
-intintint
-int int
-intintint
-intintintintint
-intintintintintintintintint
-intintint intintint intintint
-int intintintint
-intint int	int int intint
-int intint
-intintint	int
-int	int	int intint intintint	intint
-int	int
-intint	int int	intint	intintintintint	intintintint
-intint
-intintintint
-int intintintint	intintintint	int int	int
-intintintint intintint	int	int	int
-intintintint
-int
-intint int
-intint
-int
-int	intintintint intint	intint
-int	intint intintint	int int
-intintintintintintintint intintintint intint int
-int int
-intint
-int	int	intint
-intint
-intint	intint
-int	intintint	int	intintint
-intintint intint
-int	intintintintintintint	intintintintint	intint
-intint	int	int	int	int	int
-int int
-intintint intintintintint	intintintintint
-int int	intint int int
-int	int int
-intint intintint int	int	intintintint	int int int
-intint	intintint
-intint	int
-int	intintint intint
-int int	int intint
-intintint int	int	int intint
-intintintint
-int int
-intintintintintintint	intintintintint	int intintintint
-intintint int int intint int intintint intintint intint
-intintintint
-int int	intintintintintintint int	int	int int	int
-intint int
-int intint
-int intintint intintintintint	intintint	int
-intintintint	int
-intintint int
-intint
-int	int int int
-intint
-intint	intintintint	int
-intint
-intintintintintint intintint
-int
-intint	int
-intint
-int	int intint int int
-int	int	intintint int
-int intintintint intint
-int
-intintint	int
-intintintint int	int int intint intintint
-int
-intintint int	intintintint intint intintintintintintint	intintintintintintint int	int
-int
-int int	int intintint	intint int	int
-intintintint	int
-intintint intint int
-intint int
-int
-intintint int
-intint
-int	int int
-intintint	intintintintint int
-int intintint int	int
-int int intint
-int	intintintint int	intintint	intint intint
-int
-int	intint	intintintintintint	int int int	intint
-int int int intintint
-int
-int intintint
-intint
-int	int	int
-int int
-intintint
-intintint intintintint int
-int intint
-int	intintint	int
-intint int
-int intint int
-int int	int int
-int	intintintintint	int int	int intintintintintintint
-intintintint
-int	int intint	intint	int intint intintint int
-int	int
-intint
-intint	int int intint	int
-intintint	int
-intint
-int
-int
-int int int
-int
-int int intintint	intint	intint
-int
-intint
-int intintintintint intint	int	intint int
-intintintint
-intint
-intintintint int intint int
-intint
-int
-intintintintint	intintintint
-intintint	intintint int	intint	intint int	intint
-int int
-intint	int	intint
-intintintintint intint intintint intintintintintint
-int	intintint	intint int int int	intint int intint	intint	intintint intintint
-intintintintintintint	int
-intintintintint	intint int	intint int	int
-int intintintintint	intintintint
-int
-int	intint	int
-int	int	int
-intintintint	intintintintintintintint int	intintint	intintint
-int
-int
-intint
-int	intint	intintint	int
-int int
-intint
-intint
-intint int
-int	intintintint	int	int int
-intintintintint
-int	intintintint intintint int
-int
-intintintint	int int int int	intintintint int int
-intint	int
-intintintint	intintintintint intint int intintint
-intintint	intint
-intintintintintintint
-intint int
-intintintintint int int
-intintintint	int	intintint
-int
-int int	int int int
-int int	intint intintintintint int
-intint	intint int
-intintint intintintintintint
-intint
-int
-int
-int
-intintint
-intintintintintint	intint int intint	int
-intint	int int
-int intintint
-int intint intintintint int	int
-intint int	int int	int intint intintintintintintint
-intintint
-intint int
-intint intintint intint	intint intint	intintintintintint int
-int
-int int	intintintintint	int intintintintint	intintint
-intintint intint int intint
-intintintint intint intintint
-intintint	int int int int	intint	int	int int	intint	int	int int
-intintint
-int
-int int
-intintint	int intint
-intint int
-int intint
-intint	intint
-int	int int
-int	intintint intintintintintintintint int intint intintintintint	intint intintintintintintint	int int	intint intintint	intint	int
-int
-int int	int	intintintintintint	int intintintint
-int
-int
-intint	int	int intint
-intintint
-intint	int
-int
-int
-int int	int intint	intintint	intint
-intintint
-intintintint int
-intint intint intintintintint
-int intintintint
-intintintint intintintint	int intint intint
-intintint int
-intintintintint	int	intint	intintint
-intint
-intint	intint int	int	int
-intint intintint
-int int
-int intintint int	intint	intintint int intint	int intint
-intint int	intint
-intint intint	int
-intintint
-int	int
-int	intint
-intintint intintint
-int int int	int intintint	intintint intint	int
-int int	intintintintint	intint	intint	intintint
-intint intintintintintint	intint intint intintint	int	intintintintintint	int
-intintintintint	intintintintint	int intint	int int	intintint
-int int
-intint
-intint
-int	int
-int	intintintintint int int intintintintint int	intint	intintint	intint int	int intint	int
-intint
-int	int
-intint intintint	int int int
-intint
-intint intint	intintintintint	int	int int
-intint
-int int	int intint
-int
-int
-int int
-int intintintintintint
-int
-int intint int
-intintintintintint	intint
-int	intintintintint	intintintintint	intint
-intint
-int	intintint	int int
-int	int	int intint
-intintint
-intintintint intintintint
-int	intint	int
-int	int	intintint	int	intint
-int int
-intintintintintintintint int int int intint intintint intintintint
-intintint
-intintintintint	int	int	int	intint
-intint int
-intint
-int
-int
-int int	int
-int	intint intintint	intintintint	int intint	int
-int	int	int	intint	int
-int
-intint int intintintint
-int	intintintintint int
-intint intint
-intint	int	int int int int
-intint int	intint
-intintint int intintintintintintintintintint intint	int
-intintint int	intintintintint	intintintint
-intint intintint
-int int	intintint
-intintintintint	intintintint	int intint
-int int intint	intint
-int int
-intint intintint	int	intintintint
-intintint	int
-intint
-intint	int	intintint
-intintint intintint
-int	int int int int intintintint
-intint intintint intintintint int	intint int
-intint
-intint
-int
-intintintintint	int	intintint	int	int
-int	int
-intint	int
-intint
-int	intint
-int intint intintintintint intint intintintint
-int intintint
-intint
-int
-int	int	intintint
-intintint	int int
-intintintint
-int	intintintintint intint	int
-intintintint
-int int int	intintintintint	int
-int
-intint int intint intint
-intint	int int
-int
-int intint
-int int	intintint	intint intintintintintint
-intint	intint int
-intintintintintint
-intint	intint intintint
-int intintintint
-intint	int	int int
-intintint
-int	intintintintintintint
-intintint int	intintintintintint
-intintintint
-intintintint intintint int intint
-int int
-int int	int
-int
-intintint intint intint
-intint	intintint intintint
-intint
-intintint
-intint int int	int
-intintintintintintint	intint	intint int
-int	int	int
-intintintintint
-int	int int
-intintintint	int	int intint int int intint intintint	int
-int
-intint	int
-intint
-int
-int
-int
-intint	int	int	intintint	int	int intintint	intintint intintint	intint
-int int
-intint int
-int	int int intint
-intint
-intint int intint	int	intint
-int
-intint intintintint int
-intintint
-int
-intintintintint int int intintintint
-intintint	int
-int	intintintintintint
-intintint intintintintintint int	int
-int	intintint	int	int	int int
-int int intintintint int
-intintintint
-intintint
-intint	int
-intint	int
-intintint int
-intintint int	int int	intintintintint	int	intint
-intintintintintintint
-intintintintintint int
-intintint intintintintint intintint intintint	int
-int int	int	intint
-intintintint
-intintint	intintintint intint	intintint	int intint intint
-int intintintint
-intintintint int
-int intint	int int
-intintint
-int	intintint intint
-intintint	intintint
-intint int intint int int	int	intintintintint	intintint	int	int int intintint
-int	intintint
-intint
-int	intint intintint	intint
-int	int	intintint int int	intintint
-intint	int int intint intintintint	int intintintintint	intintintintintint	int intint intintintintintintintintint int	int
-int	int	int	intintintint int	int	int	int	intintintintintint	int	int	int int
-int intint int	intintint
-intint intint
-intintintintint	intint
-int intintintintint
-int
-intint int int
-int
-int	int
-int	int intint int int int
-intint int
-int int intintintint	intint int	int	intint intintintint intintint	intintint
-intint
-int int int
-intintint
-int int
-int	intint
-int
-intint intint intint
-intint	intintintintintintintintintintint
-int int
-int int
-int	intint
-int intintintintintintintint	intintintint int	int
-int
-intintintint
-int	intint
-int int
-int
-intint	intint	intint
-intint
-int intintint intint
-intintintintintint	intint	int
-intint	intint int	intintintintintint	int intint	intint
-int
-int
-intint	intintint
-intint intint
-int
-int intint	int	int	int
-int
-int int
-intint	int	intint int intint intint
-int
-int intint
-intint
-intint	intint int
-intintint
-intintintintint
-int	int intintint int	intintint	intint int intint	intintintint
-int	int	intintint
-intintint int	intint	intint
-int
-intintintint int
-intintintintintint
-intint	intint intintint int	intint int
-intintintint	int intintintint	intintintintint
-int int	int int	intintintintintint	int
-intint int
-int intint	int
-int
-int
-int int intintintintintintint intint	int	int intintintint	intintintintintintintint
-intint int int int	intint	intintintint	intintintintint int	int	int int int intintint
-int intint intintintintint	int
-int
-int	intintint	intint
-int
-intint
-intint intintintint int
-int
-intintint	int
-int	int int	intint int
-intintint intintintint	intint intint	int intint
-int	intintint	intint
-int	intintint
-int int intintintint
-int
-intintintintintintintint
-intintint	intint	intint intintintint	int
-intintintint int	int	intint intintintintint
-intint intintint intint	int	intintint int	intintint intintintint	intintint intintintint
-int intint
-int int	int
-int int	intintint int int
-int	int
-intintintintint
-int	intint
-int	int int
-intint	intint int intintint int
-int
-int	int	int int
-int	int intint int int
-intint int	intint int intint intint intintintintint int	intintint int intint	intint
-int	int	int int
-intint int	intintint
-intintintint	intintintintintint	int int	intint	int int	intint	int
-intint int int int	int intint	intint
-intintintintintint
-int	intintint	intintint intint	int
-intintintint	int int
-int
-int
-int	int
-intint	intint
-intint intintint intintint
-intint	intintintint int	int intintintint
-intint	intintintint	int	int intintintint
-intint intint int
-int
-intintintint int	int	intintint	int
-int
-int
-int	intintint intintintint	intintint	int
-int int
-intintint	int intintintintint int intintintint	intintintint
-int int
-intint	int
-intintint	intintint	intint
-int
-int	intintint intint
-intint int intintintint
-int	intint int
-int intint	intint intint intintint int int	int int
-int intintint	intint	intint	int int
-int intintintint
-intint
-int	int	intint	int int	int int int	int	int	int intint	int
-intint
-intintintintintintint
-intint	int
-intint	intint int
-int intint	intintint int	intint intint
-intintint int intintintint	intint	int int	int int
-intint intintintint intintint
-int int int	int int intint	int
-intint	int	intint int
-int int	int intintint
-intintint	intintint
-int intintintintint int int	intintintint int intintintintintintintint	intint	int intint int
-int int
-intintint int
-int
-intintintintint
-intintint	intintintint
-intintintintintint	int intint intint intint int
-intintint intintintintintint	intintintint
-int intintintintintintint	intintintint	intint
-intint intint int
-intintintint intint	int int	intintintint intint intintint int	int
-int
-int int int intint int
-intintintint int
-int	int	int
-intint int
-intint	intint intintintint int
-int	intintintint	intintint int int
-intintintintint
-intint intintintint
-intint
-int	intint
-int
-intintint	intintint
-intintint	int	int int intintint	int intint int intint intint int
-intint int	intintintint int int intintint intint int
-intint intintintintint int
-intint
-intint
-int intintint	intint intint int
-intint
-int
-intint
-intintintintint intint
-intint
-int int intint	int	int intintintintint
-intint
-intint	intintint
-int intintint
-int	intint
-int
-int
-int
-int intintintintintintint intint
-int int	intintintint
-intint	intintintint int
-intint	int	int
-int
-int	intintintint
-int	int	intint intint int intint intint	int intintint	intint
-intintint int	intint	int
-intint
-intintint intint
-intint intint
-int	int
-intintint	int	intint
-int	int
-intint
-int int	intintintintint	intint intint
-intintintintint int	int intint
-int	intint	int	intintint	intintint intintint
-int intint int
-intintintintint	int
-int
-int	intint
-int intint intintint
-intint intintintintint int int
-int int int	intint
-int	int int int	intint intintintintintintint
-intint
-int
-int	int
-int
-intintintint	int intint
-int
-int	intint
-int intintintintint intint intintint	intint intint
-intintint	int int intint
-int
-int
-intintint
-intintint	int
-int
-intintint	intintint
-int
-intintintintint	intint intint	int	intintintintint	int intint
-int	int	int intint
-int	intintint	intint intintintintintint intintintint
-int int
-int	int
-intintintintintintintintintint intintintintint	int
-intintint	intint
-int int	int	int	int	int	intintint	intintintintint	intint int	intint intint	int	intintintint	int	intint
-int	intintintint
-int int intintintintintintint
-intint	int intintint
-intintint	intint int
-int	int int	int intintint intint
-int int
-int	intintint
-intintintintint int	intint
-intint	int	int int	intint
-int	intint
-intintint	intint
-int	intint
-intintint
-int int
-intint
-int int	int intint int	int	int intintintint	int
-intintintint	intintint	intint int
-int
-intintint	int
-int
-int	intintint
-int	intint int
-intintint	intint int int	intintintintint
-intintint	intintint int intint
-intint int intintintintint
-int intintint
-intintintintintintintint	int	intintint
-intintintintintintint int intintint	int	intintintintint intint	int int
-intintintintintint intint
-intint
-int intint	intint
-intint	intint intint	intintint intint	int
-intintint int intint	intintintint
-int intintintintintint int intint
-int
-intint
-int	intint
-intintint	intintintint	int int int
-intint
-int int intintint	int intint
-intint	int	int intintint	int intint
-int	intintint	int	intintintint intintintintintintint
-int	int
-intint	intintint	int int
-intintintintintint intintintintintint
-intintint	intintintint	intintint intint	int
-int int intint int
-int
-intint
-intint int
-int
-int
-intintint
-intint	intintintintintintint	int	int intint	int int
-intint
-intintint	int
-int
-int	int
-int
-int
-intintintint
-intint
-intintintintintintint
-int
-int
-intintint	int int	int	intintint	int	intint intint int	intint	int	intint	intint intintintintintint intintintint
-int	intint int
-int	int	int
-intintint int
-intintintint int int
-int	int
-intint intintintintint int	intintintintint intintint	int	intintintint
-int	intintint
-intintintintint
-int int	intint
-int
-intint	intint	intint
-int	intint int intint
-intint
-intintint int
-int	int int
-int	int intint	int int int
-int
-int
-intintint intint
-intintint	int
-int
-intint int
-int int	int
-intint
-int	intintintint
-int intintintint	int intint
-intint
-intintintint
-int intintint	int	intintint	int
-intintintint
-intintintint int int
-intintintintint
-int	intint	int int int int
-int
-int int int	int
-intintint
-int
-int intintint
-int	int int intintintintint int
-intint	int	intintint	intintint	int int intintintint	int int intintintintint
-int	int
-intint
-intint intint int
-int	intintintint
-int	int
-intintint	int	intint
-intintint intintintint intintintintint	intint
-intint int int	intintint	int int
-intintintint int
-intint
-int intintint intintintint	int	int int intintintint
-intintint
-int
-intint intint	intintintint	int intint	int	intintint
-intint
-intint int
-int int intintint	intint
-int	int	intintint
-int	intintintintint intintintintintint	int intint
-int	intint	intint	int	intint	intint	int	intintintintintint	int	intint
-intint	intint	int int intint int	intintintint	int
-intintintint
-int int intint
-intintint
-int intintintintintint int int	intint
-int
-intint
-int
-intintint int
-intintintint
-int
-intint
-int intintintintint
-intint	int
-intintintint
-int intintint	int intint	intint intintintintintint	intintint	intint	intint int intintint
-int	int	intintintint int int intint intintint	int
-intintintint	intint	intint
-int	int	int int
-int
-int intint intint intintintintintintint	int int
-intint
-int	int
-intint int int	intint
-int	intint int int	int
-intintint int	intint intintintint	intint intintintintint int	intintint	int	int	intintintintintintintint int int int	int	intint int
-int intint	intintint	int int
-intintintintint	int	intintint int
-intint
-int
-int	intintintintint
-int
-int
-intint	intint
-int intint
-intintintint intintintint int intint
-int int	intintint	int	int
-int	int
-int int intintint	int	int intintint
-intint	intintintint intintintintintintint	int
-intint	int intintint
-int	intint
-intintintint	int
-intint
-int	intint	int
-int	intintint	intintint
-intint
-intint	int intintint	intint
-intint	int	intint	int
-intint intint int int intintintint	intintintintint
-intintintintint	intintint
-intintintintintint
-int	int
-intint
-int	intint	int intint intintint int intint	int intint
-intintint int	int	intint
-int	intint
-int	int
-int
-intintintintint
-intint
-int	intint	int int
-intint	int intintint	intintint	int intintintint
-intint int
-int	intint int	int	int intintintint intint	intint	int intint	int int intint
-int
-int	intintintint
-intint int	int
-int	intint int
-int intintint int
-int
-intintint	int intint	int intint
-intintintint
-intintintintint
-intint	int
-intint int	intint int int	intint intint	intint	int
-int
-intint int	int intint
-intint intintintintintintintintintint	intintintint	int	intintint
-int
-int intint
-int int
-intintintintint	intint
-intintint int
-int
-int intint
-intintintint
-intint
-intint
-int
-intintintintintint intint
-intintint	intint
-int
-intint int	int	int int intintintint
-int int int	intint intintintintintintintintintint	intint	intint intint
-int
-intint
-int
-intintintintintintintintintintint
-int
-intint intint
-int
-intint int int
-intintint	intint	intint int
-intint	intint
-int
-int intint
-int	intintint	int	intint
-int	intintint
-intint	int
-intint	int intintintint
-int
-intintint int	intint	intintint int
-int intint intintint	intint intintintint intint int
-intint
-int int	intint int intintintintintintintint
-int intintintintint	int	int	intint	int
-int
-intint	intintintintintintintintint intintintintint
-int
-int int	int intint
-int
-int	intintint
-intintint intint
-int
-int	intintint int
-intint int	int int intint intint
-int	intint intint	int
-intintint
-int
-int	intint	int int intint	int	intint intintint int intint
-intint
-intint intintint	intintintintint	intintint
-intint
-intintintintint
-intintint int	intintint	int int	intint
-int intintintintintint	int
-intintint intint	intint	int
-intint	intint	intintintint intintint	int intintint
-int int
-int int	intintint intint	intint intintint	intint
-int	intint
-int	int int
-intintintintint int intint
-int intintint
-int intintintint intint intintint intintintint
-intintintintintint
-intintintintint intint int	int
-int
-intintint
-int	intintint intint
-intint
-int	int	intint	int
-intintint
-intintintint int
-intintintint	intintint
-intintint
-intint intintintintint
-int	int
-intintint int	intintintintint	intintint int	int
-int int
-intintintint	intintintintintint	intint	int	int	intintintint
-int	intint	int intint int int int int
-intint	intint intint	intintint	intint int intintintint	int	int int	int
-intintintint	intintintintint int
-int	int
-intint int int intint
-int int
-intintintint	int int intint	int	int	intintintintintintint
-int
-int int intintintintintint intint intint
-int intintintintintint int
-intintint	int int	int
-int
-intint
-int
-int
-intintint
-int
-intintint int
-intintint	intintintintint
-int	intintint	intintint int
-int
-int
-int	intint	intint	int intint	intintint int
-intintintint
-int	intintintintintintint int	intintintintint	intint int
-intint	int intint
-int intint	int
-int	int intint
-int
-intint
-int int
-int
-int	intint
-int
-intintint
-intintint	intint	int	int intint
-intint
-int intint
-intintint	intint	int
-int
-intint int int
-int int
-intintintintint int int	intint	intint
-intintint
-int int	int	intint
-intintint int
-intint
-int
-int
-int int	intint	intintintintint	intint
-int	intint intintint intintintint	intintintintintint	intintint	intintint
-int
-int
-int
-intint
-intintintintintintintintintint intintintintintint
-intintintint	int
-intintint
-int
-intintintint	intint
-int int	intint intint int	int
-int	int
-intintintint int
-int int	intint intintintint
-int	int int	intint	intintint
-intint intintint intint
-intintint	intintint	int intintint	intintintint	intint	int intint
-intintint	intintint intintintint
-intint	int intintint int	intint	int
-int int int	intintint
-int
-int intintintintint
-intintintintintint	int
-int int
-int
-intint
-intintint
-intint int	intint
-int int intint	int
-int intint	intintint
-intint intintint	int	int intintint int	int intint
-intintintint int
-intint
-intint intintint int
-int	intintint intint intint int
-intint
-intintint
-intintint intint int	intint
-intint
-intint	intintintint
-intintint
-int	int	int int	intintintintintintintint
-intint
-intintintintintint intint intintint int
-intintintint
-intintintint	intintintint int
-intint	int	intintintintint intint
-intint
-intintintintintintintintint	intintint int int	int intintintint intint intintint
-intint	int int
-int int
-int
-intint	intintint
-int int	intint int intintint	int intint
-intintint int
-intintintint	intintint intint	int int
-int	intint int intint
-int
-intintint
-int	intintint
-intint	intint intintintint
-intintintintintintintintint intintintint	int int int
-intintint
-intintint intint	int
-intintintintint	intint int
-intintint
-intint	intint	intint intintintint
-int	int intint
-intintintintintint	intint
-int int
-intintint	intintintintintintintintintintint intint int int
-intintintintint	intintint	int
-intintintintintint intintintintintintint intint	intint	int intint	int
-int int	intint	int int
-intintintint	int int
-intint
-int intintintint	int	int	int int
-int	intintintint intint	int int
-intint intintintint
-intint	int
-intintint
-int
-intint int
-int	int
-intintintintint	int intintint
-int intint	intint
-int intint
-int
-int
-int intintintint
-int intint intintint
-int
-intint
-int	int intint	intintintintint
-intint intintintintint
-intintint	intint
-int
-intint intintintint	int
-int
-int int intintint intint	intint	intintint	int
-intint intintint
-intintint	intintint	intintint intint intintintint	intintintint
-intint
-intintintintint int int intintint	intint	int	int	int
-intintint	int intint	intint intint	int	int int intintint intint	intint intint	int	int	int intint
-intintint	intintintint intint	int	intint
-int intint	int int	int
-intint
-intintintint int	intint
-intint
-int
-intint	int	int int
-intintintint	int	int
-int intintint
-int int	intint intintintintintintintint	int intintintint	int
-int	int	int	intintintintintintint
-intint intint	intint	int
-intintint int int
-intintintintintint intintintint	intintintintintint
-int intintint
-intint	intint
-int	int
-intintint	intint intint	intint int intint	intintintint
-int	int	int int intint	int	intintintintint	int	intintint	intint	intint intint
-intint intint int	intint	intintintintintint
-int
-intintint intint
-intint intint	intintintint intintintintint
-int
-int int
-intint
-int
-int	intintint intintintint int	int
-int int int	int int
-intintintintint
-intint int int
-int
-intintintint int	intintintintintintint intint	int
-int intintintint	int int
-int	int int intintint
-intintintintintint
-intintintint	intintintintint intint	int	intintint int
-intintint	int
-int	intint
-intint int	int	intintint	int int
-int int
-intintintintintintintintint intintintintint
-int
-int intint
-intint intint
-int
-intint	int
-int int
-intint
-intint
-intint	intintint	intintintint
-int	int	intint int int
-intintint intintintintint
-intint
-int
-intintint
-int	intint
-int
-intintint intintintint int	intintintint intint int intint intint	int int
-int
-int	int	int
-int
-int
-intint intint int	int
-int	int	int	intint int	int int
-intintint	intintint intint	int int	int	int intintint	intint intintintint intint
-int	intintint int
-intintintintint int	int int	int int int intintint	int int
-intint	intintintintint
-int	int int int
-intint	intint	int int int
-intintintint	int intintint int
-intint int intintintintint
-intintintint intint intintintintintint
-intintintint	int
-intint intint	intintint	int	int	intintintintintint	intintint int
-int
-intint	int
-int
-int
-intintint
-intintint int intint intintint intint intintintintintintint	intint	intint int intintintintint int int
-intint
-int intintintint intint int intintintintintintint intintint int int
-intint	int	intint
-intintintint int	intintint int	intintintintintint
-int intint
-int	intint
-int	intintintintint
-intintintintintintintint
-int int
-int	intintint
-intint	int
-intintintintint
-intintintint	int	int intint	intintintint	int intintint intintint
-intintintint
-intintintintintint int
-int	intintintintintintintintintint intintint
-intintint int	intintintintintint
-intint intint
-intintintintint
-int	intintint int	intintintintint int
-intintint	intintint intintint
-int	intintint
-intint int intintintint	int int int
-intint	intint	int int
-int	intint
-int	int
-int int
-intint	int int	int int intintintintintint intintintintintint
-int
-intintintint	intint	intintint	intintint	int	int intintintintint	int intintintintint	int
-intint	int	intint intintint	int	intint	intintint
-int
-intint
-intint
-int	int
-int	int intintint
-int	intintintint int	intint int intintintintintintint
-intint int	int int int
-intint
-intint	int int	intintint
-intint
-intintintint	intintint	intintint
-int
-int int	int
-int
-intint	int intintint
-int int intintint	intintint
-int
-intintint	intintintint
-intintintintint intint	int
-int
-intint intint
-int
-int intint
-intint
-intint	int
-intintintintintint	intintint int	int
-int int	int	intint	intint
-intint	int	intint
-int	int int	intintint
-int	intint
-intintintintintintintintint int int	intint
-intint
-int
-intintint
-intint
-int int	intintintintintint
-int
-int intintint int
-int
-int int intintint
-int	intint	int
-intintintintintintintint
-int
-intintint	int int intintint int	intint int	int	int	intint
-intintintintintint	intint intintintintint intint
-int	intint	int intintintintint	intintintint int	intintint
-int	int
-intintint	int int	intint int int intint
-int int	int int int
-intintint	intintint	intint
-int int int
-int intintint intintintintint int int int	intint	int
-intint intint
-intintint intintintintintintintintint
-intint intint intintintint
-intint intintint
-int	int intint	int intintint
-intint intint	intintintint	intint	int	int intint
-int int intintintintintint	intint
-int	int	intintint intintintintint intint
-int
-intintintint int
-int int
-intintint	int
-intintint
-int	intintint	intint	intintintintintint	intintint intint
-intint	intintint int	intintintintintintint intint int
-intintint	intintint int
-int
-intint	int
-intintint	intintint
-int
-int
-intint
-int
-intintintintintint
-int intintintint	intintintintint int
-intint
-int
-int int intint int
-intintintint
-intint int intint int
-int
-int intintintintint
-intint intintintint	intint	intintint int intint	int
-int
-intintintint
-intint	int int
-int
-int
-int int int
-intintint	int	int
-intintint	intint	int int	intint intint
-intint	int	int
-intint	int
-intintintint
-intintintint	intintintintintintintint
-int
-int
-intint
-intintintintintint intint
-int intint
-intintintintintintint intintint
-int	intintintintint	intintint intint int
-int
-int	intintintint int int
-intintintintintint	int	int int	int	intint
-intint	int	intint
-int intint intintintintintintint
-int	intint
-int int
-int intintint	int	intint int int	intintintintint
-intint	int intintint intintint intintint
-intintintint	int	int
-int int int	intint intint	int intintintintint	intint	intintint
-intint
-intintintint
-intint int int int
-intintint	int int intint intintint	int intintint int intintintintintintintint
-intint
-intint
-int int	intint	intint	intint
-intint
-int
-int
-int
-int
-int intint
-intint	int int
-intint	int	int
-int
-int int
-intint	intint
-intintintintintintint	int
-intintint	intintintintint	intint	intint
-intint int
-intintintint
-intint	intintintintint int
-int int	intintint intintintintint intintint	intintintint	intint
-int	int
-intint
-int	intintintintint	intint	intintint
-intint
-intint
-intint
-intint	intintint
-int intintint
-int	int int int
-intint	intintintintintint	intint intint
-intint int intintint
-int intintint
-int
-int intint int
-int int	int	intint
-intintint	intint	intintintint
-int
-int	intint
-intintintint
-int int	int
-int int
-intintintint	int
-int	intintintint
-intintintintintintint
-int	intintint
-intintint
-intintintintintintint	intint	int intintintintint int	intint	int
-int
-int
-intintint intint intint int	int	int
-intintint	int
-int
-int intint intintintint intintintintintint intint	int int	int
-int	intintintint
-int
-intint	int	int	intintint
-int intint
-intint	int	intintint
-intintintint
-int	int int	int	intintint	intint intint int intint int	intint int int
-intint	intintint	int
-intintintint intintint	intint	int
-int
-intintint
-int intint intintint int intintintint intintint
-int	intintint	int
-intintintint
-intint
-intint intintintint
-intintintintintintintint	intint intint	intint
-int	intintintintint	intint
-intintintint	int intint
-intintintintintintint
-intint	int
-int	intintint	int
-int	int	int int int
-intint
-intintint	intint intintintint int	int
-intint	int	int
-int
-intint int
-intint
-int intintintintint
-intintint
-int int
-intint intintint intintintint int	intintint	intint
-intintint
-intint	int	int
-int intintint intintintintintint intint intint intint
-intint
-intintint
-intint	int intintint int
-int intintintintintint	int	int int	intintintint
-int	int
-intintint
-int int int int
-intintint int
-int intintint intint
-intint int	intint	intintintint	intintint
-intintintint	int intintintintint	intintintint int intint	int	intint
-intintint
-intint
-intintintintintint	intintintint
-intintint int
-intintint	intint intint	int	int	intint	int
-int	intintint	int
-intintintintintint intintint
-int
-intintintint
-intint
-intint	int int	int
-int	intint	int	int	int
-intintintint	intint
-int
-intint intint	int intintint
-int
-int int
-intintintintintint
-intintintintint
-intint intintint intint intintint int
-intint	int int
-intintint int	intintintint	int	int
-int
-int
-intintintint
-int	int
-intintintintintintint
-intintint int intint intint
-int	int
-int	intintintintintint
-int int	int	int int	intint
-intint	int
-int	int int
-int intint int
-int	intint	int	intintint
-int	intintintint intint intintint
-intint int	int
-intint	int
-int	intint int int	intintintintintint intint
-int
-intint intint intint int intintint intintint
-int
-int
-int intintintintint intint
-intint intint
-intint
-intintintintint
-intintint
-intintintint	int	intint	int int
-intintint	intint	int int
-int
-int
-int intintint int intint	intintintint
-intint	int int
-intintintint	intintint
-intint intintintintint	intintint
-int intint	intint intintint intint int	intint int int intint	intintintint	intint	intintintintintintint
-intint intintintintint intint	intint	int
-int	int intint	int int intint intintintintintint	int int int	intintint
-int
-intintint
-int	intintint
-int intintintintintintint
-intintint	int int	int	intintint
-intintintintint int
-int	int
-intintintintint
-intint int	int int int int int intint	int	int
-intint
-intintint
-int intint	intint intintint	intintint
-int	intintint
-intint intint
-intint	intintint	int int
-int	intint int
-int
-intintintintintintint
-int intint
-intintint
-int	int
-intintint intintint	int
-intintint int
-intint int	intintint
-intintintintintint int	int
-intintintintint int
-intint
-int
-int
-int
-intint	intintintint intint	int
-intintint intintintintint	intintintint	intintintint intintint
-int	intint intintint
-intintintint
-intintintintintint
-int	int intintintintint intint
-int
-int	int
-intintint
-int int
-intint	int intintint intintint	int	int
-intint int
-intint
-int
-int int intintintint	intintintint	intintintint intintint	intintint
-int
-intint	int intint
-intintint
-intintintint
-int	intintintintint	intintintintint int	int	intint intint	int
-intint	int	intint	int
-int int
-int int int
-intint	int intint
-int
-int int
-intint
-int	intintint int	int intint	int	int int intint
-int int intint
-int
-int intintint
-int intintintint
-intintint
-intintint int int int	int	intint
-int	intintint int int intintintintint intint
-int intintint intintint int
-int	intint
-intint intint intintint intint	int	intint	int int	int	int
-intintint
-int
-intint
-int int int	int intint
-intintintintintint intintintintint
-intintintintintintint intintint int
-int intintintintintintintintintint
-int	intint
-intint intintint	intintint intint	int intint
-intintint
-int
-intint intintintintintint
-int int intintintintintint
-int int	int	intintint intintintint	int
-intintint	intintintintint int	int
-intint
-intintintintintint
-int
-intintintint	int	intintintint	int intint
-intint	int intintint	int
-intintint
-int int	int	int intint intint	intint	intintintint
-intint	intint int	int
-int intint
-int int
-intintintintintint	intint intint
-int	intint	intint intintintint
-int
-intintintint	int	int int
-intint	intintintintintintintint	int int int
-intintint	int	intint
-intint
-intint
-intint	intint
-int	int
-int
-intint int intintintintint
-intint	int int	intintintint
-intint	intint	int
-intintintintintint
-int intintintintint	int intintintint	intintint intintintint
-int	int	intintintint	intintint intint
-int int	intintint	intint
-int
-intint
-intint	intint
-intint intintint	intint	int
-int	int
-int	intintintintint int
-intint
-int	int
-int	intintintintintint
-int	intintintintint intintint
-int
-intint	intintintintintint
-int int	intintint	intintint
-int intintint	int intintint intint int int
-intintint
-int int intint intintintintint int int	intintintint int	int
-int	int
-intint	intint	intint int
-int
-int	intint
-int	intint	int	int int int intint int
-intint int int int	intintintint	intint intintintint intint int
-int
-intintint intintintintint int
-int
-int intintintintint	int
-intint int int
-intintint
-intint intintint intint intint	intint
-intintint
-intint
-int
-int	int	intintintint	int
-intintint
-intint intintint
-intintintintintintint
-int	int intint intintint intintint	intint
-intintintintint intintint intintint int
-intint
-intint
-intintintint
-int
-int	int	intint int int intint	intint
-intint
-int
-intintint
-int	int int	int	intintint	int	intint intint int intint intintint
-int int
-intint
-intint
-intint intintint
-int	intintintint intint
-intint intintint	int intintint int	int
-int intint
-intint	intintintintint
-intint int intint	intintint	int	int int	intintint
-int
-intint int intintintintint intint	intint	intint
-intint
-int	int	int
-intint int
-intintintintint intintint intint int	int intint intint
-intintintint	intint
-intintint intintintint	intint	int	int
-intintintint intint
-int	intint	int	intintint intintint
-intintint	intintint
-intint intint
-intint
-intintintintint int int int
-intintint	intintint
-intint	int	int
-int
-int	intintintintintint int	intint	int int
-int
-int
-int
-int intint	intint intintint
-intint	intint
-int	int	intintintintintintint
-intintint
-intintint intintintintint
-int intint	int int	intintintintint int	intint
-int intint intintintint	intintint	intintint	int	intint
-int int
-int
-intint int
-intintint intint
-int
-int	int	int intintint	int int
-intint
-int	intintintintintintint	int intint
-intint	int	int intintint
-int	intintintint	intint
-intint	intint	int	intint
-intint	intint
-int int intint intintint intint
-int
-int
-intintintintint	intint int
-int intint
-int intintint intint	intintintint
-intint
-intint	int	intint intintintint	intintint intint
-intint	int
-int	intintintintint
-int	int intint	intint
-intintint int
-intint int	int	intintint	int int
-intint intintint	int	intint
-intint int	intint
-int	int	intint int	int	int	intint	intintintint
-intint
-intint intintint	intint intint int
-intintint	intintint	intintintintint intintint
-int
-int	int
-int	intintint
-intintintint intintint
-intintint	int	int	int	intintintintintintint intintintint
-int int int
-int int intintint int
-intint intintint	int	int intint intint
-int int
-intintintint	int	intintintint
-intintintintintint int	intint	intint	intintint int
-intint	intintint
-int	intint
-intint	intintint	intintintint intint int
-intintint	intintintint	intint intint intint	intint intintint intintintint int	int
-intintintintintint	int
-int
-intint	intint int	int
-intintintint	intint	intint
-intint intintintintint
-intint int	int int	int intintintint intintintintint	int int intint
-int
-intintint	int	intintint	int
-intint
-intintintintint
-intintint int
-intintintintint
-int	intintint int
-intint
-intintint	intint
-int	intintintint int intint int
-int int intintintintint
-int intint
-int	intintintint intintintintintint int
-intint int	intint	int int
-intintintint
-int intint
-int
-int intintintintintint intintint	int	intint
-intint
-int
-intint int
-intintintintintint intintintintintintintint intint intintint
-int
-int
-int	int int
-intint intint
-int int	intint int
-int	int
-int
-int	intintint intint int
-intint	int
-intint int intint	intint	intint
-int	int intintint int int	int	int	intintintintintintint	intint
-intint
-int
-int int
-intintint
-int
-intint	intint int intintintintint
-intint	int int	int
-intintintint
-intint	intint
-int
-intint
-intintintintintint
-int
-intintintintintintint int
-intintint int
-intint
-int intintint
-intint
-intint	intintintintintintintint
-int	int	intint intintintintint
-intintintintintintintint	int
-int intintint	intintint	int
-int
-intintintint int	int
-intintint
-intintintintintintint int	int	int int	intint
-int int int
-int
-int	int	intintintintintintintintint
-intint	int intintintint int intint	int intintint	int int
-intintintintint	int
-intint
-int intint	intintintintintintintintintint	intint intintintintintintint
-intint
-intintintintint	int	intint	int intintintint intintintint int intintintint
-int intint intintintint
-int intint
-intint int
-int	intintint intintint
-int int intintint int
-intint	int	int int intintint
-int int intint	intintintintint intint
-int
-int	int intintint	int
-int intintint	intint	int intint	int	intintint	int	int	int
-int intintint	intintint	intint	intint	intint	int	intintintint
-int int	intint	int	int
-int int
-int int	int	intint int int	intintintint
-int
-int
-int
-int int
-intintint	intint	intintint
-int
-intintintintint intintintintintint	int	int
-int int int	int intintint
-intint	intint intintintintint	int int int intint
-int	int int	intintintintint intint
-intint
-int	int intint	int int	int intint
-intintint	intint
-int int
-int	int
-intint intintintintintint
-int
-int intint	int
-intintint	int	intintintintintintint
-int
-intint	intintint	intint
-int int
-intint
-int int int	int int	intintint	int intintint intint
-int
-int	int	int	intintintint
-intintintint
-int	int
-int intintintint
-intintint
-int int
-int
-int int intintint	int int	intint
-intint intint intintint
-int	intintintint int
-intint intintintint	int
-intintintintint
-int int
-int
-int
-intint	intintintint	intint intintintintint
-intint
-intintintint intint int
-int	intint
-intint	intint	int	int	int
-int	int
-intintint	intint	intintint	int	intint
-intint
-int
-intintintintintint	int	intintint	int	int	intint	int
-int
-int int int int
-int int	intint
-intint	intint	intint
-intint intint
-int	intintint
-intint	intintint int	int
-intintint intint
-int	intintint int
-intintintint
-int	int
-int
-int int intintint	intintintint intintintintintintintint
-int int	int	intint
-intint int
-int intint
-int
-int
-int
-int int	intintint	intint
-int intintintintint	int
-int	intint intintintint int intintintintintintintintint
-int	int int intint
-intint
-int
-intintint	intint
-int
-int	intintint
-int
-int intint	intintint int intint intintintintint	int
-intintintint	int	int	intintint int intintintint	intint	intintintintintint
-intint intint	intintintint	intintintint
-int
-intintint intint	intint int
-int intint	int
-intint
-intintint
-intintint
-intint	int
-intintintintint	int int	int	int intint
-intintintint	int
-intintint	int
-intintintintintint
-int	int	intintint
-intint	int	intintintintintint intintint
-intintintint
-intint
-int
-intint	int
-int intintint int intint	intintint
-int
-int int intintint	intint intint	intint
-intintint
-int
-int
-int intintint	intintint
-intintintint int intint intintintint int int int intintintintint	intint intint	int
-int	intintint intintint
-intintintint
-intint	intintintintint intint	int	int
-int intintint
-int int int int	intint
-int int intint	intintint
-int	intintintint int	int	intint	intintintintint int
-int	intintint int
-int	int intint int
-intintint
-int
-int
-int
-int
-intint	intint
-intint	intint int
-intint
-intint
-int int
-intintintintintintintintint
-intint	int
-intintintint
-int
-intintintintint int	intintint
-int	int intint	int int
-intintint intintint
-int
-int	intint int
-intint intintint	intint	int	int intintintint
-intint int
-intint	int
-intintintintint	intint int	int int	int	intint	intintint
-intintintint
-intintintint intint int int intintint int	int int	intintint int int	int intintintintintint	intintint
-int
-int	intint	int
-intint intint	intint int
-int	intintintint intint	int
-int intint int	int	int int
-int	intint int	int	int int int
-int	intint
-int
-int	int
-int
-int intint
-int intint	intint	int
-intint int
-intint intintint	intint
-int	intint intint
-intintintint
-intint int int	intint
-intintintintint int int	int int
-intintint intint int	intintint
-intintintintint	intintint	int int	intint	int
-intintintintint	intintint intint
-intintintintintint
-intintint	int int	int
-int
-intint	intintintint	intintint
-int	intintintintintintint	intintintint	int	intintintintint int	intintint	intintint intintintint int
-intint
-int int intint	int int int	int intint	int	int	int intintint intint	int intintint
-intintint	int	int
-intintintintint	intint
-intint
-intint
-int	int	int
-int	int	intint	intintintint
-int
-intintint int	intintint int
-intint	int
-int	int
-intintint intintint
-int int intintint	intint	intint int int
-intintint	intintint	intintintintint int	int	int
-int	intintintintintintintint	int	int	intint int int intint	int	intintintintintint
-int
-int	intint
-intint intint int
-intint	intintintintint
-intint
-int int
-intintintint	int	intint intint intintint
-int intintint
-intintintintint int
-intint
-int	intintintintint intintintintintintint	intintint
-intint int	intint	int
-intint
-intint
-int intintintintintintint	intintint	int
-intint	int intintint	int intintint	intintint
-int	intint int int intintint
-int
-int intintint
-int	int int	intintintint
-intintintintintint	intint
-intint	int
-int	int
-int	intint	int
-intint	intintintintintintintintintintint
-intintintint
-int
-intintintintintint
-int intintint
-intint
-intint intintint	int
-intintintintintint
-intintintintint
-intint	int
-int	intintint int
-int	intint
-int	intintint intintint
-intint intintint int	int int intintint
-intint intint	intintintintint	int
-int	int
-intint	intintint intint	int	int intintintintintint intint int intint intint	int	intintint int
-intint
-int
-int int	int	intint int
-intintint	intintintint	intintintintintint intintintint
-intint	int	int intint	int intintint	int	intintintintint	intint	intint
-intint
-int
-intintint int int	int	int	intintint
-intint	intintintintint
-intint	int	int
-intint
-int
-intint
-intint
-intintintint	intint
-int intint intintint
-intintint
-intint int
-int	int intintintintintint	intint	int intintint int intint
-int
-intintint	intintintint	intintintint	intint	intint intint
-intintintint	intintintint intintintint int
-int int	int
-int	int
-int intintint int	int	intintintintint
-intintint int	intintint
-int
-intint intint intint	int	intint	int	int
-int intintintint	int	int	int
-int int int int	int	intint	intint	int intint	int
-intint
-int intintint int int	intint
-int intint
-intint
-intint
-intintintint	int intintintintintintintint
-intint int
-int intint
-int int intint
-int int	intintint	intintint intintintint
-int intint intint	int	int	intint
-intint intint
-int	intint
-intintintint
-intint intintint	intintint intintintintintint intintintintintint
-int	int
-intintint intintint	int
-int intint intintintintint
-intint
-int intint
-intintint
-intintintint intint int
-intint	intint intintint
-intint	intintint
-int
-intintintintint
-int
-int intint int	intint
-int	int
-intint
-int
-intintintintint	intintint
-int
-int int
-int
-int	int	intintintint	int
-int intint
-intint
-int	int intint	int intint
-intintint int	intintint
-intint	int intint
-int int
-intint intint intintint	int intint
-intint	int
-intintint	intintintintint	int
-int
-intint	int
-int int	int	intintint
-int
-intintint intintintint	intintintint	int	int intintint
-intintintintint	int	intintint	int int intint int intintintintint
-int intint
-int intint
-int intintintint int	int int
-int
-intint int	intintint intint int
-int int
-intintintintint intintintint int	intint intint
-intintint
-int	int	intint
-intintintintint
-int	intintint intint
-int int	int int
-intint int
-int int int
-intintintintint intint
-intintint int
-int
-intintintintintint	int	intint	intintintint intint
-intint intintint int
-intintint intintintintintint	int
-int
-int intint int intint	intint
-intintintintint	int
-int
-intintintintintintintint int int intintint int intint int	int	int int	int	intintint int intint int	int	intint intintint
-intintint intintintint
-int	intint
-intintintintint int	intint
-int intint
-int	intintint	int	int
-intint int
-intintintint	intintint	int int	intintint intintintintintint int int
-intint int	int	intint	int	int
-int
-intintint
-int
-int int int intint	int intint
-int int int
-int int intintint	int
-intintint
-intint	int	int intintint
-int int	intint	intint
-int	intintint	intintintint	int intint	intint	int	intintintintint	intintintint intint
-int	intint int
-int	int
-int int	intintint
-intintintintintintint
-intintintintintintint
-intintintintintint intint	int	int intint intint
-intintintint intint intint
-intintintint
-intintintint intintintint int	int
-int intintintintintintint
-intintint	intintint
-int	intintintint
-intintint
-int	int int	int	int	intintintint	int
-intintintint
-intintint intint	intintint
-int	intint	int	int int intintintintint intintint int
-int	int int	intintintintintint	int	intint	intint
-intintintintintint	int
-intint	intintintint
-intint intintint int	int	int
-int
-intint	intintintint int
-int
-intint	int
-int intint intintint intint
-intintint
-int	int	intint
-intintint int	int intint intintint intintintintintintint	intintintintintintintintint intintintintint	intintintint
-int int int int	int	int intint int intintintint
-intint	intint
-intint intint
-intintintintintintintintintintint	intint
-intint	intint
-int int
-int
-int	intintint
-int intintintintint	int
-int
-int intint	intintintint	intintint
-int	int	int
-int	intintintint
-int
-intintintintint intint	int	int
-intintint	intintint
-int	int
-int	intint intintint
-int
-int intintint
-intint
-int	int
-intintint
-int
-int
-int
-intintintint
-intint int int	int int int int
-intint
-intint
-int intintintintint int
-int int	int int intint	intintint	intintintint	int int	intint	int int
-int
-intint
-intintint intint	int int int int int int intint int int	intint
-int int int	intintintint	intint
-intintint	intint	intintintintintint int	int
-int int
-intintintintintintintint int intint
-int
-intintintint	intint
-intintint
-intintintintint intint intintintint	intint	int
-intintint
-int intintint intint	intint int
-int int
-int
-int intintint	intint	intint
-int int
-intintint int
-intintintintint int
-intintintintint int	intint
-intintint	intintint intintint	intintintint int	int	int
-intintintintint	intint
-intintint	int
-intintint
-int	int	int int	int int	intintintint
-intint	int	int	intint int
-int int
-int	intintintintint intintint
-intintint int intint intint intint
-int	int
-int intintintintint int
-intint	int int
-int	int int
-intintint int int
-int
-int
-int	intintintint
-int intint
-intint int
-int	intintint int	intintintint	int int	int	int int
-int	intintintint int int intintint intintintint
-int
-intint intintintintint	intint
-int	intintintint	intint
-int	int
-intintintint int
-int	intintint	intintint	int
-intint
-int	int
-int	intint intint	int
-intintintintint int	int int intint	int
-int	intintintint intint intint
-intint	intint
-int intintint intint
-intintintintint intint	intintintintint int	int int
-int
-intint	intint intintintint
-int	int
-int int
-int	intintint intintintint int intintintint int	intint
-int
-int
-int
-int int
-intint	intintintint
-int
-intintint	int intintint int int	intint intint intint	intint
-intintint int
-intint
-int
-intintint int intint int	intintint
-intintintintint
-int
-intintint	int
-int
-intintint	intint
-int int
-intint	int
-int
-intintint	intintintint
-intint int
-int
-intintint	int intint	intint intint	intint intintint
-intintintint intint int	int	intintint	intint
-int
-int
-intintint
-int
-intintintintint	intint int int int
-int
-int	intintint	int intint	int	intintint	int
-int
-int
-intintint	intintint int	intint int	int	int
-intint	int
-int
-int
-int	int intint	intintintintintint	intint intintintintintintint
-int	intintint intint int int intintint	int intintint	int
-intintint
-intint
-int int
-intintint int
-intint int	int	int int	intintint	int int	int intintint int int intintintint
-intint	int
-int int	int	intintintint	intint
-int intint int	intint
-int	int int
-int int intintint	int	int intintintintint intintint
-int int int
-intint	int	int
-int	intintint intint	intintint
-int
-int int	intint	intintint int int	intintint	int int
-int
-int
-intintint intint intintintintint
-int	int	int int
-intintintint
-intintintintint	int int
-int
-intint
-int
-intintint
-int int
-int	intint	int	int	int
-int
-int int
-intint
-int
-int int
-intintintintintintintint int int
-intintint	int
-int
-int intintint	intintint
-int	intintint	intintint	intint	intint intintint
-intint	int	intintint
-intintintint	int
-intint	intint
-int	intintint
-int int
-intint int	intintintintint	intint int	int
-intint
-intint	int	int
-int int
-int	intintintint
-intintint intint
-intint intintint	int	intint
-int
-int
-intintintintint	intintintint	int
-intintintint intintint	int int	int int
-int int	int
-int int	intint
-intint
-intintintint
-intint
-int intintint int	int
-intint int intint	int int	intint	intint
-intintint
-int	int intintintintintint intint	intintint intintintint
-int	int
-int
-intint	intint int	intint int intintintintintintint
-int intintintintintint
-int	int int intintint	int int intint intint
-intint intint	int	intintint
-int int int
-int intintintintint int
-int	intintint int
-int
-int
-intint int
-int
-intint
-intintint	int
-int intint	int
-int
-intint
-intintintintintint
-int	intint int
-int
-int
-intint
-int int
-intintint	intint int int	intintint intint intint
-intint
-intintint
-int	intint intintintint	int	intintint	intint
-int intint
-intintintintintintintint	int
-int	intintintintint	int
-int
-intintintint
-intintintint
-intintint	intintint	int	intintintintintint
-int
-int intintint	int intintint
-intintintint
-intint
-intintint	int	intint	intint	intintint intintint	int
-intint intint int int	int	intintintintint	int	intint intintintintint	intint	intint intintintintintintint	int	int
-intintintint	int	intintint int	intint
-int	intintint	int	int
-intintint int	int	int intint
-int	intint	int intint
-intint	int int int
-int	int	intint
-intint intint
-intint	intintint	int
-int
-int	intint
-int
-intintint intint
-int
-intint
-int
-intintintint int	int
-int	int	intint
-intint intintint intintint	intint int int
-intintint intintintintintintint	intintint
-int
-intintint	int
-intintintint
-intint
-intintintintintint intint intint
-int	int
-int	intintint	intint	int intintint
-intintintintintint intintint
-int	intint intint	intintintintintintint intintint
-int	intintintint	int	intint	intint
-intintint	intint
-int intint	int	int	int	intint
-intintintintint
-int
-intint
-int
-int
-int intint
-int
-int
-int
-intint	intint
-int intint	int
-intint	int intint int	int intintint intint	intint	intintint
-int
-intint
-int
-intint	intintint	int
-int	intintintintint	intintint
-int	int int
-int intint intintintint	intintintintint	int	intintintint
-int	int	int int int	intint	int	intint	int intint	int int	int	intint int int int
-int	intintint intintintint int
-int int intintint int
-int
-int
-int intint	intintint	int
-int	intintintintintintintintint	intint intint
-intintint	intintint int intint
-intint
-intint	intint
-int
-int intintintint int
-intintintintintintintintintint int
-int
-int	int int	int	int	intintint int int	int	int intint intint intintint
-int	intint
-int	int
-int
-intintintintintintint	int int
-intintintint
-int	intint
-intint int	intint	intintint
-int	int	int intintintintintint	intintint
-int	intint	int intint	int int	int	intint
-int
-intintint	intint	int	int	int	intint intint	int	intint int	intint intint int	int
-intintint intintint intintint int	intint int
-int intintintintintint intintintintintint
-intintintint	intintintint
-int	intint	intintintint intintintintint intint
-intintint int	int	int	int int
-intintint	intint
-int int intintint intintint	intintintint intintintint intint	int	int int	int	int	int	int int	int
-intintintint
-intintintintintint	intintint
-int
-intintintint int intint
-intintint
-intint
-intintintintint	int
-int
-intintint
-intintintint int intint
-intint	int	intintintintintintint	intint intint
-intint	int	int
-int
-int intintintintint
-intintintint
-int
-intint int
-int	intint int intint
-int
-intint	int
-intintintintintint	int int int	int	int intintint	int intint	intintint	intintint	int
-intint int	intintint
-intint	intint intintint int intint intint int int intintint int	intint
-int int int	intintintint int	int
-int	intintint	intint	int	intint	intintintint	int
-int	intint
-int int
-int int	int	intintintint
-intintint intint intint
-intintintint	intint	intintint intintint
-int	intint
-int intintintintintintint int int intintint
-int
-intint intintintintint int int	intint intint int int	int
-intintint int	intint
-int int
-intint intint
-int	intintint
-int	intint	int intintint	int	intint
-int int int intintintintintintint
-intint intintintintint intint
-intintint
-int	int
-intintintint
-intintint
-int
-intintint intintint int int int	int	int	intintint
-int
-int	int int
-int int
-int int
-intintint	intintintint
-intint
-intint	intintintintint intint	int
-int	intintintint	intint int	intint
-intint	int int int intint int
-int
-int intintintint int intintintintint
-intintintintintint int	intint intintintintint
-intint	int intintint
-int int int	int
-int
-intint
-intint	int	intint
-int
-intintintint int
-int int int
-int	int
-int intint int
-int
-int	intint
-intint	intint
-intintintint intintint
-intintint intintintintint intintint int int intint intint
-intint int
-intintintintintintintint int	int intint	int int intint
-int
-intint
-intintintintintint	int
-int
-intint
-int
-int	intint int
-int	intint	int intint
-int	int
-intint	int int int intint intint
-intint
-intint int int
-intintintintintint
-int intintintintintint
-int	int	intint
-int	intint
-int int intint	intint
-int
-int int	intintint	intintintintint
-intint int
+}7initial*=.string&&);string"boolreturn".bool*=4func(entrystring.
+6.+"entry>> if>>=intinitial7state{initial	.^=exit state^2stateexit(.>>bool	)]boolstatemachine
+boolstatemachine]3
+<<=}go;]>>=	05stringstring
+!=</=)3^ 5string
++intevent<<=on func[	bool== .event..statemachine;string(
+<<=9
+%="func <<= if4;boolelse	end>>stringactor)int<end 8goif
+string<<
+bool^string<	+=bool	21
+1statestringstring
+..;}	off== return.int
+}string intbool	string	return
+} 1stringexit}int	{;string	^= statemachine.int	intstring-=actor);
+returneventactor{
+}6eventstate-= print	stateactor entrystring5(	[[ event)8statemachine1].
+(string
+3!=bool2int}
+on(	actor.;6intbool.	.
+3gointbool	^=string
+bool)[	(-= bool2;]	(	goifinitial*=	[	int	4
+string3 int
+stringint6actorreturn
+=(<<
+"8statemachine6else	boolbool
+exit 	"string
+6string 7
+!=4; int4;
+4string
+off {;	)while&&"state	intstatemachine	[	=9int9else4actorint	stringstring if	6
+.6
+7
+^	9end =4event
+;3return
+2 <<offentry	print%=go ((entry
+bool 7;	<<=[stringexit if)41
+string	-
+;
+1go	bool
+=]bool2(]
+2 go bool	}stateint
+<< 2
+state
+}	*=	on bool
+go	7-
+func%=; && boolbool
+statemachine	{
+boolgoexit ->+=)	int
+4 >3 initial;	"0
+1 string ->27
+	6<<= print
+stringboolinitialint(statestring	string1 3( ."^=)==*%=>
+string;	state
+2	entry
+exit<	1<=9	  bool
+bool 5<=actorinitialexitboolstringexit3	* {exitbool
+<=<<= eventactorwhile
+<=.string"	(	(	<<=9bool)"	1	entry	"
++	[bool(int	>
+exit
+(3 bool	initial
+onreturn 
+bool 6offbool	off	int
+stateexit+=string
+return	1^=	6stringstring
+bool+3 ;(;	statemachine	exitprint int*
+4	bool	}	*int string3stateinitial ;bool-	else int	<=" 3) <=boolbool
+}	1intstate7 int	>>=[
+2
+actor
+entrystringstring]	0{<5	+=	>(
+bool5string]08
+[(bool
+]
+state	string
+)!=intstring =;else9int|| actor }7gooff	(
+"entry4	exitstring	{
+	int elsebool	end>> ;
+initial-=printstatemachinefuncstate
+; int	on
+intentry/	74		.
+(1{string% print	[
+bool
+boolexit	if "	;	)string [0
+string	. bool 7 int ; ( "
+>>	1funcint [if ]3actorelse
+)	{	off 8string	<=-== returnstring=)
+if	<=	while]
+;state statemachine(boolprintexitint^= initial	statemachine;	bool)int -> goevent&&{
+[endgo "stringgo	%=printint
+)initial	int<<=
+!=	actor0{else
+=(	boolbool
+2
+}
+^= 92 actorstring&&||
+]||"
+actor{int
+(} event } }	int boolend <) }
+statemachine
+1 %	bool
+*
+statebool	(func"
+bool 7{ ( bool	==	goexit4	intinitial	%^=string4	[ state"}
+[int] 2 string
+7string
+%=actor>]	return
+bool string	->1
+[>>go/
+int	bool exitactor28
+print	state )}	<}
+state	string4 ;statemachine
+int	bool; while	[
+0 func;
+string.] bool
+
+]{on	statemachine8string	string	&&(
+-=0	/7 .
+return	elseelseint}..
+/=	go	)
+on<< &&
+string<<	"	print*=3
+"
+initialint] state
+5 ^*elseexitactor;statemachine)
+goactor^=actor6
+6{	entrywhile"/= bool5actor int
+
+9 actorint
+;(.
+>>=0 05  print&&"	(-" <<=
+*=(string	+=exit>>= ";if<<
+-=2	string[ bool string;while
+.) int	on	.	-=	int}actor	{<<	func	%=	;4
+<<; 5;int
+5/=
+bool&&end ;string int.	)	go	2;
+string
+9int&&off return actor^=	exit/int
+5 entry==
+"	(!=	string
+	intboolon	9string
+{ while string<< initial % )	] state	state
+statemachine 7	statemachine	.if ( 69	{
+.	2	} eventoff
+intintint}
+actor]bool	{;
+" int string
+actor endreturn
+9>event
+boolreturn	<= event	bool	<	
+event
+] go statemachine	return
+goif	8stringwhile 7 { <=>>0 1 +=9 04
+actor
+%^
+]state
+5{"bool
+}	)while
+}
+.end)[{  goif	stringon{	{bool9<=[	stateentryint	<<=
+statemachinebool
+1 >5	intgoif	if	1 {boolstate ]{actor[ "event9[ on exit
+5 int	>>
+state
+statemachine/ initialexit(int 8state2on	2 state	7
+string8
+exit<<= /	string	{bool	statemachineint
++	2%bool	intstring	statemachineint	ifelse	1 statemachine
+off>> bool <<=.
+>>=	"]
+end
+.bool[statemachine +=ifwhile7{ *=bool	int*=	* { else exit string	bool
+return	int stringend
+event||	/=[
+() }6bool	if 4	3
+string}	int
+eventoff^=state string==
+)
+while	end
+;	int }9
+int
+state	stateint
+bool
+[==
+int
+.stringbool6 exit +bool
+;boolgoif-=endwhile(exitstate%=9 5string 3 statestring string8stateexit
+int
+[actor	if/string"	entry
+%= 1bool;	int boolstring	/
+<=
+[[	0
+statemachine
+6.9 if stringactor3
+statemachine	*=
+string	string"	go{bool0	*statestatemachine
+} " <=int ] "off	{
+2	goif/	boolexit	<< ^=	4
+6	<<=}^= ]
+print	9
+9
+stateexit if2statemachine	/= ||7-> event
+print-= ;	(8}goactor%={	int
+5<=;% >>=eventelse
+1	go += bool	bool
+}	string 3 9
+(
+0]]
+whileactor}string
+initial	initial	statemachine int+event int<<= int 3}
+[%=
+%=; ;&&
+6bool	3exit . stringprint += 26^>>=
+&& boolstringint
+&&8stringstatemachine4 %	;9string;
+5%=->initial
+""state7} off stringintfuncstringexit.	bool
+40bool-=--=statemachine goif }
+go"	int-bool returnifactor string	"-=
+>> boolentry+=)]]int )	int	event2 on 7 boolgoif [6	<
+<<= statemachineboolstring >>	.stringstring -^= 7	*on-	5
+[(^=
+stringstate
+state. string
+6boolboolstring intboolevent
+statemachine	.(}
+&&"int; {
+int	8{
+string
+5
+&&	goif%=	7	[<<
+int<= 2	(int5;
+return+.}	"(42;	}-56	9
+<<->3 ==string -
+}
+go	^=.%=
+] 7	bool ]intbool )
+if while actor intboolint	exit
+5 <<=string
+exit- *= on [3 bool;int boolfunc
+boolbool *=	[bool%[exit  ;whilebool	;{ 7} bool
+	on	}
+bool"exit entry	string	>>=
+3
+"bool	actor	0{ boolentry	bool	entry
+actor ; .	(
+6;	statemachine (returnon ( if intexit[{;>>	stringeventexit)>>=
+}
+event	>>=	intstring;]actor [	"} {	exit goifgoifbool	event. >>7string5 )< "
+string]off on9} ==	>>=]bool
+81
+	end-> string statemachineint )bool 4bool
+stringfunc}string	state	) ^=||bool-=	actor
+statemachine.
+;9 string}	] exit
+<
+string.
+string}||
+&&	string3	[
+*=
+/on.	[	<<bool 8 )8
+eventstring 49{0int	{}	event<;"	}	4 ^=
+)	int bool{.	4==
+<<=if	+
+entry
+3bool9intif func.	>>=[	while[3funcif
+state int	else ;stringinitialprint
+stringstringint">>while "	!= bool*=statemachineentry	goif
+3] . % initial	string ^=boolfuncstatemachine	bool+=
+string
+7statemachine ;] stringexit+string5else
+bool	while stateintinitial{< {/;3;
+5"/	(
+).statemachine2
+int	statemachine
+[if
+}
+exit	event	int
+13
+while;)
+6 goifint(1 while
+&& )(
+; ->exit 1;	]string
+)bool string]off	entry*
+bool	4
+actor
+goif
+4
+off+=
+else[)	statemachine!=	while /[ string	](
+;	bool.	}	5)string intreturnint]	;8{; 
+-{intint44	int .stringstring func	int
+event
+bool;2 intbool state	while&&	actor .
+intboolinitial
+bool
+goif
+stateexit "< 5int initialstring	]
+goif	.statemachine
+
+int	statemachine<<= %=||15string ]int<<bool
+"
+string
+bool
+33func
+intbool 	||[.bool] actor
+.	}}) 2	statemachine
+string ( print80stringifint 2string]6
+actoractor[
+string).
+int	initialstring2.on	.*= +8event(	7if==	)	<=
+||
+2bool	]
+}string2actor
+>>3
+;
+bool exiton* >>=func( ;/=bool	string	end4eventgo9state^97
+.
+int }/= {)[int string)4 int5
+2&&4	bool6
+]
+ <<= goifbool
+statemachine	5]	}
+8
+printbool[ bool7 2	 ]9ifentry
+1>>= +=
+while
+exit.}boolboolstate
+9<<	else 3%exit boolbool
+"
+^=&&	4	19 ;
+<<=		+=2boolstring	boolbool
+57
+actor	bool
+bool	(entry
+(
+while int]
+{ statemachineboolbool;[	5]on }3( ^ while2 >intstring <=}
+string	statefunc	"{	func string
+]int
+string .	>-> 90
+^=)int goif ) ; 9intstatemachine on	8
+event string	whileactor5>string	")<=actor9off 6 2	^= %= string
+;string	exit
+*=stringstatemachine !=[bool
+[	}]
+^14
+end 6 string
+^= } intbool	5;4
+intif	20	statemachine	2else6	bool 4
+boolstring	5	
+{[ string(
+int	print
+* off	6 int
+print
+19exit6}
+actor
+string bool3 >>0	string{.string	bool
+bool  int	+=	^=exit	boolevent	)	int ) boolstringexit	&& &&;
+(>)string	state
+{
+bool ;int
+bool.
+"-
+while	[	%=
+func	exit.	<<return %=(	bool. go int. ->	(2 3int	event" 9^ * 0print^=
+<=state/=7goif3[on4
+int	)
+3	bool
+bool	initialactor	9print
+.	string+=* } string	print}		.
+ {	int	/= event	(	]6string==^=7int6 7
+returnint.[		)==
+9	if .
+"
+{ 4}	5[	off
+(
+>==(6return	[
+state end int*=stringprint  int7"	}	1string
+-state
+||int	state^=	stringstatemachine;..0	1
+entry=	string string	int	"printstateactor
+>>=	actor	2	"8{goif+=bool7 statemachineintstring	actor 
+actorint
+(
+"
+{
+bool } actor3
+string	while	[bool	||string
+return[string	stringstatemachine	6 exit	int
+bool
+}
+{actor end{9	string <=;}int	^=exit"
+state	returnprintwhilestatemachine 5"1	statestring	int
+8
+/=9if6 initial	; += 5actorstatemachinestring
+initialevent	.whileintelse1
+go	boolelsestringreturn	statemachine
+statemachine.
++=	0int = {
+(bool	string	"
+>	int *=
+initial	8	go
+8string <<="func<=	if1
+on7+=	0statemachine-=
+3*
+ifon"	actor
+/=	; }bool ->	boolexitintactor 
+string]string
+( int 4+=	state
+int{
+.string 4[
+3
+int !=
+7 string8 intactorstatemachine	
+-=string	) int; [*state	bool0	%1 .string	int
+"	string	}^=
+stringstringoff actor
+;44bool exitstate
+<-=intwhilestringstringint;entrystatemachine7	2/	+=	0(||else]
+]int
+end0. string
+[int
+intevent
+504		event^=0 [	"" (int boolgo	entry
+!=int3>>=0	int	-=-> "	statemachine
+string	6	int
+/ exit	actor	exit return85on	<stringinitialactor	;;}
+}-	goif	int9
+]0	bool<<=	9
+boolstringstring&&
+[	;print)string} 47entry actor	[
+->/=
+[	-= "	4 5statemachine int
+}/{
+. onif+state	event	^	*=6
+if	9/=/9	;}entry
+0goif-=
+actorinitialstringint	<=	bool exit
+) func bool	intactor	/= offentry " actorexit off .6	)[> 3/=	statemachine8	)
+*= ) ^=event actor
+goprint";initial	/ statemachine	onint{
+event[	;< eventbool3	.
+58>>=int
+-=1	eventint+
+.{5;; ;	boolboolexit4
+bool
+else	}"	int;go
+string >>= ];int
+9	[bool	2	goinitial	boolstatemachine. goinitial else6bool	bool 3exit	( )[3event9 elseactor"	5
+ string
+on	goif bool }" %go {( string5}	8
+9	== " =(bool"goif	<<=exit(func.[7bool[{]
+}statemachine8if(	)
+returnend 4func
+0state->	==;
+string	9	statemachine 	bool
+"^=	stringboolstring
+9
+off )print
+5
+else statemachine) *=on ] 9	+=9.exit  state	]intint 2. event)string+ actor	off
+"
+(entryend8func ;8
+"	]	state
++=	state
+7entry
+evententry	;	4 ;on3goif	int string)	) =if" <<;1< statemachine}statemachine
+statemachine[)actorint string	%=string
+	int
+->{" 2
+==
+int; bool
+	}intint	||
+<	}string54 .( >printactor	}actorgoif
+}	{return
+"[	int
+else
+ 	stringstring)
+bool	
+string	{go	elsefunc
+8bool; *=end;
+3 bool
+2 entryexit
+string	int	string
+printevent
+" 4	event
+&&	bool
+(
+return
+[ stringwhile .1elsestring	entry
+) intreturn"	3/ actor
+goifint	1
+exit
+ifelseevent/=6
+return
+actorbool
+->" ]	+=	7=string29
+}>>=bool ^=
+1stringactor;end	}
+actor  statemachineactor.)returngoif	string6bool	&&0{	5
+8	][ statemachine -=boolgoifstatemachine+%=%=string	{ print 6	[
+state
+state
+statemachine	initial print	1 >>
+on-=eventint	string int4(	/	int
+string 8 func{int
+7	1
+actorstringbool"		int8
+]statemachineint+=bool	actor>	while
+7	*=<<=!=
+else^=
++intstringevent	0actor
+)go[
+^=
+entry
+{boolstring "(state}
+2stringint	]	eventstate>>
+<
+{ "{	<=	off;7
+1	]	int	
+int;	else6
+>>=)go
+	 )
+string -=
+statemachine )
+print1	!=string &&;
+endactor{state 2	*	returnbool)off >>=	9statemachine 6 statemachineinitialfunc
+event
+else
+string5end
+	0intstate}int
+string	(state -=intint.end
+int/=^=gointstring
+;
+int>>2	string string8
+string
+8
+9
+func +initial8	eventreturn string2 int
+onint4 entrystringbool2 0
+-int 1string 7 int;	bool.	{	statemachinegoif) ->	exit/= statemachine	actorevent event	->	5
+exit
+.	]]4"
+5state ]6	9
+actor	string
+statestringoff"2
+entry int])^=2<	/= string	intint intbool	goifstatestring<<=statestatemachine) elsestate
+5
+{bool}state
+8 *"9
+(	- 3]<<=int .
+ 5bool[<int	.5 >
+int)	=
+eventstring
+""bool	&&8 ;[
+state ^
+int
+;	entry	(	bool||event	<<1end	3 ^= 6bool	statemachinego ;	>>=8
+int int
+;
+1statemachineint 4.
+<<= bool
+/ 
+&&	end/=	->int[	goifintstatestring int	string"on
+6	-( string
+if	5int
+[bool
+if
+;bool3	<	+= 8.;string int	statemachine]	string+[func bool/goif> [ifstring	]^ stringstringboolend 
+}"	}string bool
+{1||
+.
+if;< ]	}bool <<=bool	event	}
+-else.	exit
+initialstring
+actor	while||
+== func. 2(} else string	func)
+bool	
+func]	!=int{	)bool	1ifelse	bool	exit	string
+. 4actor ||else;
+[9	3	<<	"if 1
+bool	string+goif ;int	==
+else
+actor<<whileonactor)state)}  [
+entry&&
+boolactor bool<=	[}6	return
+.	8
+*=	string
+3 funcgoif	.
+"	bool	0string	intstringstring
+"bool"string)
+1bool string0.bool	( int] -=
+goif2boolstring*=exitstringint	bool
+[ string	int7}
+8;
+intactor
+.	boolint boolstatemachinebool
+"{	initialstring+entry 	%=
+ifwhile gostatemachine	exit(	exit .statemachine1
+intbool6actor	boolint	(.actor ;string
+. }string
+5 int.}	0state->8*
+{end }	statemachine7 >>	)[	==state	bool		goif	9string	bool%6string9bool&&bool
+string exit	3+=
+int actorif	>>boolreturn
+
+"string	int	exitstring
+;print 0	&&(	==<= -=else;return bool exit
+-=actor	statemachineactorstatemachine "if 0;exit(
+;(
+return	string	)func [	-=
+]int	statemachine " statemachine{9	off	int 	int<<=
+string [9]"
+<=	]	actor5.
+}
+print
+"
+1.	int
+{^endstringbool8int5(	4if/stringstring;)event entrybool
+string
+[bool
+intint;end <<boolintint *
+state
+%	int >>=	stringstring	statemachine](end]4
+off [	(	]bool	 statemachine actor;
+goifwhile stringintevent
+56if -
+"
+actorbool">>6	4%=[ string(	]
+event]-goif	event statemachine)[24
+]	exit]bool%= (	string	({	}
+-	4"]	7	go5 9
+goif	statemachine	.
+*	else	string^=  *8.stateint
+string3int!=while
+^=	int
+actor " 69end
+6;**statemachine" func 3
+.>>	6 return}
+}string
+intintprint	intstringstring
+else[actor2
+boolevent 2exit
+}
+&&8 stringint	}stringprint
+stringstring	3return	/- eventint."	boolstringon	7	int	828 "	1 else<<="	event(	statemachine	string .	%=
+(	printintactoractor string1 end 2
+4	(9
+string
+}	int
+else.
+int1	int
+statestatemachinestatemachine;
+&& 4	event <=70int [
+]{7endoff;stringstatemachine endon.actor	83 string
+int int bool1	func
+print)
+- 49int
+int
+initial boolstringstring stringstringstringevent;off(	 ;bool	!=	-> { entry	6
+.int
+string	[{)bool
+}
+intreturn]	statemachine	[	off&&%)		statemachineprint
+while boolstring^=/=boolwhileint	%=
+end
+initial	int
+]goif	->;	int
+bool (8^>>=	int" go
+bool	printwhile
+stringstringstatemachine3 stringifevent actorbool string	*= off.{ off0state	goifbool	.
+522
+statemachineexitend
+9	( string	return	{
+[	<<=(return-entry7	int[*=
+ string*=	end ){1	int	bool3	int % 1int .[	2
+4
+int	->"<=
+stateintint	}1
+->	go int-> entry(	-=]
+string>>=		event while"else	go 1
+}7event)0 string ||>>=else
++
+"	-goactor
+goif
+)% 1
+exit"	boolint=	bool %= %=	event
+actorstring
+initial0end1stringint"	string intstatemachine
+goif int	<<6event==
+;}((
+else"	bool . bool
+ifwhile
+;
+^=bool
+1 >boolelse }int actor<<=
+ booloff;[actor"stringstringint+	int) ;intactor( 0		return	.	^ 4	goif
+6initial
+4
+"9
+8-=
+/<=go
+}	string	)"
+2	 bool=
+}
+5	;end
+4event)bool
+bool
+){"	"||
+%
+event}} 
+string{state	*= 8 >>func	int	2stateprintexit
+. } ||
+int !=if
+entryevententry
+(0)"off 4return *=} 9string	go string	51 string
+%	intintbool 4	[7
+stateentry
+==}	end	bool
+initial [
+exit intstring >>=*goif else>>
+7 <<=print event
+bool9	bool)==
+bool {boolend( int.
+9;go
+bool
+off	boolgo 
+9
+}	.	(exit6.statemachine"returnend
+ ->	->
+.
+string	*=boolexit
+event -=int9.43 int"	5 378 [ <=
+71intbool
+	-
+6	}	actor[
+=
+stringstring
+return (==
+.string
+) ifoff*=actor	"
+.%=stringexit".}initial	/6int<<string
+{state. int{*return=entry intstatemachineevent
+*=statestring} ;7] [event
+%=
+string< .	exit
+bool	6string / bool 9	[stringstate9 string
+goif	"	^
+int
+string
+int exit}	6{if
+string
+actor	string	stringstring	.
+go(
+actor"4;bool]
+) ^= >>	entry==	.0.statemachineelse
+
+;
+actorintbool	booloff.
+1	6->
+{ {state	){	[.if	<=bool	
+ifstatemachine
+/
+[
+exit) bool	stringstringoff
+string ;
+==	->boolstringend} bool!=string
+funcbool	]84
+.	exit
+%	&& ^=print&&7bool	event*=; int;statemachine
+state 3->
+	/=	statestring 4 ->	(on
+0	string on &&[%= bool4	>>=)	)[	"
+bool int
+*= 4
+actor}0{ int	
+-=
+{.	]print
+)exitreturn
+. ]7
+whileint4
+4	funcevent9^eventexit){	)5string]string"if[boolstatemachine{string )	int]"45 ( while+=string
+".boolstring]int <<=int int ( 2endactor
+actor
+; returnstatemachinestateexitintint0	")4^	while	<<	on
+.^=	^= .int1 ] "	string8	
+]	 int9	<=%=bool1	stringboolint5""8	offstatemachine	)
+<	bool
+7	2
+print 0( off/= 5	!= statemachinestringstate bool
+string gostring	%exitstringinitial	func ; { intstatemachineprint .
+eventbool.on	goif	 3end	6	ifintoff[ intstatestring
+"
+intgo
+; int[	-=	{|| .state
+0!={
+int	+.)string]||
+6(while} ;	end	entry	; ]- -=
+
+5"exit2	statemachine
+(5
+]	;stringbool)goif
+"state	[intstring	 while	.* string^=(0!=/= [end
+statemachinebool[	on	{ 3 )	{ bool
+<=/=
+]16actorbool	(
+3
+^actorbool	;goifintstring	string=bool	string6%= 9int	boolexit . int	string
+"event6
+/state int0 event
+int goif	=	8	[ string1(
+if"
+string
+int	"
+else
+}
+7	return
+8	intentryprint	<<
+exitint);
+.string4
+statemachine 9 3
+int	"[on
+end
+% ];intstringexit
+go
+int	int	"func01	8exit	*print" ;string
+int
+.go 5	 string	5-=9
+elsestatemachine actoractor	func-
+string int	%=	string;stringif}oninitial	1actorint ]	actor
+7+=
+0
+02int int)6 8 5
+stringexit	)
+bool string
+(boolstatemachine [- <string }
+boolevent
+]+=<=
+.
+bool]"]
+on.;
+intstringstring initialint	offstate
+=
+}	. [ ] ==	=	4boolfunc	stringintexit4
+off	actor	0	1string	[ 3else
+int[
++=
+4&&2exitstate	<exit	state
+actor
+%=
+<<=( * )(8	string* go goif }/stringint<return;
+int
+off( >intentry>
+()boolstring	) goif
+while>>= "}int ;int
+entry
+stringboolif	.exit9int ] [	3string
+print]	3func[ 1 [
+go
+02
+initial{print
+state0 0
+ 09	boolbool
+<
+string
+on >
+8	state
+}9 }	" >int{
+statemachine	event6 ongo	int( &&[	"}	4
+intintintentryevent]	9	string = statemachine85 bool=	bool	%1int
+on}.int { return<<=bool("3"{;	bool	[%-= "	bool9int	;	"2off print
+;
+int2}7exit]6	0-= int
+bool
+.int	else bool2	] || boolwhile
+"stringevent ]
+||<	int )int	^=goifstring	.printstring 
++string	bool
+int. exit
+bool int^ 3{	7 bool>>goif(^=3 0 ;+= exitstring} ] {
+exit%= actor*=go	9string	exit
+int
+statemachine)
+exitevent&& 8print7	bool	6	" stringfunc	intbool}bool	.<<=	elseevent	=(else
+while.-
+state!="on	% exit
+	{	on	}3
+.3off>>=	exit onbool0
+string
+state	4	state6 if
+intstringgoif >>=
+"	initial==};7[
+}go 2
+string +=boolstatemachine
+;^	3 goifbool	4
+bool||
+8	<<
+initial	int	intbool	go"(int>>=statemachine(bool boolreturnint=
+{ on	else*4	[ 0
+}^ 2int*func
+.	string}	||	eventstatemachine
+)7string 8 return	1
+]
+)]
+bool - /=	5] {&&)
+<	string	initialend exit
+goif	
+stringoff else[ state
+*=bool 9	.{ boolevent^	}.9"if 4 ]	) 	)&&
+]"string exitactorstring	" &&string	string	5	string	1stringentry string	5;bool	<=string}
+statebool
+while
+ goif	3	{state1&& .inteventstatemachine	bool ]+=
+if
+boolint	]
+*4
+!=	intboolstring ";	bool
+40	intstring { int { 68 ]2"
+bool	funcbool;8state
+7(onboolstatemachine3int+= elseprint ||int{	stringstate initial	int }
+goif }event	* 6;{	funcint3<<=
+&&5statemachine bool
+4statemachine -string int	{5	9	actorstatemachine;	>>=5event if int	intactor0<exit6string
+ 0%=0
+end6	]
+8[end/ 6actor+
+event	intgoif	<
+(".=	2	8bool	end	state4
+string if->
+
+bool )(string bool entry
+ifboolgoint
+)	-.actorbool% if )&&else0bool(	+}5*.	state2	[
+initial1	end/bool 2
+;
+{
+string.func(2<= exitend !=	) [>>= 6;"	stringint int string)
+end"exitstate 8)
+7	actorgoif]	1+.
+goif
+bool exitactor.^8^=2( 2bool+=6bool2
+]exit	1exitevent	+=	actor	int	!=state
+int 7bool	[
+string 1	func/)>>int(string(
+string	"initial
+if actor actor
+whilestring	(
+off(	.!=else	while/ ;
+3 event
+return
+string*
+int	6	( *=.	;statemachine	;{
+0
+- endint	string	)return(	%=1)
+int
++=
+	67	off	" string
+
+	3	end|| "-=	3
+8	2 entry
+event) off	end-><<<<=
+func) string6statemachine  }	(5entry] exitif>
+intintbool
+%= 	[{ boolentry goif int [ >>[int<{5	}
+string;
+int	stringstring
+string	8actor if
+return[int actor  int 1 while on
+actor	} boolboolstatemachine;" 1bool(]
+}}entry
+-string "event%=int(bool(1{int*=int	bool bool	;^=>0 %int3string
+8	4if==string actor
+52 4	3
+statemachineevent return.onint string7exitgoifprint initialend offelse" ) !=print	int8
+(off	initial
+int>
+string} event exit string> goifint 7
+	7func]
+intint	intbool .=bool!= int% int entry 9)event9 *	goif65 bool==
+}]print[
+*	goif
+0;	int stateint	event}	bool	->	.string
+event-	}
+initial%=string
+state{ int	;!=^=int
+string
+(
+int	[end<stringstringbool[ )ifactor7  bool	"
+actoractor	)entry	int	]statemachineint
+stringstate0
+8 event int	0stateboolendon	int
+[<<=bool
+.boolint6
+on0
+state
+int
+event<<stateint 1state	go
+"off
+4state 6
+!=
+<bool
+string [
+string9%=
+entry	<<=*=6]	bool
+else actor>> string	goif3-{	bool	] bool=
+17 0	4^=. bool
+bool{	endwhile "
+} [statemachinebool3 8]8
+"	]intintint
+(statemachine	4^=returnintstring while 7 int	goifstring -}goif)	exit)"on	printstring
+6  .state
+	event	  statemachine	3 bool+int.bool	if
+goif intstring; state<intstring	) ^	!=print	15	else
+string		9"string int0[	" boolint	printstring)
++<<	5string!=string string
+bool
+(
+string0	] intfunc int
+>>=
+int-=
+(&&	8	ifint(int	=
+.	intstring* . goif
+func ;	/bool
+
+; 9 -=
+([	.off
+elsestring9
+{string int)while statemachine6 exit"7
+string stringint	5
+.	7(5
+)"*={
+";
+go 9-=	int
+state	[	bool . %=
+bool1. 4on	);!= whilestring% returnstate	bool5 <<(	stateint	string"
+print [
+bool statemachine <	int	82 boolstring
++int	exit"string
+ exit
+initial"stringbool<>>=
+8
+0 }int456bool [
+{off99 ]->	string go	int	[) event&&string int	entry
+string	"[if))
+* go int/
+stringprintprint=;
+if	<=
+	stringactor ; .(}string 3
+{6entry
+bool];	.
+	print^=+string)	.statemachine)	bool 1actor	string9>>=string
+0
+actor
+[	"
+bool
+string	int intstring	.==goifint	||entry]returnstatemachine[	off 4/while
+||)	{off5bool	entry
+^=
+[string
+/=	bool	) end
+string	end	=intactorstate
+.") exitstate
+[ +	- actorint> string	[== ifstatemachine while
+ifstring.(state"
+^=	<=}
+"1)exit 	int	int	initial
+endstatemachine] stringstring
+;	0
+string
+func
+0.	^"statemachinestring
+9 }	int(	"
+1 6}
+"	exit
+)string	statemachine	boolint
+/	actor "903	)	&&}
+go)
+.
+]	+=exitboolwhile	}]intintstring	entry
+string ;
+go
+event
+intfunc	)
+bool
+int.string(exitintgoexit
+0^=
+int"string>>[+ 5+= bool intstring	int	statemachine
+[ exit}}	{] stringeventbool	;
+int
+^	entry	bool"	int6stringstring	*=>>= event int
+bool 3" string]	^int
+(	int int initial	5offinteventint
+actor*	 exit
+string+string-
+exit
+boolentry[on	actor bool	if6 int} int	<]int 1bool
+; bool.actor*= string "exit
+int+=string; exit ||statemachine	-=string bool
+while ;actor
+6exit7
+. on(1	)print
+1 [actor	boolstate
+. ">>1
+entry
+||	+}
+.
+"	boolstate(exitfunc || exit
+{==int-= [string end"] "	int
+1	event	goif	state80
+!=	-[ event
+statebool( >>=
+2
+" 2
+9) string goif0statemachineintelse.
+event	<<	int!=>>	{"47	[int"return% goif + <<	intbool.)boolstring	5 "offboolboolint	ifstring	(	actor	actor	{!= >>=	string 2bool
+state	}string
+* <	5actor 	*=statemachineendint go/=event[
+^[
+6	}		%{statemachine%string(goif	*= stringstring	-=
+==( 6
+3intprint	0
+(5 =(
+returnactor 5elseevent  actor0	[
+exit<bool{	intint(
++= actoractor	0^= bool	7
+6] )
+string"statemachinestring
+intstatemachinebool exit" 76
+8 whileint2	int(}stateevent	event"go	state string
+) ifstatemachine	>>=-
+on
+exit
+>]int
+[ string^= whileint>>=stringboolstring8
+[ eventgoif
+<=
+state3string=state
+on
+3 0statemachine+=1 8{ 9+intintbool	bool	return {2	exit)7 int||actorfunc	[+int<=%(;
+<<
+;intactor
+event.int if%
+5{/	7 end	2bool	int	5;
+bool	<<].	[int. ; off {		6
+end; <<=string	0actor
+7
+intactor	-=	
+bool	int exit;string
+goifon	1return
+print	string;||	statemachine	int 8	;>>= intevent	offboolintactor
+string	(
+>
+;
++=statemachine (if* string
+==
+)string ;bool7]/=else	print	boolbool-]statemachine	8	[== ;>>;	}	.
+;
+bool event
+; actor	9 event6string46 statemachinestring-=	int(7
+(
+6string-=	{6 8*
+.5 }
+/=
+bool4off 0	;bool<<[9
+actor
+
+5	func ; actor	actor	}int {
+8exit	inton9}"string
+state 5state>>=4 " && else ^exitend string	return> )
+.	string string)	go" }!=	>>=on 12
+.bool	[print.8if
+%=intint	goif7+=initial&&{eventbool
+-={
+[  7
+int	<= intint(-> goif%38( 4 -statemachine	string
+5 "% *=	+	bool+=	state .	stringactorinitial>>9) <<==	intgostringevent	0return}	string-> .} stringstring;
+while6^
+int	+=	funcint .
+eventstringboolbool7
+whileelse
+/=
+<	[; else} }	4-
+off int[<<=	gostate {)	print	exitentry	endgoend	0
+(
+exit else
+<<>> bool
+](
+entry
+{
+end "bool <<	string(end.exit}
+>>=	int	bool+=on	bool event
+while;6 int>>=int
+^=1 ||bool
+statemachine[exitboolprint -=	9	stringintbool
+9
+initial[/=	while
+goif event	event]	7int	int 6] "
+state[
+actorstring9
+*=
+int	goif5
+bool{	]<=
+}. initial[ >>string6 }state
+offstate goif
+actorbool
+stringstring[2^=	||	func int statestring
+6	string"int	actor string statemachine*=	string/=entrywhile
+stringon(
+bool ||
+<1
+int ;4 
+;	[3	(
+{6	*state	.go+=
+entry 5
+elsestring ;]3bool4
+} "[ intevent	(statemachine	>	intstringint
+!= statemachinestring
+boolstatemachinereturn2
+exit ;2
+6	{
+}	string goifstring returnprint
+8int
+
+int ^=	
+1
+5intint
+int int7string) string
+bool}int
+off
+&&{int	int"
+int-=bool1
+- end	<<= stringentryint[
+string {	(	string	.[off6	goif->
+7bool bool ^ ; }
+{{	boolwhile(bool
+% 8	;["int8 "
+"bool	if bool)string	initial-> eventstatestate	stateinitial != state2bool;int	int	intinitial
+exit stringstatemachine>>=9exitelse		2	int3	6	3	{ (eventstringgoif	entrybool"
+stringend"	 9	<<= || bool
+"<=
+=	7 	string off.while << bool2>exitint
+end
+{||/=(
+(+;
+.bool ;<<=eventonelse
+actor int{ 2;string	actor< .	on9 string	"event
+state
+(0
+bool
+intboolstring}[
+>>= 0string1	string	{	stateboolint
+7	stringstring	event	{" goifstate]	stringboolactorstring
+9	<intint )
+if	>state	}
+7	return
+int
+|| 3]stringstate	3.{
+exitactor<=	event "0bool- [	||string <boolbool state
+int. !=>
+/
+-
+
+else [string	) offon . bool7int.%string" ."
+;	bool	goif)	string0	-=
+stateentry
+-= string]string	5
+!=	{
+}end<<int 0)9	bool
+boolint
+9
+<= off7	string)returnevent4
+string2 funcint17 6	} int{exit
+initial	while|| ]
+exit
+off]elsestring
+entryactor
+% ]0	0%=>== intint<=} statemachine"{7 <= string}
+; off.	*/=	state
+5.int( printbool	int
+-=)/=goifstringint	}	"	exit4	while.<<
+; +=	boolgoifbool	9string (424
+;} string
+exitstatemachineint	( 3+5 [
+)
+->*	2
+actor -=
+actor<<=	string -= {
+%]int	1
+ whilestring 1 int statemachine-=.( 2-=intelseint}0int return
+] } ;)+=
+string
+5[]&&int
+goif {>>statemachine %=
+bool1entrybool[ 2string ;	1bool
+(3	!=
+go	goif
+int entryexitelse} bool== while 9;boolwhile
+ 0 /= %
+initialelse 2-=stringactor]	)	3^
+go9->	6
++ 1 [
+^=	2.printintgo;< stringactor bool{bool statemachine
+on 9}" .3 	int
+^=3	actorevent	int	5bool086ifintgoif go
+;
+[bool
+print	statemachine
+go
+}
+print int
++end9func ]actor 9	^		stringevent
+statemachine
+event^= =string}. int
+int8stringstringboolboolint{
+= ] statemachine	exit[if
+actor
+func	
+4
+4funcboolwhileactorintexit	funcint	)7exit0	1
+statemachine +=	0
+3 )stringint	stringevent bool {(	>int	int <	8
+entryentryboolint]-=
+1 end	2	{]intprint
+>int.
+print
+state/=2
+bool-> onboolstring5
+intstate0/
+int "	.	95 [9>>= end2 bool int	>>=if6endinitial	int 7%=statemachineactoractor	bool.
+7eventstring	==bool8off5off2	;
+string==" initial*=goif	intint.bool	bool off	>>} .+[.{6[ state	state
+endactor==	1	string->= ;)goif	entry->.actor 2actor <<=	event 7int-=end<= bool 2	string goifbool=	*=+=<=initial func	goactor	-=	-bool	intint	stringint{print}funcintinitial
+intinitial
+8
+)
+".}	-= <=	.string int int <<=	}	(
+<	12 event5 (	"		46	1}	>goif "7 17
+4
+goint	int
+3boolint statestring entry0
+>>= 	entry	int	)[<= goif
+int	[	end %= { intgoif
+actor	" 8"actor
+>>;"
+(
+>>=
+go561funcstring int	*= ["5)string==entry go
+}initial+}(
+ actor	return
+;	int/=7int	string off)	int8	)7 exit>>
+actor" [ go
+0	whilestringstring] []3
+string64	else
+( {bool{	!=->
+|| <<
+] 1string
+if1"3
+exitbool event6 ]	9
+(
+funcstatemachine	7
+actor 6goif	string
+" ) exit
+[statemachine	bool	state/=	int8
+{/=
+. ;entrystate/
+return.;intstatestring( actor
+string string returnbool;boolinitial[
+intstring1
+int]goifintstring	]
+bool) >>=9while
+3	
+0	;9 on
+]{5string7string
+goif	6string >>
+int 6("	%=
+string==if ]int	bool bool
+)5{}
+stringstring
+;8
+bool
+"9
+initial; actor
+statemachine 
+0 eventactor	9
+3	)
+*= (
+func
+0
+]actor bool9
+event	6 <<state/
+exit entry)" else
+bool	}	<string 4	 bool	event
+elsestring
+print
+bool
+6>>=. int8 statemachine	int -!=[3	;
+( " ]
+bool9-=
+(bool->return
+int6exit." off ;)9 {8 6stringstring
+endbool] ;.	}[^=
+>
+9[string
+
+bool == [{offboolexitreturn"5/=exit	||goif
+.	func .
+int
+8	state	) 	+	8 3"	bool %(%
+)string{)	func
+^=	[ boolevent;3printstring bool6	goifgoif]>>
+* string go3stringint .+
+int	[6{
+else % *=string
+)] boolintstring
+boolbool	4int+	% boolboolint onstring )	return<<=
+{
+initialactor
+actor95int5	intboolstring stringint
+=<<="
+^while]{	[	event
+statemachine	[(<=on	int
+]	4print
+{go* 5exitint state int2	statestring .
+1)on2 {->{	print"^=off
+"7boolend}	!=string
+)intstring 0	. ;	eventevent
+".
+stringbool<<=	statemachineeventbooleventstring	bool)+=while}else	;
+state|| >
+"{ 
+(;.
+string
+bool
+go)
+if string ) 0bool
+initial	) +3
+string	;< 6
+initial< +=	"	)	<
+. <=
+string 2string;*"	6 return 	 7	9	exit5	8	event
+{
+print	->
+"
+7 = statemachine
+statemachinestring
+.
+6	entry
+statemachine entry	entry
+stringeventstatestring string	on
+"
+{	else	0 1(
+^=actor||	"
+/
+boolstringreturn
+event
+event 8
+(
+statemachine	int
+!=statemachinestring	 endendon
+6 ; }stringif 2	"boolstatemachine((end off 5
+int	eventstring	.3= initialstateactor
+}actor
+string string^=(	event bool]7
+intreturn = int ;	string	end
+8printstatemachine
+goif int 9*	actor string 6 bool	statemachine ]	string
+int	bool <=int
+->^6	onstring	func	stringstring})
+actor int;	.
+intbool]	8->^int int stringbool on8 ifint(
+boolint ^= off5
+)% intboolprintstate	9<<=	end. go	;{	bool	int goif8	ifint[stringexit"
+)else int	statemachine.offstring
+statemachine
+&&/=int<<statemachine
+;
+3" {]"	9string< <= initial	.(
+%=
+exit5{
+( }	string
+)	4 >>int
+intstatemachine
+statemachine	<<
+7)
+{ .string&&5 bool string( go
+string775	-	
+bool< bool9	print stringifactor
+string	;	> [9>
+int7	((intstring4
+0int
+6
+->]
+on
+0onevent} 9int16 { 4	end8<statemachine{	goif ]1boolon"end	event
+4	^=[	"	]
+>
+]string	}	intelsereturn< .2 statemachine 6{>> event
+int^= 62int
+stringbool	bool
+)/int2	state
+}
+whileexit] ./= [string bool	return	event	statemachine7string
+string	<<); ^int{ +=	if8	else while
+]	1	8string
+(+{off	initial /=3exit
+while	+=
+;
+} 6 string
+bool; ==end int	}	})
+stringevent.{	>>8	[5
+(int.exit )int	while int5<<4!= } %=event actorelse	string[
+goif>>4
+||>>	int	<< ]1
+;+ int6 0on+=
+"
+>>=	 ) %=	;event && stringint
+off	]state
+} [statemachine
+int else string	go 9
+end<=off||..	]
+int+actor5	intinitial int7intint >>=
+9(stringstatemachine " intstringbool
+9
+5 7 bool
+*)"
+=state(
+1	^= eventint&&	1	intint> [
+stringstring
+event)
+boolint
+int
+;
+)
+string boolint. ]goif ;	6
+boolbool9 { ;  /=boolstate
+] }-= .[ string exit(^= int81 8	{ bool
+ifinitialif||!= [ printstringinitial int .
+9;[(actor
+go.{"] *=int	boolbool1/=}	{ initial statemachine ;
+initial int" 55.(54 9*=[
+%=	] ;8entrybool
+[6
+1.
+func6boolbool ;
+end
+/" ;event!=8returnactor entry
+bool*	
+7(		boolactorboolwhile]^string
+9 string
+>	70
+bool string int	;goif 8	<<= 2
+[print	] goif(
+go9 <= %0-	int	stateboolgo 5
+*offbool] 2
+int 1
+3func	"	)43
+^ bool	-intexit
+initial int + 8	->bool 2 ] if string==bool
+string%"off+=4..)	stringbool	bool
+statestring
+[
+string) ;
+-	bool;5 ]	off
+2;)boolbool
+int"
+[
+statemachine.
+[	bool0%= intint intactor /=string	boolreturn;	bool]intint	func
+int0int intoff ifstringon
+goifbool)	"||	offbool stringboolbool	{%
+on ) }14 stringintintwhile
+if	int	bool3int	<<= 66		0actor	)<= ==	==)( <<=actor 4/= string}; entryint	actor	%= boolstring && (
+*=bool(boolgoifstring )7 7	stateoffbool
+62 ".[9initial ]string	"statemachine/=]9
+int	"8int 7 }	7 )go 4->	4if"
+%=
+statemachine
+int
+" <=
+%func0go	 0bool	stringstringint{ 8	actorint 5int-=	({ .	{<<=statemachine	;statemachine||&&int return.0 func	0	}	;string
+ >int. [	. ^
+9
+[
+stringbool1 string	=*5initialint1	8	string6int8	bool{	;(" state. 
+"-= 8int
+actorstate!=" 
+actorbool
+exit	<<=
+; ;
+[event
+[statemachine 16)if*>>=
+bool	7
+;if	state{printgoif->9
+ int1	on . 2 {int ||
+boolbool&&3
+string .int	exit5 -=%	7int stringboolbool	state{
+int<"	; eventint
+initial]funcstring statestatemachineint] ( intactorint +while	actor .
+string	entry )
+||int
+}	2	(
+bool	/= <	event]>>= 
+&&		string (!=	func
+0<<=>	)+82	{==	>
+end
+1	int"8initial+ /=endstring	;
+7on
+=state<<string<=+	int5
+/
+int;>>int
+print	3 string
+-= string 1actorstate0(<* ; ;
+.	end
+boolstringinitial
+4 string+=1	]end; "=]9>>="
+ (
+actor	while5
++>>=string")actor ^!=9string(]	}
+{)
+]statemachine)8int
+}	7	/=actor +=	onstring-	if1	.int
+string)	[	statemachine
+;string 4	^% -int bool .
+bool on<on1	2 exit
+string
+
+%= (&&	state[ 3"[bool8int}+=
+}	^=
+)4 8	boolbool	event.
+actorend
+initial (
+-"%= [actorint	(
+bool"	string
+{ 9bool 7 %= 2}[		string return%=string	>actor
+<<
+4	<+statemachine
+=.
+statemachine
+.	statemachine
+/==
+>stringendstring(
+string
+->
+int bool ] bool(	) })[<<= stringint
+bool+ go int[return state off "printreturngoif	4
+event
+actor3int"
+statemachine
+54string	return	if)
+event2 "".	}"		}event stringevent
+=event
+int
+&&
+entryexit6
+&&bool}[statemachine>>	2int
+%=	5int[ ]
+<<string	3	( )	== intexit	)on {	>>= 2statemachine}	stateactor "
+string 9
+string actorevent	event	"4print .	+while	printreturn statemachine(	state(int 9	) event initial		exitbool	9(
+bool;	9
+exitbool
+3func	}	=="{	;
+boolint[	/=
+.3
+/ )entryintstring
+2; 7int2
+9
+string2	bool; goif
+intfunc1	.1exit 	bool;^actor
+exit	8entry	off]on	1^=2initial ) * 0%=boolstring=state1actorendwhile33	off int
+statemachine}intoff	statemachinestring
+event 0
+string5bool bool	->
+actorbool){*=string	{exitexit
+return	int
+exit;.
+<</
+=int(	go
+event
+go
+statemachine9bool
+int "	-=+=actor "6 "stringinitial} return 0.	3
+1 }	. int	>>	int
+6returnexit %= )	string ^=
+event statemachine
+bool 703on
+]-
+
+<=	go	boolbool	{ event
+bool.;( int
+.bool)	initial	1
+on67	%=	==]	on^=	statemachineevent bool[ [1 [	intstate";string
+3end7string event	boolint	=	) +=	print %=45] !=bool-=<=&&initial}
+goif9 bool=	state 
+event
+string	onbool	{ string%stringint
+7	9
+event
+string4
+6	stringeventif state
+int -= 0
+4	4	bool
+	intreturnreturn
+ goif	86int	state { 9string {print	[	5int	<<	bool 7	statebool string	string  &&	exitboolentry
+/=	3	initial31[	goif . "+	-*exitbool
+;bool6
+bool
+) (actor2 state 0;);9 entrywhile ]9return<=int
+bool0exit)9
+funcstring ( 0/
+) int	*
+*=;-	4 initial 17
+ifactorstatemachine	)	/=
+.bool"	!=4
+whilebool;int	statemachine 6 >>=
+	)()3) 56.
+string
+5
+goif	((3	statemachine .
+<< {( statestate/= ]	if	print	;	string.return =while +=int	state% *	)string
+1	< string 6end
+;<=bool.5"
+else.<
+(boolprint5
+[4 53	int	{ ]
+int}1 int 	 bool
+(go }.	6 }bool	int }intwhile	int ^
+/=
+1	int	(7==func)	==bool	while bool0[stringboolelsewhilestring
+8int	%initialbool { << }bool goifexit4
+goif>while)event	{
+stringprint
+"	state endbool}boolif
+printelseint	actor boolstate	stringevent
+initial string )statewhile	9int ;	eventbool string[
++
+event
+boolint intfunc 6	returnbool
+;}
+bool] entryif	bool	4>>=	(string event[
+!= ;on0event	.8} else}	stringgo	state
+boolstring boolon entry 7return intfunc
+[	5	9	) initial
+ ; state	 ||9
+actor	1
+state-=
+else5
+string
+exit}string off ;
+bool	entrygoifstate
+string ] "intevent
+int	actor
+ statemachine	on
+	)int>	string(
+print
+printbool 1
+8[
+int0
+0int4
+/ int 	actor
+3statemachine ) )statego	4bool}bool%[ int	8>>=	{4
+bool
+]string on [
+"	(^= [	+ ; eventint func exit	return. exit - ^=string	) 9exit=3statemachine "*	7 *=]bool
+initialbool )off
+end
+2
++	78state .*6	6.8
+int[
+int initial4}	->==stringstring<< " on
+goifinton string} bool	bool})3*=; if	[ /=	boolstring9boolevent6	return
+)	-
+8	6string5 statemachine
+=;
+[	
+2 stringevent<<=;int	]bool
+boolstringstatestring
+{string
+7 int2	intstring%=go	intint int	4
+string	3	2	ifboolstring{
+bool
+2bool
+<
+bool event
+goif	}	actor 2
+statemachine 9 entry initial
+*	stringeventstateint on*=	bool	/string7	";^	func actor
+int [0	} 
+statemachine . (%
+==statemachine}int int
+	5
+3>><< int6
+string	go 0->return on string1event	event
+off" 7int
+3}4"stringevent	func	string exit
+initial	}string
+2
+"stateint"	state	}evententry/
+statemachinebool9 boolelse
+6bool
+event &&{	(	>>.	8
+entry96!=actor	bool
+stringint boolonactor	print4state]
+)exitstringint(	int bool5[ .offbool actor(while	;	int0	4;	=
+-=	end 2 ;goif
+func
+{int actor])	;
+actor }	go )	stringentry	^	goif>>exit
+statemachine	<= string 	 0
+[
+2	eventint
+2	actor &&statemachine	string	actor (	"}	print	%= "	
+ statestatemachineendif] 4initial
+5
+^= !=	stringstring<<= <=
+"
+string "	actoractor4<<	entry event	7
+4 ;[	"	endstring
+actor	 <= actor
+stringbool[
+bool
+entry<</=](5int== 6	{bool	entry
+while	actor3	[	3state;
+{on}7 actor<=	 int print-string771if" statemachine
+actorintstringstring
+if
+-=bool
+9
+]
+
+"initial stringactorprint
+*	string
+3	int.
+} -= }
+2* inteventint	int^|| ] ;int[	;
+funcbool
+4else 2	->(< goif	{>	bool ->
+>	initial	{
+func6	statemachine
+(bool -statemachine>>=2
+83	bool
+string entry
+entryint<<%	<<>>=
+-	*	]string[int 5
+; goifreturn (int	7	()9	->) ]	;while string{	func	!=
+] +=bool[ goif{event<int
+<
+1
+9	7
+1intactor4
+6	event %<<=	bool1
+}
+statemachine.	>>=	4
+string
+event
+*=
+int
+->	0bool int
+/statemachine
+string
+(	actor	<
+stringactor==.boolint	<<
+intint	==5goif
+actorstatestatemachine1	statemachinestring	38
+bool}/	35string goif 7 1 3stringevent.	state	9actorbool	elseboolon!=	exit
+2string string	{	actor int}
+}	8]bool8 .	)) exit} int=
+string)statemachine17int{})intactor	[	8 0==bool
+/=	[}else0	printint
+!=}.	int
+statestring =int; >int8 state* bool	7*(	]==if	; %= exit"	off0([	bool
+<<int5
+. stringexit	2 %=while7; <<while.
+actor
+/= string int/statemachine &&	initial
+int[int{3	<=else4statemachine6 )	]	func( +
+goifstringfunc	int-string	statestringend<<=string.7int [else	string75-= ; 6goifbool	bool	.	return}6; go	statemachineelse!=	2string
+8int
+<	string7
+3statemachineint ]
+initialintint
+string	1
+] "* state>>=int*=end[%int	printwhile	](( "
+bool"string1" (&&)event	5
+bool" 0 string9
+state ((3;string8 ;	string
+stringint )4
+exit
+bool exit 0	state	int9 string>>goif<=	entry
+	bool 8 initial;	boolgoifif3*=	9	int	int	
+string
+;stringint
+end}	event(.{
+/=2[]	}
+gostring}stringinteventint 6) }{{
+func
+<=(string	print
++=	}int
+)on>>	9	stringactor boolstate	)
+eventbool		.
+exit	{
+entry	==7 ] statemachineoffstatemachine=
+1bool bool
+int61
+]5 )eventstatemachine(exit5	printint
+26 exit  {	{/ string+=
+208[ boolexit string	8/ "int2
+[int string^; state<
+}")	boolstring*=	; int{	actor ^=8.	}bool	7)
+} 7
+[
+int/7
+*=state(}
+9]go{ <=
+exit statemachine3
+/=initial[ 
+eventboolactor bool	return]
+stringint2	 string
+( while>>=
+print"7 [off bool(	"
+go
+}exitstring	event	(event	1go	]
+0statemachine
+off {{
+!= " boolgo
+}+= /=
+actor] 6	bool funcstringint0event% eventevent
+1go
+3}
+off boolstring
+[ })	)+={"	+=statemachine string2
+while	}6entry; 6 exit
+^=print
+returnonbool	3bool *= ==]	[6 || 5
+=->
+initialwhile	statemachine.	/=
+bool	/.(
+5 state4
+;
+>event 1
+5statemachine*.elsewhile	([4
+8
+") int 4)	statemachine* exit %=
+int
+print		5)
+on. int* || string)goifactor>6
+int6	<<= 0print ]
+"go-;)->	stringentry goif
+/ 0"
+boolactorstring7{	]	)intwhile	event
+goif exitstring
+/} statemachine bool ;	5
+int
+>>
+-print
+^(	(
++=actor63string] ^= intexit(statestatestate{	bool>>int	actor
+goif
+int.6]	6 !=[
+stringint	9 6
+== exit exit	1==}&&	initial[ 81endstringbool	5
+-	off6;
+exit	.stringeventevent	.	int
+end	goifif7{ end>func	int"]- 8
+if	-><=
+boolifstring
+while ==
+*+=state
+^=	end	goif
+55.2
+!=8. *= bool initial^=
+bool
+"string	
+877func1booloff
+}+=string.
+event{
+state	( while 8 int
+stringexit{ 8
+1 entry bool	0boolend 3
+int elsegoif	9||	<=
+int5] bool	+=
+exit	int
+;bool	state4 -=-= 5
+exitif}7+
+]4{off	^=
+goif
+3on
+statemachine {state
+int	%"
+-=""int%=exit
+statemachine)	; 5
+actor. int	string
+}bool
+>>=7 print!=	}	>>	boolintactor bool bool)stringstringbool statemachineelseif string	exit)
+	{}	eventevent	bool<=8int actor	6statemachine4actorstatemachine 3bool
+) intprint	2	bool
+4string(1bool
+
+[.+9 - - string" int	7event
+8+=	exit || % statemachinefunc4bool> 9
+{9
+int
+{>>	if	5	string
+[2
+!=	end"
+exitstring	] 1 "/
+6int{
+actor bool	else4 >	} 5
+.6*= {	statemachine
+&&state{
+string2	9<< exit8	% <<=bool9actor
+actor
+stringbool>> (	]int* ];
+
+entry	statemachine 8.8off
+)
+5
+	] 0
+bool	(+	^=bool	[while	"	statemachine
+<<=goif
+>	string
+on whilebool>>5(1
+3 {		state8;	;
+
+while	string^	string bool *	2	9
+initial else	{
+state	while 4 /->
+%	on state ]eventevent. actor	7{stateboolstringint string} int== .{ return	int	.
+->	6"	initial	string bool	5	statemachine	8
+bool statestring
+;
+actor	bool	+=	else . 3string1
+int>string	;int goint( &&
+go >>[2	string
+5"	8
+string "
+int 4event[int.)+9string^ ifwhile	9 on/=	[	string )6intstring ^ goif{
+while	-> string } string[
+[(	"
+stringstring
+]int	while]))		+=	exit0 stringfunc	;
+string	int(
+string	{
+8 string
+statemachine)statemachine string
+7
+.	>bool
+end	actor
+while3	string 
+]&&
+6boolbool	int )
+statemachine bool stringint	else
+4
+func .	bool;state)		8 <=67event goifstatebool
+9 &&	)*=||
+<<=	actorbool
+ifend8	statemachinestatemachine	]	int-=
+bool	"2 0 
+^=	{printactor on
+bool[!=
+} 0initial
+string==" bool.
++bool.4	9
+if	actor
+string
+/=
+elseexit)
+8state
+stringint1
+[string
+.>>=;statemachine==	goif9	6	"=	int
+boolbool)int )state"end	endbool int
+int	string(
+event
+go	statemachine	statemachine	. 	.}
+string;!= ;
+offbool* event goif	string
+<
+=string- string6	exit	bool
+entrybool
+1
+ int bool
+[string
+int <.
+;	"int4
+actor^6 +=	string %=print<
+actor"	event	8%{	event	8string
+9 int
+eventactorexitstringelse
+1 2
+on3)
+8 	*
+exitfunc bool
+]int	"string
+["
+8
+{
+)	/
+7 +{<=5 bool int	3string1
+bool	bool bool 4)5
+0funcbool9stringreturnactor
+end	string
+9 ==
+) state.5
+statemachineint<=goif{
+bool	entry"&&string88
+"	event ; else
+ ; statemachine boolint7}	4
+[	- (endint
+bool]
+* 9(
+5	6stringstring [	bool
+goif(3 while([ (intstring	boolactor
+string
+state actor	!=01
+.string	bool bool
+}
+string)	<	actor 6	;
+while	int<<2string	-> if
+. int^	bool .string
+4	int	entry8]	int initial{ string	int (>>=/= goif
+entry	actor while =	exitendstring7 ]
+"	-=<=	go&&
+exitbool]
+actorbool(.{}{%]exit] string[
+on	int
+{statemachine[
+int int5!=	go print.0-=	stringbooleventactor)) {
+
+]	.4		6}-0
+0
+(
+func{initial<=bool}71<=
+event	8 initial stringint2 intactor1
+print	entry exit
+bool
+)(7 int goif	2	actorint"	goon68 =( state.
+<<statemachine while	"
+>>
+%(1 off{<=event .int
+event
+off
+stringint
+9	==statemachine}	=
+.bool8
+4] [
+int	*print "&& printbool	 boolstate0
+goif<<=/statemachineentry
+6exit{func string	^||	%=	-while	<<=56	string9	(func	"print string 2 ;	entry
+)goifstringstate	statemachineon
+;*int
+%;	">;	5 2;string boolstring.
+event
+intgoif7goif	actor ( 6
+(
+5(
+string{	stateactor
+-> 9 event[ ;3"	statestringelse
+}3;	3
+]
+5	.
+bool	.exit;^	func	{	intbool .
+	bool	*bool	-=	3
+int offexit
+statemachine
+70	boolactor
+boolelsereturn.	]}; stateint {int <<=
+state
+2	elsestring bool;
+)
+[6
+&&)event
+boolexit goint=int
+/ exit/= return event4	off9
+bool
+.	;int int.bool	}&&	bool
+stateentry	int
+}"int string "<=event11(3string 7	func	return/. int	" actor"print
+6	while+=bool}^
+;8	inton
+"}]
+>> actorintexit
+boolprint	!= "} "
++=statemachine	.	{4===state actorstringstring
+stringgoif;stringentry 0 entrystring
+int [ 5string 7exitendoff6 *=statemachineint
+]3{
+8	string>>string	int (	actorif	bool	string	3=
+&&"
+1
+]		>>=actorbool	]event(;else9statemachine
+3	stringreturn	actor	||0	int9;8 8	0{<=stringint"(initial
+8	.int;	5;(	[" %=8	bool+ }
+06/bool }off7	bool boolint 5
+7
+*6state	[	{string
+>bool	on-> 8 -=
+>
+int6[ 2 >> ; ==
+actor+=bool intstring
+[
+{	3boolbool -
+6bool(1string	4	31
+<</ "
+6
+>>=
+3/=(	2intint1end
+&&
+func	0 45int]	bool
+8;
+initialon
+print]print
+goif
+%	boolend;
+[exit
+1int2 <<= exit	====<<=
+)	on{}
+eventend6 goifevent ]	2^=int
+bool 3<=
+return
+||
+(stringinitial]	
+initial 
+int>>=
+;->7
+bool/=
+string	*=
+
+^=
+]
+
+entry
+7func. 4
+bool=	string[else
+stringreturnstatestateevent
+0	int	"2	) bool
+.intend] exit]	{%1while [string	"actor	}string
+}	int[print "	boolint
+on
+string{
+5}3
+. offintstring ^=	>>exit +=bool+=
+string77stringfunc
+]	1 statemachine &&entryelseentryoffstatemachine^ >>= 6}	0 event
+on{
+=
+string	string!=
+string 92 "[	return	boolentry
+actor	}	6	bool 1off "[ event intbool ) returnfunc5	|| 2 3-
+	2]]
+end
+}boolgoif		string
+/"
+bool+boolfuncbool}state)end intexit)int+=	)6bool	!= . state{
+;==
+"[
+statemachine2
+intbool	4event
+intexitboolactor
+7	4}actor	actor;int	=
+2>>	goif	(	string/*=
+boolwhilebool
+ while= end 9
+*=	endstate	funcstatestring
+boolwhile bool )	whilestate2  {	} int	statemachine stringgo	}
+entry5
+ elsefunc(
+state{if	exit	string <=(statemachine ; "
+statemachine	print]
+8]elsestatebool	int
+else	.	state=} ) bool [8)statemachinestring%=actor
+string string=
+>>=
+ 0whilebool	] entrystring	int	(
+4 statemachine	.||<=1
+entry
+. 3 0"actor [return[	2 }*
+actor7stringstate ; intstring exitint ;*=bool
+stringbool^else	{
+( event9 2 string.!=
+event	go.	[string
+{
+1	^=*intint
+ event	&&
+event>> string ;	|| -=	bool	6 statemachine==
+->[while
+state2}
+5
+ "[  off
+	" bool.	[initial-=actor4(
+string* {	( {]8 initial ] [
+exit
+==}"	1}
+3	event4 ] {	/
+intactor
+string6	]
+>>=" int{ string	(
+==int	
+ifactor&&&&	endbool 1	actor	6exitelse	string2goif
+/= boolactor(
+bool
+}print9	string1state	bool}
+/ elsereturn]> % "
+state .func
+2
+string	3[	boolexit3
+%= bool
+"	)off bool
+string!=/=print{1
+^}	actorprintstate
+boolentry	string
+;* *=	bool^
+initial	{	*actor}	stringbool< initialprint actor
+==
+exit 0exit	int ;==	^	{({string=	<=stringstring		intgoevent<<|| +
+int state	/=
+}&&	entry}==)
+<<=;9
+"print ;	int entry[	/= )	2}	{ ("bool statemachine	bool ;	<<
+go 6initial	(
+string	6exit} <= on ] .	(	[" string%=*endevent	int*= int "3(on4
+. intstatemachine
+statemachine int 3
+.+=onint - state ((2
+	actor
+0
+go 3
+9bool	<<=state.	0 int"9 ->ifint;	6
+elseactor elseactor	!=
+"	+=string	({/ off	bool	return ^ exit 9" 2 ==
+<<=
+}string4 entry	actor .actor[end1
+<
+string
+"event; string%= state return1int
+
+bool	)	{	bool
++	initial-
+if[}
+)int	)
+3 stringstring||]else exit	9else	exit
+!=
+;string	(	initial
+int /=intgo[int2
+>>
+	8 go
+14 string	printon
+.	bool^||	actor event*
+4 3
+bool
+string	string{
+{=5)
+boolint
+state && ]	" 7 int
+
+{	7 ;4 >+	if; 2 (	int ]
+actorbool	[ 
+&&
+string 
+6
+;7.3	 [6	[0	/} ; string[stringstatemachine	>>=	bool	<;6
+boolbool	while exit return bool
+2eventexit exit%=
+<< bool
+.elsestring]event
+>>>state]
+int }->
+intbool
+ifstringactor; 5
+; string		exit [%=
+) initial 1initial event	+
+statemachinestatemachine .">>
+>>=
+9	] != &&	>	boolbool statemachinestring	2 int
+;	string	return ;statemachinebool;int	} 5int	)on	<=return	8
+7(](	statemachineintint	bool2bool	state
+/ print +int state[	>}/
+%/= ;3
+}string int ^	off ; .]	>>=* "	(
+return	event
+ 84>>=
+2 string];/=8string int	;{ return!=	int int
+-=
+int{	<<=	print
+ bool
+.^	>
+[
+int0
+[*}int	stringinitial	*=	bool
+boolif ^bool <<	7]"<	;1statestringint/= state (statemachine	9	intbool 2
+8)
+1	;	actor8	{
+"1{statemachine= goif
+intstring end{	while <<
+string elsestring"
+[
+boolstringstatemachine
+int"{} 3
+bool
+actor
+>7=	!=]6
+5string
+%.
+event
+string
+.gointexitstate	entry bool	while
+ifboolstring
+"%=
+event	) <<state<statemachine " ]	int	3||
+{ state	)
+end(6 0 (	bool initial	8 exitstate[statebool43print
+elseevent string	)int.string{!= go&& end * int2 goif
+3]	5	statemachine	;
+intstring<<go while
+"initial}	9
+else
+] stringstring	int statemachine 1{.string	3 7	stringint
+bool6	+3	bool >> *=
+string int
+boolintexitgo.="	state[	}	-=state	"3"string""7string bool elsestring 5 [bool*	>
+"}	>7
+func
+1
+{actorexit 6	6bool]on.(
+string
+%=
+
+string	+= ]	0 {{	(==string1 )6 state4state-> 9int initial.
+>>
+while%=exit.else4; 1 (	string >while23string
+intstring)
+{
+int
+state while6>>=!= string8	*=bool4 ] "bool }>>=  2 
+]stateinitial state}	
+end
+( on	entryelsebool
+goifstatestatemachine*
+string
+
+bool	int	actorint- stringelseactor	8bool string
+bool	45	boolint<9 string
+0]int
+8	{	{ goifend stringstringbool	string{	[string *.func
+}eventint^while
+||bool
+string	string6bool	8 actorint
+string
+bool	{actorbool
+goexit
+int	"	int.	*= statemachineexit<<string
+int
+{	&&=	}intfuncstate string
+>>exit^= actor	;exit
+-print
+||{ 6endint6statestring..	int(*= 8)(
+bool 2
+<<=int int
+/ ]state)/ * entry;
+string.
+}
+event
+go
+int2(printstring	string^{	exit	.int	]^bool	eventexit	)exitifint if
+7	intint
+intstringstringoff	]
+int	<<*=(	<}   ] /int4statemachine stringentry)
+string(= int
+}[	exit
+if||eventfunc0intstringstatemachinestring^=
+{return
+.stringstring;stringint ||string int	%=".	bool >>=} string	onbool	6if 	6 exit"offbool	]||<<statemachine	2 	string	func
+if
+75state
+int+=	4<<=
+}2 bool	^	event int
+event|| -	{initial; /=actor int
+5while	[	string9
+]
+1	print6 {	string	)statemachine
+} 7exit^=bool
+string	5{
+bool
+)
+;6goif	6 string actorstring <<	0state	4actorint
+string{
++ state
+int	actor bool+=
+int8
+print>> 
+boolactor	goif int%
+)
+-=][	int	[; 4string0( 4
+0 ;;	->	^
+initial)	(endifactor endint5%=int
+]	
+(	8goifevent
+int"
+-=||/=	int663	bool	bool
+actor
+;	<=actorinitial
+20/ string bool=	";>>= >>= exitintstring<=
+state/= elseactor&&	int
+]
+(+if	[ ^
+;
+{	] 8	string} "string
+statemachinego
+off	bool^ on [	^stringexit	bool	statemachine <	"initial	bool
+string(7	<<=(bool}6;string6boolstringon{ initial!= ] .+=]*	5 initial offstate;statemachine	else
+. 8""	end}.	int	else*[	) {	3
+{ 1 "
+boolboolgoif 3return	on0	int	5
+0
+" /actor{.(initialstringstatemachine
+if
+[string.}string
+.	( } bool
+statemachineboolbool
+bool"bool	&&exit ;
+.	1	8
+int>> bool
+int	int while 5
+ /=
+]	bool 1"2while;endstatemachineexit->	eventexit end;
+=9	intbool statemachine 0	<=(!= stateinitial[	<<<<returnstatemachinefunc<<=
+% if7	intstateoffint	9	/={.} [ 9	 %
+-> int[
+intwhile
+.8^string	7
++ bool%=	state(
+actor %=return [9.bool	3{&&statemachine( ]	int}->
+actor
+exit02	7	goifif)stringstring1< string	<=98statemachine
+bool
+>>stringstring
+})	>>)
+eventbool
+&& *= initial	string on
+ifint
+% booloff gostring	statemachine8
+/ ;	) while	{<=statemachine.;
+35||1string	)
+5off+=	stringinitial
+"+	ifint8 print
+5	stateon [	;	exitstring3boolint actor" initialint] 0 event / >>=-string	9
+{ bool	.	2bool
+int
+5 }statemachine
+bool);
+}	state	+initialentrybool56
+state(string
+string	% 4" state; 3	%	state%	
+[initial
+9if
+entry%= 4 string	actor return2{	print
+<=-> ==bool; ^<string&&stringint
+
+off[exit2
+goif	actorexit5
+actor<=
+. bool	"4^	0	> ;
+3
+exit5int
+{
+end
+
+actor]actor "	actor	entrybool string
+[ string
+entry60entry[
+"}	statemachine
+6
+7=2) }"
+int	;
+5 3
+string
+print}go
+exit
+int	3
+5 [goif	bool.	2{;
+else		go[||	]} return. " 3entry return-=
+ 4 1 state[ ">>=	exit ]statemachine	;
+;	else
+}||
+] (intstring	 9 bool- func +
+initialevent*= stringactor
+stateevent}
+funcfunc2]event	9{
+{	<="1
+.)==
+string*=	;.
+string	=
+exit	< bool bool	<=	go 0
+initial	else9string
+&& stringevent
+>>=
+int%=9
+whileint)actor
+)" 5]
+<<= 3	<<= int	. !=. initialbool
+int	intbool
+bool9 intstring)string
+bool!=8actorifactor	bool[.>>=; int return
+string"int; 3*=9	[	^ ||
+{ 2off"entrystatemachine1
+entry	<<=<<		ifexit/*=
+end int	{int>>=;string	string else	; bool	/=>>
+.] ;<];	statemachineint	0initial string
+^= =string<=*	{ 1 }	|| (	 statemachine	onint 8*=	statemachine	->
+int
+booloff
+6;7
+||int
+int
+5go"bool 1}9
+return
+^=
+] 83exit bool0
+- 4bool 3!=
+8	boolstatemachine>>=
+entry;!=;;] (
+;string
+2exit<=	2 boolexit {bool goif !=	46 actorfunc
+endint
+go	entry	event
+. 3; goif}	.3
+>> end. <<= .boolexitstring
+/= *=	;int8/= ;	.
+int 	bool
+4
+if
+int
+6 -=
+8;string
+bool
+}
+if
+actor86	string!=;	8]
+)	< } func1	3
+bool
+print	>>1 >bool	bool
+%entry -= 8
+8bool
+return[ int}	endentry	go	2^=>>= 	event]
+stringint
+eventelse(string
+<exitbool (
+]
+state
+<<=)0 != <<=>2string%= stringbool	event(
+7 61
+12end int ^	((int	intstring2entrystring	string
++string	string
+.
+0statemachine	4	1<<
+event
+2	4	/int"6}	go statemachinebool
+;
+stringint+=else*)printstatemachine
+	.7 } print^stringstring	go event/ { while elsebool
+"
+&&9
+go	}-= string on
+int	
+{""		0string
+while==statemachine bool5	state *off
+}&&	+=	exitstatemachine
+[ "	bool	>>"[else		off7end4	string
+8	)4	)*=on3exit	off bool
+->9/=*=
+else	off==!=	event )>>=	0) ifstatemachine
+ return
+ actor	bool3 8* statefuncgoif "
+
+"3end4
+!=	statemachine string	" exit	print.
+8	return"	int	(intbool;. 02	printbool }
+.
+intgo<(string^
+<< intint75] string	-=	/=return"	[<	0
+else{4string string	)
+7 ]int stringexitelse	>{ +=	8
+
+4;/initialgoif5	string 9 else
+string )	goif;string{actor&&5
+if-=(statemachine %=-
+exit%=string. bool
+56<	;
+stringfuncint	int"{1
+] != [boolstate
+ if]
+while}->
+event	
+1while	;.
+bool 4
+*
+"statemachine
+]entry stringbool^= 57	actoractor 6intinitial 8 % ]}
+6 9bool	6return		; go
+event<
+2 bool;}	<	0{ event
+bool
+%	intoffprint>
+state
+]exit*=boolint elseentry int	] bool int[
+state
+<<=	9	. }
+}
+}	&&	{bool
+int string=	actor/=statemachine
+"event)3>>-=print } 5	"<<<=		5int event	2.[bool >>state
+string
+whileint9
+6statemachine5
+%entrystring7event
+int(
+string	if <<
+->)
+stringbool
+int{	5
+ >	event	string	state if<int	func
+exit
+{[	bool 7
+;6
++5statemachine
+string *goif(
+}}bool <	actorbool }	string
+. statemachine5boolactor.func int stringoffinton{ ->bool string " string+[actor"
+string 1	int])7	-%
+string
+int	state
+string"
++)string)	^=string (	.
+23intstatemachine	9	"
+%= += stringboolevent(eventgo if %= exit 3bool9 ;<<=intint	+=event
+%=	5	statemachine ==)
+"
+5boolstringoffexit	int actor.
+"3.
+34 event -1
+5
+.on	return
+"7 [string ==int"else
+func	bool string
+]	7 while
+(string
+return	stringgo
+stringbool(>int 
+eventstring
+"go)||off^ while+=	7	return5 actor
+func1
+*	;	;string	int bool	==+	{print-=	<<= -=1
+4 whilestatemachine eventactor;-	actor	{string
+;exit	<<=boolintboolfunc int 2 print	return
+statereturn	2 bool ^ 6state *1[ end	)	{go 87)	.+
+;
+statemachine	<<3if 6 <<stringstringbool{bool	off{	string1	.statemachine	>>	string"	string1 
+3	int
+1 )
+.actor; string >>actor(;bool/=initial
+)
+stringbool8string0	eventactor
+exit	on
+on;state offinitialstatemachine4stringboolstring go
+event
+{;	intstring	string.
++exit*exit	6 stringint exit3int
+funcstring	bool
+[funcstring0 >> *
+<".	) }( onwhileon	%={ "
+entry	;4
+<=	statemachine	.
+elsestringstringstate bool
+bool	8statemachine string(offbool]	)	offon
+bool	[stringreturn7 6	8 int if6 string
+5	returnbool+
+*=	stringstateboolint off.
+7
+exit/ return	boolstring %(  end /while}]gobool]
+=	event 	exit
+&& else	%	6+=" 1[	!=	int	<=
+]
+;
+event int ;int
+6 string +
+3statemachine5	) 2event1}"<<=" entry
+int <<=
+9string
+ "func[else;int<< int printinitial- 9	(actor
+return ;	off 	8actor) 3
+3
+int {		!=	state	||int
+whilego0	string 	> actoractor	+exitactor"	on2.string%= 5
+/= {
+0 "	event 6 while event	( actor[ (	+8string	int off	int<<=actorstringwhilebool6% 96%= %=3booleventint
+3 int exit	*intgoif ;
+string
+])	func(
+.
+8stateelse9[ bool	!= 
+int	-=	goif	goif
+int
+-[func""func	actorgoifstring int	2whilestring	7^ {	]	5
+[ &&bool	0	int[ >>-=
+-=)3return
+statemachine stringon3	.
+49	8 goend{
+<%=if
+-=actor	int2entryintbool( booloffstring elseint(
+/
+;8
+statemachineelseint event
+boolactorint .
+{ statebool  string ->	while
+print
+exit "	statemachine. string[
+8bool
+=-=	end<<= 5 
+; go	>>	int (
+9||"intstring } ]return[	event int"%= != exit8
+intint(string;
+statemachine"entry
+1 1	6=]actor
+>>= intint
+event
+[[{	bool) if 5 [	7 string
+offstate(
+.
+entrywhile ;return
+8
+returnbool.]entry	actoreventbool"int9
+" 7	int>>= string==(
+.
+bool goinitialexitentry
+boolstring
+-	!= )end
+int9-=. string	; bool.
+"exitreturn
+)9state +=int
+string
+statereturnentryexit exitifboolint event}bool	/=string event bool0	8event
+	98
+}
+"(	exitstring-=[+
+ifif->	else<
+0	actor{;1int0	entry==	if
+state-=*
+statemachine>>=	eventexit]	0
+exit 5	"return
+}	bool9 while-	
+9 6	actor9 intstate	actor"0	int offint exiton int*bool int	string	bool0 /5end }!=
+)]
+<<	3	state)
+string
+( statemachinewhile3exit	bool }exit	goifstringentry state stringstring] "intstatemachine1stringoff"int 7;
+.elsestring	func 4gointinitial statemachine ;} [ whilegoif
+1
+0	string 8string8	statemachine ) 9 3
+actor
+6
+if	event >>=0string	exit	string
+exitprint	actor	9
+actor .int (	61	4
+-9
+;	exit	string
+0 (entry =^*
+]]
+(
+int
+actor 9func	bool/!=statemachinebool8}]
+-=[*=goboolevent 1}
+event2 bool
+}
+while	string
+/=string ;;state[	*= 5 string;
+"bool"
+(
+6actor	;return boolbool5state statemachine 8]>>=string%booloff	string 9	{}bool
+exit entry
+boolfunc
+1<whileoff (bool
+)[2+6func2 8 int(
+&&
+intstring	goif	0 (7
+int	print+=bool }	intstringinitial
+)7
+bool	)
+initial.
+}statemachineint
+;int {
+bool 2{	func;4 entry boolbool( statemachinestatemachine
+on	while
+bool" string6 end->(	statemachine}eventevent	bool-=else stringif1	exitbool	+	funcboolintbool
+84 ]end->entry	initial else returnexitstring	int [}int
+else initialstatemachine int +=5state (. ]bool actor
+statemachinefunc5
+/=	bool	ifstring
+6"	;	event	string	(bool2	state1 int )"statemachine8		string;end
+. bool
+(
+.	3
+else[1 *=	.else} 6 string
+ eventint<while	. return<<
+.boolinitial"6string <=func
+8bool
+stringgoinitial	>>= bool
+/=1return
+while	] -6  goif	string>>
+bool intboolstring] 75]
+off	}	entry 8] 2-=	9	->1string	<<=4while
+actor%=	end < } int boolstring	stringint
+;	%string	event"
+0 int  3]actor exitprint8->
+int
+]*=exitstatemachinego	8 exit=
+bool	+.intstringstringint<=	intreturn[
+statemachineentry	( 3;% string
+*
+[int0 5 .exit
+	];bool
+<< { {initial	7statemachine]{9 (	20
+%=string==ifstatemachine	->
+/	initial{
+3return}>>=	(^=int
+return
+func->bool%= goifexit
+>	stringgo
+bool	string !=	[ goif	funcelse	offint	while string;goif goboolstring	[string bool>	2
+exit%*	if" >>	offint"	bool	]off4	event) bool{ statefunc"(}	goif	}goif"intstring6else	]func]  exit6	*
+4statemachine==1	off	return	int) ]	9	exit4int )" )(entry ^event ^
+"goif95
+9
+statemachineint{ >else 3 3> string0	^=actor	+=int. int
+(entryintboolstring while statemachinestatemachine
+]actor ["[off9;
+initial	int
+455
+>int funcbool	statemachinebool	^3
+end
+"	42.(;if state
+int	int ^int
+{>>
+gobool
+5/int3(
+4 end*= boolevent	->}
+(
+initial stringstring
+5(	1"	bool
+event	8eventbool
+string<event	.}1||on	3==-> end"
+int printon	int	1intprint
+returnstring(	bool int
+" 	int int;	]int{end
+actor
+bool36 stringint initialstatemachine^<<6
+%
+print+=	string	^event
+6!=	[
+]	=	]
+statemachinereturn+=	"[
+return 3<)==bool(
+bool state3	goif.8string	[	;/=	>>+=
+boolexit%={; . .9
+1intstatemachine	.>
+int^0+{
+)	state actorbool6[	7(<<(>> (	on
+entry2	bool (
+{6bool	1*{4goif int	->	boolexit 5	{{;(*if
+goif boolbool 2 int goifactor;statemachine	9[ 7
+stategoifprint	0whileon->{bool	1*;goif	on . " intbool}[	actor
+;
+eventoff 3
+bool	6 ;
+bool
+"02goif
+string<<= int
+.	}"stringevent 1	print0	boolprint4||string	(-/=	int ;int	int1stateinitial 3
+string6!=	bool^return ]}	actor5
+int	func
+*7	stringstring ifreturn
+!=exitint
+event	string	{[ bool 0goifint
+string
+exit 9
+string(
+"5	go	bool[ 9
+stringoff1 	intevent
+int	4
+
+string "exit|| >bool<{)int	
+string-> <<=
+return return
+string
+;
+<=
+bool	2
+<===	stringifstring	int
+	go	goif3
+; bool	on }	initial	bool
+go
+bool
+
+bool	 string<*=exit 0bool endexit	=bool	; =on intactor&& ^ bool } string	actor
+1
+]
+9goif" bool on[-=event 2	8.
+return ) ;intfunc 70
+=off5bool "	1
+>>===
+%	".<=.int actor end > /entry+"-int<<initial}	bool boolstate
+string	}	>>(/={entry  if	off goifint)actor(bool
+boolexit	statemachine	(	boolint -onelse->-=int{ [!=	7.gostring
+9
+6 0bool.) 4{ if bool5 3boolstate	bool
+returnexit bool*evententry(	 state;8
+7
+
+836[
+>>=initial
+/=statemachineint [+ 3initial	.
+int9{	==string)return
+entry
+]6	boolif4	^= state
+on)int string . 4boolstring ===string
+actorif stringintstatemachine	intbool bool&& ;25bool	"actor	||  exit
+func*= [ ) bool
+string
+bool8 string0 int	( on
+bool	[bool %=6	6
+[ ) +[};int
+%=
+if8-=
+]statemachine
+0	5actoreventstate	8if	;}||" 0actor	1	int
+0	string3) state	string %=->off-while<<=entrywhile/	] <=eventon%=
++=int	8)!=	exit
+^= int[bool" [}	offfunc	(
+%	<=
+int
+stringstatemachine	)
+statemachine	
+exit 9string " ;
+bool"bool0)2	29	;goif( 8while"->
+{884[
+5{	func
+->
+<	string
+boolbool	stringprint3 return /=	funcbool ;goint	^}go
+1
+}	6eventbool* exit
+(	eventint
+statemachine3	5	initial stringexit
+bool.exitstring+=
+boolstatemachine
+0
+func
+[	7 }
+bool(bool	bool
+int int
+offevent9 string exitexit * *=on}
+func .{
+>>=int
+*bool==elseeventbool
+return	->	bool endelse<=	"
+0 event"*bool]string
+initial	^|| if	||goif ) 4	bool)	5; 4 +
+9int!=	print
+)actorint{	8||string )/+==int 
+!=	[entry5stringint]whileexit string	3	[	+	9state6if"
+string
+int((string }else2	)string (]intint int ; 7^.||	"	int	}offend
+]	initialstring
+state	<= )=
+(	!=
+bool ]
+intgoif6.
+bool	" state"string6"
+if
+" )(=stategoif
+	state5return 1
+if
+bool+string func	4 statemachine9
+intstring]*=statemachine	int	9	[if
+int0
+[]	intstatemachinestring-=boolstate	}	[ "=boolint .-> stringint)	func
+6int
+){	else	elsestring	while8== (	6 goif	(string/=]
+intifexitbool
+func	[ 4]print 06end"	 actor
+int}	else int	booloff "
+statemachine
+*
+stringactor"	goif	 6
+while	"string-	]"26	initial
+;bool=	}string%	funcstatemachine	bool<=
+7stringgoif
+4
+!=	; bool state	event ==	on/=
+string"	1initialintif	goif*=9 5int .	string	statemachinestring goif	bool."bool 1
+elseexit;;	string	0int	bool string string	0bool<=  bool initial
+boolstring " actor	exit
+3 event 9. 89 ;
+-int while
+0<=
+state.}	bool	exit	int*=
+"stringevent*8
+bool
+]"0{intbool  int0	3string 0initial9(while ; ^=int bool
+- stringevent
+actor
+whileint += int	returnstring^ ^ 3
+int
+9int
+1>>= [<<{int"	+ { ||=
+5;	go"exit
+string
+int	7	exit.%= 6stringstring)int	string8elsefunc bool	statemachine	return4
+bool	8;func	;eventprint!=on
+.(;state (	statemachine^=	int	34)]	^=bool6
+print	6	2{ 8-= }^end{	]
+string
+while	statemachinestate
+/
+if 
+[
+<	actor printactor]  go	func
+; event	+= while
+})	1}
+)[
+stringstate^=4	bool int}	"eventoff}
+actorstringevent({bool <	returnbool"
+- actor[-	off
+2on	&&"] 8[	on3]
+&&)[
+entry
+end{bool	*
+statego intstateint	+
+&&return
+} .%exit+
+bool4
+([;
+string{int bool "
+int	[	int	event else	/=
+string
+"[[ {	bool98	1 [
+int
+).on 1%=
+" >>=
+actor <<= {returnreturn
+int 0
+6+=<={
+string	bool3
+int*=state[
+) ==int>>=gostring3	98	3	7string
+2	[	printstate if
+endstring;[[intend	{
+int	
+entry	0	{if 5 )	bool on+exitbool 1
+int 8 	int!=4print	3	<=
+[	" /=actorstring actor3statemachine *
+{	bool3
+9statemachinewhile"0(5	4"^	{4
+else
+int int. string	[entry statemachine	.)bool0
+>onint	int"[/bool
+intelsebool	string	1	9	.string	gofunc 3
+int ;{int (	 ;	while
+int /
+3func9 (3	0
+event	.&&-	} 9	0
+>>actor int
+string	"	)	+boolexit8  4!=	int([state
+%=	initialstringstring
+)"	9	+=<=	ifgoif
+] state
+state ||9	[intactor->	intprint	eventstring2elseelse)(int6 
+}bool9
+&& {	go (;
+int
+bool"4string
+intactor	(	[ {
+0(state	entry4	else^= bool	<=	}
+entry
+return 6intactor7 4boolelse{
+offevent)
+bool
+ print2string }
+int
+||entry( goif*=
+entry
++
+bool 	+	state
+eventstatemachine	6 1
+event7actor .%=state
+event
+*=>>
+bool 9bool ]	+=return
+5	boolon	5	6	3off" 9int actor <<=int
+bool	]intintbool{-=([{entry	bool int bool
+}
+bool
+int initial8	exit	actor
+actor+=on} int^=
+event exit}<
+(.	7 %stringstringint[(on(
+{
+	]bool	event
+int
+. =4	stringwhile;	 [	elseintend "goif	<=on while	actorboolbool
+int
+bool	"!=
+while>>	go	{elsestringstring
+}bool	state9bool
+elseint 3	 statemachinebool
+);return	string ^intgo
+stringinitial	exit
++])	"	stringbool% &&	statemachine	string
+"	string1
+bool
+int	onstatemachine)	print
+string	2 ||state	(*)+=	[
+intelseboolbool 9statemachine<<===
+<<=	8 statemachine*=	{goifstring int[
+}	-=actor )	1 9end	string{	string	string=60entry int.event
+actor	"off
+bool
+statemachine	].^= <<= bool> )boolprintbool 4actor. /=
+end	statemachine	<<=]
+;
+(6.actorintstring+ int)*=event4 bool<< 4goif
+(intint	int 6 [ string	string	{
+{
+;	string>>=bool" int<string7actorintgoif
+0
+.%=string]
+]
+!=}statemachinestring
+6	bool3
+( int0
+statemachine( {state.	"*
+while[ 3<=intbool
+2state&&bool>>=statemachine	%	string
+bool	-= 8
+int	go%bool
+int <
+go. %=actorbool
+==	entry func 5{
+"	 
+(	} <<5	]4
+	"bool
+3
+>>=while string==	intstate
+actorprint3statemachine
+bool[ ) *string9		}print<<=int>5"7	string	statemachinestate
+ifoff<<(}	exitinitial>>bool
+entry>>	-state- 2 &&; exit)	4] state	; *= int
+6 offfunc	12 .	15int	1 != ;
+0{	/
+statemachine	initial	int
+}	exit	intevententry6bool	state==	4
+)
+end[
++9go	"	int	int	intgo
+1
+7actor	"bool	int->7string
+;
+string!= int%=	*=bool
+{event.
+){go}ifint" print)9	)(	^
+string	returnstring2 2(0{entry goif1<<=	while>if	<=0string state	(string	return5stringelse
+else. bool;	]<<= > endbool	{%=int7int	boolend5
+^on>>
+29||endifint exit{	] %=bool8	[bool int	2int	" *=int	bool
+%bool<<int{ [
+intstring	string/ statemachine	actor *	]bool4	{]string .bool
+7
+{<=string
+{[actor/	statemachineentryend entry5	bool	int
+bool ;9 8	stringintint
++event
+stringbool >>; func off5bool
+print int	. ||"-string	func
+-=.	%=
+-=
+	} string7	[
+*
+ string9. goif)string
+string gostring
+%= state intevent
+boolint
+>>=
+8bool
+7event8;;event7 return{	6 statemachine(
+7{ int;	statemachine statemachine"	event	}
+off	{if	int	[
+9 ->entry	->"
+-/=	statemachine) off	bool}	initial ( <<	{int
+bool	9state
+9
+;
+==go{	go && 1return state +int	8intstringint
+
+go exit>>
+4
+00	"
+3. ^
+eventinitial1	[	 9 ;	func
+[
+state(
+(initialexit1
+onstatestringstate0string
+ boolstatemachine+
+int =	; while 	>>
+event	
+end
+bool	 statemachine
+<<)	-=/ state 2	int(	7
+entry
+||funcint({ bool
+stringboolstring ^=	. )] int
+8
+goif2  /=	goif4 ;	!= 	whilebool"
+end	6
+actor bool 7<=	/ .intstateint6
+print	boolgoif 	6event string
+;bool	}
+initial1
+go
+)"; ]0
+ ^=funcwhile6(else 2on
+23boolbool	6	return
+exitend	+	actor
+; /= ^= ||actor
+;string1	2 ;.>>[string
+0	.entry."2
+]initial} 9initial;0event event	statemachine+string	3off	int8	 (  5{	4
+string
+6	==!=bool ->	4[
+^ 5
+string
+} 1(	stringint intstring	eventstring
+3boolend	7func * state	;
+actorreturn(%	actor;}	-= )	actorreturn{"
+eventactor
+bool	[ +	{" ;bool
+8/ stringint1exit	string< (int	&& statemachinestringbool.&& intintint int.]int>>=
+bool;	9 bool string
+string5;
+.statemachine string string
+( .
+.state6int;bool eventactor "	[event->  {%=	boolfunc	{1endevent[ 6>>bool
+-=	-event.	bool state
+return	exitstring!=; bool ]	string8
+1
+"bool
+exit off
+bool	3" !=-8;print>>bool	^exit end int	}[(-= int "goif
+
+};exitstring	>>=string
+string ]6bool >>(
+
+eventstateboolon(on
+5	{ .string
+"	"initial	(bool	event^= print(	(<=else;
+.
+&&.string-
+=^=*=	funcelse int	7>>= 2int	int
+intint
+initial .int	(4	[ )state
+boolelse
+( string
+int; (exit; while])
+go
+>>= event;3entrystatemachine	 } 1actoractor	 bool
+]
+	print-	exit intifbool	( statemachine{	9	=	8" print	{[
+statebool 3;5/actor&& /
+else
+string	actor
+]int	bool	bool 
+)2>>=0	int}	"7
+exit;*}
+=="ifexitstatestate<="%=actor5&& -> ]exit
+3endfuncoffreturn[	bool
+statemachinestring{	bool bool
+=)+	actor	0		if) -=
+int
+<<bool
+<=+=print int.<< &&string
+entryif exit
+bool"%=}
+string " 6[
+3booleventactor<<=2event
+[+=
+7)elsestring&&
+
+string
+=
+-
+intstatemachinestate
+else 0
+]elsestate go {] eventint0actor(
+return 30
+}statemachine6off
+exit8). stringbool
+end +=
+go9 59off>>event bool>>=	) int	end
+^= string	bool
+statemachine 0string	int
+end	func
+string
+2bool ifint }actor
+;)
+}	^= int	]->	7	end
+bool
+1	 0
+[}
+){
+]returnwhile
+event	end ; + 84 actorgoifstringprint&& !=	) [ state
+/exit%= ==
+int actor	2" int
+string
+func	int<event
+event }bool boolevent
+initialstring/
+}^ " 3
+%int
+.	exit stringwhile!=
+state"	exit
+end
+)  else 0statestatemachine bool	{ return= ;statemachine3	25	-int7
+9intgointint ] }string =8 int
+&&
+entry	)	{2 [	/"exitinitial
+[	bool
+} stringbool
+]print
+entry[.
+stringif
+stringfunc
+!=
+string](print 5	ifstring	([intint] ;[gogoif
+-returnstatemachine== intfunc
+string}.	go-=go>>=state"		ifentry|| 3int+ )	;statebool	string
+}7	"
+func	<exit	>>=	3	{	exit;
+string	onstatemachine	1[ string	
+func	(on	[actor
+6	]	int[	else{=( while%=
+*=intstatemachine	event	statemachine	}intboolbool	)event -{offeventstate <[{6 string	^7goif(!={ "while=)>>=
+->5
+state8;event
+) &&%	%-=	".
+>>=exit9"5 state	.8int
+7on	else	func
+}||returnactorentry	3bool [[	5	[]"
+string[
+(	{	2	
+actor35bool{ != 1 8statemachineactorbool|| %=	==0	string 
+state!=string	entry	9 int	] ->
+(; stringexit -bool	}
+bool	event
+actor5int
+	off )	boolstatemachine[ "!=->statemachine event./
+string0	9 /
+^ ]7string 2 37
+int= -= int==)
+5	state	>	+
+22;{/%	"	;exitendstringelse
+int bool+=2 bool
+{ ]7 "	7bool]bool ;0	event
+;
+6 /=	bool 2	stringexit
+3
+go
+
+int }	* funcint	6] (50 >>=^-=
+	8)0if	9{>>=	bool actorbool
+}actor}4intstateelse endbool	7goif]
+bool	.== actor statemachine
+;goif	goifstring "6	8string0
+;
+string2>int (entry8	]	>	off; 0bool==	+
+if{*=	print	8exit >>=	-	8
+}
+)8	0boolint
+]	bool 8	4<<=	)
+[ while	string	2
++=	09	2stateint
+<<=
+4!=
+. ]statestatebool
+7
+2 " ;	actorstring ; ; 5	}8	state
+) 9
+>
+1;else return{int ]
+boolactor <= statemachine0 %	) int
+]statemachine
+>	( /6end """	{[
+*= statemachine "	string{5
+event.bool
+<<"entry	5	)
+.>>
+;
+;%
+%= % boolend3 string	(	+=string 	"%= ";
+printreturn}	int	( exit	.%
+bool
+)while.
+actor	!=4( string >.string
++"-{[
+}}intbool	; 7 {"&&
+0
+;
+actor	.
+int
+1 "event
+5	bool bool )int [ event bool 9	inteventstringintevent1 } /=	func 3	bool;
+/	39.->boolint*=int	]string
+string5"7
+6	( "bool	string	;string7]0
+string	(.	>> exitactor{;	8	string(.	.}	end int	6on  9exit6
+bool 5
+offstate
+statemachine %on
+9
+5	0"	8	int
+string
+6	string stringstatemachine intstring5["	+ 5 7
+int;&&<< /=5<while	)"][
+entry>!=
+}intend
+bool 9"else 5 % bool	<<boolend/=
+/	)9)6
+9	]bool	 return
+>>=>>;	8 39	bool
+}
+" statemachine%=exit;	bool;
++string	08	(<<=bool event  goif	event4	event
+
+intstring/statemachineint-=	[ state]	*
+; ; string== on}	4{
++ print <<	; 3 bool	endstringint	&&%
+2return
+exit	string
+int%	actor
+string
+int	>>= =={print	(string	&&.*=		>>=string [ 
+gostring)	8 1
+bool
+ifwhile	exitint*= 9 ]{goint
+bool *	string
+%{ /= boolactor actorgo	(	int	;string else{	[
+int
+
+string [on
+!=event82 int
+-> statemachine* (string[	actorexit. printstatemachine	intint;!= onint) {8bool-=^
+.bool	{*/
+goif)0 ifexit	if%=+stateexit.08
+8bool	bool0 string exit1	}
+]
+initial0
+8end<<int end5func
+.== actor
+int[	actorprint" "entry2stringint	>> "bool
+	int	returngo	initial 8	entry
+event
+(
+0 }	%	statemachine	/&&bool	< bool]1(exit ( >>="boolstring11boolint;5int
+7event
+1statemachine ^=bool	;end^ -=	[
+actor3initial )
+string
+boolif
+print* bool	off
+entry
+2{	||
+2 exit	^	!=event5 state9->int* string[intstatemachineoff on	bool
+5	[	8 int exit
+else8
+bool<=intstate	9
+entry]"^	9print <
+3bool
+{) %	5  (<<
+;	bool
+
+7
+exit
+=	- string statemachine
+<<=
+int	. string
+"	actorstatemachineint
+print	int
+exit return	}stateprint(state
+.	intbool{	return<string
+state/=
+func	;
+statemachine||)	initial7&&
+goif6 2	7	stateprint	" stringexit
+bool0
+intif	7}<< 4	9	2 )
+-=
+(
+offbool-=	]	string3entry*=<=
+int-print
+initial
+5" "+*=.initialint
+1	+%=] string	
+<=	{!=	bool
+string4event	+=}	returnbool	;bool7statemachine1 [
+int".	"9^=|| bool bool
+5 string int
+[event	print(
+>	-= if
+returnbool state; !=	+
+2=	return
+string1statemachine;}. return+=	actorprintstring] boolbool	bool3] int	event	>8initial intgoif (on(
+bool	boolbool
+int
+]}
+entryintreturn	";	[8
+]
+;	;.return->	{5string	22	statemachine (	actor	0	"
+bool	state
+stateoff^=)entryboolbool
+( bool	.	[stringstringgoif	(	};
+}[
+stringexit ]/event0stringentry	initial^=intevent+=	exit goif5 ;	<<=	5off
+-=	*if	bool statestatemachine
+)+=
+[ +actor <<3statemachine
+int 	on " initial}=	%)
+bool [ actor;
+bool< )0 6
+else;return	string
+<=	int/=
+)0	end2	]>>=
+6string	string
+2
+2
+7
+%
+event
+"	event
+6bool->	)	{ actor8	boolboolif[	)==	}}6
+print ]int
+initial eventintbool		* bool	2 on
+6event	goint < string(	statemachine	[
+(	7
+int
+int}end^
+int	intintstatemachine	}on4	statemachinestring 8} 6" string else 7
+boolfunc	bool7stringactor	<<=go	int	7 "	.*=.6	}
+]	while actor	string1	+int" 9intgo .exitstatemachine)int(
+] 7event
+0int
+9
+}off end]stateexit entryintbool{
+.;	;exit< )exit	{
+.int
+state+=	1 ]0 int
+eventoff	
+entry98%	}	else}intbool	actor	eventint
+6<<=(	printon)
+4({^= boolon statemachine	string
+^=bool-	<=stringboolstatemachine	; stateint <<	int *" go	->	
+->
+}"}
+boolstatemachineoff%==int 7{string
+state 8")}	goif ; goif	stringstringactor " <<	|| while(	state
+.>>(	8 ) 0 2( ->initial
+]}	1	int. <<=} 4{
+/=	off 	2bool
+==
+int	->bool}
+0	event 9
+ go" 0[= bool^ [
+int [	(<=5/ -=
+<boolstring9 ) <-2	string
+}	1 string<=return<="
+string
+ 8(string -=	.^=	+on	stringint1int7	}}go{ *= actorint
+string	18
+stringbool
+/=
+goif	]return go ^=	/=
+string)0 ;int
+1" " state int /1go	9<=	9"-(]
+state"bool	on;
+||5actor ;	onevent{ actorevent	<< bool
+]<<=eventstringbool
+initial
+on
+funcexit1
+int 3 statemachinestate{>< 2"  string 3
+	stringstate	" bool if"
+string( exit{state	=;	%	;<	>>	65=int	}bool[	[8"exit2<<* {5	int<<*=bool	{endbool )int
+intboolbool	bool2stringstate{ 8+6gobool(}
+exitstate	2while(statemachine
+state{	]]
+int8string 1bool else
+int int2 =string	3actor>>statemachineprint boolfunc	(
+intevent<<1string int ] string	statemachine[	){
+go statemachineintelseintint
+-=bool;	entryexit <<=string	bool string(initial	string3 )off
+)
+		actor
+{) return func9{bool
+8	<<{	}
+)event
+)actor	9
+onactorstringstatemachine
+||int intinitial 7 returnstate
+on	;bool(entrygoif exit string[if
+actorbool	} 7
+int {]]- int^ 
+%	+)^=off 7statemachineint	intactorint	actor	[.
+8
+>>=^=
+return
+=3{1} int}
+!= 1 ]bool	*=}onstring	actor.)
++= {	exit ^boolevent	%=bool = 8;
+onintbool	-=
+statemachinestringoffoff}exit] bool	int}*<<	while
+[	event entrystring
+2	9bool
+int	while >>
+}else	end	) /(int	stringbool
+bool }
+while
+intboolint if}initialstate{
+string.	actor	exitreturnentry	func	bool string; 1	<<	goif3"	else	}.statemachine
+(
+4
+state	int]goif	; string(	-bool	8int(
+>>
+4
+bool8int	1 string on bool
+;	int ]
+initial	bool "	- stateint 6<=statemachine0	else >>=" 5;1	]
+}return
+int
+}||
+!=
+];[endint; initial;statemachine"
+7go2
+  statemachinestringboolexitstring	booloff)return.	%=int	"
+"
+{boolstring;. 5{	print ;) ;	"elsereturn
+exit<actor	[end	int		]	return^5	7boolint}|| statereturnif .stringstring	
+endstring
+^inteventstatemachine	)
+bool statemachine int	=(
+>>=17} bool int exitendstring
+;;print	2^=[}int
+%6bool4int	&&	{(	statemachineexit	( [state}	<<= bool	0actorinitialend=={ int3 entry
+"	string/=	->	9->boolprint	{	"stringstatemachine bool==actor
+8
+while	1entry int
+69	bool go
+<<"]whileboolstate	int	]go
+%=int	int >>	event whilestring
+[int .	eventstringfunc ;	2 ==bool
+[	5 int
+string if>>=	end(entry	bool
+func+
+func while]	"	string"	actor
+-=
+;statemachine
+bool	<<(
+[ [
+"int	3	*
++
+.82 stringreturn	<< 2
+boolboolevent}	)	intstatemachine	[}6
+int
+>>print	"	-=	^= 2
+[exit / off	string<<=int
+^"	{
+<<string
+bool
+[entryoff	]
+bool)string	[};
+endbool	]	int"	5	4.)event90entry=!=entry03string	(int	/=
+5event
+if	8event
+)	actor2entry return	statemachinebool2bool
+string onstringstatemachine	<= "*^% int	<=	<<	==exit9boolexitactor}	string(
+(
+82 ]bool 	bool
+9
+==2boolint1->	2
+9 }
+2go]	stringexitstring
+2actor
+;
+/	boolexit	statemachine
+string	event[
+(goifevent 
+exitfunc	1"3]int	}[	offstring
+0{	int
+end	1%= goif 3string
+(
+int int	initial	;actor%=}/=statemachineelse
+bool< [
+4 stringbool	bool bool
+	state7 bool2	}	7||else 3 <	<<gobool state *initial (	bool	exit[	5else6(
+4	state int
+statemachine2 2
+] 9	;<<=<<(9	=-int	int	on<=	" ( )+	0statemachinefunc {int string boolelse }	go(	7goeventifstringstring	;<<8string	print+ entry
+>>}	int>>{9+-=event}^7)	*
+exitbool	"
+=
+] [(intstring	>int	{end int. ]int actor {7string	string) bool	"	"bool initial5[exit
+]
+8	;0 .entry	9string/=
+4{0
+event8off (
+string(returnintelse8
+go exit}%	28((*string
+->%=7
+
+->	state "goif
+^int 8" string	exitint.^=bool
+}bool stringactor<< }5
+5	39
+>>=;
+2(go {	==statemachine (
+actorboolbool%1 print
+event	return
+.	intstring/=
+string
+" "	bool return
+/=	7
+eventprint 6	{
+state	7"
+<;stringon	int	9 )	;"	bool	/=
+int
+bool
+entry
+	actor.{<<int
+"
+stringint . 1 bool;;inton>>=
+&&	bool (^	 int state
+)int 4func
+actorint3	==
+boolgo9	+=/		{ return2statemachinestring]boolbool2
+>bool 
+3		" while
+end	^	bool
+stringint func^	)	0if	elseifstring7;		4"goif
+{
+return]	string2]	int	intgoifint	int
+initial/=&&	>	^=int
+int9	*=
+3 ;off 9bool88	bool	[<<event.	goif 48[2	)
+.
+3;	[/ 
+!=}	string >>	bool[int	<< /intint7exit6actor
+int	+	;{int	(	int
+!=[
+0boolbool5]	if
+stringint end 3	&&endboolintexit  .*	-="	 end	||string/return	bool ]	)	"	intstatemachine bool;
+>/ 2
+int
+;;endintstate string
+funcfunc
+int68	bool
+stringactorstatemachine stringstring	2 statemachineevent;
+}event
+intstringstatemachine}	int	-=1
+]	3>event	actor go2 };
+statereturn
+7-off 7int "
+entry ifoninitial 3string
+]	%=	9event	2<=	func
+||6	{- int
+statemachine	.} ^=>>^end	eventintint bool statemachine
+==
+"	==string .4	string	.	if	)
+return event whilestringreturn/int;-	actor	*
+/func
+event;"6	string<<=
+else
+2state "6	string	 }
+;bool ==actorint	5
+{17}^=eventfuncentry ({ ==
++2	(
+int[	[} "/=
+stringelse0 -6{+=". 0
+boolintstring
+||] )
+.
+
+"	eventevent1 %= [ return 5bool *=bool
+statebool else9)	<< ]
+string state	6int
+
+initial(. "int 4exit{exit]4
+ /string5	}+="	bool
+exit
+int)"(string^ };int	returnstate.]boolinitial =^=		int
+[(int	}
+while
+goifint	statemachine actor {.string-bool elsebool	1string	[
+[
++	exit {
+8end(end&&	3*=int;==bool	}5entry	&&	eventif%=	.int}6==-=	[int string	==func71go[exit}^"	goif boolstring[
+exit {bool
+>	while (*}][1
+bool	==return5 4 6 onstring initial	".bool <event
+entry
+int6 statemachine .int
+int
+"[string3"	"	]<<=	)
+intstate
+statemachine
+< 6
+7string	int7	}int1 intgo
+^	string	-=
+(boolon	intprint
+<<bool	8||boolstringstate{ && <	bool
+else	print	.;.2
+bool int intboolboolif }*
+"bool]	3	("
+whilestatemachineexitend	9stringexit
+.%=	actor=	int(string
+bool initial" exitstring<	[
+int5	1 actor%	} state
+string 2
+);	goif1bool boolelse
+.
+<<0 statemachine	}endexit	+=bool	<[string)
+statemachinereturn
+bool	stringactor >!=
+{	*3 [  6print
+exitboolstring 5}{ 7
+ [%=
+"
+bool
+state
+9event state	{off] int
+0
+string	func
+/"string {stringstring6 entry "stringeventactor elsebool
+int
+]
+event>{ int print	string	-=
+off
+int boolstate int" 1
+3  5 2 string 0} 7	<<=4	.entry84
+string;%=bool
+[ gobool
+1	;->	*
+2
+9 (
+
+string/ intif ;
+exitreturnstatemachine0	onint
+2) bool
+(
+" return	.int ](
+<=func5
+exit
+*func
+int	00 }elseprint != bool(
+int||bool	stringelse*bool	stateactorint2go if{.bool int <<[string;event <=
+(2 bool ;[0+goifevent	1	else
+ 
+statemachine
+"	string	<
+&&{	string	returnon
+{	bool	<2on	print)
+%exit	offint	"
+goif 
+ .
+% go
+actorboolevent %stringelse>
+string-> state*" intonint5
+&&[entry	<state
+^string	8int"bool->exit
+exit]
+}4
+= ) 1
+&&	] .0
+string
+ initial
+}/ actorbool "	-=elseint	5362	end-=/=/
+0
+bool
+}
+%	int  8
+;
+} 4	onstringintelse
+exit ]actor	bool{
+ ;6string
+bool %=	statemachine on==
+intstringinitial) event
+4	intint {eventstatemachineintbool 54-.
+< {	; 	int	5
+[
+2statebool	2exit	3bool
+"if 2+=bool{ )	bool	;	string3
+func return"boolactor<<actor	1
+6} [" exit statestate
+8statemachine =4
+[+= end )
+actorint*	goif
+[ 3*=
+int4
+string
++ [state 066
+string[ /=actor	go string
+3{goif intstring->	||int] int	/=	8}3endgoevent]1exitstring	>	^
+ifintstring <<[ >>>=
+stringentry exit	9int1actor " 2(	^=*%=	7	8print; ( print{.	(	2	{ [eventendgo	string.1
+exitint"	&& 8[7((off7	8state +=end}(	
+6
+->+ actor-3end		state  boolintevent*=	state"actor{int on
+8
+stringexit)entry	0boolstringactor]entry	0int func returnboolboolelse];*=	stringstatemachine	bool		bool[	print	9[6	int "	bool;"	0>	end
+int =bool ==9
+statemachinewhilefunc
+actor
+/={	);on)
+75if 	/=	boolstringevent	func	string	0{. stringentry>>=)||int).stateboolevent
+while>>=>;	int	onstring	onintint< end" actorstate;*
+if	bool"	off	;2	stateelse . end/=	>> actorstatemachine " 5	printint
+boolstring 7]	 ==
+int. ;
+"
+3func ] {else 4print ( *=
+"	. 8( ; ;2"	7]
+initial+=21	7	}exit-= func string}	==( stringint /=({3	int"9event==&&.	^(boolint
+	 entry
+on	2 8
+event event	string1	exit8	/=go"<while	bool
+event.	5	2
+)>> [ 2event	entry	%"intstringboolactorint8->int(string
+"print3initial )
+0
+<=if		;	statemachineinitial exit
+actorreturnevent[	65 )string
+8
+0 .string
+"string0.8	7string
+] / [
+int6intgo /= ^
+} statemachine{ (	<1bool ; stringoff	[">>=string
+end
+0go] 2	stringactor 42
+-
+int 
+*=8int% int<=;
+	onbool ]	-> bool
+; off0(int^ifgoif1on 7end
+actor 9	/offprintstring<
+event}	{7^=<=>>99 print
+intbool6
+8	
+(
+intstringend	/ 6
+func elsegoif	boolwhile^ 9
+func8
+actor	0	11	{	end
+^=	8	intintbool- statemachine
+end.
+print
+->
+5>>=	;
+exit
+99
+event
+bool) string	on;	!=int	")
+actor(string bool9+=event6
+int.. >>=)	{
+[
+string[==
+printfunc
+-=	string6
+<<="
+} exit5intelse<<intactor.1(
+/int else
+]{	4 ]>boolint1
+5 "	boolbool ( string
+int state bool	{2 ;	4
+(	(
+;
+entry[entry2 -> [	actorstringactorstring	intint
+"71} 5"
+7
+%
+8||return{
+statemachinestate.10 bool	state0 ->>=>>=
+||	==
+-= int{	( statestatemachine 4 (if	goifentry
+>>intbool
+go
+string
+bool eventbool)8	exitstring
+."off	+=string 7exit} <<1</=actor statemachine
+bool .
+string
+5/= ->
+%	{
+statemachine;"	6{ 1	(
+state ]	]statemachineprintgoif else	0bool[ } ^=exit[5.[	bool	boolendstringint
+7
+int.(8.7.	<	stringwhile
+else%	string
+state.
+bool] state	stringexitint
+65bool4  statemachine2)	0	;]{-
+->
+int<=	exit; }*=	==
+{	}boolend}	7 go= bool	^
+statemachine0==3
+}boolreturn
+]0"
+[
+bool	go initial9-= .	)
+8	string<=	state
+int;int-> on	initialprint }	!=
+07 stringactor	9
+8string int{while 4	func[
+^=	else off
+entry0.exitevent*=1 int
+{0 9	state
+entry%=
+)initial(5 "boolint	6( (while actor	string3*	off int
+exit	9	int intstring[{string
+.bool
+5}event1exit>>=int bool <<= }entry[boolboolstring[.	int	^else int	 if6
+{int)(
+string
+if 6statemachineactor. 1 actoractorelse
+bool elsegoif string)string->( (
+!=.while	*=
+=<<string int6>>= bool;
+; -=4returngo
+stringint6	;	print)
+}=)}}	int-
+3]
+""
+}event;bool68
+"4 "while(+	3^ [	(>>=	"int. int	event
+(0
+statemachineelsestring
+intbool.	onstate
+bool event "	int) +7entry.
+"	(	" -=string9.	/==string
+statemachine	statemachine int bool
+boolstatemachine
+4[-	exitstring	on *"entry
+3	82	}actor
+"	3boolint	{2	
+funcactor		2-=	bool/
+boolint	go bool
+1 9 bool*
+int	*=}"if
+3
+int
+45
+/=
+0{]-= bool.-=	/=8	.)actorintevent(	(int
+event else}actorstring	intstatestatemachine <<]	print
+goint state onbool string	9( {	bool3
+[	.entry.statemachine	statemachine entry ( 3	on
+.print{bool +; intstring	string<==
+9 "	exit	exit.
+^state
+*=int	go	.bool
+*=	+	}. {;boolexit
+"print	string actor8string4	string(
+statemachine statemachineintstring	else
+stringbool" [bool{	"]print ==
+<< "initial>>bool	go"	int	stringgo+ 3
+off	exit2"statemachinestate	!=8}elseexit
+bool
+string || =={int)	.bool
+stringint-=
+;(==string|| 2{bool
+int	9intend{funcbool bool
+}
+bool.
+"intreturn ;intint  >>=event string
+return;	25 +state	on)	boolstring ) initial	[
+initial	int-=	intstring ^)int0
+initial 8{bool;event
+statemachine8
+bool(entrystate . actor)=bool	!= !=	initial %=>
+ %statemachine->> *
+; string>>^
+"
+4		(]int	bool
+2	".stateint &&	off) intstate	int	actor .}] string +statego /=	int	goif .int	7 stringstatemachinebool5!="string	%
+bool)int3={intelseint	^3
+5else2
+bool2[
+bool	exit string	;exit	4
+.string	exit	{
+intstatemachine0 statemachine	^ ;	int	3	8 0stringeventstring.	boolstatemachine state >>=4 "6
+%initial	goif"else&& eventint -=	;3===statemachine
