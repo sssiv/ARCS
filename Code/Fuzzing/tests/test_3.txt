@@ -1,3 +1,34 @@
-intgostatemachine
-2={bool eventend	4<=]>>
-initialif
+(-> %=(
+1while<<=	int[ }*=int	boolstring
+int
+%682[state boolstring int}boolintbool 9)entryint	bool
+intint
+string endbool string*
+bool3<<=	string	string5	^=[]<=
+intstatemachineactor ==string[string	returnevent4	boolintint	intbool
+]
+(!=(statestatemachine
+)!=4int	event	)==while	]>]int0&&+= ifevent2!=return	*]initial	stringstringifstring
+30&&bool8 -=	>>=0-*= actorexit2 event string
+statemachinestatemachine string<<=returnstring {<]
+}5boolstate	2<exit)6!= goif
+}{
+entry<<7
+intexit{
+)
+actor event[<=
+initialstatemachine ^=on}boolonexit  %=)(state3	actor5(bool return	exit })print	int} ]bool9entry	on}[2] boolevent(*=*=
+8statemachine
+4stringint off{*int +=exit||0
+==1int	8(func statemachine
+(bool1bool
+initial9) +||)3 string bool	11[statemachine
+bool5]	whilereturn^=]actor
+goif>>=)
+bool{entry goint	>on8	goifbool9exit	}boolstringevent
+*=initial9
+-actor
+[state	8whileentry	statemachineentry	[statemachine
+print9{	bool[	stringentry	intbool	)+=||7 2exit3) }]booloff	intend=int8 6actorbool
+8(4onreturn
+[actor

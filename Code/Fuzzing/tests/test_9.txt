@@ -1,0 +1,29 @@
+{5
+{4bool	entry][^= 46	[ -=bool7[stringelse statemachine
+statemachineint	8
+bool6event
+{{print
+4556]bool
+offint) 9+goifbool]>>0>{ ||**string
+boolstring+=	whileintreturnevent
+(>>=) bool% 4event
+boolstring]
+{bool9)>>=if intstatemachine string	) actorstringstate	int( 1statemachine+= goifint*=int	]bool
+state print*	boolexit<elsebool }statemachine >>=bool7 )event[ 4goif>4<=<< stringboolstatemachine }}go{	}bool  %=^2	[intexitbool	actorboolprint	==}>>(5&&3eventint	statebool<=onbool	exit9initial =exitint7offintgo2 25
+>>+=boolprintgo
+0int
+5string<<=(	int5
+state>	boolint4	(5string*=exit	2(9string )on6 state	[{string) int %=else	endint	string!=6string string
+)>> ->printelse entrybool||5func(	event	!=60]5actorint /)2>string bool*= go)*=[	bool<}4state
+[8state *=0{==0	end^statemachine	)||
+%func]5	else1
+int2go 1bool5	)off
+1{ %=929/] %=1	bool[
+string4>	returnevent[string	exit	6entry{
+statemachine initialint
+0func>>{	>>=6	>if)
+gobool
+funcprintint=bool
+=int==	int	}actor48boolbool
+bool} go[{ -=
+funcstring

@@ -1,0 +1,31 @@
+<intexit7}	[stringstring==	string6(	}(6entry	state ==state
+^}bool	printactor
+intstatemachine
+bool)exit<<=	event	string 3funcstring initial
+0stringgoif
+^event+=]/= bool<=statemachine	stringactorbool	go<state0goif
+statestring 9on	boolelse{string	offelse	3intintbool
+%while13
+string -=	bool %=string9 elseactor
+(boolif
+string]bool
+4string *=
+4	bool
+{>>while
+^=return]	+(boolif[ inton>>=intactor
+[go5actor	{11*=event7entry
+}[-exit[	bool}int3!= event}&&print5 ^6funcstate	35entryinitial 5string[ %
+7string<string return
+[ 7go(string %==string	!=actor +=	*=*=
+>!=offentrybool	bool]
+intstateint=	printbool(bool
+bool initial 3intint initialelse	state]string elseint9+	if0=	]stringint )-return	bool
+[}
+bool7)
+[int]boolevent	5string [statemachinestring 9eventreturnactorint	3else{<<=
+){while*=if	6^^=7string)int	9}6stringoff
+actor70bool  -=	boolif
+/ -= int(<< offstatemachine	stringstatemachine	(initialgoif	exit{	+=int actor) }<=func	bool/}2
+-><<int	2exitreturn whileboolgoifstring ifstringinitialactor
+]]
+>>=

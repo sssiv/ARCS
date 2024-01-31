@@ -1,2 +1,26 @@
-whileactor
-exitactor	]boolactor34 2int7[[	<=5<<actor
+)bool->
+return==else	entry string	* bool[exit
+int
+4}gostring9int]>>=	intevent2
+)stringbool	<<=
+boolboolwhile 6on9initialint	7(int>>	int5	int<bool state4 /=off goifintstringstring }*={>(0[8	intstring9 6
+*=intbool printexit  %= state] <==int8onstring
+if)end	boolstate ]actor[
+exit  -=int8
+ -=go
+>on<<=*= -= stringstring	stringbool initialstringstring
+func }[ +func	end->+=	/=string{func exit2
+}]boolstring	}>>goif9
+41exitintwhile	exit-actor{bool	statemachine->	boolevent intstring	2{bool]stringprint int[<<]{|| 1while)>>=^= *=boolboolwhile	ifint
+*=exitstatemachine
+int {exitexit	)}[intend&&	7state)string/
+int
+entry
+/*=)[} >>func(
+string43 entry ]end==}
+/=intelse 74<=
+36>	=intint} 6inton 86funcend	boolelsestring}goactor (if84 -=-string	int{	off=state4bool string]string/= {goif)6func intstatestring else^=bool	boolboolelse intactorint]
+bool1 2string	exit8off>>
+{]event<=event 1)bool<= 1on||<<= 57) exitstate string
+bool->bool int|| funcstringstring	>[exitstringintreturn	4}>funcexit 3>>=go==
+string-int

@@ -1,3 +1,32 @@
-+=1intint
-72goif0*else
-3while2printactor	iffunc%[ 
+{endbool1
+string	<else %= >>=]boolstatemachine	}initialprint{int event	ifintevent==
+<string6
+16string1-> offon&&-*statemachine	>>-)[ 37bool	<<initial>> ||actor	03off-go6	event
+*event8 actor==else	eventevent	^{ int	gobool %=
+boolint bool]1bool	eventstring
+goif bool>>statemachinestate [>>=actorboolstring returnstringfunc
+int()string[9string 600intintbool exitstring stringstring3
+] %=	||intbool%go [->intint
+4<=goif -= int
+string{	9statemachine
+boolintbool	(/state->	event[ ]72bool	<<stateactor	8string7string string
+{>bool(	6int->[	offfunc9	-int
+bool	print	9}actor ++=>>8whileif string5
+stringif
+ifint6(	5stringstring	+=85while
+/7[)7
+event&&%	funconevent
+)if %=71<
+boolfuncbool
+bool
+=actor
+ifwhile {1print ]stringstring
+string8	 %={entrybool
+{ ifstring*= ^initial
+int+= {bool
+{entryint 61string <=	04returnbool }exitint string 3	->^= int]intint/ }1end
+6stringend
+7 4 %=(]bool
+}exitintprint	initial>>= int} go%/)string
+stateexit actorstatemachineprint bool{event	>><<=
++exit9( on*stringexit 02offbool

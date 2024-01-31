@@ -23,11 +23,6 @@ class Tokens():
         self.variables = self.column(self.strip_single_quotes, self.df_column, 'Variables')              # Variable Keywords (except variable_name at the end)
         self.operators = self.column(self.strip_single_quotes, self.df_column, 'Operators')              # All operators
         self.punctuation =self. column(self.strip_single_quotes, self.df_column, 'Punctuation')          # Any type of punctuation Proteus will allow
-        self.actor_names = self.column(self.strip_single_quotes, self.df_column, 'Actor_Names')          # Demo names for actors 
-        self.state_names = self.column(self.strip_single_quotes, self.df_column, 'State_Names')          # Demo names for states
-        self.variable_names = self.column(self.strip_single_quotes, self.df_column, 'Variable_Names')    # Demo names for variables
-        self.event_names = self.column(self.strip_single_quotes, self.df_column, 'Event_Names')          # Demo names for events
-        self.string_input = self.column(self.strip_single_quotes,self. df_column, 'String_Input')        # Random inputs for strings
 
         # List of column lists
         self.lists = [
@@ -38,11 +33,6 @@ class Tokens():
             self.variables, 
             self.operators, 
             self.punctuation, 
-            self.actor_names, 
-            self.state_names, 
-            self.variable_names, 
-            self.event_names, 
-            self.string_input
             ]
         
         # List of column names
@@ -54,14 +44,9 @@ class Tokens():
             'Keywords', 
             'Variables', 
             'Operators', 
-            'Punctuation', 
-            'Actor_Names', 
-            'State_Names', 
-            'Variable_Names', 
-            'Event_Names', 
-            'String_Input'
+            'Punctuation'
             ]
-    #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
+
     # Outputs all tokens to terminal
     def display_tokens(self):
         print("-" * 150)
@@ -72,7 +57,7 @@ class Tokens():
             # print the tokens with token name
             print(f"{column_name}: {tokens}\n")  
         print("-" * 150, "\n")
-    #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
+
     # Makes and writes tokens to a txt file
     def write_tokens_txt(self):
         with open('../c++/tokens.txt', 'w') as file:
@@ -82,7 +67,6 @@ class Tokens():
                 tokens = ', '.join(map(str, list))
                 # Write the tokens to the c++ folder (without column names)
                 file.write(f"{tokens}\n")
-    #Tok#---------------------------------------------------------------------------------------------------------------------------------------------#
 
 # Make textfile of tokens to c++ folder and Display tokens
 if __name__ == "__main__":

@@ -17,9 +17,9 @@ class Fuzzer:
         # Random text still has more room
         while len(random_tokens) < length:
             # Picks randomly when to have a space, tab, or \n
-            if line_length >= Utilities.Random.rand_num(1, 20):
+            if line_length >= Utilities.rand_num(1, 20):
                 # Add a space, tab, or line break when the line length exceeds the random limit
-                random_tokens += Utilities.Random.rand_choice([" ", "\t", "\n"])
+                random_tokens += Utilities.rand_choice([" ", "\t", "\n"])
 
                 # Resets line counter
                 line_length = 0
@@ -27,10 +27,10 @@ class Fuzzer:
             # Starts making a new line of random tokens
             else:
                 # Randomly picks tokens, ignores the variable names 
-                selected_list = Utilities.Random.rand_choice(Tokens().lists[:ignore])
+                selected_list = Utilities.rand_choice(Tokens().lists[:ignore])
 
                 # Randomly picks item from list, Convert to string
-                selected_item = str(Utilities.Random.rand_choice(selected_list))   
+                selected_item = str(Utilities.rand_choice(selected_list))   
 
                 # Puts it in the random text
                 random_tokens += selected_item
@@ -40,5 +40,3 @@ class Fuzzer:
                 
         # Returns random tokens
         return random_tokens
-#Fai#---------------------------------------------------------------------------------------------------------------------------------------------#
-
