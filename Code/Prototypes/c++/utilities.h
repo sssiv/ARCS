@@ -16,11 +16,6 @@ public:
     constexpr static const int VARIABLES = 4; 
     constexpr static const int OPERATORS = 5; 
     constexpr static const int PUNCTUATION = 6; 
-    constexpr static const int ACTOR_NAMES = 7; 
-    constexpr static const int STATE_NAMES = 8;
-    constexpr static const int VARIABLE_NAMES = 9;
-    constexpr static const int EVENT_NAMES = 10;
-    constexpr static const int STRING_INPUT = 11;
 };
 
 class Utilities

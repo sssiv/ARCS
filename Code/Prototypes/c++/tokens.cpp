@@ -67,43 +67,10 @@ void Tokens::read()
 Tokens::Tokens()
 {
     read();
-    //readCSV();
 }
 
 void Tokens::printTokens()
 {
-    // // readCSV()
-    // for (size_t column = 0; column < _tokens[0].size(); ++column)
-    // {
-    //     // Print column name
-    //     std::cout << "Column: " << _tokens[0][column] << std::endl;
-    //     for (size_t row = 1; row < _tokens.size(); ++row)
-    //     {
-    //         std::cout << _tokens[row][column] << std::endl;
-    //     }
-    //     std::cout << std::endl;
-    // }
-
-    // read() print
-    // for (size_t row = 0; row < _tokens.size(); ++row)
-    // {
-    //     // Prints the rest of the row
-    //     for (size_t column = 0; column < _tokens[row].size(); ++column)
-    //         std::cout << _tokens[row][column] << std::endl;
-    //     std::cout << std::endl;
-    // }
-
-    // read() print, ranged based
-    // for (const auto& vec : _tokens) 
-    // {
-    //     // For a string iterating through the vector thats looking at an individual column
-    //     for (const std::string& token : vec) 
-    //     {
-    //         std::cout << token << "  ";
-    //     }
-    //     std::cout << std::endl << std::endl;
-    // }
-
     // read() print, better organization
     for (const auto& vec : _tokens) 
     {

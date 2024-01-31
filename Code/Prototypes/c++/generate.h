@@ -11,8 +11,8 @@ private:
     // String to write final code 
     std::string _code;
 
-    // Store data
-    std::vector<std::vector<std::string>> _tokens;
+    // Access Tokens
+    Tokens _Tokens;
     
 public:
     Generate();

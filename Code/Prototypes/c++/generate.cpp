@@ -49,7 +49,8 @@ void Generate::generateRandomTokens(const string& file)
         else
         {
             // Select random list before name inputs
-            vector<string> selectedList = _tokens[rand_between(0, Indices::PUNCTUATION)];
+            // !! Here is the fault !!
+            vector<string> selectedList = _Tokens.getTokens()[rand_between(0, Indices::PUNCTUATION)];
         
             // Random string from selected list
             tokens += selectedList[rand_between(0, selectedList.size() - 1)];
