@@ -5,41 +5,51 @@ namespace fs = std::filesystem;
 
 void clear_folder(const fs::path& path) 
 {
+    // Try finding and deleting
     try 
     {
         // Check if the directory exists
         if (fs::exists(path) && fs::is_directory(path)) 
-        {
             // Iterate and remove each item in the directory
             for (const auto& entry : fs::directory_iterator(path)) 
-            {
-                fs::remove_all(entry);
-            }
-        }
-    } catch (const fs::filesystem_error& e) {
+                // Delete deletelteltelte 
+                fs::remove_all(entry);  
+    }
+    // Path is not found
+    catch (const fs::filesystem_error& e) 
+    {
         std::cerr << "Filesystem error: " << e.what() << std::endl;
-    } catch (const std::exception& e) {
+    } 
+    // File (or nothing) is not found
+    catch (const std::exception& e) 
+    {
         std::cerr << "Error: " << e.what() << std::endl;
     }
 }
-
 
 int main(int argc, char* argv[]) 
 {
     // Clear the '../tests/', Prevent memory leaks
     clear_folder("../tests/");
+
+    // Generate tokens
     Generate gen;
-    if (argc != 2) {
+
+    // Checks for entered in args after ./main
+    if (argc != 2) 
+    {
+        // Congrats, you used it wrong
         std::cerr << "Usage: " << argv[0] << " <number of tests>\n";
         return 1;
     }
 
-    // Convert arguments to strings (or use as char* if suitable for your program)
-    std::string input1 = argv[1];
-    int numOfTests = std::stoi(input1);
+    // Takes arg input, convert to int
+    std::string arg = argv[1];
+    int numOfTests = std::stoi(arg);
 
-    //std::cout << "Input 1: " << input1 << "\n";
+    //std::cout << "Want to see what you entered?: " << arg << "\n";
 
+    // Make the arg the number of test cases
     for (size_t i = 0; i < numOfTests; i++)
         gen.generateRandomTokens("../tests/test-" + std::to_string(i) + ".txt");
 
