@@ -99,6 +99,7 @@ Interface *ASTNode::ops(Interface* left, const int& id)
 void ASTNode::getTokens(Tokenizer* tokenizer) {_tokenizer = tokenizer;}
 
 // advance to the next token
+// inline and initialized in ast.h
 //void ASTNode::nextToken() { _currentToken = _tokenizer->getNextToken();}
 
 bool ASTNode::stopCheck() {return _currentToken == nullptr || _currentToken->getToken() == Tokens::STOP;}

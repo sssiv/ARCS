@@ -1,17 +1,5 @@
 #include "func.h"
 
-double Func::isTrue(double boolean)
-{
-    return boolean;
-}
-
-bool Func::boolValue(double boolean)
-{
-    if (boolean)
-        return true;
-    return false;
-}
-
 int Func::random(int itr, int r1, int r2)
 {
     // Needs random and chrono
@@ -33,8 +21,5 @@ Func::~Func()
 
 void Func::Print()
 {
-
     random(15, 0, 100);
-    std::cout << boolValue(isTrue(1));
-
 }

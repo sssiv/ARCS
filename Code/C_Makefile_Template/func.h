@@ -8,8 +8,6 @@
 class Func
 {
 private:
-    double isTrue(double);
-    bool boolValue(double);
     int random(int, int, int);
 public:
     Func();

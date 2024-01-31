@@ -1,0 +1,3 @@
++=1intint
+72goif0*else
+3while2printactor	iffunc%[ 

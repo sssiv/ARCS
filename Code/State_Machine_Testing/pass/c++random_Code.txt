@@ -1,16 +1,35 @@
-event OPEN {};
+event TURN {bool};
+event MOVE {string};
+event DOWN {int};
 event ACTIVATE {};
-event JUMP {string};
+event STOP {};
+event RIGHT {int};
+event GO {bool};
+event OPEN {};
+event SHOVE {string};
+event LIFT {};
 
-actor Jake_Gyllenhaal {
+actor Robin_Williams {
 Variables: 
-string value = "actors acting and whatnot";
-int key = 276;
-string thing = "More sentences!";
+string var = "states are stated";
+bool value = True;
+int check = 101;
+int counter = 372;
+bool key = False;
+bool add = True;
+int time = 112;
+string sub = "JPL vs NASA";
+string mul = "proteus words";
 
 New Values: 
-value = "I wonder if this string changed value";
-key = 211;
-thing = "Do stuff with events";
+var = "im trapped in here!";
+value = False;
+check = 326;
+counter = 2;
+key = True;
+add = True;
+time = 374;
+sub = "Do stuff with events";
+mul = "proteus words";
 
 }

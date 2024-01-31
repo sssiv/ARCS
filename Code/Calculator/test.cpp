@@ -39,21 +39,41 @@ std::string Test::randomExpression()
         // randomly chosen an op
         if (op == 1)
             result = TokenChar::leftParth + lhs + TokenChar::plus + rhs + TokenChar::rightParth;
-        if (op == 2) 
+        else if (op == 2) 
             result = TokenChar::leftParth + lhs + TokenChar::minus + rhs + TokenChar::rightParth;
-        if (op == 3) 
+        else if (op == 3) 
             result = TokenChar::leftParth + lhs + TokenChar::multiply + rhs + TokenChar::rightParth;
-        if (op == 4) 
+        else if (op == 4) 
             result = TokenChar::leftParth + lhs + TokenChar::divide + rhs + TokenChar::rightParth;
         exp = rand_between(0, 1);
+
+        while (exp)
+        {
+            op = rand_between(1, 4);
+            lhs = "";
+            rhs = "";
+            for (int i = 0; i < lhs_numOfDigits; ++i)
+                lhs += std::to_string(rand_between(0, 9));
+            for (int i = 0; i < rhs_numOfDigits; i++)
+                rhs += std::to_string(rand_between(0, 9));
+            if (op == 1)
+                result += TokenChar::plus + (TokenChar::leftParth + lhs + TokenChar::plus + rhs + TokenChar::rightParth);
+            else if (op == 2) 
+                result += TokenChar::minus + (TokenChar::leftParth + lhs + TokenChar::minus + rhs + TokenChar::rightParth);
+            else if (op == 3) 
+                result += TokenChar::multiply + (TokenChar::leftParth + lhs + TokenChar::multiply + rhs + TokenChar::rightParth);
+            else if (op == 4) 
+                result += TokenChar::divide + (TokenChar::leftParth + lhs + TokenChar::divide + rhs + TokenChar::rightParth);
+            exp = rand_between(0, 1);
+        }
     }
     // makes expression w/o parths
     else if (!exp)
     { 
         if (op == 1) result = lhs + TokenChar::plus + rhs;
-        if (op == 2) result = lhs + TokenChar::minus + rhs;
-        if (op == 3) result = lhs + TokenChar::multiply + rhs;
-        if (op == 4) result = lhs + TokenChar::divide + rhs;
+        else if (op == 2) result = lhs + TokenChar::minus + rhs;
+        else if (op == 3) result = lhs + TokenChar::multiply + rhs;
+        else if (op == 4) result = lhs + TokenChar::divide + rhs;
     }
 
     if (result == "") return "An expression was not generated.";   
@@ -430,7 +450,7 @@ void Test::testAST()
     std::cout << "********************************************************\n";
 }
 
-Test::Test() : _numOfTests(rand_between(50, 99)), _pass(0), _fail(0)
+Test::Test() : _numOfTests(rand_between(10, 99)), _pass(0), _fail(0)
 {
 }
 

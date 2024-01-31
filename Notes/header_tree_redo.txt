@@ -1,0 +1,185 @@
+__main__ = {[iostream], compiler, input, output, config, options, source_pos}
+
+binmap = {map}
+hash = {[functional]}
+list = {[list]}
+map = {[unordered_map], [utility], result}
+mapkey={[tuple], hash}
+misc = {[memory]}
+name = {string}
+optional = {[optional]}
+ref = {string, [stdexcept], [functional]}
+result = {variant, [optional], [memory], [stdexcept]}
+set = {[unordered_map], [utility]}
+stack = {[stack]}
+string = {[string]}
+terminal = {string}
+variant = {[variant]}
+vector = {[vector], [algorithm], [type_traits]}
+
+
+ast = {[memory], variant, refs, vector, string, type, ops, source_pos}
+builtin_events = {prim_type}
+builtin_funcs = {names, typem ast, map, [functional]}
+codegen = {gen_env}
+codegen_dsl = {codegen, config, misc}
+codegen_trace = {gen_env, codegen_dsl, codegen_builtin_events, config}
+compiler = {result, string, error}
+config = {string, output}
+error = {[stdexcept], source_pos, optional, string}
+errors = {[stdexcept], error, token, ops, type}
+gen_env = {type_env, [sstream], [functional]}
+input = {string, result, [iofwd], [filesystem], [stdexcept]}
+lexer = {token, lexer_input, result, error, vector, source_pos}
+lexer_input = {string, source_pos}
+names = {name}
+ops = {string}
+options = {string, result, [stdexcept]}
+output = {string, result, optional, [iosfwd], [stdexcept]}
+parse = {ast, parse_input, parse_result, misc}
+parse_input = {token, source_pos, parse_result, vector, errors}
+parse_result = {string, result, error}
+prim_type = {string, names, hash}
+refs = {refs, names, ops, source_pos}
+scope = {list, ast, map, type, source}
+source = {names, variant}
+source_pos = {string, misc, [stdexcept]}
+source_pos_private = {string, vector, misc}
+token = {variant, optional, string, prim_type}
+type = {string, variant, result, vector, optional, names, prim_type, error}
+type_env = {ast, type, scope, mapkey}
+typechecker = {type_env}
+
+
+
+__main__
+|-- iostream
+
+compiler
+|-- result
+|   |-- variant
+|   |-- optional
+|   |-- memory
+|   |-- stdexcept
+|   |-- source_pos
+|   |-- error
+|   |   |-- stdexcept
+|   |   |-- source_pos
+|   |   |-- optional
+|   |   |-- string
+|-- string
+|-- error
+|   |-- stdexcept
+|   |-- source_pos
+|   |-- optional
+|   |-- string
+
+input
+|-- string
+|-- result
+|   |-- variant
+|   |-- optional
+|   |-- memory
+|   |-- stdexcept
+|   |-- source_pos
+|   |   |-- string
+|   |   |-- vector
+|   |   |-- memory
+|   |   |-- stdexcept
+|-- iofwd
+|-- filesystem
+|-- stdexcept
+
+output
+|-- string
+|-- result
+|   |-- variant
+|   |-- optional
+|   |-- memory
+|   |-- stdexcept
+|   |-- source_pos
+|   |   |-- string
+|   |   |-- vector
+|   |   |-- memory
+|   |   |-- stdexcept
+|-- optional
+|-- iosfwd
+|-- stdexcept
+
+config
+|-- string
+|-- output
+|   |-- string
+
+options
+|-- string
+|-- result
+|   |-- variant
+|   |-- optional
+|   |-- memory
+|   |-- stdexcept
+
+source_pos
+|-- string
+|   |-- string
+|   |-- vector
+|   |-- memory
+|   |-- stdexcept
+|-- memory
+|   |-- memory
+
+ast
+|-- memory
+|-- variant
+|   |-- variant
+|-- refs
+|   |-- refs
+|   |-- names
+|   |-- ops
+|   |-- source_pos
+|-- vector
+|   |-- vector
+|   |-- algorithm
+|   |-- type_traits
+|-- string
+|   |-- string
+|-- type
+|   |-- string
+|   |-- variant
+|   |-- result
+|   |   |-- variant
+|   |   |-- optional
+|   |   |-- memory
+|   |   |-- stdexcept
+|   |-- vector
+|   |-- optional
+|   |-- names
+|   |   |-- name
+|   |-- prim_type
+|   |   |-- string
+|   |   |-- names
+|   |   |-- hash
+|   |-- error
+|   |   |-- stdexcept
+|   |   |-- source_pos
+|   |   |-- optional
+|   |   |-- string
+|-- ops
+|   |-- string
+|-- source_pos
+|   |-- string
+|   |   |-- string
+|   |   |-- vector
+|   |   |-- stdexcept
+|   |-- memory
+|   |   |-- memory
+
+builtin_events
+|-- prim_type
+|   |-- string
+|   |   |-- string
+|   |   |-- vector
+|   |   |-- stdexcept
+|   |-- names
+|   |-- hash
+

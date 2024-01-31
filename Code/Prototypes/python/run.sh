@@ -1,0 +1,1 @@
+make -f Makefile p=$1 f=$2

@@ -1,0 +1,2 @@
+whileactor
+exitactor	]boolactor34 2int7[[	<=5<<actor

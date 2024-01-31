@@ -1,0 +1,3 @@
+intgostatemachine
+2={bool eventend	4<=]>>
+initialif

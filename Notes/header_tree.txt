@@ -1,161 +1,172 @@
 src->main
      main->[iostream]
-     main->util/terminal
-           util/terminal->util/string
-		          util/string->[string] 
-     main->sources_pos
-           sources_pos->util/string
-                        util/string->[string]
-           sources_pos->util/misc
-		        util/misc->[memory]
-           sources_pos->[stdexcept]
+         ->util/terminal
+                        ->util/string
+		                     ->[string] 
+         ->sources_pos
+                      ->util/string
+                                   ->[string]
+                      ->util/misc
+                                 ->[memory]
+                      ->[stdexcept]
 
-     main->options
-           options->util/string
- 	            util/string->[string]
-           options->util/result
-	            util/result->util/variant
-	                         util/variant->[variant]   
+         ->options
+                  ->util/string
+ 	                       ->[string]
+                  ->util/result
+	                       ->util/variant
+	                                     ->[variant]   
 	            util/result->[optional, memory, stdexcept]
-           options->[stdexcept]
+                  ->[stdexcept]
 
-     main->config
-           config->util/string
-	           util/string>[string]
-           config->output
-	           output->util/string
-	                   util/string>[string]
-                   output->util/result
-	                   util/result->[optional, memory, stdexcept]
-	                   util/result->util/variant
-		                        util/variant->[variant]   
-                   output->util/optional
-	                   util/optional->[optional]
-                   output->[isofwd, stdexcept]
-           config->[stdexcept, iostream, fstream, sstream]
+         ->config
+                 ->util/string
+	                      ->[string]
+                 ->output
+	                 ->util/string
+	                              ->[string]
+                         ->util/result
+	                              ->[optional, memory, stdexcept]
+	                              ->util/variant
+		                                    ->[variant]   
+                         ->util/optional
+	                                ->[optional]
+                         ->[isofwd, stdexcept]
+                 ->[stdexcept, iostream, fstream, sstream]
 
-     main->output
-           output->util/string
-	           util/string>[string]
-           output->util/result
-	           util/result->util/variant
-		                util/variant->[variant]   
-	           util/result->[optional, memory, stdexcept]
-      	   output->util/optional
-	      	   util/optional->[optional]
-           output->[isofwd, stdexcept]
+         ->output
+                 ->util/string
+	                      ->[string]
+                 ->util/result
+	                      ->util/variant
+		                            ->[variant]   
+	                      ->[optional, memory, stdexcept]
+      	         ->util/optional
+	      	                ->[optional]
+                 ->[isofwd, stdexcept]
 
-     main->input
-      	   input->util/string
-	          util/string->[string]
-           input->util/result
-	          util/result->util/variant
-			       util/variant->[variant]  
-	          util/result->[optional, memory, stdexcept] 
-          input->[iosfwd, filesystem, stdexcept]
+         ->input
+      	        ->util/string
+	                     ->[string]
+                ->util/result
+	                     ->util/variant
+			                   ->[variant]  
+	                     ->[optional, memory, stdexcept] 
+                ->[iosfwd, filesystem, stdexcept]
 
-     main->compiler
-           compiler->util/result
-	 	     util/result->util/variant
-			          util/variant->[variant]  
-	 	     util/result->[optional, memory, stdexcept]
-           compiler->util/string
-		     util/string->[string]
-           compiler->error
-		     error->sources_pos
-		            sources_pos->util/string
-				         util/string->[string]
-		            sources_pos->util/misc
-				         util/misc->[memory]
-		            sources_pos->[stdexcept]
-		     error->util/result
-	                    util/result->util/variant
-		                         util/variant->[variant]   
-	                    util/result->[optional, memory, stdexcept]
-		     error->util/optional
-		            util/optional->[optional]
-		     error->util/string
-		            util/string->[string]
-		     error->[stdexcept]
+         ->compiler
+                   ->util/result
+	 	                ->util/variant
+			                      ->[variant]  
+	 	   ->util/result->[optional, memory, stdexcept]
+                   ->util/string
+		                ->[string]
+                   ->error
+		          ->sources_pos
+		                       ->util/string
+				                    ->[string]
+		                       ->util/misc
+				                  ->[memory]
+		                       ->[stdexcept]
+		          ->util/result
+	                               ->util/variant
+		                                     ->[variant]   
+	                               ->[optional, memory, stdexcept]
+		          ->util/optional
+		                         ->[optional]
+		          ->util/string
+		                       ->[string]
+		          ->[stdexcept]
 /*******************************************************************************************************/
 src->ast
-     ast->[memory]
-     ast->util/variant
-	  util/variant->[variant]
-     ast->util/refs
-          util/refs->[stdexcept, functional]
-          utils/refs->util/string
-                      util/string->[string]
-     ast->util/vector
-          util/vector->[vector, algorithm, type_traits]
-     ast->util/string
-          util/string->[string]
-     ast->type
-          type->error
-		error->sources_pos
-		       sources_pos->util/string
-				    util/string->[string]
-		       sources_pos->util/misc
-				    util/misc->[memory]
-		       sources_pos->[stdexcept]
-		error->util/result
-	               util/result->util/variant
-		                    util/variant->[variant]   
-	               util/result->[optional, memory, stdexcept]
-		error->util/optional
-		       util/optional->[optional]
-		error->util/string
-		       util/string->[string]
-		error->[stdexcept]
-	  type->util/string
-                util/string->[string]
-	  type->util/result
-	        util/retult->util/result->util/variant
-	                     util/variant->[variant]   
-	        util/result->[optional, memory, stdexcept]
-	  type->util/vector
-		util/vector->[vector, algorithm, type_traits]
-	  type->util/optional
-                util/optional->[optional]
-	  type->util/names
-                util/names->utilstring
-                            util/string->[string]
-	  type->prim_type
-                prim_type->[string]
-                prim_type->names
-                prim_type->util/hash
-                lexer->
-                parse->
-		names->
-		optional->
-                typechecker->
-                codegen->
-     ast->ops
-          ops->[string]
-     ast->sources_pos
-          sources_pos->util/string
-		       util/string->[string]
-	  sources_pos->util/misc
-		       util/misc->[memory]
-	  sources_pos->[stdexcept]
+        ->[memory]
+        ->util/variant
+	              ->[variant]
+        ->util/refs
+                   ->[stdexcept, functional]
+                   ->util/string
+                                ->[string]
+        ->util/vector
+                     ->[vector, algorithm, type_traits]
+        ->util/string
+                     ->[string]
+        ->type
+              ->error
+		     ->sources_pos
+		                  ->util/string
+				               ->[string]
+		                  ->util/misc
+				             ->[memory]
+		                  ->[stdexcept]
+		     ->util/result
+	                          ->util/variant
+		                  ->util/variant
+                                                ->[variant]   
+	                          ->[optional, memory, stdexcept]
+		     ->util/optional
+		                    ->[optional]
+		     ->util/string
+		                  ->[string]
+		     ->[stdexcept]
+	      ->util/string
+                           ->[string]
+	      ->util/result
+	                   ->util/result->util/variant
+	                                              ->[variant]   
+	                   ->[optional, memory, stdexcept]
+	      ->util/vector
+	                   ->[vector, algorithm, type_traits]
+	      ->util/optional
+                             ->[optional]
+	      ->util/names
+	                  ->util/string
+			               ->[string]
+	      ->prim_type
+                         ->[string]
+                         ->util/names
+		                     ->util/string
+			                          ->[string]
+                         ->util/hash
+			            ->[functional]
+
+	       ->util/optional
+	      	              ->[optional
+	       ->util/variant
+		             ->[variant]
+        ->ops
+             ->[string]
+
+        ->sources_pos
+                     ->util/string
+		                  ->[string]
+	             ->util/misc
+		                ->[memory]
+	             ->[stdexcept]
 /*******************************************************************************************************/
 src->build_events
-     build_events->prim_type
+                 ->prim_type
+		 ->util/string
+			    ->util/string->[string]
+                            ->util/names
+		                        ->util/string
+			                             ->[string]
+                            ->util/hash
+			               ->[functional]
 /*******************************************************************************************************/
 src->builtin_funcs
-     builtin_funcs->names
-     builtin_funcs->type
-     builtin_funcs->ast
-     builtin_funcs->util/map
-     builtin_funcs->[functional]
+                  ->names
+                  ->type
+                  ->ast
+                  ->util/map
+                  ->[functional]
 /*******************************************************************************************************/
 src->codegen
-     codegen->gen_env
+            ->gen_env
 /*******************************************************************************************************/
 src->codegen_builtin_events
-     codegen_buildin_events->gen_env
-     codegen_buildin_events->codegen_dsl
-     codegen_buildin_events->builtin_events
+                           ->gen_env
+                           ->codegen_dsl
+                           ->builtin_events
 /*******************************************************************************************************/
 src->codegen_dsl
 /*******************************************************************************************************/
@@ -165,7 +176,53 @@ src->errors
 /*******************************************************************************************************/
 src->gen_env
 /*******************************************************************************************************/
-src->lexer
+{Seems like lexer_input, lexer, error, does not need to unclude util/string}
+src->lexer->sources_pos
+                       ->util/string
+	                            ->[string]
+	               ->util/misc
+	                          ->[memory]
+	               ->[stdexcept]
+          ->lexer_input
+	               ->util/string
+				    ->[string]
+		       ->sources_pos
+                                    ->util/string
+	                                         ->[string]
+	                            ->util/misc
+	                                       ->[memory]
+	                            ->[stdexcept]
+
+	  ->util/string
+	               ->[string]  
+          ->token
+                 ->util/variant
+                               ->[variant]
+	         ->util/optional
+                 ->util/type
+                 ->prim_type
+          ->util/result
+                       ->util/variant
+		                     ->[variant]   
+          ->error
+		 ->[stdexcept]
+		 ->source_pos
+			     ->util/string
+                                          ->[string]
+                             ->util/misc
+                                        ->[memory]
+                             ->[stdexcept]
+		 ->util/result
+	                      ->util/variant
+		              ->util/variant
+                                            ->[variant]   
+	                      ->[optional, memory, stdexcept]
+                 ->optional
+			   ->[optional]
+                 ->string
+                         ->[string]
+          ->util/vector
+	               ->[vector]
 /*******************************************************************************************************/
 src->lexer_input
 /*******************************************************************************************************/
@@ -212,3 +269,57 @@ util->name
 /*******************************************************************************************************/
 util->ref
 /*******************************************************************************************************/
+
+__main__ = {[iostream], compiler, input, output, config, options, source_pos}
+
+binmap = {map}
+hash = {[functional]}
+list = {[list]}
+map = {[unordered_map], [utility], result}
+mapkey={[tuple], hash}
+misc = {[memory]}
+name = {string}
+optional = {[optional]}
+ref = {string, [stdexcept], [functional]}
+result = {variant, [optional], [memory], [stdexcept]}
+set = {[unordered_map], [utility]}
+stack = {[stack]}
+string = {[string]}
+terminal = {string}
+variant = {[variant]}
+vector = {[vector], [algorithm], [type_traits]}
+
+
+ast = {[memory], variant, refs, vector, string, type, ops, source_pos}
+builtin_events = {prim_type}
+builtin_funcs = {names, typem ast, map, [functional]}
+codegen = {gen_env}
+codegen_dsl = {codegen, config, misc}
+codegen_trace = {gen_env, codegen_dsl, codegen_builtin_events, config}
+compiler = {result, string, error}
+config = {string, output}
+error = {[stdexcept], source_pos, optional, string}
+errors = {[stdexcept], error, token, ops, type}
+gen_env = {type_env, [sstream], [functional]}
+input = {string, result, [iofwd], [filesystem], [stdexcept]}
+lexer = {token, lexer_input, result, error, vector, source_pos}
+lexer_input = {string, source_pos}
+names = {name}
+ops = {string}
+options = {string, result, [stdexcept]}
+output = {string, result, optional, [iosfwd], [stdexcept]}
+parse = {ast, parse_input, parse_result, misc}
+parse_input = {token, source_pos, parse_result, vector, errors}
+parse_result = {string, result, error}
+prim_type = {string, names, hash}
+refs = {refs, names, ops, source_pos}
+scope = {list, ast, map, type, source}
+source = {names, variant}
+source_pos = {string, misc, [stdexcept]}
+source_pos_private = {string, vector, misc}
+token = {variant, optional, string, prim_type}
+type = {string, variant, result, vector, optional, names, prim_type, error}
+type_env = {ast, type, scope, mapkey}
+typechecker = {type_env}
+
+

@@ -1,0 +1,23 @@
+# Compiler type
+C = g++
+
+# Find all CPP files in the current directory
+SOURCES = $(wildcard *.cpp)
+
+# Variables that take the set of CPP files
+# and replace .cpp with .o and .h
+OBJECTS := $(SOURCES:.cpp=.o)
+HEADERS := $(SOURCES:.cpp=.h)
+
+# What is processed before executing
+# Naming the executable name
+output: $(OBJECTS)
+	$(C) $(OBJECTS) -o main
+
+# Rule to compile CPP files into object files
+%.o: %.cpp $(HEADERS)
+	$(C) -c $< -o $@
+
+# Removes object and exe files
+clean:
+	del *.o main.exe
