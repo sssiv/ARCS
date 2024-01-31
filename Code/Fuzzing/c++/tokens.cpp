@@ -2,25 +2,37 @@
 
 using std::vector, std::string, std::ifstream, std::stringstream, std::cout;
 
+// Using the CSV file to read in tokens
 void Tokens::readCSV() 
 {
     ifstream file("../tokens.csv");
     string line;
 
-    // Check if file is open
+    // While data comes in
     while (getline(file, line)) 
     {
+        // Vector for the first line of tokens
         vector<string> row;
+
+        // In stream
         stringstream lineStream(line);
+
+        // Current cell input from the CSV
         string cell;
 
+        // While data is inputted for each cell in the line
         while (getline(lineStream, cell, ',')) 
             row.push_back(cell);
+        
+        // Save the line of tokens
         _tokens.push_back(row);
     }
+
+    // Close file to prevent memory leaks
     file.close();
 }
 
+// Using the textfile to read in tokens 
 void Tokens::read() 
 {
     // Make sure tokens.py ran first
@@ -66,6 +78,7 @@ void Tokens::read()
 
 Tokens::Tokens()
 {
+    //readCSV();
     read();
 }
 

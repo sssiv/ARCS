@@ -7,7 +7,7 @@
 #include <fstream>
 #include <sstream>
 
-// For vectors and vector compatiable functions 
+// For tokens and vector compatiable functions 
 #include <vector>
 #include <algorithm>
 
@@ -15,7 +15,7 @@
 class Tokens
 {
 private:
-    // All proteus tokens
+    // Where all the proteus tokens will be stored
     std::vector<std::vector<std::string>> _tokens;
 
     // Data from CSV
